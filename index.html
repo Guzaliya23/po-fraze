@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>По фразе — найти фильм по реплике</title>
+    <meta
+      name="description"
+      content="Вставь фразу из кино или сериала — найдём тайтл, куда его смотреть и что похоже по атмосфере."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Unbounded:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="glow" aria-hidden="true"></div>
+
+    <header class="top">
+      <a class="logo" href="#/">По фразе</a>
+      <nav class="nav">
+        <a href="#/">Поиск</a>
+        <a href="#/saved">Сохранённое</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <p class="eyebrow" id="eyebrow">Каталог внутри, без аккаунта</p>
+        <h1 id="headline">Вспомнил фразу —<br />назовём фильм</h1>
+        <p class="lead" id="lead">
+          Пиши как помнишь: криво, куском, с чужой раскладки. Найдём тайтл,
+          куда смотреть легально и что рядом по атмосфере.
+        </p>
+
+        <form class="search" id="search-form" autocomplete="off">
+          <label class="sr-only" for="query">Фраза из фильма или сериала</label>
+          <input
+            id="query"
+            name="q"
+            type="search"
+            placeholder="например: в чём сила, брат"
+          />
+          <select id="type-filter" aria-label="Тип">
+            <option value="all">Все</option>
+            <option value="фильм">Фильмы</option>
+            <option value="сериал">Сериалы</option>
+          </select>
+          <button type="submit">Найти</button>
+        </form>
+        <div class="suggest" id="suggest" hidden></div>
+        <div class="chips" id="chips"></div>
+      </section>
+
+      <section id="view"></section>
+    </main>
+
+    <footer>
+      <p id="foot">По фразе · поиск по реплике, не по названию</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/catalog-more.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/store.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
