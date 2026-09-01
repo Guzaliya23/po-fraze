@@ -8,6 +8,21 @@
   var hero = document.getElementById("hero");
   var foot = document.getElementById("foot");
   var films = window.POFRAZE_FILMS;
+  var catalogState = { type: "all", vibe: "all", q: "" };
+
+  function filmTile(film) {
+    return (
+      '<button type="button" class="mini catalog-tile" data-open="' +
+      escapeHtml(film.id) +
+      '">' +
+      poster(film, "poster-sm") +
+      "<span><strong>" +
+      escapeHtml(film.title) +
+      "</strong><em>" +
+      metaLine(film) +
+      "</em></span></button>"
+    );
+  }
 
   function escapeHtml(text) {
     return String(text)
@@ -82,6 +97,8 @@
     if (hash.indexOf("/t/") === 0) {
       return { name: "title", id: decodeURIComponent(hash.slice(3)) };
     }
+    if (hash.indexOf("/catalog") === 0) return { name: "catalog" };
+    if (hash.indexOf("/about") === 0) return { name: "about" };
     if (hash.indexOf("/saved") === 0) return { name: "saved" };
     var q = new URLSearchParams(location.search).get("q") || "";
     var type = new URLSearchParams(location.search).get("type") || "all";
@@ -176,12 +193,20 @@
       .join("");
 
     if (query.trim().length < 3) {
+      var popular = films.slice().sort(function (a, b) {
+        return b.year - a.year;
+      }).slice(0, 16);
       view.innerHTML =
         '<section class="empty"><h2>Как это работает</h2><ol>' +
         "<li>Вставляешь обрывок диалога — даже с английской раскладкой.</li>" +
         "<li>Получаешь несколько тайтлов с уверенностью и цитатой.</li>" +
         "<li>Открываешь карточку: где смотреть и похожие по вайбу.</li>" +
-        "</ol><p class='hint'>Касса продукта — переход в кинотеатр, не подписка на поиск.</p></section>";
+        "</ol></section>" +
+        '<h2 class="page-title">Свежее в каталоге</h2>' +
+        '<p class="orig"><a href="#/catalog">Весь каталог →</a></p>' +
+        '<div class="similar-grid">' +
+        popular.map(filmTile).join("") +
+        "</div>";
       return;
     }
 
@@ -272,6 +297,86 @@
       "</article>";
   }
 
+  function catalogView() {
+    hero.hidden = true;
+    var q = catalogState.q.trim().toLowerCase();
+    var list = films.filter(function (film) {
+      if (catalogState.type !== "all" && film.type !== catalogState.type) {
+        return false;
+      }
+      if (
+        catalogState.vibe !== "all" &&
+        film.vibes.indexOf(catalogState.vibe) === -1
+      ) {
+        return false;
+      }
+      if (!q) return true;
+      var hay = (film.title + " " + film.originalTitle + " " + film.quotes.join(" ")).toLowerCase();
+      return hay.indexOf(q) !== -1;
+    });
+    list.sort(function (a, b) {
+      return a.title.localeCompare(b.title, "ru");
+    });
+    var vibeOptions = Object.keys(window.POFRAZE_VIBES)
+      .map(function (key) {
+        var sel = catalogState.vibe === key ? " selected" : "";
+        return (
+          '<option value="' +
+          key +
+          '"' +
+          sel +
+          ">" +
+          escapeHtml(window.POFRAZE_VIBES[key]) +
+          "</option>"
+        );
+      })
+      .join("");
+    view.innerHTML =
+      '<h2 class="page-title">Каталог</h2>' +
+      '<p class="orig">' +
+      films.length +
+      " тайтлов в базе. Фильтр не ищет по всему киномиру — только по тому, что уже занесли.</p>" +
+      '<div class="catalog-bar">' +
+      '<input id="catalog-q" type="search" placeholder="название или реплика" value="' +
+      escapeHtml(catalogState.q) +
+      '" />' +
+      '<select id="catalog-type">' +
+      '<option value="all"' +
+      (catalogState.type === "all" ? " selected" : "") +
+      ">Все</option>" +
+      '<option value="фильм"' +
+      (catalogState.type === "фильм" ? " selected" : "") +
+      ">Фильмы</option>" +
+      '<option value="сериал"' +
+      (catalogState.type === "сериал" ? " selected" : "") +
+      ">Сериалы</option>" +
+      "</select>" +
+      '<select id="catalog-vibe"><option value="all">Любая атмосфера</option>' +
+      vibeOptions +
+      "</select></div>" +
+      '<p class="results-meta">Показано ' +
+      list.length +
+      "</p>" +
+      '<div class="similar-grid">' +
+      (list.length
+        ? list.map(filmTile).join("")
+        : "<p class='orig'>Ничего не попало в фильтр.</p>") +
+      "</div>";
+  }
+
+  function aboutView() {
+    hero.hidden = true;
+    view.innerHTML =
+      '<article class="title-page"><h1>О проекте</h1>' +
+      "<p>По фразе — поиск кино и сериалов по обрывку диалога. Не каталог как Кинопоиск: сначала реплика, потом название, потом куда смотреть легально.</p>" +
+      "<p>Похожие подбираются по атмосфере (вайбу), а не по жанру из справочника.</p>" +
+      "<p>Сейчас в базе " +
+      films.length +
+      " тайтлов. Это курируемый набор известных фраз, не субтитры всего мира.</p>" +
+      "<p>Сайт бесплатный. Если появится касса — это партнёрские переходы «смотреть», не подписка за угадайку.</p>" +
+      '<p><a href="#/">К поиску</a> · <a href="#/catalog">В каталог</a></p></article>';
+  }
+
   function savedView() {
     hero.hidden = true;
     var ids = window.PoFrazeStore.savedIds();
@@ -310,10 +415,15 @@
     var route = parseRoute();
     document.body.classList.toggle(
       "page-detail",
-      route.name === "title" || route.name === "saved"
+      route.name === "title" ||
+        route.name === "saved" ||
+        route.name === "catalog" ||
+        route.name === "about"
     );
     if (route.name === "title") titleView(route.id);
     else if (route.name === "saved") savedView();
+    else if (route.name === "catalog") catalogView();
+    else if (route.name === "about") aboutView();
     else homeView(route);
     foot.textContent =
       "По фразе · " + films.length + " тайтлов · поиск по реплике";
@@ -376,10 +486,35 @@
       goSearch(qbtn.getAttribute("data-q"), typeFilter.value);
       return;
     }
+    var catq = event.target.closest("#catalog-q");
+    if (catq) return;
     var save = event.target.closest("[data-save]");
     if (save) {
       window.PoFrazeStore.toggleSaved(save.getAttribute("data-save"));
       render();
+    }
+  });
+
+  document.addEventListener("input", function (event) {
+    if (event.target.id === "catalog-q") {
+      catalogState.q = event.target.value;
+      catalogView();
+      var el = document.getElementById("catalog-q");
+      if (el) {
+        el.focus();
+        el.setSelectionRange(el.value.length, el.value.length);
+      }
+    }
+  });
+
+  document.addEventListener("change", function (event) {
+    if (event.target.id === "catalog-type") {
+      catalogState.type = event.target.value;
+      catalogView();
+    }
+    if (event.target.id === "catalog-vibe") {
+      catalogState.vibe = event.target.value;
+      catalogView();
     }
   });
 
