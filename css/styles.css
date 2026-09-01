@@ -155,14 +155,13 @@ footer {
 
 .title-head {
   display: grid;
-  grid-template-columns: 120px 1fr;
-  gap: 32px;
+  grid-template-columns: auto 1fr;
+  gap: 24px;
   margin-bottom: 18px;
 }
 
 .title-head > div {
   min-width: 0;
-  padding-left: 8px;
 }
 
 .title-page h1 {
@@ -175,19 +174,6 @@ footer {
   font-size: 0.95rem;
   font-weight: 500;
   margin: 28px 0 12px;
-}
-
-.poster-lg {
-  width: 120px;
-  height: 160px;
-  font-size: 1.7rem;
-}
-
-.poster-sm {
-  width: 56px;
-  height: 74px;
-  font-size: 0.85rem;
-  border-radius: 10px;
 }
 
 .save-btn {
@@ -218,8 +204,8 @@ footer {
 
 .mini {
   display: grid;
-  grid-template-columns: 64px 1fr;
-  gap: 16px;
+  grid-template-columns: auto 1fr;
+  column-gap: 18px;
   align-items: center;
   width: 100%;
   border: 1px solid var(--line);
@@ -234,11 +220,13 @@ footer {
 
 .mini > span {
   min-width: 0;
-  padding-left: 6px;
+  overflow-wrap: anywhere;
 }
 
 .mini strong {
   display: block;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .mini em {
@@ -355,8 +343,8 @@ h1 {
 
 .card {
   display: grid;
-  grid-template-columns: 92px 1fr;
-  gap: 28px;
+  grid-template-columns: auto 1fr;
+  column-gap: 24px;
   padding: 22px;
   margin-bottom: 16px;
   border: 1px solid var(--line);
@@ -367,7 +355,6 @@ h1 {
 
 .card > div {
   min-width: 0;
-  padding-left: 8px;
 }
 
 .poster {
@@ -383,6 +370,19 @@ h1 {
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
+}
+
+.poster.poster-sm {
+  width: 56px;
+  height: 74px;
+  font-size: 0.85rem;
+  border-radius: 10px;
+}
+
+.poster.poster-lg {
+  width: 120px;
+  height: 160px;
+  font-size: 1.7rem;
 }
 
 .poster-ini {
@@ -412,6 +412,8 @@ h1 {
   font-size: 1.25rem;
   letter-spacing: -0.03em;
   margin: 0 0 4px;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .orig {
