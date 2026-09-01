@@ -54,9 +54,13 @@
       (extraClass || "") +
       '" style="background:' +
       film.color +
-      '">' +
+      '" data-poster-id="' +
+      escapeHtml(film.id) +
+      '"><span class="poster-ini">' +
       escapeHtml(film.initials) +
-      "</div>"
+      '</span><img class="poster-img" alt="' +
+      escapeHtml(film.title) +
+      '"></div>'
     );
   }
 
@@ -427,6 +431,7 @@
     else homeView(route);
     foot.textContent =
       "По фразе · " + films.length + " тайтлов · поиск по реплике";
+    if (window.PoFrazePosters) window.PoFrazePosters.hydrate(view);
   }
 
   function showSuggest() {
