@@ -217,7 +217,7 @@
     window.PoFrazeStore.addHistory(query);
     var found = window.PoFrazeSearch.search(query, films, {
       type: typeFilter.value,
-      limit: 8,
+      limit: 10,
     });
 
     if (!found.length) {
@@ -321,6 +321,13 @@
     list.sort(function (a, b) {
       return a.title.localeCompare(b.title, "ru");
     });
+    var shown = list;
+    var moreNote = "";
+    if (!q && list.length > 180) {
+      shown = list.slice(0, 180);
+      moreNote =
+        " Сейчас на экране 180, остальные ищи строкой выше — так постеры не душат браузер.";
+    }
     var vibeOptions = Object.keys(window.POFRAZE_VIBES)
       .map(function (key) {
         var sel = catalogState.vibe === key ? " selected" : "";
@@ -339,7 +346,9 @@
       '<h2 class="page-title">Каталог</h2>' +
       '<p class="orig">' +
       films.length +
-      " тайтлов в базе. Фильтр не ищет по всему киномиру — только по тому, что уже занесли.</p>" +
+      " тайтлов в базе. Фильтр не ищет по всему киномиру — только по тому, что уже занесли." +
+      moreNote +
+      "</p>" +
       '<div class="catalog-bar">' +
       '<input id="catalog-q" type="search" placeholder="название или реплика" value="' +
       escapeHtml(catalogState.q) +
@@ -359,11 +368,12 @@
       vibeOptions +
       "</select></div>" +
       '<p class="results-meta">Показано ' +
-      list.length +
+      shown.length +
+      (shown.length !== list.length ? " из " + list.length : "") +
       "</p>" +
       '<div class="similar-grid">' +
-      (list.length
-        ? list.map(filmTile).join("")
+      (shown.length
+        ? shown.map(filmTile).join("")
         : "<p class='orig'>Ничего не попало в фильтр.</p>") +
       "</div>";
   }
@@ -376,7 +386,7 @@
       "<p>Похожие подбираются по атмосфере (вайбу), а не по жанру из справочника.</p>" +
       "<p>Сейчас в базе " +
       films.length +
-      " тайтлов. Это курируемый набор известных фраз, не субтитры всего мира.</p>" +
+      " тайтлов. Постеры — с Википедии, названия — из Викиданных, часть цитат — из открытого списка AFI. Это не весь киномир, но база уже широкая.</p>" +
       "<p>Сайт бесплатный. Если появится касса — это партнёрские переходы «смотреть», не подписка за угадайку.</p>" +
       '<p><a href="#/">К поиску</a> · <a href="#/catalog">В каталог</a></p></article>';
   }

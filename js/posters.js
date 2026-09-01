@@ -1,5 +1,5 @@
 (function (root) {
-  var CACHE_KEY = "pofraze-posters-v1";
+  var CACHE_KEY = "pofraze-posters-v2";
   var cache = {};
   try {
     cache = JSON.parse(localStorage.getItem(CACHE_KEY) || "{}");
@@ -28,7 +28,35 @@
     return "https://" + lang + ".wikipedia.org/w/api.php";
   }
 
-  function searchQuery(film, lang) {
+  function summaryUrl(lang, title) {
+    return (
+      "https://" +
+      lang +
+      ".wikipedia.org/api/rest_v1/page/summary/" +
+      encodeURIComponent(title)
+    );
+  }
+
+  function thumbFromPage(page) {
+    if (!page) return "";
+    if (page.thumbnail && page.thumbnail.source) return page.thumbnail.source;
+    if (page.originalimage && page.originalimage.source) return page.originalimage.source;
+    return "";
+  }
+
+  function fetchSummary(lang, title) {
+    if (!title) return Promise.resolve("");
+    return fetch(summaryUrl(lang, title))
+      .then(function (res) {
+        return res.json();
+      })
+      .then(thumbFromPage)
+      .catch(function () {
+        return "";
+      });
+  }
+
+  function searchQueryList(film, lang) {
     var kind =
       film.type === "сериал"
         ? lang === "ru"
@@ -39,7 +67,20 @@
           : "film";
     var name =
       lang === "en" && film.originalTitle ? film.originalTitle : film.title;
-    return (name + " " + film.year + " " + kind).trim();
+    var list = [];
+    if (lang === "en" && film.wikiEn) list.push(film.wikiEn);
+    if (lang === "ru" && film.wikiRu) list.push(film.wikiRu);
+    if (film.originalTitle) {
+      list.push(film.originalTitle + " " + film.year + " " + kind);
+      list.push(film.originalTitle + " " + film.year);
+      list.push(film.originalTitle + " " + kind);
+    }
+    list.push(name + " " + film.year + " " + kind);
+    list.push(film.title + " " + film.year);
+    list.push(name);
+    return list.filter(function (q, i, arr) {
+      return q && arr.indexOf(q) === i;
+    });
   }
 
   function requestThumb(lang, query) {
@@ -58,34 +99,51 @@
           data.query.search &&
           data.query.search[0];
         if (!hit || !hit.title) return "";
-        var summary =
-          "https://" +
-          lang +
-          ".wikipedia.org/api/rest_v1/page/summary/" +
-          encodeURIComponent(hit.title);
-        return fetch(summary).then(function (res) {
-          return res.json();
-        }).then(function (page) {
-          if (page.thumbnail && page.thumbnail.source) return page.thumbnail.source;
-          if (page.originalimage && page.originalimage.source) {
-            return page.originalimage.source;
-          }
-          return "";
-        });
+        return fetchSummary(lang, hit.title);
       });
+  }
+
+  function firstUrl(tasks) {
+    return tasks.reduce(function (chain, fn) {
+      return chain.then(function (url) {
+        if (url) return url;
+        return fn();
+      });
+    }, Promise.resolve(""));
   }
 
   function fetchUrl(film) {
     if (cache[film.id] !== undefined) {
       return Promise.resolve(cache[film.id]);
     }
-    var first = film.originalTitle ? "en" : "ru";
+    var tasks = [];
+    if (film.wikiEn) {
+      tasks.push(function () {
+        return fetchSummary("en", film.wikiEn);
+      });
+    }
+    if (film.wikiRu) {
+      tasks.push(function () {
+        return fetchSummary("ru", film.wikiRu);
+      });
+    }
+    var first = film.originalTitle || film.wikiEn ? "en" : "ru";
     var second = first === "en" ? "ru" : "en";
-    return requestThumb(first, searchQuery(film, first))
-      .then(function (url) {
-        if (url) return url;
-        return requestThumb(second, searchQuery(film, second));
-      })
+    searchQueryList(film, first)
+      .slice(0, 4)
+      .forEach(function (q) {
+        tasks.push(function () {
+          return requestThumb(first, q);
+        });
+      });
+    searchQueryList(film, second)
+      .slice(0, 3)
+      .forEach(function (q) {
+        tasks.push(function () {
+          return requestThumb(second, q);
+        });
+      });
+    return firstUrl(tasks)
       .catch(function () {
         return "";
       })
@@ -97,7 +155,7 @@
   }
 
   function pump() {
-    while (active < 3 && queue.length) {
+    while (active < 4 && queue.length) {
       (function (job) {
         active += 1;
         fetchUrl(job.film)
@@ -147,7 +205,7 @@
           pump();
         });
       },
-      { rootMargin: "120px" }
+      { rootMargin: "160px" }
     );
     nodes.forEach(function (node) {
       io.observe(node);
