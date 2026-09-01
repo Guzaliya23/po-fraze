@@ -7,6 +7,16 @@ window.POFRAZE_CHIPS = [
   "here's looking at you kid",
   "ты волшебник гарри",
   "я твой отец",
+  "ложку не существует",
+  "продай мне эту ручку",
+  "why so serious",
+  "you shall not pass",
+  "i'll be back",
+  "that's what she said",
+  "we were on a break",
+  "штирлиц задумался",
+  "птичку жалко",
+  "с лёгким паром",
 ];
 
 window.POFRAZE_VIBES = {
