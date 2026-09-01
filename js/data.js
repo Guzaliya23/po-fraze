@@ -4,6 +4,9 @@ window.POFRAZE_CHIPS = [
   "первое правило бойцовского клуба",
   "зима близко",
   "я тот, кто стучит",
+  "here's looking at you kid",
+  "ты волшебник гарри",
+  "я твой отец",
 ];
 
 window.POFRAZE_VIBES = {

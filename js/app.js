@@ -217,7 +217,7 @@
     window.PoFrazeStore.addHistory(query);
     var found = window.PoFrazeSearch.search(query, films, {
       type: typeFilter.value,
-      limit: 5,
+      limit: 8,
     });
 
     if (!found.length) {
