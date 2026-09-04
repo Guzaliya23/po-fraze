@@ -69,18 +69,34 @@
       '<p class="watch-label">Где смотреть</p><div class="watch">' +
       window.PoFrazeSearch.watchLinks(film)
         .map(function (link) {
+          var rel = link.sponsored
+            ? "noopener noreferrer sponsored nofollow"
+            : "noopener noreferrer";
           return (
             '<a class="' +
             (link.primary ? "" : "ghost") +
             '" href="' +
             link.href +
-            '" target="_blank" rel="noopener noreferrer">' +
+            '" target="_blank" rel="' +
+            rel +
+            '" data-watch="' +
+            escapeHtml(link.id) +
+            '" data-film="' +
+            escapeHtml(film.id) +
+            '">' +
             link.name +
             "</a>"
           );
         })
         .join("") +
-      "</div>"
+      "</div>" +
+      '<p class="watch-note">' +
+      (window.POFRAZE_CONFIG &&
+      window.POFRAZE_CONFIG.partners &&
+      window.POFRAZE_CONFIG.partners.admitadWrap
+        ? "Реклама. Партнёрская ссылка: комиссия сайту, цена для вас та же."
+        : "Пока обычный поиск по названию. Партнёрские ссылки подключим, когда появятся договоры.") +
+      "</p>"
     );
   }
 
@@ -104,8 +120,14 @@
     if (hash.indexOf("/catalog") === 0) return { name: "catalog" };
     if (hash.indexOf("/about") === 0) return { name: "about" };
     if (hash.indexOf("/saved") === 0) return { name: "saved" };
-    var q = new URLSearchParams(location.search).get("q") || "";
-    var type = new URLSearchParams(location.search).get("type") || "all";
+    if (hash.indexOf("/legal") === 0) return { name: "legal" };
+    if (hash.indexOf("/privacy") === 0) return { name: "privacy" };
+    if (hash.indexOf("/partners") === 0) return { name: "partners" };
+    var params = new URLSearchParams(location.search);
+    var titleId = params.get("t") || "";
+    if (titleId) return { name: "title", id: titleId };
+    var q = params.get("q") || "";
+    var type = params.get("type") || "all";
     if (hash.indexOf("/q/") === 0) {
       q = decodeURIComponent(hash.slice(3));
     }
@@ -120,13 +142,19 @@
     else url.searchParams.delete("q");
     if (t && t !== "all") url.searchParams.set("type", t);
     else url.searchParams.delete("type");
+    url.searchParams.delete("t");
     url.hash = "#/";
     history.pushState(null, "", url);
     render();
   }
 
   function goTitle(id) {
-    location.hash = "#/t/" + encodeURIComponent(id);
+    var url = new URL(location.href);
+    url.searchParams.set("t", id);
+    url.searchParams.delete("q");
+    url.hash = "#/t/" + encodeURIComponent(id);
+    history.pushState(null, "", url);
+    render();
   }
 
   function metaLine(film) {
@@ -219,6 +247,7 @@
       type: typeFilter.value,
       limit: 10,
     });
+    if (window.PoFrazeTrack) window.PoFrazeTrack.search(query);
 
     if (!found.length) {
       view.innerHTML =
@@ -388,7 +417,19 @@
       films.length +
       " тайтлов. Постеры — с Википедии, названия — из Викиданных, часть цитат — из открытого списка AFI. Это не весь киномир, но база уже широкая.</p>" +
       "<p>Сайт бесплатный. Если появится касса — это партнёрские переходы «смотреть», не подписка за угадайку.</p>" +
+      "<p><a href='#/legal'>Соглашение</a> · <a href='#/privacy'>Персональные данные</a> · <a href='#/partners'>Партнёрские ссылки</a></p>" +
       '<p><a href="#/">К поиску</a> · <a href="#/catalog">В каталог</a></p></article>';
+  }
+
+  function legalView(kind) {
+    hero.hidden = true;
+    var pages = window.POFRAZE_LEGAL || {};
+    var key = kind === "legal" ? "offer" : kind;
+    var html = pages[key] ? pages[key]() : "<p>Страница не найдена.</p>";
+    view.innerHTML =
+      '<article class="title-page legal-page">' +
+      html +
+      '<p><a href="#/about">О проекте</a> · <a href="#/">К поиску</a></p></article>';
   }
 
   function savedView() {
@@ -424,24 +465,80 @@
       "</div>";
   }
 
+  function setPageMeta(title, desc) {
+    document.title = title;
+    var og = document.querySelector('meta[property="og:title"]');
+    if (og) og.setAttribute("content", title);
+    var md = document.querySelector('meta[name="description"]');
+    if (md && desc) md.setAttribute("content", desc);
+  }
+
+  function cookieBar() {
+    if (!window.PoFrazeTrack || !window.PoFrazeTrack.needsBanner()) {
+      var old = document.getElementById("cookie-bar");
+      if (old) old.remove();
+      return;
+    }
+    if (document.getElementById("cookie-bar")) return;
+    var bar = document.createElement("div");
+    bar.id = "cookie-bar";
+    bar.className = "cookie-bar";
+    bar.innerHTML =
+      "<p>Чтобы понять, какие фразы срабатывают, нужен счётчик Яндекс Метрики. Поиск без него работает. <a href='#/privacy'>Как обрабатываем данные</a></p>" +
+      '<div><button type="button" data-consent="1">Разрешить</button>' +
+      '<button type="button" class="ghost" data-consent="0">Нет</button></div>';
+    document.body.appendChild(bar);
+  }
+
   function render() {
     suggest.hidden = true;
     var route = parseRoute();
+    var legal =
+      route.name === "legal" ||
+      route.name === "privacy" ||
+      route.name === "partners";
     document.body.classList.toggle(
       "page-detail",
       route.name === "title" ||
         route.name === "saved" ||
         route.name === "catalog" ||
-        route.name === "about"
+        route.name === "about" ||
+        legal
     );
     if (route.name === "title") titleView(route.id);
     else if (route.name === "saved") savedView();
     else if (route.name === "catalog") catalogView();
     else if (route.name === "about") aboutView();
+    else if (legal) legalView(route.name);
     else homeView(route);
+
+    if (route.name === "home") {
+      setPageMeta(
+        "По фразе — найти фильм по реплике",
+        "Вставь фразу из кино или сериала — найдём тайтл и куда смотреть легально."
+      );
+    } else if (route.name === "title") {
+      var film = window.PoFrazeSearch.getById(route.id, films);
+      setPageMeta(
+        film
+          ? film.title + " — По фразе"
+          : "Тайтл — По фразе",
+        film ? "Реплики и где смотреть «" + film.title + "»." : ""
+      );
+    } else if (route.name === "legal") {
+      setPageMeta("Соглашение — По фразе");
+    } else if (route.name === "privacy") {
+      setPageMeta("Персональные данные — По фразе");
+    } else if (route.name === "partners") {
+      setPageMeta("Партнёрские ссылки — По фразе");
+    } else if (route.name === "about") {
+      setPageMeta("О проекте — По фразе");
+    }
+
     foot.textContent =
       "По фразе · " + films.length + " тайтлов · поиск по реплике";
     if (window.PoFrazePosters) window.PoFrazePosters.hydrate(view);
+    cookieBar();
   }
 
   function showSuggest() {
@@ -490,6 +587,20 @@
   });
 
   document.addEventListener("click", function (event) {
+    var consent = event.target.closest("[data-consent]");
+    if (consent && window.PoFrazeTrack) {
+      if (consent.getAttribute("data-consent") === "1") window.PoFrazeTrack.accept();
+      else window.PoFrazeTrack.decline();
+      cookieBar();
+      return;
+    }
+    var watch = event.target.closest("a[data-watch]");
+    if (watch && window.PoFrazeTrack) {
+      window.PoFrazeTrack.watch(
+        watch.getAttribute("data-film"),
+        watch.getAttribute("data-watch")
+      );
+    }
     var open = event.target.closest("[data-open]");
     if (open) {
       if (event.target.closest("a")) return;

@@ -219,30 +219,66 @@
     return null;
   }
 
+  function addParams(url, film, net) {
+    try {
+      var u = new URL(url);
+      u.searchParams.set("utm_source", "pofraze");
+      u.searchParams.set("utm_medium", "watch");
+      u.searchParams.set("utm_campaign", net);
+      u.searchParams.set("utm_content", String(film.id || ""));
+      return u.toString();
+    } catch (e) {
+      return url;
+    }
+  }
+
+  function wrapPartner(url) {
+    var cfg = root.POFRAZE_CONFIG || {};
+    var wrap = String((cfg.partners && cfg.partners.admitadWrap) || "").trim();
+    if (!wrap) return url;
+    var sep = wrap.indexOf("?") >= 0 ? "&" : "?";
+    if (/ulp=/i.test(wrap)) return wrap + encodeURIComponent(url);
+    return wrap + sep + "ulp=" + encodeURIComponent(url);
+  }
+
   function watchLinks(film) {
     var q = encodeURIComponent(film.watchQuery);
-    return [
+    var raw = [
       {
+        id: "kinopoisk",
         name: "Кинопоиск",
         href: "https://www.kinopoisk.ru/index.php?kp_query=" + q,
         primary: true,
       },
       {
+        id: "ivi",
         name: "IVI",
         href: "https://www.ivi.ru/search/?q=" + q,
         primary: false,
       },
       {
+        id: "okko",
         name: "Okko",
         href: "https://okko.tv/search/" + q,
         primary: false,
       },
       {
+        id: "premier",
         name: "Premier",
         href: "https://premier.one/search?query=" + q,
         primary: false,
       },
     ];
+    return raw.map(function (link) {
+      var href = wrapPartner(addParams(link.href, film, link.id));
+      return {
+        id: link.id,
+        name: link.name,
+        href: href,
+        primary: link.primary,
+        sponsored: !!(root.POFRAZE_CONFIG && root.POFRAZE_CONFIG.partners && root.POFRAZE_CONFIG.partners.admitadWrap),
+      };
+    });
   }
 
   root.PoFrazeSearch = {

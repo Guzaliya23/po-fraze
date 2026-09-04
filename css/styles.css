@@ -555,6 +555,64 @@ footer a {
   color: var(--muted);
 }
 
+.watch-note {
+  margin: 8px 0 0;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.legal-page ul {
+  color: var(--muted);
+  padding-left: 18px;
+}
+
+.cookie-bar {
+  position: fixed;
+  z-index: 20;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 14px 16px;
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cookie-bar p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  flex: 1;
+  min-width: 200px;
+}
+
+.cookie-bar a {
+  color: var(--gold);
+}
+
+.cookie-bar button {
+  font: inherit;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 8px 12px;
+  border: 0;
+  background: var(--gold);
+  color: #1a140c;
+}
+
+.cookie-bar button.ghost {
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--ink);
+}
+
 @media (max-width: 640px) {
   .search {
     flex-direction: column;

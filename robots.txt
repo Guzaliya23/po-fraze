@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://guzaliya23.github.io/po-fraze/sitemap.xml
