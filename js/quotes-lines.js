@@ -68,6 +68,8 @@
       "you know nothing jon snow",
       "a lannister always pays his debts",
       "chaos is a ladder",
+      "valar morghulis",
+      "valar dohaeris",
       "the night is dark and full of terrors",
     ],
     godfather: [
@@ -81,6 +83,7 @@
     "taxi-driver": ["you talkin to me"],
     "silence-lambs": [
       "a census taker once tried to test me",
+      "good evening clarice",
       "hello clarice",
       "i ate his liver with some fava beans and a nice chianti",
     ],
@@ -91,7 +94,7 @@
     alien: ["in space no one can hear you scream"],
     aliens: ["get away from her you bitch", "game over man"],
     predator: ["if it bleeds we can kill it", "get to the chopper"],
-    rocky: ["yo adrian", "gonna fly now"],
+    rocky: ["yo adrian"],
     "star-wars": ["may the force be with you", "that's no moon", "help me obi-wan kenobi"],
     empire: ["no i am your father", "do or do not there is no try"],
     indiana: ["why did it have to be snakes", "it belongs in a museum"],
@@ -114,10 +117,10 @@
     "terminator-2": ["hasta la vista baby", "i'll be back", "come with me if you want to live"],
     hp1: ["you're a wizard harry", "yer a wizard harry"],
     lotr: ["you shall not pass", "my precious", "one ring to rule them all"],
-    shrek: ["ogres are like onions", "somebody once told me"],
+    shrek: ["ogres are like onions"],
     "lion-king": ["hakuna matata", "remember who you are"],
     pirates: ["why is the rum gone", "this is the day you will always remember as the day you almost caught captain jack sparrow"],
-    intouchables: ["1+1"],
+    intouchables: ["earth wind and fire"],
     parasite: ["you know what kind of plan never fails"],
     whiplash: ["not quite my tempo", "there are no two words in the english language more harmful than good job"],
     "john-wick": ["people keep asking if i'm back", "yeah i'm thinking i'm back"],
@@ -128,14 +131,14 @@
     sherlock: ["the game is on", "i am a high-functioning sociopath"],
     friends: ["how you doin", "we were on a break", "pivot", "smelly cat"],
     stranger: ["friends don't lie", "she is our friend and she is crazy"],
-    squid: ["muneoh kkirigi", "red light green light"],
+    squid: ["red light green light", "mugunghwa kkochi pieosseumnida"],
     witcher: ["toss a coin to your witcher", "hmm"],
-    house: ["everybody lies", "it's never lupus"],
+    house: ["everybody lies", "it's not lupus"],
     "money-heist": ["bella ciao"],
-    avengers: ["avengers assemble", "i am iron man", "on your left"],
+    avengers: ["avengers assemble", "i am iron man", "on your left", "i love you 3000"],
     spider: ["with great power comes great responsibility"],
     deadpool: ["maximum effort", "chimichangas"],
-    "iron-man": ["i am iron man", "i love you 3000"],
+    "iron-man": ["i am iron man"],
     frozen: ["let it go", "the cold never bothered me anyway"],
     moana: ["you're welcome", "i am moana of motunui"],
     "toy-story": ["to infinity and beyond", "there's a snake in my boot"],
@@ -146,7 +149,7 @@
     walle: ["eve"],
     httyd: ["everything we know about you guys is wrong"],
     despicable: ["bee-do bee-do"],
-    guardians: ["i am groot", "i am groot i am groot"],
+    guardians: ["i am groot"],
     "black-panther": ["wakanda forever"],
     logan: ["so this is what it feels like"],
     office: ["that's what she said", "bears beets battlestar galactica", "i declare bankruptcy"],
@@ -163,7 +166,7 @@
     himym: ["suit up", "it's gonna be legen wait for it dary"],
     bigbang: ["bazinga", "soft kitty warm kitty"],
     lost: ["we have to go back", "4 8 15 16 23 42"],
-    "prison-break": ["structured days"],
+    "prison-break": ["i'm going to break my brother out of prison"],
     dexter: ["tonight's the night"],
     narcos: ["plata o plomo"],
     westworld: ["these violent delights have violent ends"],
@@ -238,6 +241,59 @@
       var t = String(q || "").trim();
       if (t.length < 3) return;
       if (film.quotes.indexOf(t) === -1) film.quotes.push(t);
+    });
+  });
+
+  var drop = {
+    "dark-knight": [
+      "chaos is a ladder",
+      "хаос это лестница",
+    ],
+    "star-wars": [
+      "я твой отец",
+      "i am your father",
+      "luke i am your father",
+    ],
+    terminator: ["hasta la vista baby"],
+    "iron-man": ["i love you 3000"],
+    blade: [
+      "tears in rain",
+      "like tears in rain",
+      "я видел такое что вам не приснится",
+      "декарт",
+      "время умирать",
+      "all those moments will be lost in time",
+    ],
+    "breaking-bad": ["лучше звоните солу", "better call saul"],
+    shrek: ["somebody once told me"],
+    rocky: ["gonna fly now"],
+    intouchables: ["1+1", "я твой сиделка"],
+    "prison-break": ["structured days"],
+    squid: ["muneoh kkirigi"],
+    gladiator: ["руки в грязи", "отец брата"],
+    shutter: ["this is a live monster"],
+    got: ["валенуар", "ты ничего не знаешь джон снег"],
+    se7en: ["what's in the boxx"],
+    leon: ["никто не обижает маттильду"],
+    "back-future": ["дороги нужны там где мы их прокладываем"],
+    "ivan-vasilievich": ["танцуют все"],
+    "diamond-arm": ["рубай пальму"],
+    meeting: ["я мстислав"],
+    interstellar: ["ты папин призрак"],
+    gentlemen: ["марихуана как вино", "птичку жалко", "доцент"],
+    guardians: ["i am groot i am groot"],
+    house: ["it's never lupus"],
+  };
+
+  (window.POFRAZE_FILMS || []).forEach(function (film) {
+    var bad = drop[film.id];
+    if (!bad || !film.quotes) return;
+    film.quotes = film.quotes.filter(function (q) {
+      var t = String(q || "").toLowerCase();
+      for (var i = 0; i < bad.length; i++) {
+        if (t === String(bad[i]).toLowerCase()) return false;
+      }
+      return true;
     });
   });
 })();

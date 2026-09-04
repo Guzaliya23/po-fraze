@@ -118,7 +118,8 @@
       "are you not entertained",
       "strength and honor",
       "maximus",
-      "руки в грязи",
+      "what we do in life echoes in eternity",
+      "father to a murdered son",
     ],
     leon: [
       "i like milk",
@@ -127,7 +128,7 @@
       "everyone has a choice",
     ],
     shutter: [
-      "this is a live monster",
+      "which would be worse to live as a monster or to die as a good man",
       "which would be worse",
       "teddy daniels",
     ],
@@ -146,7 +147,8 @@
       "chaos is a ladder",
       "драконы",
       "iron throne",
-      "валенуар",
+      "valar morghulis",
+      "valar dohaeris",
     ],
     "irony-fate": [
       "с легким паром",
@@ -166,7 +168,7 @@
       "help me obi wan",
       "that's no moon",
       "use the force",
-      "i am your father",
+      "these aren't the droids you're looking for",
     ],
     empire: [
       "i am your father",
@@ -194,8 +196,7 @@
     ],
     terminator: [
       "i'll be back",
-      "hasta la vista baby",
-      "i'll be back",
+      "я вернусь",
     ],
     "terminator-2": [
       "i'll be back",
@@ -232,7 +233,6 @@
     "iron-man": [
       "i am iron man",
       "jarvis",
-      "i love you 3000",
     ],
     avengers: [
       "i am iron man",
@@ -283,7 +283,7 @@
       "абвырвалг",
     ],
     friends: [
-      "how you doing",
+      "how you doin",
       "we were on a break",
       "pivot",
       "central perk",
