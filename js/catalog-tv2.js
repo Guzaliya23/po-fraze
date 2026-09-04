@@ -27,7 +27,7 @@
     f("invincible", "Неуязвимый", "Invincible", 2021, "сериал", ["tempo", "family", "dark"], ["think mark", "omniman", "that's the neat part you don't"], "Неуязвимый"),
     f("arcane-already", "Аркейн", "Arcane", 2021, "сериал", ["fantasy", "family", "dark"], ["jinx"], "skip"),
     f("house-md-already", "Доктор Хаус", "House M.D.", 2004, "сериал", ["mind-power", "irony", "slow"], ["everybody lies"], "skip"),
-    f("scrubs", "Клиника", "Scrubs", 2001, "сериал", ["comedy", "family", "irony"], ["my name is jd", "sacred heart", "ян торч"], "Клиника Scrubs"),
+    f("scrubs", "Клиника", "Scrubs", 2001, "сериал", ["comedy", "family", "irony"], ["my name is jd", "sacred heart", "янтор"], "Клиника Scrubs"),
     f("friends-more", "Друзья", "Friends", 1994, "сериал", ["comedy", "romance", "family"], ["how you doing"], "skip"),
     f("himym-already", "Как я встретил вашу маму", "How I Met Your Mother", 2005, "сериал", ["comedy", "romance", "family"], ["suit up"], "skip"),
     f("modern-family", "Американская семейка", "Modern Family", 2009, "сериал", ["comedy", "family", "irony"], ["phil dunphy", "claire", "камера"], "Американская семейка"),

@@ -47,7 +47,7 @@
     pulp: [
       "royal with cheese",
       "big kahuna burger",
-      "эzekiel 25 17",
+      "ezekiel 25 17",
       "танцуй",
       "чемоданчик марселласа",
     ],
@@ -85,10 +85,10 @@
     ],
     "dark-knight": [
       "why so serious",
-      "chaos is a ladder",
+      "почему так серьёзно",
       "either die a hero",
       "live long enough to see yourself become the villain",
-      "я не монстр я впереди кривой",
+      "some men just want to watch the world burn",
     ],
     wolf: [
       "sell me this pen",
@@ -143,6 +143,7 @@
       "winter is coming",
       "you know nothing jon snow",
       "a lannister always pays his debts",
+      "chaos is a ladder",
       "драконы",
       "iron throne",
       "валенуар",
@@ -306,7 +307,10 @@
     }
     film.quotes = film.quotes.filter(function (q) {
       var t = String(q || "").trim();
-      return t.length > 1 && t !== "skip" && t.indexOf("insta") === -1;
+      if (t.length < 2 || t === "skip") return false;
+      if (t.indexOf("insta") !== -1) return false;
+      if (t === "discrete") return false;
+      return true;
     });
   });
 

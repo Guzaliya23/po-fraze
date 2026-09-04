@@ -373,7 +373,7 @@
       "одно кольцо",
       "frodo",
       "gandalf",
-      "фородо",
+      "фродо",
       "even the smallest person",
     ],
     frozen: [
@@ -788,7 +788,7 @@
     ],
     rocky: [
       "adrian",
-      "адриаан",
+      "адриан",
       "yo adrian",
       "going the distance",
       "филадельфия",
