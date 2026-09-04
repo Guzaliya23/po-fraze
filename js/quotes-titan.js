@@ -65,6 +65,15 @@
     paddington: ["please look after this bear"],
     "hunger-games": ["may the odds be ever in your favor"],
     "v-vendetta": ["remember remember the fifth of november"],
+    prestige: ["are you watching closely"],
+    "x-files": ["the truth is out there", "i want to believe"],
+    "twin-peaks": ["the owls are not what they seem", "damn fine coffee"],
+    firefly: ["i aim to misbehave"],
+    "cast-away": ["wilson"],
+    "edge-tomorrow": ["live die repeat"],
+    unbreakable: ["they called me mr glass"],
+    "talk-to-me": ["talk to me"],
+    "gladiator-2": ["strength and honor"],
   };
 
   var byTitle = {

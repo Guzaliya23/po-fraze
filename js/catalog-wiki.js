@@ -1,4506 +1,1147 @@
 (function () {
   var f = window.pofrazeFilm;
-  var add = [];
-  (function () {
-    var x = f("wdq24871", "Аватар", "Avatar", 2009, "\u0444\u0438\u043b\u044c\u043c", ["fantasy", "mind-power", "romance"], ["Аватар", "Avatar"], "Аватар 2009");
-    x.wikiEn = "Avatar (2009 film)";
-    x.wikiRu = "Аватар (фильм, 2009)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq8172269", "Лив и Мэдди", "Liv and Maddie", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["romance", "tempo", "kids"], ["Лив и Мэдди", "Liv and Maddie"], "Лив и Мэдди");
-    x.wikiEn = "Liv and Maddie";
-    x.wikiRu = "Лив и Мэдди";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq41403", "Телепузики", "Teletubbies", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "romance"], ["Телепузики", "Teletubbies"], "Телепузики");
-    x.wikiEn = "Teletubbies";
-    x.wikiRu = "Телепузики";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq162255", "Терминатор", "The Terminator", 1984, "\u0444\u0438\u043b\u044c\u043c", ["mind-power", "chaotic", "dark"], ["Терминатор", "The Terminator"], "Терминатор 1984");
-    x.wikiEn = "The Terminator";
-    x.wikiRu = "Терминатор (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq5890", "V — значит вендетта", "V for Vendetta", 2005, "\u0444\u0438\u043b\u044c\u043c", ["crime", "irony", "family"], ["V — значит вендетта", "V for Vendetta"], "V — значит вендетта 2005");
-    x.wikiEn = "V for Vendetta (film)";
-    x.wikiRu = "V — значит вендетта (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2875", "Унесённые ветром", "Gone with the Wind", 1939, "\u0444\u0438\u043b\u044c\u043c", ["crime", "irony", "family"], ["Унесённые ветром", "Gone with the Wind"], "Унесённые ветром 1939");
-    x.wikiEn = "Gone with the Wind (film)";
-    x.wikiRu = "Унесённые ветром (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq127367", "Властелин колец: Братство Кольца", "The Lord of the Rings: The Fellowship of the Ring", 2001, "\u0444\u0438\u043b\u044c\u043c", ["crime", "irony", "family"], ["Властелин колец: Братство Кольца", "The Lord of the Rings: The Fellowship of the Ring"], "Властелин колец: Братство Кольца 2001");
-    x.wikiEn = "The Lord of the Rings: The Fellowship of the Ring";
-    x.wikiRu = "Властелин колец: Братство Кольца";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq182218", "Мстители", "The Avengers", 2012, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["Мстители", "The Avengers"], "Мстители 2012");
-    x.wikiEn = "The Avengers (2012 film)";
-    x.wikiRu = "Мстители (фильм, 2012)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq41483", "Хороший, плохой, злой", "The Good, the Bad and the Ugly", 1966, "\u0444\u0438\u043b\u044c\u043c", ["street", "heist"], ["Хороший, плохой, злой", "The Good, the Bad and the Ugly"], "Хороший, плохой, злой 1966");
-    x.wikiEn = "The Good, the Bad and the Ugly";
-    x.wikiRu = "Хороший, плохой, злой";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq102244", "Гарри Поттер и тайная комната", "Harry Potter and the Chamber of Secrets", 2002, "\u0444\u0438\u043b\u044c\u043c", ["romance", "fantasy", "slick-urban"], ["Гарри Поттер и тайная комната", "Harry Potter and the Chamber of Secrets"], "Гарри Поттер и тайная комната 2002");
-    x.wikiEn = "Harry Potter and the Chamber of Secrets (film)";
-    x.wikiRu = "Гарри Поттер и Тайная комната (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq131074", "Властелин колец: Возвращение короля", "The Lord of the Rings: The Return of the King", 2003, "\u0444\u0438\u043b\u044c\u043c", ["comedy", "horror", "kids"], ["Властелин колец: Возвращение короля", "The Lord of the Rings: The Return of the King"], "Властелин колец: Возвращение короля 2003");
-    x.wikiEn = "The Lord of the Rings: The Return of the King";
-    x.wikiRu = "Властелин колец: Возвращение короля";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq155629", "Улица Сезам", "Sesame Street", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["dark", "space", "war"], ["Улица Сезам", "Sesame Street"], "Улица Сезам");
-    x.wikiEn = "Sesame Street";
-    x.wikiRu = "Улица Сезам";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq165713", "Звёздные войны. Эпизод I: Скрытая угроза", "Star Wars: Episode I – The Phantom Menace", 1999, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Звёздные войны. Эпизод I: Скрытая угроза", "Star Wars: Episode I – The Phantom Menace"], "Звёздные войны. Эпизод I: Скрытая угроза 1999");
-    x.wikiEn = "Star Wars: Episode I – The Phantom Menace";
-    x.wikiRu = "Звёздные войны. Эпизод I: Скрытая угроза";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2744", "Секретные материалы", "The X-Files", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Секретные материалы", "The X-Files"], "Секретные материалы");
-    x.wikiEn = "The X-Files";
-    x.wikiRu = "Секретные материалы";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq102448", "Гарри Поттер и узник Азкабана", "Harry Potter and the Prisoner of Azkaban", 2004, "\u0444\u0438\u043b\u044c\u043c", ["kids", "comedy", "sport"], ["Гарри Поттер и узник Азкабана", "Harry Potter and the Prisoner of Azkaban"], "Гарри Поттер и узник Азкабана 2004");
-    x.wikiEn = "Harry Potter and the Prisoner of Azkaban (film)";
-    x.wikiRu = "Гарри Поттер и узник Азкабана (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq46717", "Пираты Карибского моря: Проклятие Чёрной жемчужины", "Pirates of the Caribbean: The Curse of the Black Pearl", 2003, "\u0444\u0438\u043b\u044c\u043c", ["war", "tempo", "street"], ["Пираты Карибского моря: Проклятие Чёрной жемчужины", "Pirates of the Caribbean: The Curse of the Black Pearl"], "Пираты Карибского моря: Проклятие Чёрной жемчужины 2003");
-    x.wikiEn = "Pirates of the Caribbean: The Curse of the Black Pearl";
-    x.wikiRu = "Пираты Карибского моря: Проклятие Чёрной жемчужины";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq102225", "Гарри Поттер и Кубок огня", "Harry Potter and the Goblet of Fire", 2005, "\u0444\u0438\u043b\u044c\u043c", ["street", "heist"], ["Гарри Поттер и Кубок огня", "Harry Potter and the Goblet of Fire"], "Гарри Поттер и Кубок огня 2005");
-    x.wikiEn = "Harry Potter and the Goblet of Fire (film)";
-    x.wikiRu = "Гарри Поттер и Кубок огня (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq161687", "Гарри Поттер и Принц-полукровка", "Harry Potter and the Half-Blood Prince", 2009, "\u0444\u0438\u043b\u044c\u043c", ["family", "crime", "space"], ["Гарри Поттер и Принц-полукровка", "Harry Potter and the Half-Blood Prince"], "Гарри Поттер и Принц-полукровка 2009");
-    x.wikiEn = "Harry Potter and the Half-Blood Prince (film)";
-    x.wikiRu = "Гарри Поттер и Принц-полукровка (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq102235", "Гарри Поттер и Орден Феникса", "Harry Potter and the Order of the Phoenix", 2007, "\u0444\u0438\u043b\u044c\u043c", ["romance", "fantasy", "slick-urban"], ["Гарри Поттер и Орден Феникса", "Harry Potter and the Order of the Phoenix"], "Гарри Поттер и Орден Феникса 2007");
-    x.wikiEn = "Harry Potter and the Order of the Phoenix (film)";
-    x.wikiRu = "Гарри Поттер и Орден Феникса (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq164963", "Властелин колец: Две крепости", "The Lord of the Rings: The Two Towers", 2002, "\u0444\u0438\u043b\u044c\u043c", ["family", "crime", "space"], ["Властелин колец: Две крепости", "The Lord of the Rings: The Two Towers"], "Властелин колец: Две крепости 2002");
-    x.wikiEn = "The Lord of the Rings: The Two Towers";
-    x.wikiRu = "Властелин колец: Две крепости";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq23780914", "Мстители: Война бесконечности", "Avengers: Infinity War", 2018, "\u0444\u0438\u043b\u044c\u043c", ["chaotic", "romance", "mind-power"], ["Мстители: Война бесконечности", "Avengers: Infinity War"], "Мстители: Война бесконечности 2018");
-    x.wikiEn = "Avengers: Infinity War";
-    x.wikiRu = "Мстители: Война бесконечности";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq106316", "Общество мёртвых поэтов", "Dead Poets Society", 1989, "\u0444\u0438\u043b\u044c\u043c", ["war", "tempo", "street"], ["Общество мёртвых поэтов", "Dead Poets Society"], "Общество мёртвых поэтов 1989");
-    x.wikiEn = "Dead Poets Society";
-    x.wikiRu = "Общество мёртвых поэтов";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq164103", "Игры разума", "A Beautiful Mind", 2001, "\u0444\u0438\u043b\u044c\u043c", ["horror", "space", "crime"], ["Игры разума", "A Beautiful Mind"], "Игры разума 2001");
-    x.wikiEn = "A Beautiful Mind";
-    x.wikiRu = "Игры разума";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq42051", "Звёздные войны. Эпизод III: Месть ситхов", "Star Wars: Episode III – Revenge of the Sith", 2005, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["Звёздные войны. Эпизод III: Месть ситхов", "Star Wars: Episode III – Revenge of the Sith"], "Звёздные войны. Эпизод III: Месть ситхов 2005");
-    x.wikiEn = "Star Wars: Episode III – Revenge of the Sith";
-    x.wikiRu = "Звёздные войны. Эпизод III: Месть ситхов";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq166262", "Бэтмен: Начало", "Batman Begins", 2005, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Бэтмен: Начало", "Batman Begins"], "Бэтмен: Начало 2005");
-    x.wikiEn = "Batman Begins";
-    x.wikiRu = "Бэтмен: Начало";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq160618", "Горбатая гора", "Brokeback Mountain", 2005, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["Горбатая гора", "Brokeback Mountain"], "Горбатая гора 2005");
-    x.wikiEn = "Brokeback Mountain";
-    x.wikiRu = "Горбатая гора";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq232737", "Ходячие мертвецы", "The Walking Dead", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slick-urban", "ambition", "slow"], ["Ходячие мертвецы", "The Walking Dead"], "Ходячие мертвецы");
-    x.wikiEn = "The Walking Dead (TV series)";
-    x.wikiRu = "Ходячие мертвецы (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq54274", "Пираты Карибского моря: На краю света", "Pirates of the Caribbean: At World's End", 2007, "\u0444\u0438\u043b\u044c\u043c", ["fantasy", "mind-power", "romance"], ["Пираты Карибского моря: На краю света", "Pirates of the Caribbean: At World's End"], "Пираты Карибского моря: На краю света 2007");
-    x.wikiEn = "Pirates of the Caribbean: At World's End";
-    x.wikiRu = "Пираты Карибского моря: На краю света";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq161087", "Пираты Карибского моря: Сундук мертвеца", "Pirates of the Caribbean: Dead Man's Chest", 2006, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Пираты Карибского моря: Сундук мертвеца", "Pirates of the Caribbean: Dead Man's Chest"], "Пираты Карибского моря: Сундук мертвеца 2006");
-    x.wikiEn = "Pirates of the Caribbean: Dead Man's Chest";
-    x.wikiRu = "Пираты Карибского моря: Сундук мертвеца";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq484442", "Человек-паук", "Spider-Man", 2002, "\u0444\u0438\u043b\u044c\u043c", ["crime", "irony", "family"], ["Человек-паук", "Spider-Man"], "Человек-паук 2002");
-    x.wikiEn = "Spider-Man (2002 film)";
-    x.wikiRu = "Человек-паук (фильм, 2002)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq484020", "Мистер Бин", "Mr. Bean", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["war", "heist", "tempo"], ["Мистер Бин", "Mr. Bean"], "Мистер Бин");
-    x.wikiEn = "Mr. Bean";
-    x.wikiRu = "Мистер Бин";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq24815", "Гражданин Кейн", "Citizen Kane", 1941, "\u0444\u0438\u043b\u044c\u043c", ["street", "heist"], ["Гражданин Кейн", "Citizen Kane"], "Гражданин Кейн 1941");
-    x.wikiEn = "Citizen Kane";
-    x.wikiRu = "Гражданин Кейн";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq161678", "Гарри Поттер и Дары Смерти. Часть 1", "Harry Potter and the Deathly Hallows – Part 1", 2010, "\u0444\u0438\u043b\u044c\u043c", ["family", "crime", "space"], ["Гарри Поттер и Дары Смерти. Часть 1", "Harry Potter and the Deathly Hallows – Part 1"], "Гарри Поттер и Дары Смерти. Часть 1 2010");
-    x.wikiEn = "Harry Potter and the Deathly Hallows – Part 1";
-    x.wikiRu = "Гарри Поттер и Дары Смерти. Часть 1";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq131390", "300 спартанцев", "300", 2006, "\u0444\u0438\u043b\u044c\u043c", ["war", "tempo", "street"], ["300 спартанцев", "300"], "300 спартанцев 2006");
-    x.wikiEn = "300 (film)";
-    x.wikiRu = "300 спартанцев (фильм, 2006)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq181803", "Звёздные войны. Эпизод VI: Возвращение джедая", "Star Wars: Episode VI – Return of the Jedi", 1983, "\u0444\u0438\u043b\u044c\u043c", ["mind-power", "chaotic", "dark"], ["Звёздные войны. Эпизод VI: Возвращение джедая", "Star Wars: Episode VI – Return of the Jedi"], "Звёздные войны. Эпизод VI: Возвращение джедая 1983");
-    x.wikiEn = "Return of the Jedi";
-    x.wikiRu = "Звёздные войны. Эпизод VI: Возвращение джедая";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq182153", "Тачки", "Cars", 2006, "\u0444\u0438\u043b\u044c\u043c", ["slick-urban", "ambition", "slow"], ["Тачки", "Cars"], "Тачки 2006");
-    x.wikiEn = "Cars (film)";
-    x.wikiRu = "Тачки";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq14171368", "Мстители: Эра Альтрона", "Avengers: Age of Ultron", 2015, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Мстители: Эра Альтрона", "Avengers: Age of Ultron"], "Мстители: Эра Альтрона 2015");
-    x.wikiEn = "Avengers: Age of Ultron";
-    x.wikiRu = "Мстители: Эра Альтрона";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq38497", "Зена — королева воинов", "Xena: Warrior Princess", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "horror", "heist"], ["Зена — королева воинов", "Xena: Warrior Princess"], "Зена — королева воинов");
-    x.wikiEn = "Xena: Warrior Princess";
-    x.wikiRu = "Зена — королева воинов";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq181069", "Звёздные войны. Эпизод II: Атака клонов", "Star Wars: Episode II – Attack of the Clones", 2002, "\u0444\u0438\u043b\u044c\u043c", ["irony", "sport", "comedy"], ["Звёздные войны. Эпизод II: Атака клонов", "Star Wars: Episode II – Attack of the Clones"], "Звёздные войны. Эпизод II: Атака клонов 2002");
-    x.wikiEn = "Star Wars: Episode II – Attack of the Clones";
-    x.wikiRu = "Звёздные войны. Эпизод II: Атака клонов";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq109116", "Великий диктатор", "The Great Dictator", 1940, "\u0444\u0438\u043b\u044c\u043c", ["sport", "family", "irony"], ["Великий диктатор", "The Great Dictator"], "Великий диктатор 1940");
-    x.wikiEn = "The Great Dictator";
-    x.wikiRu = "Великий диктатор";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq190086", "В джазе только девушки", "Some Like It Hot", 1959, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["В джазе только девушки", "Some Like It Hot"], "В джазе только девушки 1959");
-    x.wikiEn = "Some Like It Hot";
-    x.wikiRu = "В джазе только девушки";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq275120", "Первый мститель", "Captain America: The First Avenger", 2011, "\u0444\u0438\u043b\u044c\u043c", ["war", "tempo", "street"], ["Первый мститель", "Captain America: The First Avenger"], "Первый мститель 2011");
-    x.wikiEn = "Captain America: The First Avenger";
-    x.wikiRu = "Первый мститель";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq25139", "Красота по-американски", "American Beauty", 1999, "\u0444\u0438\u043b\u044c\u043c", ["street", "heist"], ["Красота по-американски", "American Beauty"], "Красота по-американски 1999");
-    x.wikiEn = "American Beauty (1999 film)";
-    x.wikiRu = "Красота по-американски";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq228186", "Лоуренс Аравийский", "Lawrence of Arabia", 1962, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Лоуренс Аравийский", "Lawrence of Arabia"], "Лоуренс Аравийский 1962");
-    x.wikiEn = "Lawrence of Arabia (film)";
-    x.wikiRu = "Лоуренс Аравийский (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq217020", "Тор", "Thor", 2011, "\u0444\u0438\u043b\u044c\u043c", ["street", "heist"], ["Тор", "Thor"], "Тор 2011");
-    x.wikiEn = "Thor (film)";
-    x.wikiRu = "Тор (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq150804", "Пианист", "The Pianist", 2002, "\u0444\u0438\u043b\u044c\u043c", ["sport", "family", "irony"], ["Пианист", "The Pianist"], "Пианист 2002");
-    x.wikiEn = "The Pianist (2002 film)";
-    x.wikiRu = "Пианист (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq180098", "Бен-Гур", "Ben-Hur", 1959, "\u0444\u0438\u043b\u044c\u043c", ["crime", "irony", "family"], ["Бен-Гур", "Ben-Hur"], "Бен-Гур 1959");
-    x.wikiEn = "Ben-Hur (1959 film)";
-    x.wikiRu = "Бен-Гур (фильм, 1959)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq4941", "007: Координаты «Скайфолл»", "Skyfall", 2012, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["007: Координаты «Скайфолл»", "Skyfall"], "007: Координаты «Скайфолл» 2012");
-    x.wikiEn = "Skyfall";
-    x.wikiRu = "007: Координаты «Скайфолл»";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq171669", "Пролетая над гнездом кукушки", "One Flew Over the Cuckoo's Nest", 1975, "\u0444\u0438\u043b\u044c\u043c", ["chaotic", "romance", "mind-power"], ["Пролетая над гнездом кукушки", "One Flew Over the Cuckoo's Nest"], "Пролетая над гнездом кукушки 1975");
-    x.wikiEn = "One Flew Over the Cuckoo's Nest (film)";
-    x.wikiRu = "Пролетая над гнездом кукушки (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq160060", "Король говорит!", "The King's Speech", 2010, "\u0444\u0438\u043b\u044c\u043c", ["romance", "fantasy", "slick-urban"], ["Король говорит!", "The King's Speech"], "Король говорит! 2010");
-    x.wikiEn = "The King's Speech";
-    x.wikiRu = "Король говорит!";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq46551", "Престиж", "The Prestige", 2006, "\u0444\u0438\u043b\u044c\u043c", ["romance", "fantasy", "slick-urban"], ["Престиж", "The Prestige"], "Престиж 2006");
-    x.wikiEn = "The Prestige";
-    x.wikiRu = "Престиж (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq438406", "Анатомия страсти", "Grey's Anatomy", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Анатомия страсти", "Grey's Anatomy"], "Анатомия страсти");
-    x.wikiEn = "Grey's Anatomy";
-    x.wikiRu = "Анатомия страсти";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq102754", "Доктор Ноу", "Dr. No", 1962, "\u0444\u0438\u043b\u044c\u043c", ["kids", "comedy", "sport"], ["Доктор Ноу", "Dr. No"], "Доктор Ноу 1962");
-    x.wikiEn = "Dr. No (film)";
-    x.wikiRu = "Доктор Ноу";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq131758", "Отчаянные домохозяйки", "Desperate Housewives", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Отчаянные домохозяйки", "Desperate Housewives"], "Отчаянные домохозяйки");
-    x.wikiEn = "Desperate Housewives";
-    x.wikiRu = "Отчаянные домохозяйки";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq23010088", "Человек-паук: Возвращение домой", "Spider-Man: Homecoming", 2017, "\u0444\u0438\u043b\u044c\u043c", ["sport", "family", "irony"], ["Человек-паук: Возвращение домой", "Spider-Man: Homecoming"], "Человек-паук: Возвращение домой 2017");
-    x.wikiEn = "Spider-Man: Homecoming";
-    x.wikiRu = "Человек-паук: Возвращение домой";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq29647346", "Бумажный дом", "Money Heist", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "street", "space"], ["Бумажный дом", "Money Heist"], "Бумажный дом");
-    x.wikiEn = "Money Heist";
-    x.wikiRu = "Бумажный дом (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq6074", "Звёздные войны: Пробуждение силы", "Star Wars: Episode VII – The Force Awakens", 2015, "\u0444\u0438\u043b\u044c\u043c", ["mind-power", "chaotic", "dark"], ["Звёздные войны: Пробуждение силы", "Star Wars: Episode VII – The Force Awakens"], "Звёздные войны: Пробуждение силы 2015");
-    x.wikiEn = "Star Wars: The Force Awakens";
-    x.wikiRu = "Звёздные войны: Пробуждение силы";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq270470", "Питер Пэн", "Peter Pan", 1953, "\u0444\u0438\u043b\u044c\u043c", ["slick-urban", "ambition", "slow"], ["Питер Пэн", "Peter Pan"], "Питер Пэн 1953");
-    x.wikiEn = "Peter Pan (1953 film)";
-    x.wikiRu = "Питер Пэн (мультфильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq186587", "Троя", "Troy", 2004, "\u0444\u0438\u043b\u044c\u043c", ["horror", "space", "crime"], ["Троя", "Troy"], "Троя 2004");
-    x.wikiEn = "Troy (film)";
-    x.wikiRu = "Троя (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq160071", "Сумерки", "Twilight", 2008, "\u0444\u0438\u043b\u044c\u043c", ["horror", "space", "crime"], ["Сумерки", "Twilight"], "Сумерки 2008");
-    x.wikiEn = "Twilight (2008 film)";
-    x.wikiRu = "Сумерки (фильм, 2008)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq188845", "Человек дождя", "Rain Man", 1988, "\u0444\u0438\u043b\u044c\u043c", ["fantasy", "mind-power", "romance"], ["Человек дождя", "Rain Man"], "Человек дождя 1988");
-    x.wikiEn = "Rain Man";
-    x.wikiRu = "Человек дождя";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq183555", "Пираты Карибского моря: На странных берегах", "Pirates of the Caribbean: On Stranger Tides", 2011, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Пираты Карибского моря: На странных берегах", "Pirates of the Caribbean: On Stranger Tides"], "Пираты Карибского моря: На странных берегах 2011");
-    x.wikiEn = "Pirates of the Caribbean: On Stranger Tides";
-    x.wikiRu = "Пираты Карибского моря: На странных берегах";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq212965", "Голодные игры", "The Hunger Games", 2012, "\u0444\u0438\u043b\u044c\u043c", ["irony", "sport", "comedy"], ["Голодные игры", "The Hunger Games"], "Голодные игры 2012");
-    x.wikiEn = "The Hunger Games (film)";
-    x.wikiRu = "Голодные игры (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq18406872", "Доктор Стрэндж", "Doctor Strange", 2016, "\u0444\u0438\u043b\u044c\u043c", ["street", "heist"], ["Доктор Стрэндж", "Doctor Strange"], "Доктор Стрэндж 2016");
-    x.wikiEn = "Doctor Strange (2016 film)";
-    x.wikiRu = "Доктор Стрэндж (фильм, 2016)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq180214", "Чёрный лебедь", "Black Swan", 2010, "\u0444\u0438\u043b\u044c\u043c", ["comedy", "horror", "kids"], ["Чёрный лебедь", "Black Swan"], "Чёрный лебедь 2010");
-    x.wikiEn = "Black Swan (film)";
-    x.wikiRu = "Чёрный лебедь (фильм, 2010)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq171861", "Артист", "The Artist", 2011, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["Артист", "The Artist"], "Артист 2011");
-    x.wikiEn = "The Artist (film)";
-    x.wikiRu = "Артист (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq842306", "Привет, друзья!", "Saludos Amigos", 1942, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Привет, друзья!", "Saludos Amigos"], "Привет, друзья! 1942");
-    x.wikiEn = "Saludos Amigos";
-    x.wikiRu = "Салют, друзья!";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq152780", "Жизнь Пи", "Life of Pi", 2012, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Жизнь Пи", "Life of Pi"], "Жизнь Пи 2012");
-    x.wikiEn = "Life of Pi (film)";
-    x.wikiRu = "Жизнь Пи (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq484675", "Леон", "Léon: The Professional", 1994, "\u0444\u0438\u043b\u044c\u043c", ["fantasy", "mind-power", "romance"], ["Леон", "Léon: The Professional"], "Леон 1994");
-    x.wikiEn = "Léon: The Professional";
-    x.wikiRu = "Леон (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq190908", "Семь", "Seven", 1995, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Семь", "Seven"], "Семь 1995");
-    x.wikiEn = "Seven (1995 film)";
-    x.wikiRu = "Семь (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq80379", "Хоббит: Нежданное путешествие", "The Hobbit: An Unexpected Journey", 2012, "\u0444\u0438\u043b\u044c\u043c", ["kids", "comedy", "sport"], ["Хоббит: Нежданное путешествие", "The Hobbit: An Unexpected Journey"], "Хоббит: Нежданное путешествие 2012");
-    x.wikiEn = "The Hobbit: An Unexpected Journey";
-    x.wikiRu = "Хоббит: Нежданное путешествие";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq214801", "Шоу Трумана", "The Truman Show", 1998, "\u0444\u0438\u043b\u044c\u043c", ["comedy", "horror", "kids"], ["Шоу Трумана", "The Truman Show"], "Шоу Трумана 1998");
-    x.wikiEn = "The Truman Show";
-    x.wikiRu = "Шоу Трумана";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq105702", "Доктор Стрейнджлав, или Как я перестал бояться и полюбил бомбу", "Dr. Strangelove", 1964, "\u0444\u0438\u043b\u044c\u043c", ["horror", "space", "crime"], ["Доктор Стрейнджлав, или Как я перестал бояться и полюбил бомбу", "Dr. Strangelove"], "Доктор Стрейнджлав, или Как я перестал бояться и полюбил бомбу 1964");
-    x.wikiEn = "Dr. Strangelove";
-    x.wikiRu = "Доктор Стрейнджлав, или Как я перестал бояться и полюбил бомбу";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq174385", "Алиса в Стране чудес", "Alice in Wonderland", 2010, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Алиса в Стране чудес", "Alice in Wonderland"], "Алиса в Стране чудес 2010");
-    x.wikiEn = "Alice in Wonderland (2010 film)";
-    x.wikiRu = "Алиса в Стране чудес (фильм, 2010)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq182944", "Влюблённый Шекспир", "Shakespeare in Love", 1998, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Влюблённый Шекспир", "Shakespeare in Love"], "Влюблённый Шекспир 1998");
-    x.wikiEn = "Shakespeare in Love";
-    x.wikiRu = "Влюблённый Шекспир";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq184605", "2012", "2012", 2009, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["2012"], "2012 2009");
-    x.wikiEn = "2012 (film)";
-    x.wikiRu = "2012 (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq190956", "Амадей", "Amadeus", 1984, "\u0444\u0438\u043b\u044c\u043c", ["chaotic", "romance", "mind-power"], ["Амадей", "Amadeus"], "Амадей 1984");
-    x.wikiEn = "Amadeus (film)";
-    x.wikiRu = "Амадей (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq189540", "Семь самураев", "Seven Samurai", 1954, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Семь самураев", "Seven Samurai"], "Семь самураев 1954");
-    x.wikiEn = "Seven Samurai";
-    x.wikiRu = "Семь самураев";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq190525", "Помни", "Memento", 2000, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["Помни", "Memento"], "Помни 2000");
-    x.wikiEn = "Memento (film)";
-    x.wikiRu = "Помни";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq18407657", "Первый мститель: Противостояние", "Captain America: Civil War", 2016, "\u0444\u0438\u043b\u044c\u043c", ["fantasy", "mind-power", "romance"], ["Первый мститель: Противостояние", "Captain America: Civil War"], "Первый мститель: Противостояние 2016");
-    x.wikiEn = "Captain America: Civil War";
-    x.wikiRu = "Первый мститель: Противостояние";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq22665878", "Тор: Рагнарёк", "Thor: Ragnarok", 2017, "\u0444\u0438\u043b\u044c\u043c", ["slick-urban", "ambition", "slow"], ["Тор: Рагнарёк", "Thor: Ragnarok"], "Тор: Рагнарёк 2017");
-    x.wikiEn = "Thor: Ragnarok";
-    x.wikiRu = "Тор: Рагнарёк";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq188718", "Мост через реку Квай", "The Bridge on the River Kwai", 1957, "\u0444\u0438\u043b\u044c\u043c", ["romance", "fantasy", "slick-urban"], ["Мост через реку Квай", "The Bridge on the River Kwai"], "Мост через реку Квай 1957");
-    x.wikiEn = "The Bridge on the River Kwai";
-    x.wikiRu = "Мост через реку Квай";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq20502242", "Чудо-женщина", "Wonder Woman", 2017, "\u0444\u0438\u043b\u044c\u043c", ["romance", "fantasy", "slick-urban"], ["Чудо-женщина", "Wonder Woman"], "Чудо-женщина 2017");
-    x.wikiEn = "Wonder Woman (2017 film)";
-    x.wikiRu = "Чудо-женщина (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq60072", "Звуки музыки", "The Sound of Music", 1965, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Звуки музыки", "The Sound of Music"], "Звуки музыки 1965");
-    x.wikiEn = "The Sound of Music (film)";
-    x.wikiRu = "Звуки музыки (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq48673898", "Зелёная книга", "Green Book", 2018, "\u0444\u0438\u043b\u044c\u043c", ["family", "crime", "space"], ["Зелёная книга", "Green Book"], "Зелёная книга 2018");
-    x.wikiEn = "Green Book (film)";
-    x.wikiRu = "Зелёная книга (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq184255", "Малышка на миллион", "Million Dollar Baby", 2004, "\u0444\u0438\u043b\u044c\u043c", ["irony", "sport", "comedy"], ["Малышка на миллион", "Million Dollar Baby"], "Малышка на миллион 2004");
-    x.wikiEn = "Million Dollar Baby";
-    x.wikiRu = "Малышка на миллион";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1765358", "Первый мститель: Другая война", "Captain America: The Winter Soldier", 2014, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Первый мститель: Другая война", "Captain America: The Winter Soldier"], "Первый мститель: Другая война 2014");
-    x.wikiEn = "Captain America: The Winter Soldier";
-    x.wikiRu = "Первый мститель: Другая война";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq105387", "День независимости", "Independence Day", 1996, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["День независимости", "Independence Day"], "День независимости 1996");
-    x.wikiEn = "Independence Day (1996 film)";
-    x.wikiRu = "День независимости (фильм, 1996)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq202508", "Мумия", "The Mummy", 1999, "\u0444\u0438\u043b\u044c\u043c", ["war", "tempo", "street"], ["Мумия", "The Mummy"], "Мумия 1999");
-    x.wikiEn = "The Mummy (1999 film)";
-    x.wikiRu = "Мумия (фильм, 1999)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq63026", "Английский пациент", "The English Patient", 1996, "\u0444\u0438\u043b\u044c\u043c", ["family", "crime", "space"], ["Английский пациент", "The English Patient"], "Английский пациент 1996");
-    x.wikiEn = "The English Patient (film)";
-    x.wikiRu = "Английский пациент (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq160560", "Код да Винчи", "The Da Vinci Code", 2006, "\u0444\u0438\u043b\u044c\u043c", ["sport", "family", "irony"], ["Код да Винчи", "The Da Vinci Code"], "Код да Винчи 2006");
-    x.wikiEn = "The Da Vinci Code (film)";
-    x.wikiRu = "Код да Винчи (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq719915", "Хоббит: Пустошь Смауга", "The Hobbit: The Desolation of Smaug", 2013, "\u0444\u0438\u043b\u044c\u043c", ["street", "heist"], ["Хоббит: Пустошь Смауга", "The Hobbit: The Desolation of Smaug"], "Хоббит: Пустошь Смауга 2013");
-    x.wikiEn = "The Hobbit: The Desolation of Smaug";
-    x.wikiRu = "Хоббит: Пустошь Смауга";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq179215", "Индиана Джонс и храм судьбы", "Indiana Jones and the Temple of Doom", 1984, "\u0444\u0438\u043b\u044c\u043c", ["irony", "sport", "comedy"], ["Индиана Джонс и храм судьбы", "Indiana Jones and the Temple of Doom"], "Индиана Джонс и храм судьбы 1984");
-    x.wikiEn = "Indiana Jones and the Temple of Doom";
-    x.wikiRu = "Индиана Джонс и храм судьбы";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq736731", "Три кабальеро", "The Three Caballeros", 1944, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Три кабальеро", "The Three Caballeros"], "Три кабальеро 1944");
-    x.wikiEn = "The Three Caballeros";
-    x.wikiRu = "Три кабальеро";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq201293", "Римские каникулы", "Roman Holiday", 1953, "\u0444\u0438\u043b\u044c\u043c", ["war", "tempo", "street"], ["Римские каникулы", "Roman Holiday"], "Римские каникулы 1953");
-    x.wikiEn = "Roman Holiday";
-    x.wikiRu = "Римские каникулы";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq47300912", "Однажды в Голливуде", "Once Upon a Time in Hollywood", 2019, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["Однажды в Голливуде", "Once Upon a Time in Hollywood"], "Однажды в Голливуде 2019");
-    x.wikiEn = "Once Upon a Time in Hollywood";
-    x.wikiRu = "Однажды в Голливуде (фильм, 2019)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq18602670", "007: Спектр", "Spectre", 2015, "\u0444\u0438\u043b\u044c\u043c", ["crime", "irony", "family"], ["007: Спектр", "Spectre"], "007: Спектр 2015");
-    x.wikiEn = "Spectre (2015 film)";
-    x.wikiRu = "007: Спектр";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq204191", "Эта замечательная жизнь", "It's a Wonderful Life", 1946, "\u0444\u0438\u043b\u044c\u043c", ["war", "tempo", "street"], ["Эта замечательная жизнь", "It's a Wonderful Life"], "Эта замечательная жизнь 1946");
-    x.wikiEn = "It's a Wonderful Life";
-    x.wikiRu = "Эта замечательная жизнь";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq39571", "Мой сосед Тоторо", "My Neighbor Totoro", 1988, "\u0444\u0438\u043b\u044c\u043c", ["war", "tempo", "street"], ["Мой сосед Тоторо", "My Neighbor Totoro"], "Мой сосед Тоторо 1988");
-    x.wikiEn = "My Neighbor Totoro";
-    x.wikiRu = "Мой сосед Тоторо";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq107270", "Трудности перевода", "Lost in Translation", 2003, "\u0444\u0438\u043b\u044c\u043c", ["war", "tempo", "street"], ["Трудности перевода", "Lost in Translation"], "Трудности перевода 2003");
-    x.wikiEn = "Lost in Translation (film)";
-    x.wikiRu = "Трудности перевода";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq622769", "Человек из стали", "Man of Steel", 2013, "\u0444\u0438\u043b\u044c\u043c", ["street", "heist"], ["Человек из стали", "Man of Steel"], "Человек из стали 2013");
-    x.wikiEn = "Man of Steel (film)";
-    x.wikiRu = "Человек из стали";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq193835", "Умница Уилл Хантинг", "Good Will Hunting", 1997, "\u0444\u0438\u043b\u044c\u043c", ["family", "crime", "space"], ["Умница Уилл Хантинг", "Good Will Hunting"], "Умница Уилл Хантинг 1997");
-    x.wikiEn = "Good Will Hunting";
-    x.wikiRu = "Умница Уилл Хантинг";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq13619743", "Миньоны", "Minions", 2015, "\u0444\u0438\u043b\u044c\u043c", ["chaotic", "romance", "mind-power"], ["Миньоны", "Minions"], "Миньоны 2015");
-    x.wikiEn = "Minions (film)";
-    x.wikiRu = "Миньоны (мультфильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq83401", "Герои", "Heroes", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["romance", "tempo", "kids"], ["Герои", "Heroes"], "Герои");
-    x.wikiEn = "Heroes (American TV series)";
-    x.wikiRu = "Герои (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq5901134", "Человек-муравей", "Ant-Man", 2015, "\u0444\u0438\u043b\u044c\u043c", ["slow", "slick-urban", "fantasy"], ["Человек-муравей", "Ant-Man"], "Человек-муравей 2015");
-    x.wikiEn = "Ant-Man (film)";
-    x.wikiRu = "Человек-муравей (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq20456", "Танцующий с волками", "Dances with Wolves", 1990, "\u0444\u0438\u043b\u044c\u043c", ["family", "crime", "space"], ["Танцующий с волками", "Dances with Wolves"], "Танцующий с волками 1990");
-    x.wikiEn = "Dances With Wolves";
-    x.wikiRu = "Танцующий с волками";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq27985819", "Человек-паук: Вдали от дома", "Spider-Man: Far From Home", 2019, "\u0444\u0438\u043b\u044c\u043c", ["irony", "sport", "comedy"], ["Человек-паук: Вдали от дома", "Spider-Man: Far From Home"], "Человек-паук: Вдали от дома 2019");
-    x.wikiEn = "Spider-Man: Far From Home";
-    x.wikiRu = "Человек-паук: Вдали от дома";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq181540", "Квант милосердия", "Quantum of Solace", 2008, "\u0444\u0438\u043b\u044c\u043c", ["kids", "comedy", "sport"], ["Квант милосердия", "Quantum of Solace"], "Квант милосердия 2008");
-    x.wikiEn = "Quantum of Solace";
-    x.wikiRu = "Квант милосердия";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq3604746", "Аватар: Путь воды", "Avatar: The Way of Water", 2022, "\u0444\u0438\u043b\u044c\u043c", ["sport", "family", "irony"], ["Аватар: Путь воды", "Avatar: The Way of Water"], "Аватар: Путь воды 2022");
-    x.wikiEn = "Avatar: The Way of Water";
-    x.wikiRu = "Аватар: Путь воды";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq11621", "Инопланетянин", "E.T. the Extra-Terrestrial", 1982, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Инопланетянин", "E.T. the Extra-Terrestrial"], "Инопланетянин 1982");
-    x.wikiEn = "E.T. the Extra-Terrestrial";
-    x.wikiRu = "Инопланетянин (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq126631", "Ханна Монтана", "Hannah Montana", 2006, "\u0441\u0435\u0440\u0438\u0430\u043b", ["sport", "fantasy", "horror"], ["Ханна Монтана", "Hannah Montana"], "Ханна Монтана 2006");
-    x.wikiEn = "Hannah Montana";
-    x.wikiRu = "Ханна Монтана";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq190588", "Реальная любовь", "Love Actually", 2003, "\u0444\u0438\u043b\u044c\u043c", ["slow", "slick-urban", "fantasy"], ["Реальная любовь", "Love Actually"], "Реальная любовь 2003");
-    x.wikiEn = "Love Actually";
-    x.wikiRu = "Реальная любовь";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq183066", "Повелитель бури", "The Hurt Locker", 2008, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["Повелитель бури", "The Hurt Locker"], "Повелитель бури 2008");
-    x.wikiEn = "The Hurt Locker";
-    x.wikiRu = "Повелитель бури";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq56194", "24 часа", "24", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "kids", "slow"], ["24 часа", "24"], "24 часа");
-    x.wikiEn = "24 (TV series)";
-    x.wikiRu = "24 часа (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq202211", "Ганди", "Gandhi", 1982, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Ганди", "Gandhi"], "Ганди 1982");
-    x.wikiEn = "Gandhi (film)";
-    x.wikiRu = "Ганди (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq19089", "Золотой глаз", "GoldenEye", 1995, "\u0444\u0438\u043b\u044c\u043c", ["kids", "comedy", "sport"], ["Золотой глаз", "GoldenEye"], "Золотой глаз 1995");
-    x.wikiEn = "GoldenEye";
-    x.wikiRu = "Золотой глаз (фильм, 1995)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq171453", "Трансформеры", "Transformers", 2007, "\u0444\u0438\u043b\u044c\u043c", ["mind-power", "chaotic", "dark"], ["Трансформеры", "Transformers"], "Трансформеры 2007");
-    x.wikiEn = "Transformers (film)";
-    x.wikiRu = "Трансформеры (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq185658", "Индиана Джонс и последний крестовый поход", "Indiana Jones and the Last Crusade", 1989, "\u0444\u0438\u043b\u044c\u043c", ["romance", "fantasy", "slick-urban"], ["Индиана Джонс и последний крестовый поход", "Indiana Jones and the Last Crusade"], "Индиана Джонс и последний крестовый поход 1989");
-    x.wikiEn = "Indiana Jones and the Last Crusade";
-    x.wikiRu = "Индиана Джонс и последний крестовый поход";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq213411", "Изгой", "Cast Away", 2000, "\u0444\u0438\u043b\u044c\u043c", ["street", "heist"], ["Изгой", "Cast Away"], "Изгой 2000");
-    x.wikiEn = "Cast Away";
-    x.wikiRu = "Изгой (фильм, 2000)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq154581", "Банды Нью-Йорка", "Gangs of New York", 2002, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["Банды Нью-Йорка", "Gangs of New York"], "Банды Нью-Йорка 2002");
-    x.wikiEn = "Gangs of New York";
-    x.wikiRu = "Банды Нью-Йорка";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq151599", "Метрополис", "Metropolis", 1927, "\u0444\u0438\u043b\u044c\u043c", ["chaotic", "romance", "mind-power"], ["Метрополис", "Metropolis"], "Метрополис 1927");
-    x.wikiEn = "Metropolis (1927 film)";
-    x.wikiRu = "Метрополис";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq152178", "Хор", "Glee", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slick-urban", "ambition", "slow"], ["Хор", "Glee"], "Хор");
-    x.wikiEn = "Glee (TV series)";
-    x.wikiRu = "Хор (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq220741", "Город Бога", "City of God", 2002, "\u0444\u0438\u043b\u044c\u043c", ["comedy", "horror", "kids"], ["Город Бога", "City of God"], "Город Бога 2002");
-    x.wikiEn = "City of God (2002 film)";
-    x.wikiRu = "Город Бога";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq200299", "Всё о Еве", "All About Eve", 1950, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["Всё о Еве", "All About Eve"], "Всё о Еве 1950");
-    x.wikiEn = "All About Eve";
-    x.wikiRu = "Всё о Еве";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq919649", "Хоббит: Битва пяти воинств", "The Hobbit: The Battle of the Five Armies", 2014, "\u0444\u0438\u043b\u044c\u043c", ["sport", "family", "irony"], ["Хоббит: Битва пяти воинств", "The Hobbit: The Battle of the Five Armies"], "Хоббит: Битва пяти воинств 2014");
-    x.wikiEn = "The Hobbit: The Battle of the Five Armies";
-    x.wikiRu = "Хоббит: Битва пяти воинств";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq35791", "Секс в большом городе", "Sex and the City", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "kids", "slow"], ["Секс в большом городе", "Sex and the City"], "Секс в большом городе");
-    x.wikiEn = "Sex and the City";
-    x.wikiRu = "Секс в большом городе";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq186323", "Борат", "Borat", 2006, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Борат", "Borat"], "Борат 2006");
-    x.wikiEn = "Borat";
-    x.wikiRu = "Борат";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq193695", "Волшебник страны Оз", "The Wizard of Oz", 1939, "\u0444\u0438\u043b\u044c\u043c", ["romance", "fantasy", "slick-urban"], ["Волшебник страны Оз", "The Wizard of Oz"], "Волшебник страны Оз 1939");
-    x.wikiEn = "The Wizard of Oz";
-    x.wikiRu = "Волшебник страны Оз (фильм, 1939)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq155476", "Форсаж", "The Fast and the Furious", 2001, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Форсаж", "The Fast and the Furious"], "Форсаж 2001");
-    x.wikiEn = "The Fast and the Furious (2001 film)";
-    x.wikiRu = "Форсаж (фильм, 2001, США)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq207698", "Царство небесное", "Kingdom of Heaven", 2005, "\u0444\u0438\u043b\u044c\u043c", ["street", "heist"], ["Царство небесное", "Kingdom of Heaven"], "Царство небесное 2005");
-    x.wikiEn = "Kingdom of Heaven (film)";
-    x.wikiRu = "Царство небесное (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq229808", "Новый Человек-паук", "The Amazing Spider-Man", 2012, "\u0444\u0438\u043b\u044c\u043c", ["family", "crime", "space"], ["Новый Человек-паук", "The Amazing Spider-Man"], "Новый Человек-паук 2012");
-    x.wikiEn = "The Amazing Spider-Man (film)";
-    x.wikiRu = "Новый Человек-паук";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq208269", "Вечное сияние чистого разума", "Eternal Sunshine of the Spotless Mind", 2004, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Вечное сияние чистого разума", "Eternal Sunshine of the Spotless Mind"], "Вечное сияние чистого разума 2004");
-    x.wikiEn = "Eternal Sunshine of the Spotless Mind";
-    x.wikiRu = "Вечное сияние чистого разума";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq172837", "Похитители велосипедов", "Bicycle Thieves", 1948, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Похитители велосипедов", "Bicycle Thieves"], "Похитители велосипедов 1948");
-    x.wikiEn = "Bicycle Thieves";
-    x.wikiRu = "Похитители велосипедов";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq188035", "Апокалипсис", "Apocalypto", 2006, "\u0444\u0438\u043b\u044c\u043c", ["irony", "sport", "comedy"], ["Апокалипсис", "Apocalypto"], "Апокалипсис 2006");
-    x.wikiEn = "Apocalypto";
-    x.wikiRu = "Апокалипсис (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq14320", "Послезавтра", "The Day After Tomorrow", 2004, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["Послезавтра", "The Day After Tomorrow"], "Послезавтра 2004");
-    x.wikiEn = "The Day After Tomorrow";
-    x.wikiRu = "Послезавтра";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq219421", "Маска", "The Mask", 1994, "\u0444\u0438\u043b\u044c\u043c", ["kids", "comedy", "sport"], ["Маска", "The Mask"], "Маска 1994");
-    x.wikiEn = "The Mask (1994 film)";
-    x.wikiRu = "Маска (фильм, 1994)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq108297", "Спартак", "Spartacus", 1960, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Спартак", "Spartacus"], "Спартак 1960");
-    x.wikiEn = "Spartacus (film)";
-    x.wikiRu = "Спартак (фильм, 1960)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq202548", "Головокружение", "Vertigo", 1958, "\u0444\u0438\u043b\u044c\u043c", ["mind-power", "chaotic", "dark"], ["Головокружение", "Vertigo"], "Головокружение 1958");
-    x.wikiEn = "Vertigo (film)";
-    x.wikiRu = "Головокружение (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq200396", "Шерлок Холмс", "Sherlock Holmes", 2009, "\u0444\u0438\u043b\u044c\u043c", ["slick-urban", "ambition", "slow"], ["Шерлок Холмс", "Sherlock Holmes"], "Шерлок Холмс 2009");
-    x.wikiEn = "Sherlock Holmes (2009 film)";
-    x.wikiRu = "Шерлок Холмс (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq189600", "Матрица: Перезагрузка", "The Matrix Reloaded", 2003, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["Матрица: Перезагрузка", "The Matrix Reloaded"], "Матрица: Перезагрузка 2003");
-    x.wikiEn = "The Matrix Reloaded";
-    x.wikiRu = "Матрица: Перезагрузка";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq18604504", "Отряд самоубийц", "Suicide Squad", 2016, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["Отряд самоубийц", "Suicide Squad"], "Отряд самоубийц 2016");
-    x.wikiEn = "Suicide Squad (2016 film)";
-    x.wikiRu = "Отряд самоубийц (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq4254026", "Новый Человек-паук. Высокое напряжение", "The Amazing Spider-Man 2", 2014, "\u0444\u0438\u043b\u044c\u043c", ["slow", "slick-urban", "fantasy"], ["Новый Человек-паук. Высокое напряжение", "The Amazing Spider-Man 2"], "Новый Человек-паук. Высокое напряжение 2014");
-    x.wikiEn = "The Amazing Spider-Man 2";
-    x.wikiRu = "Новый Человек-паук: Высокое напряжение";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq18199330", "Фантастические твари и где они обитают", "Fantastic Beasts and Where to Find Them", 2016, "\u0444\u0438\u043b\u044c\u043c", ["chaotic", "romance", "mind-power"], ["Фантастические твари и где они обитают", "Fantastic Beasts and Where to Find Them"], "Фантастические твари и где они обитают 2016");
-    x.wikiEn = "Fantastic Beasts and Where to Find Them (film)";
-    x.wikiRu = "Фантастические твари и где они обитают";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq4533", "Виктория-победительница", "Victorious", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Виктория-победительница", "Victorious"], "Виктория-победительница");
-    x.wikiEn = "Victorious";
-    x.wikiRu = "Виктория-победительница";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq190643", "Взвод", "Platoon", 1986, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Взвод", "Platoon"], "Взвод 1986");
-    x.wikiEn = "Platoon (film)";
-    x.wikiRu = "Взвод (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq218235", "Чарли и шоколадная фабрика", "Charlie and the Chocolate Factory", 2005, "\u0444\u0438\u043b\u044c\u043c", ["mind-power", "chaotic", "dark"], ["Чарли и шоколадная фабрика", "Charlie and the Chocolate Factory"], "Чарли и шоколадная фабрика 2005");
-    x.wikiEn = "Charlie and the Chocolate Factory (film)";
-    x.wikiRu = "Чарли и шоколадная фабрика (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq853718", "Весёлые и беззаботные", "Fun and Fancy Free", 1947, "\u0444\u0438\u043b\u044c\u043c", ["street", "heist"], ["Весёлые и беззаботные", "Fun and Fancy Free"], "Весёлые и беззаботные 1947");
-    x.wikiEn = "Fun and Fancy Free";
-    x.wikiRu = "Весёлые и беззаботные";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq14772351", "Бэтмен против Супермена: На заре справедливости", "Batman v Superman: Dawn of Justice", 2016, "\u0444\u0438\u043b\u044c\u043c", ["crime", "irony", "family"], ["Бэтмен против Супермена: На заре справедливости", "Batman v Superman: Dawn of Justice"], "Бэтмен против Супермена: На заре справедливости 2016");
-    x.wikiEn = "Batman v Superman: Dawn of Justice";
-    x.wikiRu = "Бэтмен против Супермена: На заре справедливости";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq207130", "Последний самурай", "The Last Samurai", 2003, "\u0444\u0438\u043b\u044c\u043c", ["romance", "fantasy", "slick-urban"], ["Последний самурай", "The Last Samurai"], "Последний самурай 2003");
-    x.wikiEn = "The Last Samurai";
-    x.wikiRu = "Последний самурай (фильм, 2003)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq189267", "Два с половиной человека", "Two and a Half Men", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "romance"], ["Два с половиной человека", "Two and a Half Men"], "Два с половиной человека");
-    x.wikiEn = "Two and a Half Men";
-    x.wikiRu = "Два с половиной человека";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq182373", "Индиана Джонс и Королевство хрустального черепа", "Indiana Jones and the Kingdom of the Crystal Skull", 2008, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["Индиана Джонс и Королевство хрустального черепа", "Indiana Jones and the Kingdom of the Crystal Skull"], "Индиана Джонс и Королевство хрустального черепа 2008");
-    x.wikiEn = "Indiana Jones and the Kingdom of the Crystal Skull";
-    x.wikiRu = "Индиана Джонс и Королевство хрустального черепа";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq201924", "Авиатор", "The Aviator", 2004, "\u0444\u0438\u043b\u044c\u043c", ["sport", "family", "irony"], ["Авиатор", "The Aviator"], "Авиатор 2004");
-    x.wikiEn = "The Aviator (2004 film)";
-    x.wikiRu = "Авиатор (фильм, 2004)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq207536", "Матрица: Революция", "The Matrix Revolutions", 2003, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Матрица: Революция", "The Matrix Revolutions"], "Матрица: Революция 2003");
-    x.wikiEn = "The Matrix Revolutions";
-    x.wikiRu = "Матрица: Революция";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq200873", "Парк юрского периода: Затерянный мир", "The Lost World: Jurassic Park", 1997, "\u0444\u0438\u043b\u044c\u043c", ["slick-urban", "ambition", "slow"], ["Парк юрского периода: Затерянный мир", "The Lost World: Jurassic Park"], "Парк юрского периода: Затерянный мир 1997");
-    x.wikiEn = "The Lost World: Jurassic Park";
-    x.wikiRu = "Парк юрского периода: Затерянный мир";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq131547207", "Одиссея", "The Odyssey", 2026, "\u0444\u0438\u043b\u044c\u043c", ["fantasy", "mind-power", "romance"], ["Одиссея", "The Odyssey"], "Одиссея 2026");
-    x.wikiEn = "The Odyssey (2026 film)";
-    x.wikiRu = "Одиссея (фильм, 2026)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq106440", "Голдфингер", "Goldfinger", 1964, "\u0444\u0438\u043b\u044c\u043c", ["horror", "space", "crime"], ["Голдфингер", "Goldfinger"], "Голдфингер 1964");
-    x.wikiEn = "Goldfinger (film)";
-    x.wikiRu = "Голдфингер";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq76479", "За пригоршню долларов", "A Fistful of Dollars", 1964, "\u0444\u0438\u043b\u044c\u043c", ["irony", "sport", "comedy"], ["За пригоршню долларов", "A Fistful of Dollars"], "За пригоршню долларов 1964");
-    x.wikiEn = "A Fistful of Dollars";
-    x.wikiRu = "За пригоршню долларов";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq192686", "Прометей", "Prometheus", 2012, "\u0444\u0438\u043b\u044c\u043c", ["street", "heist"], ["Прометей", "Prometheus"], "Прометей 2012");
-    x.wikiEn = "Prometheus (2012 film)";
-    x.wikiRu = "Прометей (фильм, 2012)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq233464", "Энни Холл", "Annie Hall", 1977, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["Энни Холл", "Annie Hall"], "Энни Холл 1977");
-    x.wikiEn = "Annie Hall";
-    x.wikiRu = "Энни Холл";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq104137", "Непрощённый", "Unforgiven", 1992, "\u0444\u0438\u043b\u044c\u043c", ["comedy", "horror", "kids"], ["Непрощённый", "Unforgiven"], "Непрощённый 1992");
-    x.wikiEn = "Unforgiven";
-    x.wikiRu = "Непрощённый (фильм, 1992)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq106571", "Из России с любовью", "From Russia with Love", 1963, "\u0444\u0438\u043b\u044c\u043c", ["slick-urban", "ambition", "slow"], ["Из России с любовью", "From Russia with Love"], "Из России с любовью 1963");
-    x.wikiEn = "From Russia with Love (film)";
-    x.wikiRu = "Из России с любовью";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq53922", "Американская история ужасов", "American Horror Story", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["sport", "fantasy", "horror"], ["Американская история ужасов", "American Horror Story"], "Американская история ужасов");
-    x.wikiEn = "American Horror Story";
-    x.wikiRu = "Американская история ужасов";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq51416", "Люди в чёрном", "Men in Black", 1997, "\u0444\u0438\u043b\u044c\u043c", ["family", "crime", "space"], ["Люди в чёрном", "Men in Black"], "Люди в чёрном 1997");
-    x.wikiEn = "Men in Black (1997 film)";
-    x.wikiRu = "Люди в чёрном (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq212775", "Последний император", "The Last Emperor", 1987, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["Последний император", "The Last Emperor"], "Последний император 1987");
-    x.wikiEn = "The Last Emperor";
-    x.wikiRu = "Последний император";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq217189", "Седьмая печать", "The Seventh Seal", 1957, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Седьмая печать", "The Seventh Seal"], "Седьмая печать 1957");
-    x.wikiEn = "The Seventh Seal";
-    x.wikiRu = "Седьмая печать";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq116852", "Бэтмен", "Batman", 1989, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Бэтмен", "Batman"], "Бэтмен 1989");
-    x.wikiEn = "Batman (1989 film)";
-    x.wikiRu = "Бэтмен (фильм, 1989)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq189889", "Чикаго", "Chicago", 2002, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Чикаго", "Chicago"], "Чикаго 2002");
-    x.wikiEn = "Chicago (2002 film)";
-    x.wikiRu = "Чикаго (фильм, 2002)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq22957393", "Человек-муравей и Оса", "Ant-Man and the Wasp", 2018, "\u0444\u0438\u043b\u044c\u043c", ["comedy", "horror", "kids"], ["Человек-муравей и Оса", "Ant-Man and the Wasp"], "Человек-муравей и Оса 2018");
-    x.wikiEn = "Ant-Man and the Wasp";
-    x.wikiRu = "Человек-муравей и Оса";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq23006268", "Веном", "Venom", 2018, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Веном", "Venom"], "Веном 2018");
-    x.wikiEn = "Venom (2018 film)";
-    x.wikiRu = "Веном (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq426828", "Донни Дарко", "Donnie Darko", 2001, "\u0444\u0438\u043b\u044c\u043c", ["chaotic", "romance", "mind-power"], ["Донни Дарко", "Donnie Darko"], "Донни Дарко 2001");
-    x.wikiEn = "Donnie Darko";
-    x.wikiRu = "Донни Дарко";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq106182", "Люди Икс", "X-Men", 2000, "\u0444\u0438\u043b\u044c\u043c", ["sport", "family", "irony"], ["Люди Икс", "X-Men"], "Люди Икс 2000");
-    x.wikiEn = "X-Men (film)";
-    x.wikiRu = "Люди Икс (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq206124", "Полночь в Париже", "Midnight in Paris", 2011, "\u0444\u0438\u043b\u044c\u043c", ["horror", "space", "crime"], ["Полночь в Париже", "Midnight in Paris"], "Полночь в Париже 2011");
-    x.wikiEn = "Midnight in Paris";
-    x.wikiRu = "Полночь в Париже";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq21935651", "Дюнкерк", "Dunkirk", 2017, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Дюнкерк", "Dunkirk"], "Дюнкерк 2017");
-    x.wikiEn = "Dunkirk (2017 film)";
-    x.wikiRu = "Дюнкерк (фильм, 2017)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq208572", "Американская история Икс", "American History X", 1998, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["Американская история Икс", "American History X"], "Американская история Икс 1998");
-    x.wikiEn = "American History X";
-    x.wikiRu = "Американская история Икс";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq209170", "Мэри Поппинс", "Mary Poppins", 1964, "\u0444\u0438\u043b\u044c\u043c", ["kids", "comedy", "sport"], ["Мэри Поппинс", "Mary Poppins"], "Мэри Поппинс 1964");
-    x.wikiEn = "Mary Poppins (film)";
-    x.wikiRu = "Мэри Поппинс (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq106428", "Аполлон-13", "Apollo 13", 1995, "\u0444\u0438\u043b\u044c\u043c", ["mind-power", "chaotic", "dark"], ["Аполлон-13", "Apollo 13"], "Аполлон-13 1995");
-    x.wikiEn = "Apollo 13 (film)";
-    x.wikiRu = "Аполлон-13 (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq109135", "На игле", "Trainspotting", 1996, "\u0444\u0438\u043b\u044c\u043c", ["kids", "comedy", "sport"], ["На игле", "Trainspotting"], "На игле 1996");
-    x.wikiEn = "Trainspotting (film)";
-    x.wikiRu = "На игле (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq191040", "Мистер и миссис Смит", "Mr. & Mrs. Smith", 2005, "\u0444\u0438\u043b\u044c\u043c", ["horror", "space", "crime"], ["Мистер и миссис Смит", "Mr. & Mrs. Smith"], "Мистер и миссис Смит 2005");
-    x.wikiEn = "Mr. & Mrs. Smith (2005 film)";
-    x.wikiRu = "Мистер и миссис Смит (фильм, 2005)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq106506", "Пятый элемент", "The Fifth Element", 1997, "\u0444\u0438\u043b\u044c\u043c", ["sport", "family", "irony"], ["Пятый элемент", "The Fifth Element"], "Пятый элемент 1997");
-    x.wikiEn = "The Fifth Element";
-    x.wikiRu = "Пятый элемент (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq206576", "Хранитель времени", "Hugo", 2011, "\u0444\u0438\u043b\u044c\u043c", ["crime", "irony", "family"], ["Хранитель времени", "Hugo"], "Хранитель времени 2011");
-    x.wikiEn = "Hugo (film)";
-    x.wikiRu = "Хранитель времени (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq3512046", "Мир юрского периода", "Jurassic World", 2015, "\u0444\u0438\u043b\u044c\u043c", ["family", "crime", "space"], ["Мир юрского периода", "Jurassic World"], "Мир юрского периода 2015");
-    x.wikiEn = "Jurassic World";
-    x.wikiRu = "Мир юрского периода";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq271830", "Третий человек", "The Third Man", 1949, "\u0444\u0438\u043b\u044c\u043c", ["mind-power", "chaotic", "dark"], ["Третий человек", "The Third Man"], "Третий человек 1949");
-    x.wikiEn = "The Third Man";
-    x.wikiRu = "Третий человек";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq466611", "Невероятный Халк", "The Incredible Hulk", 2008, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["Невероятный Халк", "The Incredible Hulk"], "Невероятный Халк 2008");
-    x.wikiEn = "The Incredible Hulk (film)";
-    x.wikiRu = "Невероятный Халк (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq168154", "Однажды на Диком Западе", "Once Upon a Time in the West", 1968, "\u0444\u0438\u043b\u044c\u043c", ["irony", "sport", "comedy"], ["Однажды на Диком Западе", "Once Upon a Time in the West"], "Однажды на Диком Западе 1968");
-    x.wikiEn = "Once Upon a Time in the West";
-    x.wikiRu = "Однажды на Диком Западе";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq204212", "Ребекка", "Rebecca", 1940, "\u0444\u0438\u043b\u044c\u043c", ["slow", "slick-urban", "fantasy"], ["Ребекка", "Rebecca"], "Ребекка 1940");
-    x.wikiEn = "Rebecca (1940 film)";
-    x.wikiRu = "Ребекка (фильм, 1940)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq318766", "Терминал", "The Terminal", 2004, "\u0444\u0438\u043b\u044c\u043c", ["slow", "slick-urban", "fantasy"], ["Терминал", "The Terminal"], "Терминал 2004");
-    x.wikiEn = "The Terminal";
-    x.wikiRu = "Терминал (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq206388", "Однажды в Америке", "Once Upon a Time in America", 1984, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Однажды в Америке", "Once Upon a Time in America"], "Однажды в Америке 1984");
-    x.wikiEn = "Once Upon a Time in America";
-    x.wikiRu = "Однажды в Америке";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq209481", "С широко закрытыми глазами", "Eyes Wide Shut", 1999, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["С широко закрытыми глазами", "Eyes Wide Shut"], "С широко закрытыми глазами 1999");
-    x.wikiEn = "Eyes Wide Shut";
-    x.wikiRu = "С широко закрытыми глазами";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq183239", "Загадочная история Бенджамина Баттона", "The Curious Case of Benjamin Button", 2008, "\u0444\u0438\u043b\u044c\u043c", ["crime", "irony", "family"], ["Загадочная история Бенджамина Баттона", "The Curious Case of Benjamin Button"], "Загадочная история Бенджамина Баттона 2008");
-    x.wikiEn = "The Curious Case of Benjamin Button (film)";
-    x.wikiRu = "Загадочная история Бенджамина Баттона (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq152857", "Бункер", "Downfall", 2004, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Бункер", "Downfall"], "Бункер 2004");
-    x.wikiEn = "Downfall (2004 film)";
-    x.wikiRu = "Бункер (фильм, 2004)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq192115", "Город грехов", "Sin City", 2005, "\u0444\u0438\u043b\u044c\u043c", ["kids", "comedy", "sport"], ["Город грехов", "Sin City"], "Город грехов 2005");
-    x.wikiEn = "Sin City (film)";
-    x.wikiRu = "Город грехов (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq34414", "Окно во двор", "Rear Window", 1954, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Окно во двор", "Rear Window"], "Окно во двор 1954");
-    x.wikiEn = "Rear Window";
-    x.wikiRu = "Окно во двор";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq135465", "Расёмон", "Rashomon", 1950, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["Расёмон", "Rashomon"], "Расёмон 1950");
-    x.wikiEn = "Rashomon";
-    x.wikiRu = "Расёмон (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq172271", "Малефисента", "Maleficent", 2014, "\u0444\u0438\u043b\u044c\u043c", ["slick-urban", "ambition", "slow"], ["Малефисента", "Maleficent"], "Малефисента 2014");
-    x.wikiEn = "Maleficent (film)";
-    x.wikiRu = "Малефисента (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq10350033", "Пираты Карибского моря: Мертвецы не рассказывают сказок", "Pirates of the Caribbean: Dead Men Tell no Tales", 2017, "\u0444\u0438\u043b\u044c\u043c", ["slow", "slick-urban", "fantasy"], ["Пираты Карибского моря: Мертвецы не рассказывают сказок", "Pirates of the Caribbean: Dead Men Tell no Tales"], "Пираты Карибского моря: Мертвецы не рассказывают сказок 2017");
-    x.wikiEn = "Pirates of the Caribbean: Dead Men Tell No Tales";
-    x.wikiRu = "Пираты Карибского моря: Мертвецы не рассказывают сказки";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq61117344", "Бэтмен", "The Batman", 2022, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Бэтмен", "The Batman"], "Бэтмен 2022");
-    x.wikiEn = "The Batman (film)";
-    x.wikiRu = "Бэтмен (фильм, 2022)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq180228", "Тайны Смолвиля", "Smallville", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "irony", "sport"], ["Тайны Смолвиля", "Smallville"], "Тайны Смолвиля");
-    x.wikiEn = "Smallville";
-    x.wikiRu = "Тайны Смолвиля";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq153677", "На несколько долларов больше", "For a Few Dollars More", 1965, "\u0444\u0438\u043b\u044c\u043c", ["family", "crime", "space"], ["На несколько долларов больше", "For a Few Dollars More"], "На несколько долларов больше 1965");
-    x.wikiEn = "For a Few Dollars More";
-    x.wikiRu = "На несколько долларов больше";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq23781129", "Капитан Марвел", "Captain Marvel", 2019, "\u0444\u0438\u043b\u044c\u043c", ["family", "crime", "space"], ["Капитан Марвел", "Captain Marvel"], "Капитан Марвел 2019");
-    x.wikiEn = "Captain Marvel (film)";
-    x.wikiRu = "Капитан Марвел (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq3013", "АйКарли", "iCarly", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["АйКарли", "iCarly"], "АйКарли");
-    x.wikiEn = "ICarly";
-    x.wikiRu = "АйКарли";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq201674", "Охотник на оленей", "The Deer Hunter", 1978, "\u0444\u0438\u043b\u044c\u043c", ["slick-urban", "ambition", "slow"], ["Охотник на оленей", "The Deer Hunter"], "Охотник на оленей 1978");
-    x.wikiEn = "The Deer Hunter";
-    x.wikiRu = "Охотник на оленей";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq74958", "Кровавый алмаз", "Blood Diamond", 2006, "\u0444\u0438\u043b\u044c\u043c", ["irony", "sport", "comedy"], ["Кровавый алмаз", "Blood Diamond"], "Кровавый алмаз 2006");
-    x.wikiEn = "Blood Diamond";
-    x.wikiRu = "Кровавый алмаз";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq202141", "Мыслить как преступник", "Criminal Minds", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "romance"], ["Мыслить как преступник", "Criminal Minds"], "Мыслить как преступник");
-    x.wikiEn = "Criminal Minds";
-    x.wikiRu = "Мыслить как преступник";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq193577", "Крамер против Крамера", "Kramer vs. Kramer", 1979, "\u0444\u0438\u043b\u044c\u043c", ["street", "heist"], ["Крамер против Крамера", "Kramer vs. Kramer"], "Крамер против Крамера 1979");
-    x.wikiEn = "Kramer vs. Kramer";
-    x.wikiRu = "Крамер против Крамера";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq153882", "Жизнь других", "The Lives of Others", 2006, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Жизнь других", "The Lives of Others"], "Жизнь других 2006");
-    x.wikiEn = "The Lives of Others";
-    x.wikiRu = "Жизнь других";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq272599", "На западном фронте без перемен", "All Quiet on the Western Front", 1930, "\u0444\u0438\u043b\u044c\u043c", ["fantasy", "mind-power", "romance"], ["На западном фронте без перемен", "All Quiet on the Western Front"], "На западном фронте без перемен 1930");
-    x.wikiEn = "All Quiet on the Western Front (1930 film)";
-    x.wikiRu = "На Западном фронте без перемен (фильм, 1930)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq188000", "Столкновение", "Crash", 2004, "\u0444\u0438\u043b\u044c\u043c", ["war", "tempo", "street"], ["Столкновение", "Crash"], "Столкновение 2004");
-    x.wikiEn = "Crash (2004 film)";
-    x.wikiRu = "Столкновение (фильм, 2004)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq321561", "Запах женщины", "Scent of a Woman", 1992, "\u0444\u0438\u043b\u044c\u043c", ["sport", "family", "irony"], ["Запах женщины", "Scent of a Woman"], "Запах женщины 1992");
-    x.wikiEn = "Scent of a Woman (1992 film)";
-    x.wikiRu = "Запах женщины (фильм, 1992)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq272608", "Малхолланд-драйв", "Mulholland Drive", 2001, "\u0444\u0438\u043b\u044c\u043c", ["irony", "sport", "comedy"], ["Малхолланд-драйв", "Mulholland Drive"], "Малхолланд-драйв 2001");
-    x.wikiEn = "Mulholland Drive (film)";
-    x.wikiRu = "Малхолланд Драйв";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq213208", "Тройной форсаж: Токийский дрифт", "The Fast and the Furious: Tokyo Drift", 2006, "\u0444\u0438\u043b\u044c\u043c", ["comedy", "horror", "kids"], ["Тройной форсаж: Токийский дрифт", "The Fast and the Furious: Tokyo Drift"], "Тройной форсаж: Токийский дрифт 2006");
-    x.wikiEn = "The Fast and the Furious: Tokyo Drift";
-    x.wikiRu = "Тройной форсаж: Токийский дрифт";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq116928", "Сумерки. Сага. Новолуние", "The Twilight Saga: New Moon", 2009, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Сумерки. Сага. Новолуние", "The Twilight Saga: New Moon"], "Сумерки. Сага. Новолуние 2009");
-    x.wikiEn = "The Twilight Saga: New Moon";
-    x.wikiRu = "Сумерки. Сага. Новолуние";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq107226", "Ультиматум Борна", "The Bourne Ultimatum", 2007, "\u0444\u0438\u043b\u044c\u043c", ["sport", "family", "irony"], ["Ультиматум Борна", "The Bourne Ultimatum"], "Ультиматум Борна 2007");
-    x.wikiEn = "The Bourne Ultimatum (film)";
-    x.wikiRu = "Ультиматум Борна";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq222939", "Джуманджи", "Jumanji", 1995, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Джуманджи", "Jumanji"], "Джуманджи 1995");
-    x.wikiEn = "Jumanji (film)";
-    x.wikiRu = "Джуманджи (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq193066", "Завтрак у Тиффани", "Breakfast at Tiffany's", 1961, "\u0444\u0438\u043b\u044c\u043c", ["irony", "sport", "comedy"], ["Завтрак у Тиффани", "Breakfast at Tiffany's"], "Завтрак у Тиффани 1961");
-    x.wikiEn = "Breakfast at Tiffany's (film)";
-    x.wikiRu = "Завтрак у Тиффани (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq244963", "Рэмбо: Первая кровь", "First Blood", 1982, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Рэмбо: Первая кровь", "First Blood"], "Рэмбо: Первая кровь 1982");
-    x.wikiEn = "First Blood";
-    x.wikiRu = "Рэмбо: Первая кровь";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq243643", "Шерлок Холмс: Игра теней", "Sherlock Holmes: A Game of Shadows", 2011, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["Шерлок Холмс: Игра теней", "Sherlock Holmes: A Game of Shadows"], "Шерлок Холмс: Игра теней 2011");
-    x.wikiEn = "Sherlock Holmes: A Game of Shadows";
-    x.wikiRu = "Шерлок Холмс: Игра теней";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq211372", "В порту", "On the Waterfront", 1954, "\u0444\u0438\u043b\u044c\u043c", ["comedy", "horror", "kids"], ["В порту", "On the Waterfront"], "В порту 1954");
-    x.wikiEn = "On the Waterfront";
-    x.wikiRu = "В порту (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq208266", "Из Африки", "Out of Africa", 1985, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["Из Африки", "Out of Africa"], "Из Африки 1985");
-    x.wikiEn = "Out of Africa (film)";
-    x.wikiRu = "Из Африки";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq192934", "Ангелы и демоны", "Angels & Demons", 2009, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Ангелы и демоны", "Angels & Demons"], "Ангелы и демоны 2009");
-    x.wikiEn = "Angels & Demons (film)";
-    x.wikiRu = "Ангелы и демоны (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq105624", "Идентификация Борна", "The Bourne Identity", 2002, "\u0444\u0438\u043b\u044c\u043c", ["sport", "family", "irony"], ["Идентификация Борна", "The Bourne Identity"], "Идентификация Борна 2002");
-    x.wikiEn = "The Bourne Identity (2002 film)";
-    x.wikiRu = "Идентификация Борна (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq187462", "Звёздные врата: SG-1", "Stargate SG-1", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["dark", "space", "war"], ["Звёздные врата: SG-1", "Stargate SG-1"], "Звёздные врата: SG-1");
-    x.wikiEn = "Stargate SG-1";
-    x.wikiRu = "Звёздные врата: SG-1";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq162371", "Зачарованные", "Charmed", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["kids", "slow", "irony"], ["Зачарованные", "Charmed"], "Зачарованные");
-    x.wikiEn = "Charmed";
-    x.wikiRu = "Зачарованные";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq117396", "C.S.I.: Место преступления", "CSI: Crime Scene Investigation", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["C.S.I.: Место преступления", "CSI: Crime Scene Investigation"], "C.S.I.: Место преступления");
-    x.wikiEn = "CSI: Crime Scene Investigation";
-    x.wikiRu = "C.S.I.: Место преступления";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2085", "Твин Пикс", "Twin Peaks", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Твин Пикс", "Twin Peaks"], "Твин Пикс");
-    x.wikiEn = "Twin Peaks";
-    x.wikiRu = "Твин Пикс";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq183513", "Баффи — истребительница вампиров", "Buffy the Vampire Slayer", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "irony", "sport"], ["Баффи — истребительница вампиров", "Buffy the Vampire Slayer"], "Баффи — истребительница вампиров");
-    x.wikiEn = "Buffy the Vampire Slayer";
-    x.wikiRu = "Баффи — истребительница вампиров (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq200437", "Сталкер", "Stalker", 1979, "\u0444\u0438\u043b\u044c\u043c", ["comedy", "horror", "kids"], ["Сталкер", "Stalker"], "Сталкер 1979");
-    x.wikiEn = "Stalker (1979 film)";
-    x.wikiRu = "Сталкер (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq4525", "Морская полиция: Спецотдел", "NCIS", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "comedy"], ["Морская полиция: Спецотдел", "NCIS"], "Морская полиция: Спецотдел");
-    x.wikiEn = "NCIS (TV series)";
-    x.wikiRu = "Морская полиция: Спецотдел";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq204228", "Менталист", "The Mentalist", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["war", "heist", "tempo"], ["Менталист", "The Mentalist"], "Менталист");
-    x.wikiEn = "The Mentalist";
-    x.wikiRu = "Менталист (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq199853", "Сплетница", "Gossip Girl", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "comedy"], ["Сплетница", "Gossip Girl"], "Сплетница");
-    x.wikiEn = "Gossip Girl";
-    x.wikiRu = "Сплетница (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq13979", "Saturday Night Live", "Saturday Night Live", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Saturday Night Live"], "Saturday Night Live");
-    x.wikiEn = "Saturday Night Live";
-    x.wikiRu = "Saturday Night Live";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq65258113", "Аварийная посадка любви", "Crash Landing on You", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "comedy"], ["Аварийная посадка любви", "Crash Landing on You"], "Аварийная посадка любви");
-    x.wikiEn = "Crash Landing on You";
-    x.wikiRu = "Любовь приходит с неба";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq85987403", "Пентхаус", "The Penthouse: War in Life", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Пентхаус", "The Penthouse: War in Life"], "Пентхаус");
-    x.wikiEn = "The Penthouse: War in Life";
-    x.wikiRu = "Пентхаус (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq552314", "Стрела", "Arrow", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["kids", "slow", "irony"], ["Стрела", "Arrow"], "Стрела");
-    x.wikiEn = "Arrow (TV series)";
-    x.wikiRu = "Стрела (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq207375", "Скорая помощь", "ER", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slick-urban", "ambition", "slow"], ["Скорая помощь", "ER"], "Скорая помощь");
-    x.wikiEn = "ER (TV series)";
-    x.wikiRu = "Скорая помощь (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq65272745", "Истинная красота", "True Beauty", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["sport", "fantasy", "horror"], ["Истинная красота", "True Beauty"], "Истинная красота");
-    x.wikiEn = "True Beauty (South Korean TV series)";
-    x.wikiRu = "Истинная красота";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq125772", "Солярис", "Solaris", 1972, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["Солярис", "Solaris"], "Солярис 1972");
-    x.wikiEn = "Solaris (1972 film)";
-    x.wikiRu = "Солярис (фильм, 1972)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq189068", "Детектив Монк", "Monk", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["space", "romance", "slick-urban"], ["Детектив Монк", "Monk"], "Детектив Монк");
-    x.wikiEn = "Monk (TV series)";
-    x.wikiRu = "Детектив Монк";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq23733", "Сайнфелд", "Seinfeld", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["Сайнфелд", "Seinfeld"], "Сайнфелд");
-    x.wikiEn = "Seinfeld";
-    x.wikiRu = "Сайнфелд (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1077", "Звёздный путь: Оригинальный сериал", "Star Trek: The Original Series", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Звёздный путь: Оригинальный сериал", "Star Trek: The Original Series"], "Звёздный путь: Оригинальный сериал");
-    x.wikiEn = "Star Trek: The Original Series";
-    x.wikiRu = "Звёздный путь: Оригинальный сериал";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq16290", "Звёздный путь: Следующее поколение", "Star Trek: The Next Generation", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["Звёздный путь: Следующее поколение", "Star Trek: The Next Generation"], "Звёздный путь: Следующее поколение");
-    x.wikiEn = "Star Trek: The Next Generation";
-    x.wikiRu = "Звёздный путь: Следующее поколение";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq176615", "Великолепный век", "Magnificent Century", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Великолепный век", "Magnificent Century"], "Великолепный век");
-    x.wikiEn = "Muhteşem Yüzyıl";
-    x.wikiRu = "Великолепный век";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq193462", "Девочки Гилмор", "Gilmore Girls", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Девочки Гилмор", "Gilmore Girls"], "Девочки Гилмор");
-    x.wikiEn = "Gilmore Girls";
-    x.wikiRu = "Девочки Гилмор";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq370185", "Форс-мажоры", "Suits", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slick-urban", "ambition", "slow"], ["Форс-мажоры", "Suits"], "Форс-мажоры");
-    x.wikiEn = "Suits (American TV series)";
-    x.wikiRu = "Форс-мажоры";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq53105", "Москва слезам не верит", "Moscow Does Not Believe in Tears", 1980, "\u0444\u0438\u043b\u044c\u043c", ["crime", "irony", "family"], ["Москва слезам не верит", "Moscow Does Not Believe in Tears"], "Москва слезам не верит 1980");
-    x.wikiEn = "Moscow Does Not Believe in Tears";
-    x.wikiRu = "Москва слезам не верит";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq116957085", "Земля и страсть", "Terra e paixão", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Земля и страсть", "Terra e paixão"], "Земля и страсть");
-    x.wikiEn = "Terra e Paixão";
-    x.wikiRu = "Земля и страсть";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq24859151", "Гоблин", "Guardian: The Lonely and Great God", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["Гоблин", "Guardian: The Lonely and Great God"], "Гоблин");
-    x.wikiEn = "Guardian: The Lonely and Great God";
-    x.wikiRu = "Гоблин (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq15711398", "Флэш", "The Flash", 2015, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["Флэш", "The Flash"], "Флэш 2015");
-    x.wikiEn = "The Flash (2014 TV series)";
-    x.wikiRu = "Флэш (телесериал, 2014)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq83071", "Аббатство Даунтон", "Downton Abbey", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Аббатство Даунтон", "Downton Abbey"], "Аббатство Даунтон");
-    x.wikiEn = "Downton Abbey";
-    x.wikiRu = "Аббатство Даунтон (сериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq184342", "Волшебники из Вэйверли Плэйс", "Wizards of Waverly Place", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "street", "space"], ["Волшебники из Вэйверли Плэйс", "Wizards of Waverly Place"], "Волшебники из Вэйверли Плэйс");
-    x.wikiEn = "Wizards of Waverly Place";
-    x.wikiRu = "Волшебники из Вэйверли Плэйс";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq21546165", "Слуга народа", "Servant of the People", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Слуга народа", "Servant of the People"], "Слуга народа");
-    x.wikiEn = "Servant of the People (2015 TV series)";
-    x.wikiRu = "Слуга народа (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq386880", "Касл", "Castle", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "romance"], ["Касл", "Castle"], "Касл");
-    x.wikiEn = "Castle (TV series)";
-    x.wikiRu = "Касл (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq64349029", "Локи", "Loki", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["war", "heist", "tempo"], ["Локи", "Loki"], "Локи");
-    x.wikiEn = "Loki (TV series)";
-    x.wikiRu = "Локи (сериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq18652415", "Потомки солнца", "Descendants of the Sun", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Потомки солнца", "Descendants of the Sun"], "Потомки солнца");
-    x.wikiEn = "Descendants of the Sun";
-    x.wikiRu = "Потомки солнца";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq207803", "Кости", "Bones", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["kids", "slow", "irony"], ["Кости", "Bones"], "Кости");
-    x.wikiEn = "Bones (TV series)";
-    x.wikiRu = "Кости (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq32450", "Милые обманщицы", "Pretty Little Liars", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "comedy"], ["Милые обманщицы", "Pretty Little Liars"], "Милые обманщицы");
-    x.wikiEn = "Pretty Little Liars";
-    x.wikiRu = "Милые обманщицы (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1999930", "Бриллиантовая рука", "The Diamond Arm", 1969, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Бриллиантовая рука", "The Diamond Arm"], "Бриллиантовая рука 1969");
-    x.wikiEn = "The Diamond Arm";
-    x.wikiRu = "Бриллиантовая рука";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq948023", "Дерсу Узала", "Dersu Uzala", 1975, "\u0444\u0438\u043b\u044c\u043c", ["crime", "irony", "family"], ["Дерсу Узала", "Dersu Uzala"], "Дерсу Узала 1975");
-    x.wikiEn = "Dersu Uzala (1975 film)";
-    x.wikiRu = "Дерсу Узала (фильм, 1975)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1176076", "Мерлин", "Merlin", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["crime", "irony", "family"], ["Мерлин", "Merlin"], "Мерлин");
-    x.wikiEn = "Merlin (2008 TV series)";
-    x.wikiRu = "Мерлин (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq156329", "Звёздный путь: Вояджер", "Star Trek: Voyager", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Звёздный путь: Вояджер", "Star Trek: Voyager"], "Звёздный путь: Вояджер");
-    x.wikiEn = "Star Trek: Voyager";
-    x.wikiRu = "Звёздный путь: Вояджер";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq223977", "Безумцы", "Mad Men", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["crime", "irony", "family"], ["Безумцы", "Mad Men"], "Безумцы");
-    x.wikiEn = "Mad Men";
-    x.wikiRu = "Безумцы (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq486844", "Разрушители легенд", "MythBusters", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Разрушители легенд", "MythBusters"], "Разрушители легенд");
-    x.wikiEn = "MythBusters";
-    x.wikiRu = "Разрушители легенд";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq264221", "Альф", "ALF", 1986, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Альф", "ALF"], "Альф 1986");
-    x.wikiEn = "ALF (TV series)";
-    x.wikiRu = "Альф";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq208072", "Шоу 70-х", "That '70s Show", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["sport", "fantasy", "horror"], ["Шоу 70-х", "That '70s Show"], "Шоу 70-х");
-    x.wikiEn = "That '70s Show";
-    x.wikiRu = "Шоу 70-х";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1323981", "Эль-Чаво-дель-Очо", "El Chavo del 8", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "horror", "heist"], ["Эль-Чаво-дель-Очо", "El Chavo del 8"], "Эль-Чаво-дель-Очо");
-    x.wikiEn = "El Chavo del Ocho";
-    x.wikiRu = "Эль-Чаво-дель-Очо";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq23001951", "Ривердейл", "Riverdale", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Ривердейл", "Riverdale"], "Ривердейл");
-    x.wikiEn = "Riverdale (American TV series)";
-    x.wikiRu = "Ривердейл (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq65980217", "Ванда/Вижн", "WandaVision", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["sport", "fantasy", "horror"], ["Ванда/Вижн", "WandaVision"], "Ванда/Вижн");
-    x.wikiEn = "WandaVision";
-    x.wikiRu = "Ванда/Вижн";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq18844729", "Мистер Робот", "Mr. Robot", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slick-urban", "ambition", "slow"], ["Мистер Робот", "Mr. Robot"], "Мистер Робот");
-    x.wikiEn = "Mr. Robot";
-    x.wikiRu = "Мистер Робот";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq3815", "Грань", "Fringe", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Грань", "Fringe"], "Грань");
-    x.wikiEn = "Fringe (TV series)";
-    x.wikiRu = "Грань (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq79997183", "Псих, но всё в порядке", "It's Okay to Not Be Okay", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Псих, но всё в порядке", "It's Okay to Not Be Okay"], "Псих, но всё в порядке");
-    x.wikiEn = "It's Okay to Not Be Okay";
-    x.wikiRu = "Псих, но всё в порядке";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq13098946", "Сотня", "The 100", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "irony", "sport"], ["Сотня", "The 100"], "Сотня");
-    x.wikiEn = "The 100 (TV series)";
-    x.wikiRu = "Сотня (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq213588", "Барни и друзья", "Barney & Friends", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Барни и друзья", "Barney & Friends"], "Барни и друзья");
-    x.wikiEn = "Barney & Friends";
-    x.wikiRu = "Барни и друзья";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq147878", "Иваново детство", "Ivan's Childhood", 1962, "\u0444\u0438\u043b\u044c\u043c", ["horror", "space", "crime"], ["Иваново детство", "Ivan's Childhood"], "Иваново детство 1962");
-    x.wikiEn = "Ivan's Childhood";
-    x.wikiRu = "Иваново детство";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq186219", "Настоящая кровь", "True Blood", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Настоящая кровь", "True Blood"], "Настоящая кровь");
-    x.wikiEn = "True Blood";
-    x.wikiRu = "Настоящая кровь";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq49019", "Чёрная Гадюка", "Blackadder", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "irony", "sport"], ["Чёрная Гадюка", "Blackadder"], "Чёрная Гадюка");
-    x.wikiEn = "Blackadder";
-    x.wikiRu = "Чёрная Гадюка (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq503046", "Андрей Рублёв", "Andrei Rublev", 1966, "\u0444\u0438\u043b\u044c\u043c", ["sport", "family", "irony"], ["Андрей Рублёв", "Andrei Rublev"], "Андрей Рублёв 1966");
-    x.wikiEn = "Andrei Rublev (film)";
-    x.wikiRu = "Андрей Рублёв (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq218524", "Totally Spies!", "Totally Spies!", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "street", "space"], ["Totally Spies!"], "Totally Spies!");
-    x.wikiEn = "Totally Spies!";
-    x.wikiRu = "Totally Spies!";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq16977365", "Сорвиголова", "Daredevil", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Сорвиголова", "Daredevil"], "Сорвиголова");
-    x.wikiEn = "Daredevil (TV series)";
-    x.wikiRu = "Сорвиголова (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq201052", "American Idol", "American Idol", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "romance"], ["American Idol"], "American Idol");
-    x.wikiEn = "American Idol";
-    x.wikiRu = "American Idol";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq23673", "Однажды в сказке", "Once Upon a Time", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["sport", "fantasy", "horror"], ["Однажды в сказке", "Once Upon a Time"], "Однажды в сказке");
-    x.wikiEn = "Once Upon a Time (TV series)";
-    x.wikiRu = "Однажды в сказке";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2940339", "Карусель", "Carrossel", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["space", "romance", "slick-urban"], ["Карусель", "Carrossel"], "Карусель");
-    x.wikiEn = "Carrossel";
-    x.wikiRu = "Карусель (телесериал, 2012)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq482653", "Мальчики краше цветов", "Boys Over Flowers", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["dark", "space", "war"], ["Мальчики краше цветов", "Boys Over Flowers"], "Мальчики краше цветов");
-    x.wikiEn = "Boys Over Flowers (South Korean TV series)";
-    x.wikiRu = "Мальчики краше цветов";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq203385", "Холм одного дерева", "One Tree Hill", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "irony", "sport"], ["Холм одного дерева", "One Tree Hill"], "Холм одного дерева");
-    x.wikiEn = "One Tree Hill (TV series)";
-    x.wikiRu = "Холм одного дерева";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq30014613", "Детство Шелдона", "Young Sheldon", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "street", "space"], ["Детство Шелдона", "Young Sheldon"], "Детство Шелдона");
-    x.wikiEn = "Young Sheldon";
-    x.wikiRu = "Детство Шелдона";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq210146", "Вавилон-5", "Babylon 5", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["romance", "tempo", "kids"], ["Вавилон-5", "Babylon 5"], "Вавилон-5");
-    x.wikiEn = "Babylon 5";
-    x.wikiRu = "Вавилон-5";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq117590", "Беверли-Хиллз, 90210", "Beverly Hills, 90210", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "kids", "slow"], ["Беверли-Хиллз, 90210", "Beverly Hills, 90210"], "Беверли-Хиллз, 90210");
-    x.wikiEn = "Beverly Hills, 90210";
-    x.wikiRu = "Беверли-Хиллз, 90210";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq836393", "Волчонок", "Teen Wolf", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["space", "romance", "slick-urban"], ["Волчонок", "Teen Wolf"], "Волчонок");
-    x.wikiEn = "Teen Wolf (2011 TV series)";
-    x.wikiRu = "Волчонок (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq72100361", "Медсёстры", "Enfermeras", 2019, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slick-urban", "ambition", "slow"], ["Медсёстры", "Enfermeras"], "Медсёстры 2019");
-    x.wikiEn = "Nurses (Colombian TV series)";
-    x.wikiRu = "Медсёстры";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq101252455", "Винченцо", "Vincenzo", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["heist", "crime", "chaotic"], ["Винченцо", "Vincenzo"], "Винченцо");
-    x.wikiEn = "Vincenzo (TV series)";
-    x.wikiRu = "Винченцо (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq838149", "Зеркало", "The Mirror", 1975, "\u0444\u0438\u043b\u044c\u043c", ["romance", "fantasy", "slick-urban"], ["Зеркало", "The Mirror"], "Зеркало 1975");
-    x.wikiEn = "Mirror (1975 film)";
-    x.wikiRu = "Зеркало (фильм, 1974)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq242596", "Малкольм в центре внимания", "Malcolm in the Middle", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["dark", "space", "war"], ["Малкольм в центре внимания", "Malcolm in the Middle"], "Малкольм в центре внимания");
-    x.wikiEn = "Malcolm in the Middle";
-    x.wikiRu = "Малкольм в центре внимания";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq212135", "Уилл и Грейс", "Will & Grace", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["romance", "tempo", "kids"], ["Уилл и Грейс", "Will & Grace"], "Уилл и Грейс");
-    x.wikiEn = "Will & Grace";
-    x.wikiRu = "Уилл и Грейс";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq35622", "WWE SmackDown", "WWE SmackDown", 1999, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["WWE SmackDown"], "WWE SmackDown 1999");
-    x.wikiEn = "WWE SmackDown";
-    x.wikiRu = "WWE SmackDown";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq98791700", "Подснежник (телесериал)", "Snowdrop", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "street", "space"], ["Подснежник (телесериал)", "Snowdrop"], "Подснежник (телесериал)");
-    x.wikiEn = "Snowdrop (South Korean TV series)";
-    x.wikiRu = "Подснежник (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq208647", "Женаты… с детьми", "Married... with Children", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Женаты… с детьми", "Married... with Children"], "Женаты… с детьми");
-    x.wikiEn = "Married... with Children";
-    x.wikiRu = "Женаты… с детьми";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq23599", "Бесстыжие", "Shameless", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Бесстыжие", "Shameless"], "Бесстыжие");
-    x.wikiEn = "Shameless (American TV series)";
-    x.wikiRu = "Бесстыжие";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq777739", "Иван Васильевич меняет профессию", "Ivan Vasilievich: Back to the Future", 1973, "\u0444\u0438\u043b\u044c\u043c", ["slick-urban", "ambition", "slow"], ["Иван Васильевич меняет профессию", "Ivan Vasilievich: Back to the Future"], "Иван Васильевич меняет профессию 1973");
-    x.wikiEn = "Ivan Vasilievich: Back to the Future";
-    x.wikiRu = "Иван Васильевич меняет профессию";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq371207", "Коломбо", "Columbo", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["kids", "slow", "irony"], ["Коломбо", "Columbo"], "Коломбо");
-    x.wikiEn = "Columbo";
-    x.wikiRu = "Коломбо (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq845176", "Война и мир (фильм, 1967)", "War and Peace", 1965, "\u0444\u0438\u043b\u044c\u043c", ["slow", "slick-urban", "fantasy"], ["Война и мир (фильм, 1967)", "War and Peace"], "Война и мир (фильм, 1967) 1965");
-    x.wikiEn = "War and Peace (film series)";
-    x.wikiRu = "Война и мир (фильм, 1967)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq194427", "Одинокие сердца", "The O.C.", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Одинокие сердца", "The O.C."], "Одинокие сердца");
-    x.wikiEn = "The O.C.";
-    x.wikiRu = "Одинокие сердца (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq100605045", "Королева Чорин", "Mr. Queen", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Королева Чорин", "Mr. Queen"], "Королева Чорин");
-    x.wikiEn = "Mr. Queen";
-    x.wikiRu = "Королева Чорин";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq3577037", "Западное крыло", "The West Wing", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Западное крыло", "The West Wing"], "Западное крыло");
-    x.wikiEn = "The West Wing";
-    x.wikiRu = "Западное крыло (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1127167", "Утомлённые солнцем", "Burnt by the Sun", 1994, "\u0444\u0438\u043b\u044c\u043c", ["romance", "fantasy", "slick-urban"], ["Утомлённые солнцем", "Burnt by the Sun"], "Утомлённые солнцем 1994");
-    x.wikiEn = "Burnt by the Sun";
-    x.wikiRu = "Утомлённые солнцем";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq210257", "Секретный агент Макгайвер", "MacGyver", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Секретный агент Макгайвер", "MacGyver"], "Секретный агент Макгайвер");
-    x.wikiEn = "MacGyver (1985 TV series)";
-    x.wikiRu = "Секретный агент Макгайвер";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq125867196", "Папы для удобства", "Papás por conveniencia", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["dark", "space", "war"], ["Папы для удобства", "Papás por conveniencia"], "Папы для удобства");
-    x.wikiEn = "Papás por conveniencia";
-    x.wikiRu = "Папы для удобства";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq13148212", "Чёрный список", "The Blacklist", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Чёрный список", "The Blacklist"], "Чёрный список");
-    x.wikiEn = "The Blacklist";
-    x.wikiRu = "Чёрный список (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq7099650", "Оранжевый — хит сезона", "Orange Is the New Black", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["fantasy", "family"], ["Оранжевый — хит сезона", "Orange Is the New Black"], "Оранжевый — хит сезона");
-    x.wikiEn = "Orange Is the New Black";
-    x.wikiRu = "Оранжевый — хит сезона";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq171254", "Сыны анархии", "Sons of Anarchy", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["kids", "slow", "irony"], ["Сыны анархии", "Sons of Anarchy"], "Сыны анархии");
-    x.wikiEn = "Sons of Anarchy";
-    x.wikiRu = "Сыны анархии";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq15726959", "Готэм", "Gotham", 2014, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Готэм", "Gotham"], "Готэм 2014");
-    x.wikiEn = "Gotham (TV series)";
-    x.wikiRu = "Готэм (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq33162", "Top Gear", "Top Gear", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Top Gear"], "Top Gear");
-    x.wikiEn = "Top Gear (2002 TV series)";
-    x.wikiRu = "Top Gear";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq223320", "Спасатели Малибу", "Baywatch", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "comedy"], ["Спасатели Малибу", "Baywatch"], "Спасатели Малибу");
-    x.wikiEn = "Baywatch";
-    x.wikiRu = "Спасатели Малибу";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq380519", "Звёздный путь: Энтерпрайз", "Star Trek: Enterprise", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Звёздный путь: Энтерпрайз", "Star Trek: Enterprise"], "Звёздный путь: Энтерпрайз");
-    x.wikiEn = "Star Trek: Enterprise";
-    x.wikiRu = "Звёздный путь: Энтерпрайз";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq4444", "Особо опасен", "Wanted", 2008, "\u0444\u0438\u043b\u044c\u043c", ["slick-urban", "ambition", "slow"], ["Особо опасен", "Wanted"], "Особо опасен 2008");
-    x.wikiEn = "Wanted (2008 film)";
-    x.wikiRu = "Особо опасен (фильм, 2008)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq215287", "Звёздные врата: Атлантида", "Stargate Atlantis", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Звёздные врата: Атлантида", "Stargate Atlantis"], "Звёздные врата: Атлантида");
-    x.wikiEn = "Stargate Atlantis";
-    x.wikiRu = "Звёздные врата: Атлантида";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq209282", "Фрейзер", "Frasier", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "kids", "slow"], ["Фрейзер", "Frasier"], "Фрейзер");
-    x.wikiEn = "Frasier";
-    x.wikiRu = "Фрейзер (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq65979734", "Сокол и Зимний солдат", "The Falcon and the Winter Soldier", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["heist", "crime", "chaotic"], ["Сокол и Зимний солдат", "The Falcon and the Winter Soldier"], "Сокол и Зимний солдат");
-    x.wikiEn = "The Falcon and the Winter Soldier";
-    x.wikiRu = "Сокол и Зимний солдат";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq913426", "Ирония судьбы, или С лёгким паром!", "The Irony of Fate", 1976, "\u0444\u0438\u043b\u044c\u043c", ["irony", "sport", "comedy"], ["Ирония судьбы, или С лёгким паром!", "The Irony of Fate"], "Ирония судьбы, или С лёгким паром! 1976");
-    x.wikiEn = "The Irony of Fate";
-    x.wikiRu = "Ирония судьбы, или С лёгким паром!";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq25207350", "Рассказ служанки", "The Handmaid's Tale", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["dark", "space", "war"], ["Рассказ служанки", "The Handmaid's Tale"], "Рассказ служанки");
-    x.wikiEn = "The Handmaid's Tale (TV series)";
-    x.wikiRu = "Рассказ служанки (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq326143", "Californication", "Californication", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["sport", "fantasy", "horror"], ["Californication"], "Californication");
-    x.wikiEn = "Californication (TV series)";
-    x.wikiRu = "Californication (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq18754", "WWE Raw", "WWE Raw", 1993, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "kids", "slow"], ["WWE Raw"], "WWE Raw 1993");
-    x.wikiEn = "WWE Raw";
-    x.wikiRu = "WWE Raw";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq118976", "Александр Невский", "Alexander Nevsky", 1938, "\u0444\u0438\u043b\u044c\u043c", ["street", "heist"], ["Александр Невский", "Alexander Nevsky"], "Александр Невский 1938");
-    x.wikiEn = "Alexander Nevsky (film)";
-    x.wikiRu = "Александр Невский (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq39082126", "Ты", "You", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "comedy"], ["Ты", "You"], "Ты");
-    x.wikiEn = "You (TV series)";
-    x.wikiRu = "Ты (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq217246", "Всё тип-топ, или Жизнь Зака и Коди", "The Suite Life of Zack & Cody", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "street", "space"], ["Всё тип-топ, или Жизнь Зака и Коди", "The Suite Life of Zack & Cody"], "Всё тип-топ, или Жизнь Зака и Коди");
-    x.wikiEn = "The Suite Life of Zack & Cody";
-    x.wikiRu = "Всё тип-топ, или Жизнь Зака и Коди";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq18844732", "Супергёрл", "Supergirl", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["war", "heist", "tempo"], ["Супергёрл", "Supergirl"], "Супергёрл");
-    x.wikiEn = "Supergirl (TV series)";
-    x.wikiRu = "Супергёрл (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq326180", "Молокососы", "Skins", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["kids", "slow", "irony"], ["Молокососы", "Skins"], "Молокососы");
-    x.wikiEn = "Skins (British TV series)";
-    x.wikiRu = "Молокососы";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1065443", "Маримар", "Marimar", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Маримар", "Marimar"], "Маримар");
-    x.wikiEn = "Marimar (Mexican TV series)";
-    x.wikiRu = "Маримар";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq15972383", "Левиафан", "Leviathan", 2014, "\u0444\u0438\u043b\u044c\u043c", ["fantasy", "mind-power", "romance"], ["Левиафан", "Leviathan"], "Левиафан 2014");
-    x.wikiEn = "Leviathan (2014 film)";
-    x.wikiRu = "Левиафан (фильм, 2014)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq59149852", "Властелин колец: Кольца власти", "The Lord of the Rings: The Rings of Power", 2022, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slick-urban", "ambition", "slow"], ["Властелин колец: Кольца власти", "The Lord of the Rings: The Rings of Power"], "Властелин колец: Кольца власти 2022");
-    x.wikiEn = "The Lord of the Rings: The Rings of Power";
-    x.wikiRu = "Властелин колец: Кольца власти";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq733059", "Монгол", "Mongol", 2007, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Монгол", "Mongol"], "Монгол 2007");
-    x.wikiEn = "Mongol (film)";
-    x.wikiRu = "Монгол (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq61981835", "Отель дель Луна", "Hotel del Luna", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "street", "space"], ["Отель дель Луна", "Hotel del Luna"], "Отель дель Луна");
-    x.wikiEn = "Hotel del Luna";
-    x.wikiRu = "Отель дель Луна";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq19863968", "Легенды завтрашнего дня", "Legends of Tomorrow", 2016, "\u0441\u0435\u0440\u0438\u0430\u043b", ["heist", "crime", "chaotic"], ["Легенды завтрашнего дня", "Legends of Tomorrow"], "Легенды завтрашнего дня 2016");
-    x.wikiEn = "Legends of Tomorrow";
-    x.wikiRu = "Легенды завтрашнего дня";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2293", "Чак", "Chuck", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "comedy"], ["Чак", "Chuck"], "Чак");
-    x.wikiEn = "Chuck (TV series)";
-    x.wikiRu = "Чак (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq6084", "Морская полиция: Лос-Анджелес", "NCIS: Los Angeles", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["romance", "tempo", "kids"], ["Морская полиция: Лос-Анджелес", "NCIS: Los Angeles"], "Морская полиция: Лос-Анджелес");
-    x.wikiEn = "NCIS: Los Angeles";
-    x.wikiRu = "Морская полиция: Лос-Анджелес";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq244803", "Элли Макбил", "Ally McBeal", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "irony", "sport"], ["Элли Макбил", "Ally McBeal"], "Элли Макбил");
-    x.wikiEn = "Ally McBeal";
-    x.wikiRu = "Элли Макбил";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq640403", "Лентяево", "LazyTown", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Лентяево", "LazyTown"], "Лентяево");
-    x.wikiEn = "LazyTown";
-    x.wikiRu = "Лентяево";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1130395", "Иди и смотри", "Come and See", 1985, "\u0444\u0438\u043b\u044c\u043c", ["chaotic", "romance", "mind-power"], ["Иди и смотри", "Come and See"], "Иди и смотри 1985");
-    x.wikiEn = "Come and See";
-    x.wikiRu = "Иди и смотри";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq844059", "Новенькая", "New Girl", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["crime", "irony", "family"], ["Новенькая", "New Girl"], "Новенькая");
-    x.wikiEn = "New Girl";
-    x.wikiRu = "Новенькая (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq168708", "Даллас", "Dallas", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["crime", "irony", "family"], ["Даллас", "Dallas"], "Даллас");
-    x.wikiEn = "Dallas (TV series)";
-    x.wikiRu = "Даллас (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq318649", "Говорящая с призраками", "Ghost Whisperer", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["heist", "crime", "chaotic"], ["Говорящая с призраками", "Ghost Whisperer"], "Говорящая с призраками");
-    x.wikiEn = "Ghost Whisperer";
-    x.wikiRu = "Говорящая с призраками";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq908345", "Руби", "Rubí", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "horror", "heist"], ["Руби", "Rubí"], "Руби");
-    x.wikiEn = "Rubí (2004 TV series)";
-    x.wikiRu = "Руби (телесериал, 2004)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq96414952", "Мы все мертвы", "All of Us Are Dead", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "irony", "sport"], ["Мы все мертвы", "All of Us Are Dead"], "Мы все мертвы");
-    x.wikiEn = "All of Us Are Dead";
-    x.wikiRu = "Мы все мертвы";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq585758", "Подпольная империя", "Boardwalk Empire", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["fantasy", "family"], ["Подпольная империя", "Boardwalk Empire"], "Подпольная империя");
-    x.wikiEn = "Boardwalk Empire";
-    x.wikiRu = "Подпольная империя";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq321423", "Закон и порядок", "Law & Order", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["fantasy", "family"], ["Закон и порядок", "Law & Order"], "Закон и порядок");
-    x.wikiEn = "Law & Order";
-    x.wikiRu = "Закон и порядок";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq391101", "Пуаро Агаты Кристи", "Agatha Christie's Poirot", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["fantasy", "family"], ["Пуаро Агаты Кристи", "Agatha Christie's Poirot"], "Пуаро Агаты Кристи");
-    x.wikiEn = "Agatha Christie's Poirot";
-    x.wikiRu = "Пуаро Агаты Кристи";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq3109770", "Zoboomafoo", "Zoboomafoo", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "horror", "heist"], ["Zoboomafoo"], "Zoboomafoo");
-    x.wikiEn = "Zoboomafoo";
-    x.wikiRu = "Zoboomafoo";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq564345", "В поле зрения", "Person of Interest", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["В поле зрения", "Person of Interest"], "В поле зрения");
-    x.wikiEn = "Person of Interest (TV series)";
-    x.wikiRu = "В поле зрения";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq84712806", "Женщина-Халк: Адвокат", "She-Hulk: Attorney at Law", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Женщина-Халк: Адвокат", "She-Hulk: Attorney at Law"], "Женщина-Халк: Адвокат");
-    x.wikiEn = "She-Hulk: Attorney at Law";
-    x.wikiRu = "Женщина-Халк: Адвокат";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2120540", "Маппет-шоу", "The Muppet Show", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["Маппет-шоу", "The Muppet Show"], "Маппет-шоу");
-    x.wikiEn = "The Muppet Show";
-    x.wikiRu = "Маппет-шоу";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq32488", "Две девицы на мели", "2 Broke Girls", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "kids", "slow"], ["Две девицы на мели", "2 Broke Girls"], "Две девицы на мели");
-    x.wikiEn = "2 Broke Girls";
-    x.wikiRu = "Две девицы на мели";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq16401", "Летающий цирк Монти Пайтона", "Monty Python's Flying Circus", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "romance"], ["Летающий цирк Монти Пайтона", "Monty Python's Flying Circus"], "Летающий цирк Монти Пайтона");
-    x.wikiEn = "Monty Python's Flying Circus";
-    x.wikiRu = "Летающий цирк Монти Пайтона";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq79997161", "Мир женатой пары", "The World of the Married", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["crime", "irony", "family"], ["Мир женатой пары", "The World of the Married"], "Мир женатой пары");
-    x.wikiEn = "The World of the Married";
-    x.wikiRu = "Мир женатой пары";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq84712802", "Лунный рыцарь", "Moon Knight", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Лунный рыцарь", "Moon Knight"], "Лунный рыцарь");
-    x.wikiEn = "Moon Knight (miniseries)";
-    x.wikiRu = "Лунный рыцарь (сериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq209878", "Рим", "Rome", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Рим", "Rome"], "Рим");
-    x.wikiEn = "Rome (TV series)";
-    x.wikiRu = "Рим (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq659653", "Джесси", "Jessie", 2011, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Джесси", "Jessie"], "Джесси 2011");
-    x.wikiEn = "Jessie (2011 TV series)";
-    x.wikiRu = "Джесси (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq13409848", "Наследники", "The Heirs", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["war", "heist", "tempo"], ["Наследники", "The Heirs"], "Наследники");
-    x.wikiEn = "The Heirs";
-    x.wikiRu = "Наследники (телесериал, 2013)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq14655473", "Человек со звезды", "My Love from the Star", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["Человек со звезды", "My Love from the Star"], "Человек со звезды");
-    x.wikiEn = "My Love from the Star";
-    x.wikiRu = "Человек со звезды (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq55188", "Земля", "Earth", 1930, "\u0444\u0438\u043b\u044c\u043c", ["kids", "comedy", "sport"], ["Земля", "Earth"], "Земля 1930");
-    x.wikiEn = "Earth (1930 film)";
-    x.wikiRu = "Земля (фильм, 1930)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq29908604", "Хороший доктор", "The Good Doctor", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["sport", "fantasy", "horror"], ["Хороший доктор", "The Good Doctor"], "Хороший доктор");
-    x.wikiEn = "The Good Doctor (American TV series)";
-    x.wikiRu = "Хороший доктор (телесериал, 2017)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq829250", "Человек с киноаппаратом", "Man with a Movie Camera", 1929, "\u0444\u0438\u043b\u044c\u043c", ["crime", "irony", "family"], ["Человек с киноаппаратом", "Man with a Movie Camera"], "Человек с киноаппаратом 1929");
-    x.wikiEn = "Man with a Movie Camera";
-    x.wikiRu = "Человек с киноаппаратом";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq732063", "Весёлая компания", "Cheers", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "irony", "sport"], ["Весёлая компания", "Cheers"], "Весёлая компания");
-    x.wikiEn = "Cheers";
-    x.wikiRu = "Весёлая компания";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq216919", "Клиент всегда мёртв", "Six Feet Under", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["dark", "space", "war"], ["Клиент всегда мёртв", "Six Feet Under"], "Клиент всегда мёртв");
-    x.wikiEn = "Six Feet Under (TV series)";
-    x.wikiRu = "Клиент всегда мёртв";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq139849", "Все тип-топ, или жизнь на борту", "The Suite Life on Deck", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Все тип-топ, или жизнь на борту", "The Suite Life on Deck"], "Все тип-топ, или жизнь на борту");
-    x.wikiEn = "The Suite Life on Deck";
-    x.wikiRu = "Всё тип-топ, или Жизнь на борту";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq19570", "Хорошая жена", "The Good Wife", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["kids", "slow", "irony"], ["Хорошая жена", "The Good Wife"], "Хорошая жена");
-    x.wikiEn = "The Good Wife";
-    x.wikiRu = "Хорошая жена (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq212807", "Шпионка", "Alias", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["kids", "slow", "irony"], ["Шпионка", "Alias"], "Шпионка");
-    x.wikiEn = "Alias (TV series)";
-    x.wikiRu = "Шпионка (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq598499", "Тихий океан", "The Pacific", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "irony", "sport"], ["Тихий океан", "The Pacific"], "Тихий океан");
-    x.wikiEn = "The Pacific (miniseries)";
-    x.wikiRu = "Тихий океан (мини-сериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq662342", "К-19", "K-19: The Widowmaker", 2002, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["К-19", "K-19: The Widowmaker"], "К-19 2002");
-    x.wikiEn = "K-19: The Widowmaker";
-    x.wikiRu = "К-19 (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq25182", "Обмани меня", "Lie to Me", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["Обмани меня", "Lie to Me"], "Обмани меня");
-    x.wikiEn = "Lie to Me";
-    x.wikiRu = "Обмани меня (телесериал, 2009)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq221230", "Части тела", "Nip/Tuck", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "romance"], ["Части тела", "Nip/Tuck"], "Части тела");
-    x.wikiEn = "Nip/Tuck";
-    x.wikiRu = "Части тела (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq212156", "Ангел", "Angel", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Ангел", "Angel"], "Ангел");
-    x.wikiEn = "Angel (1999 TV series)";
-    x.wikiRu = "Ангел (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq728443", "Гавайи 5.0", "Hawaii Five-0", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["dark", "space", "war"], ["Гавайи 5.0", "Hawaii Five-0"], "Гавайи 5.0");
-    x.wikiEn = "Hawaii Five-0 (2010 TV series)";
-    x.wikiRu = "Гавайи 5.0";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq79997521", "Start-Up", "Start-Up", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["crime", "irony", "family"], ["Start-Up"], "Start-Up");
-    x.wikiEn = "Start-Up (South Korean TV series)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq208568", "Все любят Рэймонда", "Everybody Loves Raymond", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "horror", "heist"], ["Все любят Рэймонда", "Everybody Loves Raymond"], "Все любят Рэймонда");
-    x.wikiEn = "Everybody Loves Raymond";
-    x.wikiRu = "Все любят Рэймонда";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1138968", "Ностальгия", "Nostalghia", 1983, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["Ностальгия", "Nostalghia"], "Ностальгия 1983");
-    x.wikiEn = "Nostalghia";
-    x.wikiRu = "Ностальгия (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq11622", "Светлячок", "Firefly", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "romance"], ["Светлячок", "Firefly"], "Светлячок");
-    x.wikiEn = "Firefly (TV series)";
-    x.wikiRu = "Светлячок (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq21980662", "Лунные влюблённые — Алые сердца: Корё", "Moon Lovers: Scarlet Heart Ryeo", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["fantasy", "family"], ["Лунные влюблённые — Алые сердца: Корё", "Moon Lovers: Scarlet Heart Ryeo"], "Лунные влюблённые — Алые сердца: Корё");
-    x.wikiEn = "Moon Lovers: Scarlet Heart Ryeo";
-    x.wikiRu = "Лунные влюблённые — Алые сердца: Корё";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq308700", "Танцевальная лихорадка", "Shake It Up", 2011, "\u0441\u0435\u0440\u0438\u0430\u043b", ["war", "heist", "tempo"], ["Танцевальная лихорадка", "Shake It Up"], "Танцевальная лихорадка 2011");
-    x.wikiEn = "Shake It Up (American TV series)";
-    x.wikiRu = "Танцевальная лихорадка!";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq714524", "Летят журавли", "The Cranes Are Flying", 1957, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Летят журавли", "The Cranes Are Flying"], "Летят журавли 1957");
-    x.wikiEn = "The Cranes Are Flying";
-    x.wikiRu = "Летят журавли";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq326731", "Тюдоры", "The Tudors", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "street", "space"], ["Тюдоры", "The Tudors"], "Тюдоры");
-    x.wikiEn = "The Tudors";
-    x.wikiRu = "Тюдоры (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq247643", "Элементарно", "Elementary", 2013, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Элементарно", "Elementary"], "Элементарно 2013");
-    x.wikiEn = "Elementary (TV series)";
-    x.wikiRu = "Элементарно (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq16862534", "Как избежать наказания за убийство", "How to Get Away with Murder", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["Как избежать наказания за убийство", "How to Get Away with Murder"], "Как избежать наказания за убийство");
-    x.wikiEn = "How to Get Away with Murder";
-    x.wikiRu = "Как избежать наказания за убийство";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq21296543", "Звёздный путь: Дискавери", "Star Trek: Discovery", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Звёздный путь: Дискавери", "Star Trek: Discovery"], "Звёздный путь: Дискавери");
-    x.wikiEn = "Star Trek: Discovery";
-    x.wikiRu = "Звёздный путь: Дискавери";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq64584978", "Эмили в Париже", "Emily in Paris", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["space", "romance", "slick-urban"], ["Эмили в Париже", "Emily in Paris"], "Эмили в Париже");
-    x.wikiEn = "Emily in Paris";
-    x.wikiRu = "Эмили в Париже";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq23770993", "Стыд", "Skam", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "irony", "sport"], ["Стыд", "Skam"], "Стыд");
-    x.wikiEn = "Skam (TV series)";
-    x.wikiRu = "Стыд (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2306068", "Белое солнце пустыни", "White Sun of the Desert", 1969, "\u0444\u0438\u043b\u044c\u043c", ["romance", "fantasy", "slick-urban"], ["Белое солнце пустыни", "White Sun of the Desert"], "Белое солнце пустыни 1969");
-    x.wikiEn = "White Sun of the Desert";
-    x.wikiRu = "Белое солнце пустыни";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq390120", "Торчвуд", "Torchwood", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["fantasy", "family"], ["Торчвуд", "Torchwood"], "Торчвуд");
-    x.wikiEn = "Torchwood";
-    x.wikiRu = "Торчвуд";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq4307100", "Первородные", "The Originals", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Первородные", "The Originals"], "Первородные");
-    x.wikiEn = "The Originals (TV series)";
-    x.wikiRu = "Древние (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq136813219", "Жаркое соперничество", "Heated Rivalry", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Жаркое соперничество", "Heated Rivalry"], "Жаркое соперничество");
-    x.wikiEn = "Heated Rivalry";
-    x.wikiRu = "Жаркое соперничество";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2947967", "Под куполом", "Under the Dome", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "kids", "slow"], ["Под куполом", "Under the Dome"], "Под куполом");
-    x.wikiEn = "Under the Dome (TV series)";
-    x.wikiRu = "Под куполом (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq108441863", "Секретное вторжение", "Secret Invasion", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["war", "heist", "tempo"], ["Секретное вторжение", "Secret Invasion"], "Секретное вторжение");
-    x.wikiEn = "Secret Invasion (miniseries)";
-    x.wikiRu = "Секретное вторжение (сериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq559321", "Полиция Майами", "Miami Vice", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Полиция Майами", "Miami Vice"], "Полиция Майами");
-    x.wikiEn = "Miami Vice";
-    x.wikiRu = "Полиция Майами";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq617274", "Ангелы Чарли", "Charlie's Angels", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Ангелы Чарли", "Charlie's Angels"], "Ангелы Чарли");
-    x.wikiEn = "Charlie's Angels";
-    x.wikiRu = "Ангелы Чарли (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq888841", "Ганнибал", "Hannibal", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["romance", "tempo", "kids"], ["Ганнибал", "Hannibal"], "Ганнибал");
-    x.wikiEn = "Hannibal (TV series)";
-    x.wikiRu = "Ганнибал (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq82729", "Дерзкие и красивые", "The Bold and the Beautiful", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Дерзкие и красивые", "The Bold and the Beautiful"], "Дерзкие и красивые");
-    x.wikiEn = "The Bold and the Beautiful";
-    x.wikiRu = "Дерзкие и красивые";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq23619", "Близкие друзья", "Queer as Folk", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["sport", "fantasy", "horror"], ["Близкие друзья", "Queer as Folk"], "Близкие друзья");
-    x.wikiEn = "Queer as Folk (2000 TV series)";
-    x.wikiRu = "Близкие друзья (телесериал, 2000)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq16942035", "Мое сердце твоё", "Mi corazón es tuyo", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Мое сердце твоё", "Mi corazón es tuyo"], "Мое сердце твоё");
-    x.wikiEn = "Mi corazón es tuyo";
-    x.wikiRu = "Моё сердце твоё";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq25205293", "Озарк", "Ozark", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["space", "romance", "slick-urban"], ["Озарк", "Ozark"], "Озарк");
-    x.wikiEn = "Ozark (TV series)";
-    x.wikiRu = "Озарк (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq189350", "Студия 30", "30 Rock", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Студия 30", "30 Rock"], "Студия 30");
-    x.wikiEn = "30 Rock";
-    x.wikiRu = "Студия 30";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq945030", "Улица Коронации", "Coronation Street", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "irony", "sport"], ["Улица Коронации", "Coronation Street"], "Улица Коронации");
-    x.wikiEn = "Coronation Street";
-    x.wikiRu = "Улица Коронации";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq5174583", "Космос: пространство и время", "Cosmos: A Spacetime Odyssey", 2014, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "comedy"], ["Космос: пространство и время", "Cosmos: A Spacetime Odyssey"], "Космос: пространство и время 2014");
-    x.wikiEn = "Cosmos: A Spacetime Odyssey";
-    x.wikiRu = "Космос: пространство и время";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq18605540", "Джессика Джонс", "Jessica Jones", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "romance"], ["Джессика Джонс", "Jessica Jones"], "Джессика Джонс");
-    x.wikiEn = "Jessica Jones (TV series)";
-    x.wikiRu = "Джессика Джонс (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq385494", "Возвращение", "The Return", 2003, "\u0444\u0438\u043b\u044c\u043c", ["romance", "fantasy", "slick-urban"], ["Возвращение", "The Return"], "Возвращение 2003");
-    x.wikiEn = "The Return (2003 film)";
-    x.wikiRu = "Возвращение (фильм, 2003, Россия)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq218567", "Закон и порядок: Специальный корпус", "Law & Order: Special Victims Unit", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "horror", "heist"], ["Закон и порядок: Специальный корпус", "Law & Order: Special Victims Unit"], "Закон и порядок: Специальный корпус");
-    x.wikiEn = "Law & Order: Special Victims Unit";
-    x.wikiRu = "Закон и порядок: Специальный корпус";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq212731", "Башни Фолти", "Fawlty Towers", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["Башни Фолти", "Fawlty Towers"], "Башни Фолти");
-    x.wikiEn = "Fawlty Towers";
-    x.wikiRu = "Башни Фолти";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1953944", "Кавказская пленница, или Новые приключения Шурика", "Kidnapping, Caucasian Style", 1967, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Кавказская пленница, или Новые приключения Шурика", "Kidnapping, Caucasian Style"], "Кавказская пленница, или Новые приключения Шурика 1967");
-    x.wikiEn = "Kidnapping, Caucasian Style";
-    x.wikiRu = "Кавказская пленница, или Новые приключения Шурика";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq22908690", "В лучшем мире", "The Good Place", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["В лучшем мире", "The Good Place"], "В лучшем мире");
-    x.wikiEn = "The Good Place";
-    x.wikiRu = "В лучшем мире";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq219942", "Дайте Санни шанс", "Sonny with a Chance", 2010, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Дайте Санни шанс", "Sonny with a Chance"], "Дайте Санни шанс 2010");
-    x.wikiEn = "Sonny with a Chance";
-    x.wikiRu = "Дайте Санни шанс";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq742103", "Сумеречная зона", "The Twilight Zone", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Сумеречная зона", "The Twilight Zone"], "Сумеречная зона");
-    x.wikiEn = "The Twilight Zone";
-    x.wikiRu = "Сумеречная зона (телесериал, 1959)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq216792", "Секс в другом городе", "The L Word", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Секс в другом городе", "The L Word"], "Секс в другом городе");
-    x.wikiEn = "The L Word";
-    x.wikiRu = "Секс в другом городе";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq130615", "H₂O: Просто добавь воды", "H₂O: Just Add Water", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["H₂O: Просто добавь воды", "H₂O: Just Add Water"], "H₂O: Просто добавь воды");
-    x.wikiEn = "H2O: Just Add Water";
-    x.wikiRu = "H2O: Просто добавь воды";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq461357", "Бухта Доусона", "Dawson's Creek", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Бухта Доусона", "Dawson's Creek"], "Бухта Доусона");
-    x.wikiEn = "Dawson's Creek";
-    x.wikiRu = "Бухта Доусона";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq48758", "Ясновидец (телесериал, 2006)", "Psych", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["crime", "irony", "family"], ["Ясновидец (телесериал, 2006)", "Psych"], "Ясновидец (телесериал, 2006)");
-    x.wikiEn = "Psych";
-    x.wikiRu = "Ясновидец (телесериал, 2006)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq21148896", "Железный кулак", "Iron Fist", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["kids", "slow", "irony"], ["Железный кулак", "Iron Fist"], "Железный кулак");
-    x.wikiEn = "Iron Fist (TV series)";
-    x.wikiRu = "Железный кулак (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq500032", "Комиссар Рекс", "Inspector Rex", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "romance"], ["Комиссар Рекс", "Inspector Rex"], "Комиссар Рекс");
-    x.wikiEn = "Inspector Rex";
-    x.wikiRu = "Комиссар Рекс";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq30636463", "Конец ***го мира", "The End of the F***ing World", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "comedy"], ["Конец ***го мира", "The End of the F***ing World"], "Конец ***го мира");
-    x.wikiEn = "The End of the F***ing World";
-    x.wikiRu = "Конец ***го мира";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq623222", "Сэм и Кэт", "Sam & Cat", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Сэм и Кэт", "Sam & Cat"], "Сэм и Кэт");
-    x.wikiEn = "Sam & Cat";
-    x.wikiRu = "Сэм и Кэт";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq152108", "Семейство Кардашян", "Keeping Up with the Kardashians", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Семейство Кардашян", "Keeping Up with the Kardashians"], "Семейство Кардашян");
-    x.wikiEn = "Keeping Up with the Kardashians";
-    x.wikiRu = "Семейство Кардашьян";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq464009", "Рыцарь дорог", "Knight Rider", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "kids", "slow"], ["Рыцарь дорог", "Knight Rider"], "Рыцарь дорог");
-    x.wikiEn = "Knight Rider (1982 TV series)";
-    x.wikiRu = "Рыцарь дорог (телесериал, 1982)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1305092", "Баллада о солдате", "Ballad of a Soldier", 1959, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Баллада о солдате", "Ballad of a Soldier"], "Баллада о солдате 1959");
-    x.wikiEn = "Ballad of a Soldier";
-    x.wikiRu = "Баллада о солдате";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq13806247", "№ 44", "Child 44", 2015, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["№ 44", "Child 44"], "№ 44 2015");
-    x.wikiEn = "Child 44 (film)";
-    x.wikiRu = "Номер 44";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1156836", "Октябрь", "October: Ten Days That Shook the World", 1927, "\u0444\u0438\u043b\u044c\u043c", ["sport", "family", "irony"], ["Октябрь", "October: Ten Days That Shook the World"], "Октябрь 1927");
-    x.wikiEn = "October: Ten Days That Shook the World";
-    x.wikiRu = "Октябрь (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1409627", "Тени забытых предков", "Shadows of Forgotten Ancestors", 1964, "\u0444\u0438\u043b\u044c\u043c", ["war", "tempo", "street"], ["Тени забытых предков", "Shadows of Forgotten Ancestors"], "Тени забытых предков 1964");
-    x.wikiEn = "Shadows of Forgotten Ancestors";
-    x.wikiRu = "Тени забытых предков";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq151177", "Стачка", "Strike", 1925, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["Стачка", "Strike"], "Стачка 1925");
-    x.wikiEn = "Strike (1925 film)";
-    x.wikiRu = "Стачка (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq464536", "Табор уходит в небо", "Queen of the Gypsies", 1976, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Табор уходит в небо", "Queen of the Gypsies"], "Табор уходит в небо 1976");
-    x.wikiEn = "Gypsies Are Found Near Heaven";
-    x.wikiRu = "Табор уходит в небо";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2235380", "Цвет граната", "The Color of Pomegranates", 1969, "\u0444\u0438\u043b\u044c\u043c", ["slow", "slick-urban", "fantasy"], ["Цвет граната", "The Color of Pomegranates"], "Цвет граната 1969");
-    x.wikiEn = "The Color of Pomegranates";
-    x.wikiRu = "Цвет граната";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq390076", "Братья и сёстры", "Brothers & Sisters", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Братья и сёстры", "Brothers & Sisters"], "Братья и сёстры");
-    x.wikiEn = "Brothers & Sisters (2006 TV series)";
-    x.wikiRu = "Братья и сёстры (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq578623", "Тёмный ангел", "Dark Angel", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["heist", "crime", "chaotic"], ["Тёмный ангел", "Dark Angel"], "Тёмный ангел");
-    x.wikiEn = "Dark Angel (American TV series)";
-    x.wikiRu = "Тёмный ангел (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq19756164", "Сумеречные охотники", "Shadowhunters", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["kids", "slow", "irony"], ["Сумеречные охотники", "Shadowhunters"], "Сумеречные охотники");
-    x.wikiEn = "Shadowhunters";
-    x.wikiRu = "Сумеречные охотники";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq18389644", "Пространство", "The Expanse", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slick-urban", "ambition", "slow"], ["Пространство", "The Expanse"], "Пространство");
-    x.wikiEn = "The Expanse (TV series)";
-    x.wikiRu = "Пространство (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq110652727", "Задача трёх тел", "3 Body Problem", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["romance", "tempo", "kids"], ["Задача трёх тел", "3 Body Problem"], "Задача трёх тел");
-    x.wikiEn = "3 Body Problem (TV series)";
-    x.wikiRu = "Задача трёх тел (телесериал, 2024)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq834868", "Борджиа", "The Borgias", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["romance", "tempo", "kids"], ["Борджиа", "The Borgias"], "Борджиа");
-    x.wikiEn = "The Borgias (2011 TV series)";
-    x.wikiRu = "Борджиа (телесериал, Канада — Венгрия — Ирландия)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq50809037", "Леденящие душу приключения Сабрины", "Chilling Adventures of Sabrina", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Леденящие душу приключения Сабрины", "Chilling Adventures of Sabrina"], "Леденящие душу приключения Сабрины");
-    x.wikiEn = "Chilling Adventures of Sabrina (TV series)";
-    x.wikiRu = "Леденящие душу приключения Сабрины";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq512977", "Андромеда", "Andromeda", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["heist", "crime", "chaotic"], ["Андромеда", "Andromeda"], "Андромеда");
-    x.wikiEn = "Andromeda (TV series)";
-    x.wikiRu = "Андромеда (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq126284846", "Моя любовь вне времени", "Mi amor sin tiempo", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slick-urban", "ambition", "slow"], ["Моя любовь вне времени", "Mi amor sin tiempo"], "Моя любовь вне времени");
-    x.wikiEn = "Mi amor sin tiempo";
-    x.wikiRu = "Моя любовь вне времени";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1976180", "Виолетта", "Violetta", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Виолетта", "Violetta"], "Виолетта");
-    x.wikiEn = "Violetta (TV series)";
-    x.wikiRu = "Виолетта (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2528155", "Служебный роман", "Office Romance", 1977, "\u0444\u0438\u043b\u044c\u043c", ["comedy", "horror", "kids"], ["Служебный роман", "Office Romance"], "Служебный роман 1977");
-    x.wikiEn = "Office Romance";
-    x.wikiRu = "Служебный роман";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq18209262", "Американская история преступлений", "American Crime Story", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Американская история преступлений", "American Crime Story"], "Американская история преступлений");
-    x.wikiEn = "American Crime Story";
-    x.wikiRu = "Американская история преступлений";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq278375", "Высший класс", "A.N.T. Farm", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["space", "romance", "slick-urban"], ["Высший класс", "A.N.T. Farm"], "Высший класс");
-    x.wikiEn = "A.N.T. Farm";
-    x.wikiRu = "Высший класс (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq465616", "Чудаки", "Jackass", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["dark", "space", "war"], ["Чудаки", "Jackass"], "Чудаки");
-    x.wikiEn = "Jackass (franchise)";
-    x.wikiRu = "Чудаки (франшиза)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq185059", "Дни нашей жизни", "Days of Our Lives", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["dark", "space", "war"], ["Дни нашей жизни", "Days of Our Lives"], "Дни нашей жизни");
-    x.wikiEn = "Days of Our Lives";
-    x.wikiRu = "Дни нашей жизни (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq862187", "Бонанца", "Bonanza", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["space", "romance", "slick-urban"], ["Бонанца", "Bonanza"], "Бонанца");
-    x.wikiEn = "Bonanza";
-    x.wikiRu = "Бонанза";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq425628", "Алло, алло!", "'Allo 'Allo!", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Алло, алло!", "'Allo 'Allo!"], "Алло, алло!");
-    x.wikiEn = "'Allo 'Allo!";
-    x.wikiRu = "Алло, алло!";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq470111", "Медиум", "Medium", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["romance", "tempo", "kids"], ["Медиум", "Medium"], "Медиум");
-    x.wikiEn = "Medium (TV series)";
-    x.wikiRu = "Медиум (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq117662601", "Гарри Поттер", "Harry Potter", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Гарри Поттер", "Harry Potter"], "Гарри Поттер");
-    x.wikiEn = "Harry Potter (TV series)";
-    x.wikiRu = "Гарри Поттер (сериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq16802335", "Морская полиция: Новый Орлеан", "NCIS: New Orleans", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["space", "romance", "slick-urban"], ["Морская полиция: Новый Орлеан", "NCIS: New Orleans"], "Морская полиция: Новый Орлеан");
-    x.wikiEn = "NCIS: New Orleans";
-    x.wikiRu = "Морская полиция: Новый Орлеан";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1338655", "The Tonight Show", "The Tonight Show", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "romance"], ["The Tonight Show"], "The Tonight Show");
-    x.wikiEn = "The Tonight Show";
-    x.wikiRu = "The Tonight Show";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq122155720", "Одна из многих", "Pluribus", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["heist", "crime", "chaotic"], ["Одна из многих", "Pluribus"], "Одна из многих");
-    x.wikiEn = "Pluribus (TV series)";
-    x.wikiRu = "Одна из многих (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq27089570", "Каратель", "The Punisher", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["sport", "fantasy", "horror"], ["Каратель", "The Punisher"], "Каратель");
-    x.wikiEn = "The Punisher (TV series)";
-    x.wikiRu = "Каратель (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq635717", "Лиззи Магуайер", "Lizzie McGuire", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "horror", "heist"], ["Лиззи Магуайер", "Lizzie McGuire"], "Лиззи Магуайер");
-    x.wikiEn = "Lizzie McGuire";
-    x.wikiRu = "Лиззи Магуайер";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq21149", "бегущий человек", "Running Man", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["fantasy", "family"], ["бегущий человек", "Running Man"], "бегущий человек");
-    x.wikiEn = "Running Man (TV program)";
-    x.wikiRu = "Running Man";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq484986", "Jumong", "Jumong", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["Jumong"], "Jumong");
-    x.wikiEn = "Jumong (TV series)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq15956708", "Кремниевая долина", "Silicon Valley", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "street", "space"], ["Кремниевая долина", "Silicon Valley"], "Кремниевая долина");
-    x.wikiEn = "Silicon Valley (TV series)";
-    x.wikiRu = "Кремниевая долина (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq652015", "Росалинда", "Rosalinda", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["sport", "fantasy", "horror"], ["Росалинда", "Rosalinda"], "Росалинда");
-    x.wikiEn = "Rosalinda (Mexican TV series)";
-    x.wikiRu = "Росалинда (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq794784", "Запретная любовь", "Aşk-ı Memnu", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["Запретная любовь", "Aşk-ı Memnu"], "Запретная любовь");
-    x.wikiEn = "Aşk-ı Memnu (2008 TV series)";
-    x.wikiRu = "Запретная любовь (телесериал, Турция, 2008)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1324189", "Домой и в путь", "Home and Away", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["crime", "irony", "family"], ["Домой и в путь", "Home and Away"], "Домой и в путь");
-    x.wikiEn = "Home and Away";
-    x.wikiRu = "Дома и в пути";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq6757674", "Марко Поло", "Marco Polo", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "irony", "sport"], ["Марко Поло", "Marco Polo"], "Марко Поло");
-    x.wikiEn = "Marco Polo (2014 TV series)";
-    x.wikiRu = "Марко Поло (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq27049581", "Нелюбовь", "Loveless", 2017, "\u0444\u0438\u043b\u044c\u043c", ["street", "heist"], ["Нелюбовь", "Loveless"], "Нелюбовь 2017");
-    x.wikiEn = "Loveless (film)";
-    x.wikiRu = "Нелюбовь (фильм, 2017)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq22774205", "W", "W", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "romance"], ["W"], "W");
-    x.wikiEn = "W (TV series)";
-    x.wikiRu = "W (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq108124282", "Железное сердце", "Ironheart", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Железное сердце", "Ironheart"], "Железное сердце");
-    x.wikiEn = "Ironheart (miniseries)";
-    x.wikiRu = "Железное сердце (сериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq885643", "Голубая кровь", "Blue Bloods", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Голубая кровь", "Blue Bloods"], "Голубая кровь");
-    x.wikiEn = "Blue Bloods";
-    x.wikiRu = "Голубая кровь (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq276180", "Служба новостей", "The Newsroom", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slick-urban", "ambition", "slow"], ["Служба новостей", "The Newsroom"], "Служба новостей");
-    x.wikiEn = "The Newsroom (American TV series)";
-    x.wikiRu = "Служба новостей (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq218591", "Terra Nova", "Terra Nova", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Terra Nova"], "Terra Nova");
-    x.wikiEn = "Terra Nova (TV series)";
-    x.wikiRu = "Терра Нова (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq9197118", "Грозная семейка", "The Thundermans", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["fantasy", "family"], ["Грозная семейка", "The Thundermans"], "Грозная семейка");
-    x.wikiEn = "The Thundermans";
-    x.wikiRu = "Грозная семейка";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq234386", "4400", "The 4400", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["4400", "The 4400"], "4400");
-    x.wikiEn = "The 4400";
-    x.wikiRu = "4400";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq56195117", "Тёмные начала", "His Dark Materials", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["Тёмные начала", "His Dark Materials"], "Тёмные начала");
-    x.wikiEn = "His Dark Materials (TV series)";
-    x.wikiRu = "Тёмные начала (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq19820021", "Продюсер", "Producer", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Продюсер", "Producer"], "Продюсер");
-    x.wikiEn = "The Producers (TV series)";
-    x.wikiRu = "Продюсер (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq625110", "Джентльмены удачи", "Gentlemen of Fortune", 1971, "\u0444\u0438\u043b\u044c\u043c", ["horror", "space", "crime"], ["Джентльмены удачи", "Gentlemen of Fortune"], "Джентльмены удачи 1971");
-    x.wikiEn = "Gentlemen of Fortune";
-    x.wikiRu = "Джентльмены удачи";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq217276", "Jonas L.A.", "Jonas", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Jonas L.A.", "Jonas"], "Jonas L.A.");
-    x.wikiEn = "Jonas (TV series)";
-    x.wikiRu = "Jonas L.A.";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq323722", "Мотель Бейтса", "Bates Motel", 2013, "\u0441\u0435\u0440\u0438\u0430\u043b", ["sport", "fantasy", "horror"], ["Мотель Бейтса", "Bates Motel"], "Мотель Бейтса 2013");
-    x.wikiEn = "Bates Motel (TV series)";
-    x.wikiRu = "Мотель Бейтс";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq16692754", "Битва за Севастополь", "Battle for Sevastopol", 2015, "\u0444\u0438\u043b\u044c\u043c", ["comedy", "horror", "kids"], ["Битва за Севастополь", "Battle for Sevastopol"], "Битва за Севастополь 2015");
-    x.wikiEn = "Battle for Sevastopol";
-    x.wikiRu = "Битва за Севастополь (фильм, 2015)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq18844750", "Человек в высоком замке", "The Man in the High Castle", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["war", "heist", "tempo"], ["Человек в высоком замке", "The Man in the High Castle"], "Человек в высоком замке");
-    x.wikiEn = "The Man in the High Castle (TV series)";
-    x.wikiRu = "Человек в высоком замке (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq840657", "Эзель", "Ezel", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["crime", "irony", "family"], ["Эзель", "Ezel"], "Эзель");
-    x.wikiEn = "Ezel (TV series)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq369111", "Миссия невыполнима", "Mission: Impossible", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "irony", "sport"], ["Миссия невыполнима", "Mission: Impossible"], "Миссия невыполнима");
-    x.wikiEn = "Mission: Impossible (1966 TV series)";
-    x.wikiRu = "Миссия невыполнима (телесериал, 1966)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq112845107", "Оно: Добро пожаловать в Дерри", "It: Welcome to Derry", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "comedy"], ["Оно: Добро пожаловать в Дерри", "It: Welcome to Derry"], "Оно: Добро пожаловать в Дерри");
-    x.wikiEn = "It – Welcome to Derry";
-    x.wikiRu = "Оно: Добро пожаловать в Дерри";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq552725", "Сталинград", "Stalingrad", 2013, "\u0444\u0438\u043b\u044c\u043c", ["crime", "irony", "family"], ["Сталинград", "Stalingrad"], "Сталинград 2013");
-    x.wikiEn = "Stalingrad (2013 film)";
-    x.wikiRu = "Сталинград (фильм, 2013)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq62573305", "Звёздный путь: Пикар", "Star Trek: Picard", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "comedy"], ["Звёздный путь: Пикар", "Star Trek: Picard"], "Звёздный путь: Пикар");
-    x.wikiEn = "Star Trek: Picard";
-    x.wikiRu = "Звёздный путь: Пикар";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq39323920", "Я не робот", "I'm Not a Robot", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "comedy"], ["Я не робот", "I'm Not a Robot"], "Я не робот");
-    x.wikiEn = "I'm Not a Robot";
-    x.wikiRu = "Я не робот";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq13475479", "Чёрные паруса", "Black Sails", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "irony", "sport"], ["Чёрные паруса", "Black Sails"], "Чёрные паруса");
-    x.wikiEn = "Black Sails (TV series)";
-    x.wikiRu = "Чёрные паруса";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq589569", "Плохие", "Misfits", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["sport", "fantasy", "horror"], ["Плохие", "Misfits"], "Плохие");
-    x.wikiEn = "Misfits (TV series)";
-    x.wikiRu = "Плохие";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq84147", "Анна Каренина", "Anna Karenina", 1997, "\u0444\u0438\u043b\u044c\u043c", ["comedy", "horror", "kids"], ["Анна Каренина", "Anna Karenina"], "Анна Каренина 1997");
-    x.wikiEn = "Anna Karenina (1997 film)";
-    x.wikiRu = "Анна Каренина (фильм, 1997)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq111676994", "Эхо", "Echo", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Эхо", "Echo"], "Эхо");
-    x.wikiEn = "Echo (miniseries)";
-    x.wikiRu = "Эхо (сериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq20062598", "Мой призрак", "Oh My Ghostess", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Мой призрак", "Oh My Ghostess"], "Мой призрак");
-    x.wikiEn = "Oh My Ghost (South Korean TV series)";
-    x.wikiRu = "Мой призрак";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq59721", "Русский ковчег", "Russian Ark", 2002, "\u0444\u0438\u043b\u044c\u043c", ["comedy", "horror", "kids"], ["Русский ковчег", "Russian Ark"], "Русский ковчег 2002");
-    x.wikiEn = "Russian Ark";
-    x.wikiRu = "Русский ковчег";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq256527", "Спин-Сити", "Spin City", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Спин-Сити", "Spin City"], "Спин-Сити");
-    x.wikiEn = "Spin City";
-    x.wikiRu = "Спин-Сити";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq21205134", "Чёрная любовь", "Endless Love", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "street", "space"], ["Чёрная любовь", "Endless Love"], "Чёрная любовь");
-    x.wikiEn = "Endless Love (2015 TV series)";
-    x.wikiRu = "Чёрная любовь (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2712854", "Подсолнухи", "Sunflower", 1970, "\u0444\u0438\u043b\u044c\u043c", ["war", "tempo", "street"], ["Подсолнухи", "Sunflower"], "Подсолнухи 1970");
-    x.wikiEn = "Sunflower (1970 film)";
-    x.wikiRu = "Подсолнухи (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq380803", "Аэлита", "Aelita", 1924, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["Аэлита", "Aelita"], "Аэлита 1924");
-    x.wikiEn = "Aelita (film)";
-    x.wikiRu = "Аэлита (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq556444", "Britain’s Got Talent", "Britain's Got Talent", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["dark", "space", "war"], ["Britain’s Got Talent", "Britain's Got Talent"], "Britain’s Got Talent");
-    x.wikiEn = "Britain's Got Talent";
-    x.wikiRu = "Britain’s Got Talent";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1415194", "Кин-дза-дза!", "Kin-dza-dza!", 1986, "\u0444\u0438\u043b\u044c\u043c", ["romance", "fantasy", "slick-urban"], ["Кин-дза-дза!", "Kin-dza-dza!"], "Кин-дза-дза! 1986");
-    x.wikiEn = "Kin-dza-dza!";
-    x.wikiRu = "Кин-дза-дза!";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq30611820", "9-1-1", "9-1-1", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["9-1-1"], "9-1-1");
-    x.wikiEn = "9-1-1 (TV series)";
-    x.wikiRu = "9-1-1 (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq21528692", "11.22.63", "11.22.63", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["11.22.63"], "11.22.63");
-    x.wikiEn = "11.22.63";
-    x.wikiRu = "11.22.63";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2813828", "Банши", "Banshee", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Банши", "Banshee"], "Банши");
-    x.wikiEn = "Banshee (TV series)";
-    x.wikiRu = "Банши (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq913989", "Узурпаторша", "La usurpadora", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["Узурпаторша", "La usurpadora"], "Узурпаторша");
-    x.wikiEn = "La usurpadora (1998 TV series)";
-    x.wikiRu = "Узурпаторша (телесериал, 1998)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq456666", "На краю Вселенной", "Farscape", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "romance"], ["На краю Вселенной", "Farscape"], "На краю Вселенной");
-    x.wikiEn = "Farscape";
-    x.wikiRu = "На краю Вселенной";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq48744320", "Новобранец", "The Rookie", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Новобранец", "The Rookie"], "Новобранец");
-    x.wikiEn = "The Rookie";
-    x.wikiRu = "Новичок (телесериал, 2018)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq908708", "Соседи", "Neighbours", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["space", "romance", "slick-urban"], ["Соседи", "Neighbours"], "Соседи");
-    x.wikiEn = "Neighbours";
-    x.wikiRu = "Соседи (телесериал, 1985)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq17111973", "Шиттс Крик", "Schitt's Creek", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Шиттс Крик", "Schitt's Creek"], "Шиттс Крик");
-    x.wikiEn = "Schitt's Creek";
-    x.wikiRu = "Шиттс Крик";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq20982361", "Хардкор", "Hardcore Henry", 2015, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Хардкор", "Hardcore Henry"], "Хардкор 2015");
-    x.wikiEn = "Hardcore Henry";
-    x.wikiRu = "Хардкор (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq739780", "Тюрьма Оз", "Oz", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Тюрьма Оз", "Oz"], "Тюрьма Оз");
-    x.wikiEn = "Oz (TV series)";
-    x.wikiRu = "Тюрьма Оз";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq265152", "Щит", "The Shield", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "irony", "sport"], ["Щит", "The Shield"], "Щит");
-    x.wikiEn = "The Shield";
-    x.wikiRu = "Щит (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1044635", "Моя жена меня приворожила", "Bewitched", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Моя жена меня приворожила", "Bewitched"], "Моя жена меня приворожила");
-    x.wikiEn = "Bewitched";
-    x.wikiRu = "Моя жена меня приворожила";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq15220426", "Прилив", "Medcezir", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Прилив", "Medcezir"], "Прилив");
-    x.wikiEn = "Medcezir";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq694106", "Шоу Опры Уинфри", "The Oprah Winfrey Show", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Шоу Опры Уинфри", "The Oprah Winfrey Show"], "Шоу Опры Уинфри");
-    x.wikiEn = "The Oprah Winfrey Show";
-    x.wikiRu = "Шоу Опры Уинфри";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq33323", "Все ненавидят Криса", "Everybody Hates Chris", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "comedy"], ["Все ненавидят Криса", "Everybody Hates Chris"], "Все ненавидят Криса");
-    x.wikiEn = "Everybody Hates Chris";
-    x.wikiRu = "Все ненавидят Криса";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq22988401", "Защитники", "The Defenders", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["fantasy", "family"], ["Защитники", "The Defenders"], "Защитники");
-    x.wikiEn = "The Defenders (miniseries)";
-    x.wikiRu = "Защитники (телесериал, 2017)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq637033", "Маленькая Британия", "Little Britain", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "street", "space"], ["Маленькая Британия", "Little Britain"], "Маленькая Британия");
-    x.wikiEn = "Little Britain (TV series)";
-    x.wikiRu = "Маленькая Британия";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq609274", "Полиция Нью-Йорка", "NYPD Blue", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["dark", "space", "war"], ["Полиция Нью-Йорка", "NYPD Blue"], "Полиция Нью-Йорка");
-    x.wikiEn = "NYPD Blue";
-    x.wikiRu = "Полиция Нью-Йорка (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq527965", "Расследования авиакатастроф", "Mayday", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Расследования авиакатастроф", "Mayday"], "Расследования авиакатастроф");
-    x.wikiEn = "Mayday (Canadian TV series)";
-    x.wikiRu = "Расследования авиакатастроф";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq714531", "А зори здесь тихие", "The Dawns Here Are Quiet", 1972, "\u0444\u0438\u043b\u044c\u043c", ["mind-power", "chaotic", "dark"], ["А зори здесь тихие", "The Dawns Here Are Quiet"], "А зори здесь тихие 1972");
-    x.wikiEn = "The Dawns Here Are Quiet (1972 film)";
-    x.wikiRu = "А зори здесь тихие (фильм, 1972)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq254689", "Частный детектив Магнум", "Magnum, P.I.", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Частный детектив Магнум", "Magnum, P.I."], "Частный детектив Магнум");
-    x.wikiEn = "Magnum, P.I.";
-    x.wikiRu = "Частный детектив Магнум (телесериал, 1980)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq855673", "Гордость и предубеждение", "Pride and Prejudice", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Гордость и предубеждение", "Pride and Prejudice"], "Гордость и предубеждение");
-    x.wikiEn = "Pride and Prejudice (1995 TV series)";
-    x.wikiRu = "Гордость и предубеждение (телесериал, 1995)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq618329", "Девчонки", "Girls", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "horror", "heist"], ["Девчонки", "Girls"], "Девчонки");
-    x.wikiEn = "Girls (TV series)";
-    x.wikiRu = "Девчонки (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq858778", "Позднее шоу с Дэвидом Леттерманом", "Late Show with David Letterman", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["kids", "slow", "irony"], ["Позднее шоу с Дэвидом Леттерманом", "Late Show with David Letterman"], "Позднее шоу с Дэвидом Леттерманом");
-    x.wikiEn = "Late Show with David Letterman";
-    x.wikiRu = "Позднее шоу с Дэвидом Леттерманом";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq590132", "Пат и Мат", "Pat & Mat", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["kids", "slow", "irony"], ["Пат и Мат", "Pat & Mat"], "Пат и Мат");
-    x.wikiEn = "Pat & Mat";
-    x.wikiRu = "Пат и Мат";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq109608844", "Аватар: Легенда об Аанге", "Avatar: The Last Airbender", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "kids", "slow"], ["Аватар: Легенда об Аанге", "Avatar: The Last Airbender"], "Аватар: Легенда об Аанге");
-    x.wikiEn = "Avatar: The Last Airbender (2024 TV series)";
-    x.wikiRu = "Аватар: Легенда об Аанге (сериал, 2024)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq825946", "Good Morning America", "Good Morning America", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Good Morning America"], "Good Morning America");
-    x.wikiEn = "Good Morning America";
-    x.wikiRu = "Good Morning America";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq390405", "Никита", "Nikita", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "irony", "sport"], ["Никита", "Nikita"], "Никита");
-    x.wikiEn = "Nikita (TV series)";
-    x.wikiRu = "Никита (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq108837156", "Агата: Дом Харкнесс", "Agatha All Along", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "street", "space"], ["Агата: Дом Харкнесс", "Agatha All Along"], "Агата: Дом Харкнесс");
-    x.wikiEn = "Agatha All Along";
-    x.wikiRu = "Это всё Агата";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq824192", "The Daily Show", "The Daily Show", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["The Daily Show"], "The Daily Show");
-    x.wikiEn = "The Daily Show";
-    x.wikiRu = "The Daily Show";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq832040", "Город пришельцев", "Roswell", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Город пришельцев", "Roswell"], "Город пришельцев");
-    x.wikiEn = "Roswell (TV series)";
-    x.wikiRu = "Город пришельцев";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq13099470", "Царство", "Reign", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["romance", "tempo", "kids"], ["Царство", "Reign"], "Царство");
-    x.wikiEn = "Reign (TV series)";
-    x.wikiRu = "Царство (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq682825", "Чёрная метка", "Burn Notice", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["heist", "crime", "chaotic"], ["Чёрная метка", "Burn Notice"], "Чёрная метка");
-    x.wikiEn = "Burn Notice";
-    x.wikiRu = "Чёрная метка (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq283393", "Частная практика", "Private Practice", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["dark", "space", "war"], ["Частная практика", "Private Practice"], "Частная практика");
-    x.wikiEn = "Private Practice (TV series)";
-    x.wikiRu = "Частная практика (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq64878719", "Основание: Осман", "Kuruluş: Osman", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["heist", "crime", "chaotic"], ["Основание: Осман", "Kuruluş: Osman"], "Основание: Осман");
-    x.wikiEn = "Kuruluş: Osman";
-    x.wikiRu = "Основание: Осман";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1045388", "Ночной Дозор", "Night Watch", 2004, "\u0444\u0438\u043b\u044c\u043c", ["war", "tempo", "street"], ["Ночной Дозор", "Night Watch"], "Ночной Дозор 2004");
-    x.wikiEn = "Night Watch (2004 film)";
-    x.wikiRu = "Ночной Дозор (фильм, 2004)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1807931", "Потомок Чингисхана", "Storm over Asia", 1928, "\u0444\u0438\u043b\u044c\u043c", ["war", "tempo", "street"], ["Потомок Чингисхана", "Storm over Asia"], "Потомок Чингисхана 1928");
-    x.wikiEn = "Storm over Asia (1928 film)";
-    x.wikiRu = "Потомок Чингисхана";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq22026371", "Молодой Папа", "The Young Pope", 2016, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Молодой Папа", "The Young Pope"], "Молодой Папа 2016");
-    x.wikiEn = "The Young Pope";
-    x.wikiRu = "Молодой Папа";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq17328326", "Опасный Генри", "Henry Danger", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Опасный Генри", "Henry Danger"], "Опасный Генри");
-    x.wikiEn = "Henry Danger";
-    x.wikiRu = "Опасный Генри";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq499767", "Jeopardy!", "Jeopardy!", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["sport", "fantasy", "horror"], ["Jeopardy!"], "Jeopardy!");
-    x.wikiEn = "Jeopardy!";
-    x.wikiRu = "Jeopardy!";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq790457", "Проспект Бразилии", "Avenida Brasil", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["space", "romance", "slick-urban"], ["Проспект Бразилии", "Avenida Brasil"], "Проспект Бразилии");
-    x.wikiEn = "Avenida Brasil (TV series)";
-    x.wikiRu = "Проспект Бразилии";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq15070575", "Штамм", "The Strain", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Штамм", "The Strain"], "Штамм");
-    x.wikiEn = "The Strain (TV series)";
-    x.wikiRu = "Штамм (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1604818", "Ватерлоо", "Waterloo", 1970, "\u0444\u0438\u043b\u044c\u043c", ["comedy", "horror", "kids"], ["Ватерлоо", "Waterloo"], "Ватерлоо 1970");
-    x.wikiEn = "Waterloo (1970 film)";
-    x.wikiRu = "Ватерлоо (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq153593", "Чапаев", "Chapaev", 1934, "\u0444\u0438\u043b\u044c\u043c", ["crime", "irony", "family"], ["Чапаев", "Chapaev"], "Чапаев 1934");
-    x.wikiEn = "Chapaev (film)";
-    x.wikiRu = "Чапаев (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1048856", "Все в семье", "All in the Family", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Все в семье", "All in the Family"], "Все в семье");
-    x.wikiEn = "All in the Family";
-    x.wikiRu = "Все в семье";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq29641", "Дымок из ствола", "Gunsmoke", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["kids", "slow", "irony"], ["Дымок из ствола", "Gunsmoke"], "Дымок из ствола");
-    x.wikiEn = "Gunsmoke";
-    x.wikiRu = "Дымок из ствола";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq15070536", "Девушка познаёт мир", "Girl Meets World", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["heist", "crime", "chaotic"], ["Девушка познаёт мир", "Girl Meets World"], "Девушка познаёт мир");
-    x.wikiEn = "Girl Meets World";
-    x.wikiRu = "Истории Райли";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq23016639", "Атланта", "Atlanta", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Атланта", "Atlanta"], "Атланта");
-    x.wikiEn = "Atlanta (TV series)";
-    x.wikiRu = "Атланта (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq7103920", "Тёмное дитя", "Orphan Black", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slick-urban", "ambition", "slow"], ["Тёмное дитя", "Orphan Black"], "Тёмное дитя");
-    x.wikiEn = "Orphan Black";
-    x.wikiRu = "Тёмное дитя";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq20656755", "Миллиарды", "Billions", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Миллиарды", "Billions"], "Миллиарды");
-    x.wikiEn = "Billions (TV series)";
-    x.wikiRu = "Миллиарды";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1519753", "Мимино", "Mimino", 1977, "\u0444\u0438\u043b\u044c\u043c", ["kids", "comedy", "sport"], ["Мимино", "Mimino"], "Мимино 1977");
-    x.wikiEn = "Mimino";
-    x.wikiRu = "Мимино";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1113702", "Остров", "The Island", 2006, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Остров", "The Island"], "Остров 2006");
-    x.wikiEn = "The Island (2006 film)";
-    x.wikiRu = "Остров (фильм, 2006)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq13417213", "Мамочка", "Mom", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Мамочка", "Mom"], "Мамочка");
-    x.wikiEn = "Mom (TV series)";
-    x.wikiRu = "Мамаша (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq753647", "Дрейк и Джош", "Drake & Josh", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["space", "romance", "slick-urban"], ["Дрейк и Джош", "Drake & Josh"], "Дрейк и Джош");
-    x.wikiEn = "Drake & Josh";
-    x.wikiRu = "Дрейк и Джош";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq15627692", "Последний корабль", "The Last Ship", 2014, "\u0441\u0435\u0440\u0438\u0430\u043b", ["sport", "fantasy", "horror"], ["Последний корабль", "The Last Ship"], "Последний корабль 2014");
-    x.wikiEn = "The Last Ship (TV series)";
-    x.wikiRu = "Последний корабль";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1214957", "Мать", "Mother", 1926, "\u0444\u0438\u043b\u044c\u043c", ["war", "tempo", "street"], ["Мать", "Mother"], "Мать 1926");
-    x.wikiEn = "Mother (1926 film)";
-    x.wikiRu = "Мать (фильм, 1926)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq21980653", "The Grand Tour", "The Grand Tour", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["fantasy", "family"], ["The Grand Tour"], "The Grand Tour");
-    x.wikiEn = "The Grand Tour";
-    x.wikiRu = "The Grand Tour";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq18810169", "Королевы крика", "Scream Queens", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["fantasy", "family"], ["Королевы крика", "Scream Queens"], "Королевы крика");
-    x.wikiEn = "Scream Queens (2015 TV series)";
-    x.wikiRu = "Королевы крика";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq113244844", "Сорвиголова: Рождённый заново", "Daredevil: Born Again", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["romance", "tempo", "kids"], ["Сорвиголова: Рождённый заново", "Daredevil: Born Again"], "Сорвиголова: Рождённый заново");
-    x.wikiEn = "Daredevil: Born Again";
-    x.wikiRu = "Сорвиголова: Рождённый заново";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1247180", "Истинная любовь", "Amor real", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Истинная любовь", "Amor real"], "Истинная любовь");
-    x.wikiEn = "Amor real";
-    x.wikiRu = "Истинная любовь (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq964657", "Фантом", "The Darkest Hour", 2011, "\u0444\u0438\u043b\u044c\u043c", ["war", "tempo", "street"], ["Фантом", "The Darkest Hour"], "Фантом 2011");
-    x.wikiEn = "The Darkest Hour (film)";
-    x.wikiRu = "Фантом (фильм, 2011)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq20472765", "Великолепный век: Империя Кёсем", "Muhteşem Yüzyıl: Kösem", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["romance", "tempo", "kids"], ["Великолепный век: Империя Кёсем", "Muhteşem Yüzyıl: Kösem"], "Великолепный век: Империя Кёсем");
-    x.wikiEn = "Muhteşem Yüzyıl: Kösem";
-    x.wikiRu = "Великолепный век. Империя Кёсем";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1321934", "Евровидение", "Eurovision Young Musicians", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Евровидение", "Eurovision Young Musicians"], "Евровидение");
-    x.wikiEn = "Eurovision Young Musicians";
-    x.wikiRu = "Евровидение (конкурс молодых музыкантов)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq806094", "Bananas In Pyjamas", "Bananas In Pyjamas", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Bananas In Pyjamas"], "Bananas In Pyjamas");
-    x.wikiEn = "Bananas in Pyjamas";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq924727", "Осторожно с ангелом", "Don't Mess with an Angel", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["heist", "crime", "chaotic"], ["Осторожно с ангелом", "Don't Mess with an Angel"], "Осторожно с ангелом");
-    x.wikiEn = "Cuidado con el ángel (2008 TV series)";
-    x.wikiRu = "Осторожно с ангелом (телесериал, 2008)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq996707", "В чём вина Фатмагюль?", "Fatmagül'ün Suçu Ne?", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["fantasy", "family"], ["В чём вина Фатмагюль?", "Fatmagül'ün Suçu Ne?"], "В чём вина Фатмагюль?");
-    x.wikiEn = "Fatmagül'ün Suçu ne?";
-    x.wikiRu = "В чём вина Фатмагюль?";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1543066", "Meet the Press", "Meet the Press", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Meet the Press"], "Meet the Press");
-    x.wikiEn = "Meet the Press";
-    x.wikiRu = "Meet the Press";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq30634329", "Удивительная миссис Мейзел", "The Marvelous Mrs. Maisel", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Удивительная миссис Мейзел", "The Marvelous Mrs. Maisel"], "Удивительная миссис Мейзел");
-    x.wikiEn = "The Marvelous Mrs. Maisel";
-    x.wikiRu = "Удивительная миссис Мейзел";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq93281114", "Супермен и Лоис", "Superman & Lois", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "romance"], ["Супермен и Лоис", "Superman & Lois"], "Супермен и Лоис");
-    x.wikiEn = "Superman & Lois";
-    x.wikiRu = "Супермен и Лоис";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq575696", "Город хищниц", "Cougar Town", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["fantasy", "family"], ["Город хищниц", "Cougar Town"], "Город хищниц");
-    x.wikiEn = "Cougar Town";
-    x.wikiRu = "Город хищниц";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq104161310", "Аколит", "The Acolyte", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "kids", "slow"], ["Аколит", "The Acolyte"], "Аколит");
-    x.wikiEn = "Star Wars: The Acolyte";
-    x.wikiRu = "Аколит (сериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq516810", "Тайная страсть", "Pasión de Gavilanes", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "irony", "sport"], ["Тайная страсть", "Pasión de Gavilanes"], "Тайная страсть");
-    x.wikiEn = "Pasión de Gavilanes";
-    x.wikiRu = "Тайная страсть";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq13512243", "Страшные сказки", "Penny Dreadful", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Страшные сказки", "Penny Dreadful"], "Страшные сказки");
-    x.wikiEn = "Penny Dreadful (TV series)";
-    x.wikiRu = "Страшные сказки (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq24279305", "Легион", "Legion", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Легион", "Legion"], "Легион");
-    x.wikiEn = "Legion (TV series)";
-    x.wikiRu = "Легион (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq90138922", "Я никогда не...", "Never Have I Ever", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["fantasy", "family"], ["Я никогда не...", "Never Have I Ever"], "Я никогда не...");
-    x.wikiEn = "Never Have I Ever (TV series)";
-    x.wikiRu = "Я никогда не…";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq752365", "Без ума от тебя", "Mad About You", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["dark", "space", "war"], ["Без ума от тебя", "Mad About You"], "Без ума от тебя");
-    x.wikiEn = "Mad About You";
-    x.wikiRu = "Без ума от тебя (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq377165", "Планета Земля", "Planet Earth", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "horror", "heist"], ["Планета Земля", "Planet Earth"], "Планета Земля");
-    x.wikiEn = "Planet Earth (2006 TV series)";
-    x.wikiRu = "Планета Земля (сериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq81672757", "Нормальные люди", "Normal People", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slick-urban", "ambition", "slow"], ["Нормальные люди", "Normal People"], "Нормальные люди");
-    x.wikiEn = "Normal People (TV series)";
-    x.wikiRu = "Нормальные люди";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq56153643", "Хранители", "Watchmen", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["romance", "tempo", "kids"], ["Хранители", "Watchmen"], "Хранители");
-    x.wikiEn = "Watchmen (TV series)";
-    x.wikiRu = "Хранители (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq28443618", "Нетипичный", "Atypical", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Нетипичный", "Atypical"], "Нетипичный");
-    x.wikiEn = "Atypical";
-    x.wikiRu = "Нетипичный";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq60691083", "Сквозь снег", "Snowpiercer", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["romance", "tempo", "kids"], ["Сквозь снег", "Snowpiercer"], "Сквозь снег");
-    x.wikiEn = "Snowpiercer (TV series)";
-    x.wikiRu = "Сквозь снег (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq863122", "The Apprentice", "The Apprentice", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "street", "space"], ["The Apprentice"], "The Apprentice");
-    x.wikiEn = "The Apprentice (American TV series)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq16324425", "WWE NXT", "WWE NXT", 2010, "\u0441\u0435\u0440\u0438\u0430\u043b", ["heist", "crime", "chaotic"], ["WWE NXT"], "WWE NXT 2010");
-    x.wikiEn = "WWE NXT";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq518589", "Счастливые дни", "Happy Days", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Счастливые дни", "Happy Days"], "Счастливые дни");
-    x.wikiEn = "Happy Days";
-    x.wikiRu = "Счастливые дни (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq107300488", "Молодые монархи", "Young Royals", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["romance", "tempo", "kids"], ["Молодые монархи", "Young Royals"], "Молодые монархи");
-    x.wikiEn = "Young Royals";
-    x.wikiRu = "Молодые монархи (сериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq25341232", "Затерянные в космосе", "Lost in Space", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Затерянные в космосе", "Lost in Space"], "Затерянные в космосе");
-    x.wikiEn = "Lost in Space (2018 TV series)";
-    x.wikiRu = "Затерянные в космосе (телесериал, 2018)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1145764", "Направляющий свет", "Guiding Light", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["crime", "irony", "family"], ["Направляющий свет", "Guiding Light"], "Направляющий свет");
-    x.wikiEn = "Guiding Light";
-    x.wikiRu = "Путеводный свет";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1211796", "Мост", "The Bridge", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "horror", "heist"], ["Мост", "The Bridge"], "Мост");
-    x.wikiEn = "The Bridge (2011 TV series)";
-    x.wikiRu = "Мост (телесериал, Швеция — Дания)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq632022", "Кукольный дом", "Dollhouse", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["fantasy", "family"], ["Кукольный дом", "Dollhouse"], "Кукольный дом");
-    x.wikiEn = "Dollhouse (TV series)";
-    x.wikiRu = "Кукольный дом (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq5902", "Красный карлик", "Red Dwarf", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "comedy"], ["Красный карлик", "Red Dwarf"], "Красный карлик");
-    x.wikiEn = "Red Dwarf";
-    x.wikiRu = "Красный карлик (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq358985", "Адмиралъ", "The Admiral", 2008, "\u0444\u0438\u043b\u044c\u043c", ["sport", "family", "irony"], ["Адмиралъ", "The Admiral"], "Адмиралъ 2008");
-    x.wikiEn = "Admiral (2008 film)";
-    x.wikiRu = "Адмиралъ";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq471628", "Сибирский цирюльник", "The Barber of Siberia", 1998, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Сибирский цирюльник", "The Barber of Siberia"], "Сибирский цирюльник 1998");
-    x.wikiEn = "The Barber of Siberia";
-    x.wikiRu = "Сибирский цирюльник";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1050603", "Дэдвуд", "Deadwood", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Дэдвуд", "Deadwood"], "Дэдвуд");
-    x.wikiEn = "Deadwood (TV series)";
-    x.wikiRu = "Дедвуд (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq16468818", "Оставленные", "The Leftovers", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "kids", "slow"], ["Оставленные", "The Leftovers"], "Оставленные");
-    x.wikiEn = "The Leftovers (TV series)";
-    x.wikiRu = "Оставленные (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq83487969", "Уроки фарси", "Persian Lessons", 2020, "\u0444\u0438\u043b\u044c\u043c", ["chaotic", "romance", "mind-power"], ["Уроки фарси", "Persian Lessons"], "Уроки фарси 2020");
-    x.wikiEn = "Persian Lessons";
-    x.wikiRu = "Уроки фарси";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq4743904", "Американские боги", "American Gods", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "romance"], ["Американские боги", "American Gods"], "Американские боги");
-    x.wikiEn = "American Gods (TV series)";
-    x.wikiRu = "Американские боги (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1055728", "Закон и порядок: Преступное намерение", "Law & Order: Criminal Intent", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["crime", "irony", "family"], ["Закон и порядок: Преступное намерение", "Law & Order: Criminal Intent"], "Закон и порядок: Преступное намерение");
-    x.wikiEn = "Law & Order: Criminal Intent";
-    x.wikiRu = "Закон и порядок: Преступное намерение";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq483378", "Dream High", "Dream High", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "romance"], ["Dream High"], "Dream High");
-    x.wikiEn = "Dream High";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq60747802", "Воспитанные волками", "Raised by Wolves", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["fantasy", "family"], ["Воспитанные волками", "Raised by Wolves"], "Воспитанные волками");
-    x.wikiEn = "Raised by Wolves (American TV series)";
-    x.wikiRu = "Воспитанные волками";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq373610", "Тысяча и одна ночь", "Binbir Gece", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["kids", "slow", "irony"], ["Тысяча и одна ночь", "Binbir Gece"], "Тысяча и одна ночь");
-    x.wikiEn = "Binbir Gece";
-    x.wikiRu = "Тысяча и одна ночь (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1125687", "Тегеран-43", "Teheran 43", 1981, "\u0444\u0438\u043b\u044c\u043c", ["sport", "family", "irony"], ["Тегеран-43", "Teheran 43"], "Тегеран-43 1981");
-    x.wikiEn = "Teheran 43";
-    x.wikiRu = "Тегеран-43";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq116200246", "Чужой", "Alien: Earth", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["dark", "space", "war"], ["Чужой", "Alien: Earth"], "Чужой");
-    x.wikiEn = "Alien: Earth";
-    x.wikiRu = "Чужой: Земля";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2527730", "Я — Куба", "I Am Cuba", 1964, "\u0444\u0438\u043b\u044c\u043c", ["fantasy", "mind-power", "romance"], ["Я — Куба", "I Am Cuba"], "Я — Куба 1964");
-    x.wikiEn = "I Am Cuba";
-    x.wikiRu = "Я — Куба";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq476857", "Вспомни, что будет", "FlashForward", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["romance", "tempo", "kids"], ["Вспомни, что будет", "FlashForward"], "Вспомни, что будет");
-    x.wikiEn = "FlashForward";
-    x.wikiRu = "Вспомни, что будет";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq28091065", "Энн", "Anne with an E", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "comedy"], ["Энн", "Anne with an E"], "Энн");
-    x.wikiEn = "Anne with an E";
-    x.wikiRu = "Энн (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq104906978", "Дворец для Путина. История самой большой взятки", "Putin's Palace", 2021, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Дворец для Путина. История самой большой взятки", "Putin's Palace"], "Дворец для Путина. История самой большой взятки 2021");
-    x.wikiEn = "Putin's Palace (film)";
-    x.wikiRu = "Дворец для Путина. История самой большой взятки";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq29982557", "Династия", "Dynasty", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["dark", "space", "war"], ["Династия", "Dynasty"], "Династия");
-    x.wikiEn = "Dynasty (2017 TV series)";
-    x.wikiRu = "Династия (телесериал, 2017)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2579964", "Рэй Донован", "Ray Donovan", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "irony", "sport"], ["Рэй Донован", "Ray Donovan"], "Рэй Донован");
-    x.wikiEn = "Ray Donovan";
-    x.wikiRu = "Рэй Донован";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq19863018", "Супермаркет", "Superstore", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Супермаркет", "Superstore"], "Супермаркет");
-    x.wikiEn = "Superstore (TV series)";
-    x.wikiRu = "Супермаркет (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq4972159", "Бродчерч", "Broadchurch", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["Бродчерч", "Broadchurch"], "Бродчерч");
-    x.wikiEn = "Broadchurch";
-    x.wikiRu = "Убийство на пляже";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq849627", "Молодые и дерзкие", "The Young and the Restless", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Молодые и дерзкие", "The Young and the Restless"], "Молодые и дерзкие");
-    x.wikiEn = "The Young and the Restless";
-    x.wikiRu = "Молодые и дерзкие";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq495410", "Зимняя соната", "Winter Sonata", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "kids", "slow"], ["Зимняя соната", "Winter Sonata"], "Зимняя соната");
-    x.wikiEn = "Winter Sonata";
-    x.wikiRu = "Зимняя соната";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq19865538", "Ночной администратор", "The Night Manager", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Ночной администратор", "The Night Manager"], "Ночной администратор");
-    x.wikiEn = "The Night Manager (British TV series)";
-    x.wikiRu = "Ночной администратор";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq510554", "Коджак", "Kojak", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["kids", "slow", "irony"], ["Коджак", "Kojak"], "Коджак");
-    x.wikiEn = "Kojak";
-    x.wikiRu = "Коджак (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq826594", "Король Квинса", "The King of Queens", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Король Квинса", "The King of Queens"], "Король Квинса");
-    x.wikiEn = "The King of Queens";
-    x.wikiRu = "Король Квинса";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq113275091", "Звёздные войны: Опорная команда", "Star Wars: Skeleton Crew", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "comedy"], ["Звёздные войны: Опорная команда", "Star Wars: Skeleton Crew"], "Звёздные войны: Опорная команда");
-    x.wikiEn = "Star Wars: Skeleton Crew";
-    x.wikiRu = "Звёздные войны: Опорная команда";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq23871", "Брестская крепость", "The Brest Fortress", 2010, "\u0444\u0438\u043b\u044c\u043c", ["romance", "fantasy", "slick-urban"], ["Брестская крепость", "The Brest Fortress"], "Брестская крепость 2010");
-    x.wikiEn = "Fortress of War";
-    x.wikiRu = "Брестская крепость (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1869406", "Её звали Никита", "La Femme Nikita", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Её звали Никита", "La Femme Nikita"], "Её звали Никита");
-    x.wikiEn = "La Femme Nikita (TV series)";
-    x.wikiRu = "Её звали Никита";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2081494", "Шоу Эда Салливана", "The Ed Sullivan Show", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["crime", "irony", "family"], ["Шоу Эда Салливана", "The Ed Sullivan Show"], "Шоу Эда Салливана");
-    x.wikiEn = "The Ed Sullivan Show";
-    x.wikiRu = "Шоу Эда Салливана";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq550238", "Мелроуз Плейс", "Melrose Place", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "kids", "slow"], ["Мелроуз Плейс", "Melrose Place"], "Мелроуз Плейс");
-    x.wikiEn = "Melrose Place";
-    x.wikiRu = "Мелроуз-Плейс (телесериал, 1992)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq104082429", "Люпен", "Lupin", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Люпен", "Lupin"], "Люпен");
-    x.wikiEn = "Lupin (French TV series)";
-    x.wikiRu = "Люпен (телесериал, 2021)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq19657395", "Ответ в 1988", "Reply 1988", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Ответ в 1988", "Reply 1988"], "Ответ в 1988");
-    x.wikiEn = "Reply 1988";
-    x.wikiRu = "Ответ в 1988";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq185229", "Чёрная Молния", "Black Lightning", 2009, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Чёрная Молния", "Black Lightning"], "Чёрная Молния 2009");
-    x.wikiEn = "Black Lightning (2009 film)";
-    x.wikiRu = "Чёрная молния (фильм, 2009)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq331405", "Вий", "Viy", 1967, "\u0444\u0438\u043b\u044c\u043c", ["comedy", "horror", "kids"], ["Вий", "Viy"], "Вий 1967");
-    x.wikiEn = "Viy (1967 film)";
-    x.wikiRu = "Вий (фильм, 1967)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq4456", "Риццоли и Айлс", "Rizzoli & Isles", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["fantasy", "family"], ["Риццоли и Айлс", "Rizzoli & Isles"], "Риццоли и Айлс");
-    x.wikiEn = "Rizzoli & Isles";
-    x.wikiRu = "Риццоли и Айлс";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq30314867", "Ординатор", "The Resident", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Ординатор", "The Resident"], "Ординатор");
-    x.wikiEn = "The Resident (TV series)";
-    x.wikiRu = "Ординатор (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq65272295", "Ха-ру, которого я встретила случайно", "Extraordinary You", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["sport", "fantasy", "horror"], ["Ха-ру, которого я встретила случайно", "Extraordinary You"], "Ха-ру, которого я встретила случайно");
-    x.wikiEn = "Extraordinary You";
-    x.wikiRu = "Ха-ру, которого я встретила случайно";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq14518812", "Пока ты спишь", "While You Were Sleeping", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Пока ты спишь", "While You Were Sleeping"], "Пока ты спишь");
-    x.wikiEn = "While You Were Sleeping (2017 TV series)";
-    x.wikiRu = "Пока ты спишь (телесериал, 2017)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2587854", "Падение Берлина", "The Fall of Berlin", 1950, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Падение Берлина", "The Fall of Berlin"], "Падение Берлина 1950");
-    x.wikiEn = "The Fall of Berlin (film)";
-    x.wikiRu = "Падение Берлина";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq715013", "Байки из склепа", "Tales from the Crypt", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Байки из склепа", "Tales from the Crypt"], "Байки из склепа");
-    x.wikiEn = "Tales from the Crypt (TV series)";
-    x.wikiRu = "Байки из склепа (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq497935", "Что? Где? Когда?", "What? Where? When?", 1975, "\u0441\u0435\u0440\u0438\u0430\u043b", ["romance", "tempo", "kids"], ["Что? Где? Когда?", "What? Where? When?"], "Что? Где? Когда? 1975");
-    x.wikiEn = "What? Where? When?";
-    x.wikiRu = "Что? Где? Когда?";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq54958411", "Утреннее шоу", "The Morning Show", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["war", "heist", "tempo"], ["Утреннее шоу", "The Morning Show"], "Утреннее шоу");
-    x.wikiEn = "The Morning Show (American TV series)";
-    x.wikiRu = "Утреннее шоу (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq59926748", "Ранняя пташка", "Erkenci Kuş", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["heist", "crime", "chaotic"], ["Ранняя пташка", "Erkenci Kuş"], "Ранняя пташка");
-    x.wikiEn = "Erkenci Kuş";
-    x.wikiRu = "Ранняя пташка (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq16875508", "Мадам госсекретарь", "Madam Secretary", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "irony", "sport"], ["Мадам госсекретарь", "Madam Secretary"], "Мадам госсекретарь");
-    x.wikiEn = "Madam Secretary (TV series)";
-    x.wikiRu = "Мадам госсекретарь";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq30947892", "Королевство зомби", "Kingdom", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "kids", "slow"], ["Королевство зомби", "Kingdom"], "Королевство зомби");
-    x.wikiEn = "Kingdom (South Korean TV series)";
-    x.wikiRu = "Королевство зомби";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq17052281", "Последний человек на Земле", "The Last Man on Earth", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["crime", "irony", "family"], ["Последний человек на Земле", "The Last Man on Earth"], "Последний человек на Земле");
-    x.wikiEn = "The Last Man on Earth (TV series)";
-    x.wikiRu = "Последний человек на Земле (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq734629", "Лютер", "Luther", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["heist", "crime", "chaotic"], ["Лютер", "Luther"], "Лютер");
-    x.wikiEn = "Luther (TV series)";
-    x.wikiRu = "Лютер (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1142783", "Just for Laughs Gags", "Just for Laughs Gags", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["dark", "space", "war"], ["Just for Laughs Gags"], "Just for Laughs Gags");
-    x.wikiEn = "Just for Laughs Gags";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq42301907", "ФБР", "FBI", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["crime", "irony", "family"], ["ФБР", "FBI"], "ФБР");
-    x.wikiEn = "FBI (TV series)";
-    x.wikiRu = "ФБР (телесериал, 2018)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq109850709", "Берлин", "Berlin", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "street", "space"], ["Берлин", "Berlin"], "Берлин");
-    x.wikiEn = "Berlin (Spanish TV series)";
-    x.wikiRu = "Берлин (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq53406553", "Манифест", "Manifest", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "comedy"], ["Манифест", "Manifest"], "Манифест");
-    x.wikiEn = "Manifest (TV series)";
-    x.wikiRu = "Манифест (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq27538067", "Террор", "The Terror", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["sport", "fantasy", "horror"], ["Террор", "The Terror"], "Террор");
-    x.wikiEn = "The Terror (TV series)";
-    x.wikiRu = "Террор (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2622313", "Волга-Волга", "Volga-Volga", 1938, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Волга-Волга", "Volga-Volga"], "Волга-Волга 1938");
-    x.wikiEn = "Volga-Volga";
-    x.wikiRu = "Волга-Волга";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq17021920", "Табу", "Taboo", 2017, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Табу", "Taboo"], "Табу 2017");
-    x.wikiEn = "Taboo (2017 TV series)";
-    x.wikiRu = "Табу (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1026696", "Демоны Да Винчи", "Da Vinci's Demons", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["space", "romance", "slick-urban"], ["Демоны Да Винчи", "Da Vinci's Demons"], "Демоны Да Винчи");
-    x.wikiEn = "Da Vinci's Demons";
-    x.wikiRu = "Демоны Да Винчи";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq244999", "Я шагаю по Москве", "Walking the Streets of Moscow", 1964, "\u0444\u0438\u043b\u044c\u043c", ["war", "tempo", "street"], ["Я шагаю по Москве", "Walking the Streets of Moscow"], "Я шагаю по Москве 1964");
-    x.wikiEn = "Walking the Streets of Moscow";
-    x.wikiRu = "Я шагаю по Москве";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq289592", "Революция", "Revolution", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slow", "comedy"], ["Революция", "Revolution"], "Революция");
-    x.wikiEn = "Revolution (TV series)";
-    x.wikiRu = "Революция (телесериал, 2012)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq19848860", "Медики Чикаго", "Chicago Med", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Медики Чикаго", "Chicago Med"], "Медики Чикаго");
-    x.wikiEn = "Chicago Med";
-    x.wikiRu = "Медики Чикаго";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq672169", "Дарма и Грег", "Dharma & Greg", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["heist", "crime", "chaotic"], ["Дарма и Грег", "Dharma & Greg"], "Дарма и Грег");
-    x.wikiEn = "Dharma & Greg";
-    x.wikiRu = "Дарма и Грег";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq760053", "Восхождение", "The Ascent", 1977, "\u0444\u0438\u043b\u044c\u043c", ["mind-power", "chaotic", "dark"], ["Восхождение", "The Ascent"], "Восхождение 1977");
-    x.wikiEn = "The Ascent (1977 film)";
-    x.wikiRu = "Восхождение (фильм, 1976)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq948696", "Ищейка", "The Closer", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["sport", "fantasy", "horror"], ["Ищейка", "The Closer"], "Ищейка");
-    x.wikiEn = "The Closer";
-    x.wikiRu = "Ищейка (телесериал, США)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1138000", "Бывает и хуже", "The Middle", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["fantasy", "family"], ["Бывает и хуже", "The Middle"], "Бывает и хуже");
-    x.wikiEn = "The Middle (TV series)";
-    x.wikiRu = "Бывает и хуже";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1535208", "Правосудие", "Justified", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Правосудие", "Justified"], "Правосудие");
-    x.wikiEn = "Justified (TV series)";
-    x.wikiRu = "Правосудие (телесериал, 2010)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq16911674", "iZombie", "iZombie", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["iZombie"], "iZombie");
-    x.wikiEn = "IZombie (TV series)";
-    x.wikiRu = "Я — зомби";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1141890", "Фелисити", "Felicity", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Фелисити", "Felicity"], "Фелисити");
-    x.wikiEn = "Felicity (TV series)";
-    x.wikiRu = "Фелисити (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq27267642", "Weightlifting Fairy Kim Bok-Joo", "Weightlifting Fairy Kim Bok-Joo", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Weightlifting Fairy Kim Bok-Joo"], "Weightlifting Fairy Kim Bok-Joo");
-    x.wikiEn = "Weightlifting Fairy Kim Bok-joo";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq23781164", "Нелюди", "Inhumans", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Нелюди", "Inhumans"], "Нелюди");
-    x.wikiEn = "Inhumans (TV series)";
-    x.wikiRu = "Сверхлюди (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq912437", "Схватка", "Damages", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Схватка", "Damages"], "Схватка");
-    x.wikiEn = "Damages (TV series)";
-    x.wikiRu = "Схватка (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq48855569", "Дождь", "The Rain", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["heist", "crime", "chaotic"], ["Дождь", "The Rain"], "Дождь");
-    x.wikiEn = "The Rain (TV series)";
-    x.wikiRu = "Дождь (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq47090557", "Девчонки из Дерри", "Derry Girls", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["war", "heist", "tempo"], ["Девчонки из Дерри", "Derry Girls"], "Девчонки из Дерри");
-    x.wikiEn = "Derry Girls";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1304993", "Судьба человека", "Destiny of a Man", 1959, "\u0444\u0438\u043b\u044c\u043c", ["war", "tempo", "street"], ["Судьба человека", "Destiny of a Man"], "Судьба человека 1959");
-    x.wikiEn = "Fate of a Man (film)";
-    x.wikiRu = "Судьба человека (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2576334", "Маленькая Вера", "Little Vera", 1988, "\u0444\u0438\u043b\u044c\u043c", ["sport", "family", "irony"], ["Маленькая Вера", "Little Vera"], "Маленькая Вера 1988");
-    x.wikiEn = "Little Vera";
-    x.wikiRu = "Маленькая Вера";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq3567653", "Wheel of Fortune", "Wheel of Fortune", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["romance", "tempo", "kids"], ["Wheel of Fortune"], "Wheel of Fortune");
-    x.wikiEn = "Wheel of Fortune (American game show)";
-    x.wikiRu = "Колесо фортуны (телеигра)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq196226", "Старски и Хатч", "Starsky & Hutch", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Старски и Хатч", "Starsky & Hutch"], "Старски и Хатч");
-    x.wikiEn = "Starsky & Hutch";
-    x.wikiRu = "Старски и Хатч";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq500769", "Хулиганы и ботаны", "Freaks and Geeks", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Хулиганы и ботаны", "Freaks and Geeks"], "Хулиганы и ботаны");
-    x.wikiEn = "Freaks and Geeks";
-    x.wikiRu = "Хулиганы и ботаны";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq56281007", "Основание", "Foundation", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "romance"], ["Основание", "Foundation"], "Основание");
-    x.wikiEn = "Foundation (TV series)";
-    x.wikiRu = "Основание (сериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq32816", "Приключения Сары Джейн", "The Sarah Jane Adventures", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["war", "heist", "tempo"], ["Приключения Сары Джейн", "The Sarah Jane Adventures"], "Приключения Сары Джейн");
-    x.wikiEn = "The Sarah Jane Adventures";
-    x.wikiRu = "Приключения Сары Джейн";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq13218686", "Полиция Чикаго", "Chicago P.D.", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["Полиция Чикаго", "Chicago P.D."], "Полиция Чикаго");
-    x.wikiEn = "Chicago P.D. (TV series)";
-    x.wikiRu = "Полиция Чикаго";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1181286", "Смерть в раю", "Death in Paradise", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "horror", "heist"], ["Смерть в раю", "Death in Paradise"], "Смерть в раю");
-    x.wikiEn = "Death in Paradise";
-    x.wikiRu = "Смерть в раю";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq29018745", "Одарённые", "The Gifted", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Одарённые", "The Gifted"], "Одарённые");
-    x.wikiEn = "The Gifted (American TV series)";
-    x.wikiRu = "Одарённые (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq23001122", "Лунный свет, нарисованный облаками", "Love in the Moonlight", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["fantasy", "family"], ["Лунный свет, нарисованный облаками", "Love in the Moonlight"], "Лунный свет, нарисованный облаками");
-    x.wikiEn = "Love in the Moonlight";
-    x.wikiRu = "Лунный свет, нарисованный облаками";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq22662417", "Последний кандидат", "Designated Survivor", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Последний кандидат", "Designated Survivor"], "Последний кандидат");
-    x.wikiEn = "Designated Survivor (TV series)";
-    x.wikiRu = "Последний кандидат";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2031748", "Быть человеком", "Being Human", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Быть человеком", "Being Human"], "Быть человеком");
-    x.wikiEn = "Being Human (British TV series)";
-    x.wikiRu = "Быть человеком";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq250111", "Правительство", "Borgen", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "romance"], ["Правительство", "Borgen"], "Правительство");
-    x.wikiEn = "Borgen (TV series)";
-    x.wikiRu = "Правительство (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq743334", "Прогулки с динозаврами", "Walking with Dinosaurs", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slick-urban", "ambition", "slow"], ["Прогулки с динозаврами", "Walking with Dinosaurs"], "Прогулки с динозаврами");
-    x.wikiEn = "Walking with Dinosaurs";
-    x.wikiRu = "Прогулки с динозаврами";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1066246", "Тайны острова Мако", "Mako: Island of Secrets", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Тайны острова Мако", "Mako: Island of Secrets"], "Тайны острова Мако");
-    x.wikiEn = "Mako: Island of Secrets";
-    x.wikiRu = "Тайны острова Мако";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1071501", "Жизнь на Марсе", "Life on Mars", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["comedy", "slick-urban", "street"], ["Жизнь на Марсе", "Life on Mars"], "Жизнь на Марсе");
-    x.wikiEn = "Life on Mars (British TV series)";
-    x.wikiRu = "Жизнь на Марсе (телесериал, Великобритания)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq658216", "Шаг за шагом", "Step by Step", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["dark", "space", "war"], ["Шаг за шагом", "Step by Step"], "Шаг за шагом");
-    x.wikiEn = "Step by Step (TV series)";
-    x.wikiRu = "Шаг за шагом (телесериал, США)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq697406", "Альпийский патруль — Ценится каждая жизнь", "Medicopter 117 – Jedes Leben zählt", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["space", "romance", "slick-urban"], ["Альпийский патруль — Ценится каждая жизнь", "Medicopter 117 – Jedes Leben zählt"], "Альпийский патруль — Ценится каждая жизнь");
-    x.wikiEn = "Medicopter 117 – Jedes Leben zählt";
-    x.wikiRu = "Альпийский патруль";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq603688", "Тайный круг", "The Secret Circle", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["heist", "crime", "chaotic"], ["Тайный круг", "The Secret Circle"], "Тайный круг");
-    x.wikiEn = "The Secret Circle (TV series)";
-    x.wikiRu = "Тайный круг (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq24070370", "Смертельное оружие", "Lethal Weapon", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Смертельное оружие", "Lethal Weapon"], "Смертельное оружие");
-    x.wikiEn = "Lethal Weapon (TV series)";
-    x.wikiRu = "Смертельное оружие (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq25340369", "Лемони Сникет: 33 несчастья", "A Series of Unfortunate Events", 2017, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Лемони Сникет: 33 несчастья", "A Series of Unfortunate Events"], "Лемони Сникет: 33 несчастья 2017");
-    x.wikiEn = "A Series of Unfortunate Events (TV series)";
-    x.wikiRu = "Лемони Сникет: 33 несчастья (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1635046", "Белый Бим Чёрное ухо", "White Bim Black Ear", 1977, "\u0444\u0438\u043b\u044c\u043c", ["romance", "fantasy", "slick-urban"], ["Белый Бим Чёрное ухо", "White Bim Black Ear"], "Белый Бим Чёрное ухо 1977");
-    x.wikiEn = "White Bim Black Ear";
-    x.wikiRu = "Белый Бим Чёрное ухо (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq490743", "Голос", "The Voice", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Голос", "The Voice"], "Голос");
-    x.wikiEn = "The Voice (American TV series)";
-    x.wikiRu = "The Voice (телешоу, США)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq13219920", "Сонная лощина", "Sleepy Hollow", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["heist", "crime", "chaotic"], ["Сонная лощина", "Sleepy Hollow"], "Сонная лощина");
-    x.wikiEn = "Sleepy Hollow (TV series)";
-    x.wikiRu = "Сонная Лощина (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq647001", "Доктор Куин, женщина-врач", "Dr. Quinn, Medicine Woman", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["war", "heist", "tempo"], ["Доктор Куин, женщина-врач", "Dr. Quinn, Medicine Woman"], "Доктор Куин, женщина-врач");
-    x.wikiEn = "Dr. Quinn, Medicine Woman";
-    x.wikiRu = "Доктор Куин, женщина-врач";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1169942", "Урга — территория любви", "Close to Eden", 1991, "\u0444\u0438\u043b\u044c\u043c", ["slick-urban", "ambition", "slow"], ["Урга — территория любви", "Close to Eden"], "Урга — территория любви 1991");
-    x.wikiEn = "Close to Eden";
-    x.wikiRu = "Урга — территория любви";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq834560", "Алькатрас", "Alcatraz", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["tempo", "war", "fantasy"], ["Алькатрас", "Alcatraz"], "Алькатрас");
-    x.wikiEn = "Alcatraz (TV series)";
-    x.wikiRu = "Алькатрас (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1166261", "Мария Мерседес", "María Mercedes", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Мария Мерседес", "María Mercedes"], "Мария Мерседес");
-    x.wikiEn = "María Mercedes (Mexican TV series)";
-    x.wikiRu = "Мария Мерседес";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq708018", "Дикая Роза", "Rosa salvaje", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slick-urban", "ambition", "slow"], ["Дикая Роза", "Rosa salvaje"], "Дикая Роза");
-    x.wikiEn = "Rosa salvaje";
-    x.wikiRu = "Дикая Роза (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq599472", "Их перепутали в роддоме", "Switched at Birth", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["street", "sport", "crime"], ["Их перепутали в роддоме", "Switched at Birth"], "Их перепутали в роддоме");
-    x.wikiEn = "Switched at Birth (TV series)";
-    x.wikiRu = "Их перепутали в роддоме (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq828520", "Удивительные странствия Геракла", "Hercules: The Legendary Journeys", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["mind-power", "chaotic"], ["Удивительные странствия Геракла", "Hercules: The Legendary Journeys"], "Удивительные странствия Геракла");
-    x.wikiEn = "Hercules: The Legendary Journeys";
-    x.wikiRu = "Удивительные странствия Геракла";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq26812664", "Барри", "Barry", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["Барри", "Barry"], "Барри");
-    x.wikiEn = "Barry (TV series)";
-    x.wikiRu = "Барри (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq752234", "Лас-Вегас", "Las Vegas", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "kids", "slow"], ["Лас-Вегас", "Las Vegas"], "Лас-Вегас");
-    x.wikiEn = "Las Vegas (TV series)";
-    x.wikiRu = "Лас-Вегас (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq697407", "Гавайи 5-O", "Hawaii Five-O", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["family", "romance"], ["Гавайи 5-O", "Hawaii Five-O"], "Гавайи 5-O");
-    x.wikiEn = "Hawaii Five-O (1968 TV series)";
-    x.wikiRu = "Гавайи 5-O";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq549441", "Дневники Кэрри", "The Carrie Diaries", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Дневники Кэрри", "The Carrie Diaries"], "Дневники Кэрри");
-    x.wikiEn = "The Carrie Diaries (TV series)";
-    x.wikiRu = "Дневники Кэрри (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1136370", "Главный госпиталь", "General Hospital", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "kids", "slow"], ["Главный госпиталь", "General Hospital"], "Главный госпиталь");
-    x.wikiEn = "General Hospital";
-    x.wikiRu = "Главный госпиталь";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq24515019", "Притяжение", "Attraction", 2017, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Притяжение", "Attraction"], "Притяжение 2017");
-    x.wikiEn = "Attraction (2017 film)";
-    x.wikiRu = "Притяжение (фильм, 2017)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq223261", "Пункт назначения", "Final Destination", 1999, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["Пункт назначения", "Final Destination"], "Пункт назначения 1999");
-    x.wikiEn = "Final Destination";
-    x.wikiRu = "Пункт назначения";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2368678", "Карнавальная ночь", "Carnival Night", 1956, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Карнавальная ночь", "Carnival Night"], "Карнавальная ночь 1956");
-    x.wikiEn = "Carnival Night";
-    x.wikiRu = "Карнавальная ночь";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq22998408", "Вавилон-Берлин", "Babylon Berlin", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "kids", "slow"], ["Вавилон-Берлин", "Babylon Berlin"], "Вавилон-Берлин");
-    x.wikiEn = "Babylon Berlin";
-    x.wikiRu = "Вавилон-Берлин";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq928429", "Рухнувшие небеса", "Falling Skies", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["chaotic", "dark", "ambition"], ["Рухнувшие небеса", "Falling Skies"], "Рухнувшие небеса");
-    x.wikiEn = "Falling Skies";
-    x.wikiRu = "Рухнувшие небеса";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1247206", "Альфред Хичкок представляет", "Alfred Hitchcock Presents", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["slick-urban", "ambition", "slow"], ["Альфред Хичкок представляет", "Alfred Hitchcock Presents"], "Альфред Хичкок представляет");
-    x.wikiEn = "Alfred Hitchcock Presents";
-    x.wikiRu = "Альфред Хичкок представляет (телесериал, 1955)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq7733188", "Крах", "The Fall", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["horror", "comedy", "irony"], ["Крах", "The Fall"], "Крах");
-    x.wikiEn = "The Fall (TV series)";
-    x.wikiRu = "Крах (телесериал)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq16889037", "Несгибаемая Кимми Шмидт", "Unbreakable Kimmy Schmidt", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["irony", "kids", "slow"], ["Несгибаемая Кимми Шмидт", "Unbreakable Kimmy Schmidt"], "Несгибаемая Кимми Шмидт");
-    x.wikiEn = "Unbreakable Kimmy Schmidt";
-    x.wikiRu = "Несгибаемая Кимми Шмидт";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1048363", "Нас пятеро", "Party of Five", 2000, "\u0441\u0435\u0440\u0438\u0430\u043b", ["ambition", "mind-power", "dark"], ["Нас пятеро", "Party of Five"], "Нас пятеро");
-    x.wikiEn = "Party of Five";
-    x.wikiRu = "Нас пятеро";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2990368", "Белый тигр", "White Tiger", 2012, "\u0444\u0438\u043b\u044c\u043c", ["irony", "sport", "comedy"], ["Белый тигр", "White Tiger"], "Белый тигр 2012");
-    x.wikiEn = "White Tiger (2012 film)";
-    x.wikiRu = "Белый тигр (фильм, 2012)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1634319", "Чайковский", "Tchaikovsky", 1970, "\u0444\u0438\u043b\u044c\u043c", ["horror", "space", "crime"], ["Чайковский", "Tchaikovsky"], "Чайковский 1970");
-    x.wikiEn = "Tchaikovsky (film)";
-    x.wikiRu = "Чайковский (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq655133", "Остров сокровищ", "Treasure Island", 1989, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Остров сокровищ", "Treasure Island"], "Остров сокровищ 1989");
-    x.wikiEn = "Treasure Island (1988 film)";
-    x.wikiRu = "Остров сокровищ (мультфильм, 1988)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2368378", "Мио, мой Мио", "Mio in the Land of Faraway", 1989, "\u0444\u0438\u043b\u044c\u043c", ["irony", "sport", "comedy"], ["Мио, мой Мио", "Mio in the Land of Faraway"], "Мио, мой Мио 1989");
-    x.wikiEn = "Mio in the Land of Faraway";
-    x.wikiRu = "Мио, мой Мио (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2198716", "Конец Санкт-Петербурга", "The End of St. Petersburg", 1927, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["Конец Санкт-Петербурга", "The End of St. Petersburg"], "Конец Санкт-Петербурга 1927");
-    x.wikiEn = "The End of St. Petersburg";
-    x.wikiRu = "Конец Санкт-Петербурга";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq43295469", "Майор Гром: Чумной Доктор", "Major Grom: Plague Doctor", 2021, "\u0444\u0438\u043b\u044c\u043c", ["sport", "family", "irony"], ["Майор Гром: Чумной Доктор", "Major Grom: Plague Doctor"], "Майор Гром: Чумной Доктор 2021");
-    x.wikiEn = "Major Grom: Plague Doctor";
-    x.wikiRu = "Майор Гром: Чумной Доктор";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq940081", "Невероятные приключения итальянцев в России", "Unbelievable Adventures of Italians in Russia", 1974, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["Невероятные приключения итальянцев в России", "Unbelievable Adventures of Italians in Russia"], "Невероятные приключения итальянцев в России 1974");
-    x.wikiEn = "Unbelievable Adventures of Italians in Russia";
-    x.wikiRu = "Невероятные приключения итальянцев в России";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1272202", "Берегись автомобиля", "Beware of the Car", 1966, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["Берегись автомобиля", "Beware of the Car"], "Берегись автомобиля 1966");
-    x.wikiEn = "Beware of the Car";
-    x.wikiRu = "Берегись автомобиля";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2018550", "Ашик-Кериб", "Ashik Kerib", 1988, "\u0444\u0438\u043b\u044c\u043c", ["family", "crime", "space"], ["Ашик-Кериб", "Ashik Kerib"], "Ашик-Кериб 1988");
-    x.wikiEn = "Ashik Kerib (film)";
-    x.wikiRu = "Ашик-Кериб (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq535081", "Последнее воскресение", "The Last Station", 2009, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["Последнее воскресение", "The Last Station"], "Последнее воскресение 2009");
-    x.wikiEn = "The Last Station";
-    x.wikiRu = "Последнее воскресение";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1211800", "Братья Карамазовы", "The Brothers Karamazov", 1969, "\u0444\u0438\u043b\u044c\u043c", ["mind-power", "chaotic", "dark"], ["Братья Карамазовы", "The Brothers Karamazov"], "Братья Карамазовы 1969");
-    x.wikiEn = "The Brothers Karamazov (1969 film)";
-    x.wikiRu = "Братья Карамазовы (фильм, 1968)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq108528962", "Вызов", "The Challenge", 2023, "\u0444\u0438\u043b\u044c\u043c", ["irony", "sport", "comedy"], ["Вызов", "The Challenge"], "Вызов 2023");
-    x.wikiEn = "The Challenge (2023 film)";
-    x.wikiRu = "Вызов (фильм, 2023)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq19742713", "Защитники", "Guardians", 2017, "\u0444\u0438\u043b\u044c\u043c", ["chaotic", "romance", "mind-power"], ["Защитники", "Guardians"], "Защитники 2017");
-    x.wikiEn = "Guardians (2017 film)";
-    x.wikiRu = "Защитники (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1330689", "Калина красная", "The Red Snowball Tree", 1974, "\u0444\u0438\u043b\u044c\u043c", ["sport", "family", "irony"], ["Калина красная", "The Red Snowball Tree"], "Калина красная 1974");
-    x.wikiEn = "The Red Snowball Tree";
-    x.wikiRu = "Калина красная (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2370671", "Они сражались за Родину", "They Fought for Their Country", 1975, "\u0444\u0438\u043b\u044c\u043c", ["fantasy", "mind-power", "romance"], ["Они сражались за Родину", "They Fought for Their Country"], "Они сражались за Родину 1975");
-    x.wikiEn = "They Fought for Their Country";
-    x.wikiRu = "Они сражались за Родину (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq387140", "Кукушка", "The Cuckoo", 2002, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Кукушка", "The Cuckoo"], "Кукушка 2002");
-    x.wikiEn = "The Cuckoo (film)";
-    x.wikiRu = "Кукушка (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1192171", "Человек-амфибия", "Amphibian Man", 1961, "\u0444\u0438\u043b\u044c\u043c", ["chaotic", "romance", "mind-power"], ["Человек-амфибия", "Amphibian Man"], "Человек-амфибия 1961");
-    x.wikiEn = "Amphibian Man (film)";
-    x.wikiRu = "Человек-амфибия (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq25397044", "Довлатов", "Dovlatov", 2018, "\u0444\u0438\u043b\u044c\u043c", ["chaotic", "romance", "mind-power"], ["Довлатов", "Dovlatov"], "Довлатов 2018");
-    x.wikiEn = "Dovlatov (film)";
-    x.wikiRu = "Довлатов (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq541354", "Фауст (фильм, 2011)", "Faust (2011 film)", 2011, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["Фауст (фильм, 2011)", "Faust (2011 film)"], "Фауст (фильм, 2011) 2011");
-    x.wikiEn = "Faust (2011 film)";
-    x.wikiRu = "Фауст (фильм, 2011)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq74568", "Садко", "Sadko", 1953, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["Садко", "Sadko"], "Садко 1953");
-    x.wikiEn = "Sadko (film)";
-    x.wikiRu = "Садко (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1304344", "Неотправленное письмо", "Letter Never Sent", 1960, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Неотправленное письмо", "Letter Never Sent"], "Неотправленное письмо 1960");
-    x.wikiEn = "Letter Never Sent (film)";
-    x.wikiRu = "Неотправленное письмо";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1198394", "Синяя птица", "The Blue Bird", 1976, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Синяя птица", "The Blue Bird"], "Синяя птица 1976");
-    x.wikiEn = "The Blue Bird (1976 film)";
-    x.wikiRu = "Синяя птица (фильм, 1976)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq195576", "1612", "1612", 2007, "\u0444\u0438\u043b\u044c\u043c", ["romance", "fantasy", "slick-urban"], ["1612"], "1612 2007");
-    x.wikiEn = "1612 (film)";
-    x.wikiRu = "1612 (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1755424", "Очи чёрные", "Dark Eyes", 1987, "\u0444\u0438\u043b\u044c\u043c", ["comedy", "horror", "kids"], ["Очи чёрные", "Dark Eyes"], "Очи чёрные 1987");
-    x.wikiEn = "Dark Eyes (1987 film)";
-    x.wikiRu = "Очи чёрные (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq960920", "Потоп", "The Deluge", 1974, "\u0444\u0438\u043b\u044c\u043c", ["crime", "irony", "family"], ["Потоп", "The Deluge"], "Потоп 1974");
-    x.wikiEn = "The Deluge (film)";
-    x.wikiRu = "Потоп (фильм, 1974)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq529053", "Дневной Дозор", "Day Watch", 2006, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["Дневной Дозор", "Day Watch"], "Дневной Дозор 2006");
-    x.wikiEn = "Day Watch (film)";
-    x.wikiRu = "Дневной Дозор (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq20968495", "Викинг", "Viking", 2016, "\u0444\u0438\u043b\u044c\u043c", ["kids", "comedy", "sport"], ["Викинг", "Viking"], "Викинг 2016");
-    x.wikiEn = "Viking (2016 film)";
-    x.wikiRu = "Викинг (фильм, 2016)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2714901", "Красная палатка", "The Red Tent", 1969, "\u0444\u0438\u043b\u044c\u043c", ["street", "heist"], ["Красная палатка", "The Red Tent"], "Красная палатка 1969");
-    x.wikiEn = "The Red Tent (film)";
-    x.wikiRu = "Красная палатка (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq848825", "Осенний марафон", "Autumn Marathon", 1979, "\u0444\u0438\u043b\u044c\u043c", ["horror", "space", "crime"], ["Осенний марафон", "Autumn Marathon"], "Осенний марафон 1979");
-    x.wikiEn = "Autumn Marathon";
-    x.wikiRu = "Осенний марафон";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq319163", "Морозко", "Jack Frost", 1965, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Морозко", "Jack Frost"], "Морозко 1965");
-    x.wikiEn = "Jack Frost (1964 film)";
-    x.wikiRu = "Морозко (фильм, 1964)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq400123", "Жестокий романс", "A Cruel Romance", 1984, "\u0444\u0438\u043b\u044c\u043c", ["chaotic", "romance", "mind-power"], ["Жестокий романс", "A Cruel Romance"], "Жестокий романс 1984");
-    x.wikiEn = "A Cruel Romance";
-    x.wikiRu = "Жестокий романс (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq764734", "Кавказский пленник", "Prisoner of the Mountains", 1996, "\u0444\u0438\u043b\u044c\u043c", ["slow", "slick-urban", "fantasy"], ["Кавказский пленник", "Prisoner of the Mountains"], "Кавказский пленник 1996");
-    x.wikiEn = "Prisoner of the Mountains";
-    x.wikiRu = "Кавказский пленник (фильм, 1996)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2481391", "Гамлет", "Hamlet", 1964, "\u0444\u0438\u043b\u044c\u043c", ["comedy", "horror", "kids"], ["Гамлет", "Hamlet"], "Гамлет 1964");
-    x.wikiEn = "Hamlet (1964 film)";
-    x.wikiRu = "Гамлет (фильм, 1964)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq4204793", "Трудно быть богом", "Hard to Be a God", 2013, "\u0444\u0438\u043b\u044c\u043c", ["war", "tempo", "street"], ["Трудно быть богом", "Hard to Be a God"], "Трудно быть богом 2013");
-    x.wikiEn = "Hard to Be a God (2013 film)";
-    x.wikiRu = "Трудно быть богом (фильм, 2013)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1965523", "Вокзал для двоих", "Station for Two", 1983, "\u0444\u0438\u043b\u044c\u043c", ["kids", "comedy", "sport"], ["Вокзал для двоих", "Station for Two"], "Вокзал для двоих 1983");
-    x.wikiEn = "Station for Two";
-    x.wikiRu = "Вокзал для двоих";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2996571", "Легенда о Сурамской крепости", "The Legend of Suram Fortress", 1985, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Легенда о Сурамской крепости", "The Legend of Suram Fortress"], "Легенда о Сурамской крепости 1985");
-    x.wikiEn = "The Legend of Suram Fortress";
-    x.wikiRu = "Легенда о Сурамской крепости (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2995252", "Царь", "Tsar", 2009, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["Царь", "Tsar"], "Царь 2009");
-    x.wikiEn = "Tsar (film)";
-    x.wikiRu = "Царь (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq80849200", "Калашников", "AK-47", 2020, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Калашников", "AK-47"], "Калашников 2020");
-    x.wikiEn = "AK-47 (2020 film)";
-    x.wikiRu = "Калашников (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1415082", "Интердевочка", "Intergirl", 1989, "\u0444\u0438\u043b\u044c\u043c", ["family", "crime", "space"], ["Интердевочка", "Intergirl"], "Интердевочка 1989");
-    x.wikiEn = "Intergirl";
-    x.wikiRu = "Интердевочка (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq383581", "Восток-Запад", "East/West", 1999, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Восток-Запад", "East/West"], "Восток-Запад 1999");
-    x.wikiEn = "East/West";
-    x.wikiRu = "Восток-Запад";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1764277", "Тарас Бульба", "Taras Bulba", 2009, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["Тарас Бульба", "Taras Bulba"], "Тарас Бульба 2009");
-    x.wikiEn = "Taras Bulba (2009 film)";
-    x.wikiRu = "Тарас Бульба (фильм, 2009)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq21637453", "Время первых", "First Time", 2017, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Время первых", "First Time"], "Время первых 2017");
-    x.wikiEn = "The Age of Pioneers";
-    x.wikiRu = "Время первых";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq518901", "Дон Кихот", "Don Quixote", 1957, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["Дон Кихот", "Don Quixote"], "Дон Кихот 1957");
-    x.wikiEn = "Don Quixote (1957 film)";
-    x.wikiRu = "Дон Кихот (фильм, 1957)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1004801", "Бумер", "Bumer", 2003, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["Бумер", "Bumer"], "Бумер 2003");
-    x.wikiEn = "Bimmer (film)";
-    x.wikiRu = "Бумер (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1428430", "Земля против летающих тарелок", "Earth vs. the Flying Saucers", 1956, "\u0444\u0438\u043b\u044c\u043c", ["chaotic", "romance", "mind-power"], ["Земля против летающих тарелок", "Earth vs. the Flying Saucers"], "Земля против летающих тарелок 1956");
-    x.wikiEn = "Earth vs. the Flying Saucers";
-    x.wikiRu = "Земля против летающих тарелок";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq3270392", "Ленин в Октябре", "Lenin in October", 1937, "\u0444\u0438\u043b\u044c\u043c", ["fantasy", "mind-power", "romance"], ["Ленин в Октябре", "Lenin in October"], "Ленин в Октябре 1937");
-    x.wikiEn = "Lenin in October";
-    x.wikiRu = "Ленин в Октябре";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq26198150", "Рай", "Paradise", 2016, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Рай", "Paradise"], "Рай 2016");
-    x.wikiEn = "Paradise (2016 film)";
-    x.wikiRu = "Рай (фильм, 2016)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq188384", "Орландо", "Orlando", 1992, "\u0444\u0438\u043b\u044c\u043c", ["street", "heist"], ["Орландо", "Orlando"], "Орландо 1992");
-    x.wikiEn = "Orlando (film)";
-    x.wikiRu = "Орландо (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq339467", "Снежная королева", "The Snow Queen", 2012, "\u0444\u0438\u043b\u044c\u043c", ["street", "heist"], ["Снежная королева", "The Snow Queen"], "Снежная королева 2012");
-    x.wikiEn = "The Snow Queen (2012 film)";
-    x.wikiRu = "Снежная королева (мультфильм, 2012)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq782262", "Сибириада", "Siberiade", 1979, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Сибириада", "Siberiade"], "Сибириада 1979");
-    x.wikiEn = "Siberiade";
-    x.wikiRu = "Сибириада";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq914190", "Письма мёртвого человека", "Dead Man's Letters", 1986, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["Письма мёртвого человека", "Dead Man's Letters"], "Письма мёртвого человека 1986");
-    x.wikiEn = "Dead Man's Letters";
-    x.wikiRu = "Письма мёртвого человека";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1678442", "Вор", "The Thief", 1997, "\u0444\u0438\u043b\u044c\u043c", ["slick-urban", "ambition", "slow"], ["Вор", "The Thief"], "Вор 1997");
-    x.wikiEn = "The Thief (1997 film)";
-    x.wikiRu = "Вор (фильм, 1997)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq85859809", "Дорогие товарищи", "Dear Comrades", 2020, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Дорогие товарищи", "Dear Comrades"], "Дорогие товарищи 2020");
-    x.wikiEn = "Dear Comrades!";
-    x.wikiRu = "Дорогие товарищи!";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1059786", "Игла", "Needle", 1988, "\u0444\u0438\u043b\u044c\u043c", ["dark", "slow", "ambition"], ["Игла", "Needle"], "Игла 1988");
-    x.wikiEn = "The Needle (1988 film)";
-    x.wikiRu = "Игла (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq16514509", "Двадцать восемь панфиловцев", "Panfilov's 28 Men", 2016, "\u0444\u0438\u043b\u044c\u043c", ["heist", "street", "tempo"], ["Двадцать восемь панфиловцев", "Panfilov's 28 Men"], "Двадцать восемь панфиловцев 2016");
-    x.wikiEn = "Panfilov's 28 Men";
-    x.wikiRu = "Двадцать восемь панфиловцев (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1964744", "Звенигора", "Zvenigora", 1927, "\u0444\u0438\u043b\u044c\u043c", ["ambition", "dark", "chaotic"], ["Звенигора", "Zvenigora"], "Звенигора 1927");
-    x.wikiEn = "Zvenigora";
-    x.wikiRu = "Звенигора";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1877764", "Весёлые ребята (фильм)", "Jolly Fellows", 1934, "\u0444\u0438\u043b\u044c\u043c", ["space", "kids", "horror"], ["Весёлые ребята (фильм)", "Jolly Fellows"], "Весёлые ребята (фильм) 1934");
-    x.wikiEn = "Jolly Fellows";
-    x.wikiRu = "Весёлые ребята (фильм)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq1775194", "Десять негритят", "Desyat Negrityat", 1987, "\u0444\u0438\u043b\u044c\u043c", ["tempo", "war"], ["Десять негритят", "Desyat Negrityat"], "Десять негритят 1987");
-    x.wikiEn = "Desyat Negrityat";
-    x.wikiRu = "Десять негритят (фильм, 1987)";
-    add.push(x);
-  })();
-  (function () {
-    var x = f("wdq2471725", "Ленин в 1918 году", "Lenin in 1918", 1939, "\u0444\u0438\u043b\u044c\u043c", ["comedy", "horror", "kids"], ["Ленин в 1918 году", "Lenin in 1918"], "Ленин в 1918 году 1939");
-    x.wikiEn = "Lenin in 1918";
-    x.wikiRu = "Ленин в 1918 году";
-    add.push(x);
-  })();
-  window.POFRAZE_FILMS = window.POFRAZE_FILMS.concat(add);
+  if (!f) return;
+  window.POFRAZE_FILMS = window.POFRAZE_FILMS.concat([
+    Object.assign(f("wdq134773", "Форрест Гамп", "", 1994, "фильм", ["horror", "dark"], ["Форрест Гамп"], "Форрест Гамп"), { wikiEn: "Forrest Gump", wikiRu: "Форрест Гамп" }),
+    Object.assign(f("wdq44578", "Титаник", "Titanic", 1997, "фильм", ["comedy", "irony"], ["Titanic", "Титаник"], "Титаник"), { wikiEn: "Titanic (1997 film)", wikiRu: "Титаник (фильм, 1997)" }),
+    Object.assign(f("wdq47703", "Крёстный отец", "The Godfather", 1972, "фильм", ["war", "dark"], ["The Godfather", "Крёстный отец"], "Крёстный отец"), { wikiEn: "The Godfather", wikiRu: "Крёстный отец (фильм)" }),
+    Object.assign(f("wdq24871", "Аватар", "Avatar", 2022, "фильм", ["war", "dark"], ["Avatar", "Аватар"], "Аватар"), { wikiEn: "Avatar (2009 film)", wikiRu: "Аватар (фильм, 2009)" }),
+    Object.assign(f("wdq83495", "Матрица", "The Matrix", 1999, "фильм", ["war", "dark"], ["The Matrix", "Матрица"], "Матрица"), { wikiEn: "The Matrix", wikiRu: "Матрица (фильм)" }),
+    Object.assign(f("wdq128518", "Гладиатор", "Gladiator", 2023, "фильм", ["space", "slow"], ["Gladiator", "Гладиатор"], "Гладиатор"), { wikiEn: "Gladiator (2000 film)", wikiRu: "Гладиатор (фильм, 2000)" }),
+    Object.assign(f("wdq104123", "Криминальное чтиво", "Pulp Fiction", 1994, "фильм", ["crime", "slick-urban"], ["Pulp Fiction", "Криминальное чтиво"], "Криминальное чтиво"), { wikiEn: "Pulp Fiction", wikiRu: "Криминальное чтиво" }),
+    Object.assign(f("wdq172241", "Побег из Шоушенка", "The Shawshank Redemption", 1995, "фильм", ["family", "slow"], ["The Shawshank Redemption", "Побег из Шоушенка"], "Побег из Шоушенка"), { wikiEn: "The Shawshank Redemption", wikiRu: "Побег из Шоушенка" }),
+    Object.assign(f("wdq132689", "Касабланка", "Casablanca", 1947, "фильм", ["family", "slow"], ["Casablanca", "Касабланка"], "Касабланка"), { wikiEn: "Casablanca (film)", wikiRu: "Касабланка (фильм)" }),
+    Object.assign(f("wdq163872", "Тёмный рыцарь", "The Dark Knight", 2022, "фильм", ["tempo", "dark"], ["The Dark Knight", "Тёмный рыцарь"], "Тёмный рыцарь"), { wikiEn: "The Dark Knight", wikiRu: "Тёмный рыцарь (фильм)" }),
+    Object.assign(f("wdq91540", "Назад в будущее", "Back to the Future", 1985, "фильм", ["fantasy", "family"], ["Back to the Future", "Назад в будущее"], "Назад в будущее"), { wikiEn: "Back to the Future", wikiRu: "Назад в будущее" }),
+    Object.assign(f("wdq133654", "Молчание ягнят", "The Silence of the Lambs", 1991, "фильм", ["space", "slow"], ["The Silence of the Lambs", "Молчание ягнят"], "Молчание ягнят"), { wikiEn: "The Silence of the Lambs (film)", wikiRu: "Молчание ягнят (фильм)" }),
+    Object.assign(f("wdq483941", "Список Шиндлера", "Schindler's List", 1994, "фильм", ["horror", "dark"], ["Schindler's List", "Список Шиндлера"], "Список Шиндлера"), { wikiEn: "Schindler's List", wikiRu: "Список Шиндлера" }),
+    Object.assign(f("wdq190050", "Бойцовский клуб", "Fight Club", 1999, "фильм", ["comedy", "irony"], ["Fight Club", "Бойцовский клуб"], "Бойцовский клуб"), { wikiEn: "Fight Club", wikiRu: "Бойцовский клуб (фильм)" }),
+    Object.assign(f("wdq162255", "Терминатор", "The Terminator", 1987, "фильм", ["war", "dark"], ["The Terminator", "Терминатор"], "Терминатор"), { wikiEn: "The Terminator", wikiRu: "Терминатор (фильм)" }),
+    Object.assign(f("wdq167726", "Парк юрского периода", "Jurassic Park", 1994, "фильм", ["space", "slow"], ["Jurassic Park", "Парк юрского периода"], "Парк юрского периода"), { wikiEn: "Jurassic Park", wikiRu: "Парк юрского периода (фильм)" }),
+    Object.assign(f("wdq102438", "Гарри Поттер и философский камень", "Harry Potter and the Philosopher's Stone", 2001, "фильм", ["space", "slow"], ["Harry Potter and the Philosopher's Stone", "Гарри Поттер и философский камень"], "Гарри Поттер и философский камень"), { wikiEn: "Harry Potter and the Philosopher's Stone (film)", wikiRu: "Гарри Поттер и философский камень (фильм)" }),
+    Object.assign(f("wdq13417189", "Интерстеллар", "Interstellar", 2025, "фильм", ["horror", "dark"], ["Interstellar", "Интерстеллар"], "Интерстеллар"), { wikiEn: "Interstellar (film)", wikiRu: "Интерстеллар" }),
+    Object.assign(f("wdq5890", "V — значит вендетта", "V for Vendetta", 2006, "фильм", ["comedy", "irony"], ["V for Vendetta", "V — значит вендетта"], "V — значит вендетта"), { wikiEn: "V for Vendetta (film)", wikiRu: "V — значит вендетта (фильм)" }),
+    Object.assign(f("wdq2875", "Унесённые ветром", "Gone with the Wind", 1939, "фильм", ["crime", "slick-urban"], ["Gone with the Wind", "Унесённые ветром"], "Унесённые ветром"), { wikiEn: "Gone with the Wind (film)", wikiRu: "Унесённые ветром (фильм)" }),
+    Object.assign(f("wdq25188", "Начало", "Inception", 2010, "фильм", ["fantasy", "family"], ["Inception", "Начало"], "Начало"), { wikiEn: "Inception", wikiRu: "Начало (фильм, 2010)" }),
+    Object.assign(f("wdq127367", "Властелин колец: Братство Кольца", "The Lord of the Rings: The Fellowship of the Ring", 2002, "фильм", ["war", "dark"], ["The Lord of the Rings: The Fellowship of the Ring", "Властелин колец: Братство Кольца"], "Властелин колец: Братство Кольца"), { wikiEn: "The Lord of the Rings: The Fellowship of the Ring", wikiRu: "Властелин колец: Братство Кольца" }),
+    Object.assign(f("wdq17738", "Звёздные войны. Эпизод IV: Новая надежда", "Star Wars: Episode IV – A New Hope", 1978, "фильм", ["comedy", "irony"], ["Star Wars: Episode IV – A New Hope", "Звёздные войны. Эпизод IV: Новая надежда"], "Звёздные войны. Эпизод IV: Новая надежда"), { wikiEn: "Star Wars (film)", wikiRu: "Звёздные войны. Эпизод IV: Новая надежда" }),
+    Object.assign(f("wdq182218", "Мстители", "The Avengers", 2012, "фильм", ["comedy", "irony"], ["The Avengers", "Мстители"], "Мстители"), { wikiEn: "The Avengers (2012 film)", wikiRu: "Мстители (фильм, 2012)" }),
+    Object.assign(f("wdq41483", "Хороший, плохой, злой", "The Good, the Bad and the Ugly", 1968, "фильм", ["crime", "slick-urban"], ["The Good, the Bad and the Ugly", "Хороший, плохой, злой"], "Хороший, плохой, злой"), { wikiEn: "The Good, the Bad and the Ugly", wikiRu: "Хороший, плохой, злой" }),
+    Object.assign(f("wdq102244", "Гарри Поттер и тайная комната", "Harry Potter and the Chamber of Secrets", 2003, "фильм", ["fantasy", "family"], ["Harry Potter and the Chamber of Secrets", "Гарри Поттер и тайная комната"], "Гарри Поттер и тайная комната"), { wikiEn: "Harry Potter and the Chamber of Secrets (film)", wikiRu: "Гарри Поттер и Тайная комната (фильм)" }),
+    Object.assign(f("wdq131074", "Властелин колец: Возвращение короля", "The Lord of the Rings: The Return of the King", 2004, "фильм", ["comedy", "irony"], ["The Lord of the Rings: The Return of the King", "Властелин колец: Возвращение короля"], "Властелин колец: Возвращение короля"), { wikiEn: "The Lord of the Rings: The Return of the King", wikiRu: "Властелин колец: Возвращение короля" }),
+    Object.assign(f("wdq162729", "Храброе сердце", "Braveheart", 1995, "фильм", ["family", "slow"], ["Braveheart", "Храброе сердце"], "Храброе сердце"), { wikiEn: "Braveheart", wikiRu: "Храброе сердце (фильм)" }),
+    Object.assign(f("wdq165713", "Звёздные войны. Эпизод I: Скрытая угроза", "Star Wars: Episode I – The Phantom Menace", 2001, "фильм", ["family", "slow"], ["Star Wars: Episode I – The Phantom Menace", "Звёздные войны. Эпизод I: Скрытая угроза"], "Звёздные войны. Эпизод I: Скрытая угроза"), { wikiEn: "Star Wars: Episode I – The Phantom Menace", wikiRu: "Звёздные войны. Эпизод I: Скрытая угроза" }),
+    Object.assign(f("wdq170564", "Терминатор 2: Судный день", "Terminator 2: Judgment Day", 1991, "фильм", ["fantasy", "family"], ["Terminator 2: Judgment Day", "Терминатор 2: Судный день"], "Терминатор 2: Судный день"), { wikiEn: "Terminator 2: Judgment Day", wikiRu: "Терминатор 2: Судный день" }),
+    Object.assign(f("wdq102225", "Гарри Поттер и Кубок огня", "Harry Potter and the Goblet of Fire", 2022, "фильм", ["family", "slow"], ["Harry Potter and the Goblet of Fire", "Гарри Поттер и Кубок огня"], "Гарри Поттер и Кубок огня"), { wikiEn: "Harry Potter and the Goblet of Fire (film)", wikiRu: "Гарри Поттер и Кубок огня (фильм)" }),
+    Object.assign(f("wdq103474", "Космическая одиссея 2001 года", "2001: A Space Odyssey", 1968, "фильм", ["comedy", "irony"], ["2001: A Space Odyssey", "Космическая одиссея 2001 года"], "Космическая одиссея 2001 года"), { wikiEn: "2001: A Space Odyssey", wikiRu: "Космическая одиссея 2001 года" }),
+    Object.assign(f("wdq102448", "Гарри Поттер и узник Азкабана", "Harry Potter and the Prisoner of Azkaban", 2022, "фильм", ["tempo", "dark"], ["Harry Potter and the Prisoner of Azkaban", "Гарри Поттер и узник Азкабана"], "Гарри Поттер и узник Азкабана"), { wikiEn: "Harry Potter and the Prisoner of Azkaban (film)", wikiRu: "Гарри Поттер и узник Азкабана (фильм)" }),
+    Object.assign(f("wdq23781155", "Мстители: Финал", "Avengers: Endgame", 2019, "фильм", ["crime", "slick-urban"], ["Avengers: Endgame", "Мстители: Финал"], "Мстители: Финал"), { wikiEn: "Avengers: Endgame", wikiRu: "Мстители: Финал" }),
+    Object.assign(f("wdq46717", "Пираты Карибского моря: Проклятие Чёрной жемчужины", "Pirates of the Caribbean: The Curse of the Black Pearl", 2003, "фильм", ["horror", "dark"], ["Pirates of the Caribbean: The Curse of the Black Pearl", "Пираты Карибского моря: Проклятие Чёрной жемчужины"], "Пираты Карибского моря: Проклятие Чёрной жемчужины"), { wikiEn: "Pirates of the Caribbean: The Curse of the Black Pearl", wikiRu: "Пираты Карибского моря: Проклятие Чёрной жемчужины" }),
+    Object.assign(f("wdq125076", "Миллионер из трущоб", "Slumdog Millionaire", 2009, "фильм", ["fantasy", "family"], ["Slumdog Millionaire", "Миллионер из трущоб"], "Миллионер из трущоб"), { wikiEn: "Slumdog Millionaire", wikiRu: "Миллионер из трущоб" }),
+    Object.assign(f("wdq161687", "Гарри Поттер и Принц-полукровка", "Harry Potter and the Half-Blood Prince", 2009, "фильм", ["war", "dark"], ["Harry Potter and the Half-Blood Prince", "Гарри Поттер и Принц-полукровка"], "Гарри Поттер и Принц-полукровка"), { wikiEn: "Harry Potter and the Half-Blood Prince (film)", wikiRu: "Гарри Поттер и Принц-полукровка (фильм)" }),
+    Object.assign(f("wdq102235", "Гарри Поттер и Орден Феникса", "Harry Potter and the Order of the Phoenix", 2007, "фильм", ["crime", "slick-urban"], ["Harry Potter and the Order of the Phoenix", "Гарри Поттер и Орден Феникса"], "Гарри Поттер и Орден Феникса"), { wikiEn: "Harry Potter and the Order of the Phoenix (film)", wikiRu: "Гарри Поттер и Орден Феникса (фильм)" }),
+    Object.assign(f("wdq164963", "Властелин колец: Две крепости", "The Lord of the Rings: The Two Towers", 2003, "фильм", ["crime", "slick-urban"], ["The Lord of the Rings: The Two Towers", "Властелин колец: Две крепости"], "Властелин колец: Две крепости"), { wikiEn: "The Lord of the Rings: The Two Towers", wikiRu: "Властелин колец: Две крепости" }),
+    Object.assign(f("wdq165817", "Спасти рядового Райана", "Saving Private Ryan", 1998, "фильм", ["family", "slow"], ["Saving Private Ryan", "Спасти рядового Райана"], "Спасти рядового Райана"), { wikiEn: "Saving Private Ryan", wikiRu: "Спасти рядового Райана" }),
+    Object.assign(f("wdq106316", "Общество мёртвых поэтов", "Dead Poets Society", 1990, "фильм", ["fantasy", "family"], ["Dead Poets Society", "Общество мёртвых поэтов"], "Общество мёртвых поэтов"), { wikiEn: "Dead Poets Society", wikiRu: "Общество мёртвых поэтов" }),
+    Object.assign(f("wdq164103", "Игры разума", "A Beautiful Mind", 2001, "фильм", ["war", "dark"], ["A Beautiful Mind", "Игры разума"], "Игры разума"), { wikiEn: "A Beautiful Mind", wikiRu: "Игры разума" }),
+    Object.assign(f("wdq184768", "Крёстный отец 2", "The Godfather Part II", 1975, "фильм", ["tempo", "dark"], ["The Godfather Part II", "Крёстный отец 2"], "Крёстный отец 2"), { wikiEn: "The Godfather Part II", wikiRu: "Крёстный отец 2" }),
+    Object.assign(f("wdq23780914", "Мстители: Война бесконечности", "Avengers: Infinity War", 2018, "фильм", ["comedy", "irony"], ["Avengers: Infinity War", "Мстители: Война бесконечности"], "Мстители: Война бесконечности"), { wikiEn: "Avengers: Infinity War", wikiRu: "Мстители: Война бесконечности" }),
+    Object.assign(f("wdq42051", "Звёздные войны. Эпизод III: Месть ситхов", "Star Wars: Episode III – Revenge of the Sith", 2025, "фильм", ["crime", "slick-urban"], ["Star Wars: Episode III – Revenge of the Sith", "Звёздные войны. Эпизод III: Месть ситхов"], "Звёздные войны. Эпизод III: Месть ситхов"), { wikiEn: "Star Wars: Episode III – Revenge of the Sith", wikiRu: "Звёздные войны. Эпизод III: Месть ситхов" }),
+    Object.assign(f("wdq166262", "Бэтмен: Начало", "Batman Begins", 2005, "фильм", ["space", "slow"], ["Batman Begins", "Бэтмен: Начало"], "Бэтмен: Начало"), { wikiEn: "Batman Begins", wikiRu: "Бэтмен: Начало" }),
+    Object.assign(f("wdq160618", "Горбатая гора", "Brokeback Mountain", 2006, "фильм", ["comedy", "irony"], ["Brokeback Mountain", "Горбатая гора"], "Горбатая гора"), { wikiEn: "Brokeback Mountain", wikiRu: "Горбатая гора" }),
+    Object.assign(f("wdq54274", "Пираты Карибского моря: На краю света", "Pirates of the Caribbean: At World's End", 2007, "фильм", ["comedy", "irony"], ["Pirates of the Caribbean: At World's End", "Пираты Карибского моря: На краю света"], "Пираты Карибского моря: На краю света"), { wikiEn: "Pirates of the Caribbean: At World's End", wikiRu: "Пираты Карибского моря: На краю света" }),
+    Object.assign(f("wdq181795", "Звёздные войны. Эпизод V: Империя наносит ответный удар", "Star Wars: Episode V – The Empire Strikes Back", 1980, "фильм", ["crime", "slick-urban"], ["Star Wars: Episode V – The Empire Strikes Back", "Звёздные войны. Эпизод V: Империя наносит ответный удар"], "Звёздные войны. Эпизод V: Империя наносит ответный удар"), { wikiEn: "The Empire Strikes Back", wikiRu: "Звёздные войны. Эпизод V: Империя наносит ответный удар" }),
+    Object.assign(f("wdq184843", "Бегущий по лезвию", "Blade Runner", 1982, "фильм", ["crime", "slick-urban"], ["Blade Runner", "Бегущий по лезвию"], "Бегущий по лезвию"), { wikiEn: "Blade Runner", wikiRu: "Бегущий по лезвию" }),
+    Object.assign(f("wdq484442", "Человек-паук", "Spider-Man", 2002, "фильм", ["comedy", "irony"], ["Spider-Man", "Человек-паук"], "Человек-паук"), { wikiEn: "Spider-Man (2002 film)", wikiRu: "Человек-паук (фильм, 2002)" }),
+    Object.assign(f("wdq182692", "Апокалипсис сегодня", "Apocalypse Now", 2019, "фильм", ["fantasy", "family"], ["Apocalypse Now", "Апокалипсис сегодня"], "Апокалипсис сегодня"), { wikiEn: "Apocalypse Now", wikiRu: "Апокалипсис сегодня" }),
+    Object.assign(f("wdq192724", "Железный человек", "", 2008, "фильм", ["fantasy", "family"], ["Железный человек"], "Железный человек"), { wikiEn: "Iron Man (2008 film)", wikiRu: "Железный человек (фильм, 2008)" }),
+    Object.assign(f("wdq161087", "Пираты Карибского моря: Сундук мертвеца", "Pirates of the Caribbean: Dead Man's Chest", 2006, "фильм", ["war", "dark"], ["Pirates of the Caribbean: Dead Man's Chest", "Пираты Карибского моря: Сундук мертвеца"], "Пираты Карибского моря: Сундук мертвеца"), { wikiEn: "Pirates of the Caribbean: Dead Man's Chest", wikiRu: "Пираты Карибского моря: Сундук мертвеца" }),
+    Object.assign(f("wdq24815", "Гражданин Кейн", "Citizen Kane", 1946, "фильм", ["war", "dark"], ["Citizen Kane", "Гражданин Кейн"], "Гражданин Кейн"), { wikiEn: "Citizen Kane", wikiRu: "Гражданин Кейн" }),
+    Object.assign(f("wdq103569", "Чужой", "Alien", 1979, "фильм", ["family", "slow"], ["Alien", "Чужой"], "Чужой"), { wikiEn: "Alien (film)", wikiRu: "Чужой (фильм)" }),
+    Object.assign(f("wdq181803", "Звёздные войны. Эпизод VI: Возвращение джедая", "Star Wars: Episode VI – Return of the Jedi", 1983, "фильм", ["crime", "slick-urban"], ["Star Wars: Episode VI – Return of the Jedi", "Звёздные войны. Эпизод VI: Возвращение джедая"], "Звёздные войны. Эпизод VI: Возвращение джедая"), { wikiEn: "Return of the Jedi", wikiRu: "Звёздные войны. Эпизод VI: Возвращение джедая" }),
+    Object.assign(f("wdq182153", "Тачки", "Cars", 2026, "фильм", ["family", "slow"], ["Cars", "Тачки"], "Тачки"), { wikiEn: "Cars (film)", wikiRu: "Тачки" }),
+    Object.assign(f("wdq131390", "300 спартанцев", "300", 2006, "фильм", ["space", "slow"], ["300", "300 спартанцев"], "300 спартанцев"), { wikiEn: "300 (film)", wikiRu: "300 спартанцев (фильм, 2006)" }),
+    Object.assign(f("wdq161678", "Гарри Поттер и Дары Смерти. Часть 1", "Harry Potter and the Deathly Hallows – Part 1", 2010, "фильм", ["space", "slow"], ["Harry Potter and the Deathly Hallows – Part 1", "Гарри Поттер и Дары Смерти. Часть 1"], "Гарри Поттер и Дары Смерти. Часть 1"), { wikiEn: "Harry Potter and the Deathly Hallows – Part 1", wikiRu: "Гарри Поттер и Дары Смерти. Часть 1" }),
+    Object.assign(f("wdq105031", "Один дома", "Home Alone", 1991, "фильм", ["war", "dark"], ["Home Alone", "Один дома"], "Один дома"), { wikiEn: "Home Alone", wikiRu: "Один дома" }),
+    Object.assign(f("wdq181069", "Звёздные войны. Эпизод II: Атака клонов", "Star Wars: Episode II – Attack of the Clones", 2002, "фильм", ["horror", "dark"], ["Star Wars: Episode II – Attack of the Clones", "Звёздные войны. Эпизод II: Атака клонов"], "Звёздные войны. Эпизод II: Атака клонов"), { wikiEn: "Star Wars: Episode II – Attack of the Clones", wikiRu: "Звёздные войны. Эпизод II: Атака клонов" }),
+    Object.assign(f("wdq14171368", "Мстители: Эра Альтрона", "Avengers: Age of Ultron", 2015, "фильм", ["tempo", "dark"], ["Avengers: Age of Ultron", "Мстители: Эра Альтрона"], "Мстители: Эра Альтрона"), { wikiEn: "Avengers: Age of Ultron", wikiRu: "Мстители: Эра Альтрона" }),
+    Object.assign(f("wdq109116", "Великий диктатор", "The Great Dictator", 1960, "фильм", ["fantasy", "family"], ["The Great Dictator", "Великий диктатор"], "Великий диктатор"), { wikiEn: "The Great Dictator", wikiRu: "Великий диктатор" }),
+    Object.assign(f("wdq190086", "В джазе только девушки", "Some Like It Hot", 1959, "фильм", ["space", "slow"], ["Some Like It Hot", "В джазе только девушки"], "В джазе только девушки"), { wikiEn: "Some Like It Hot", wikiRu: "В джазе только девушки" }),
+    Object.assign(f("wdq232009", "Гарри Поттер и Дары Смерти. Часть 2", "Harry Potter and the Deathly Hallows – Part 2", 2011, "фильм", ["family", "slow"], ["Harry Potter and the Deathly Hallows – Part 2", "Гарри Поттер и Дары Смерти. Часть 2"], "Гарри Поттер и Дары Смерти. Часть 2"), { wikiEn: "Harry Potter and the Deathly Hallows – Part 2", wikiRu: "Гарри Поттер и Дары Смерти. Часть 2" }),
+    Object.assign(f("wdq61448040", "Паразиты", "Parasite", 2019, "фильм", ["tempo", "dark"], ["Parasite", "Паразиты"], "Паразиты"), { wikiEn: "Parasite (2019 film)", wikiRu: "Паразиты (фильм)" }),
+    Object.assign(f("wdq108839994", "Оппенгеймер", "Oppenheimer", 2023, "фильм", ["comedy", "irony"], ["Oppenheimer", "Оппенгеймер"], "Оппенгеймер"), { wikiEn: "Oppenheimer (film)", wikiRu: "Оппенгеймер (фильм)" }),
+    Object.assign(f("wdq172975", "Отступники", "The Departed", 2006, "фильм", ["war", "dark"], ["The Departed", "Отступники"], "Отступники"), { wikiEn: "The Departed", wikiRu: "Отступники" }),
+    Object.assign(f("wdq174284", "Индиана Джонс: В поисках утраченного ковчега", "Raiders of the Lost Ark", 1981, "фильм", ["fantasy", "family"], ["Raiders of the Lost Ark", "Индиана Джонс: В поисках утраченного ковчега"], "Индиана Джонс: В поисках утраченного ковчега"), { wikiEn: "Raiders of the Lost Ark", wikiRu: "Индиана Джонс: В поисках утраченного ковчега" }),
+    Object.assign(f("wdq153723", "Бесславные ублюдки", "Inglourious Basterds", 2009, "фильм", ["crime", "slick-urban"], ["Inglourious Basterds", "Бесславные ублюдки"], "Бесславные ублюдки"), { wikiEn: "Inglourious Basterds", wikiRu: "Бесславные ублюдки" }),
+    Object.assign(f("wdq19355", "Жизнь прекрасна", "Life Is Beautiful", 1999, "фильм", ["crime", "slick-urban"], ["Life Is Beautiful", "Жизнь прекрасна"], "Жизнь прекрасна"), { wikiEn: "Life Is Beautiful", wikiRu: "Жизнь прекрасна (фильм, 1997)" }),
+    Object.assign(f("wdq275120", "Первый мститель", "Captain America: The First Avenger", 2011, "фильм", ["tempo", "dark"], ["Captain America: The First Avenger", "Первый мститель"], "Первый мститель"), { wikiEn: "Captain America: The First Avenger", wikiRu: "Первый мститель" }),
+    Object.assign(f("wdq183081", "Старикам тут не место", "No Country for Old Men", 2008, "фильм", ["family", "slow"], ["No Country for Old Men", "Старикам тут не место"], "Старикам тут не место"), { wikiEn: "No Country for Old Men", wikiRu: "Старикам тут не место (фильм)" }),
+    Object.assign(f("wdq228186", "Лоуренс Аравийский", "Lawrence of Arabia", 1963, "фильм", ["comedy", "irony"], ["Lawrence of Arabia", "Лоуренс Аравийский"], "Лоуренс Аравийский"), { wikiEn: "Lawrence of Arabia (film)", wikiRu: "Лоуренс Аравийский (фильм)" }),
+    Object.assign(f("wdq25139", "Красота по-американски", "American Beauty", 2000, "фильм", ["crime", "slick-urban"], ["American Beauty", "Красота по-американски"], "Красота по-американски"), { wikiEn: "American Beauty (1999 film)", wikiRu: "Красота по-американски" }),
+    Object.assign(f("wdq47221", "Таксист", "Taxi Driver", 1977, "фильм", ["horror", "dark"], ["Taxi Driver", "Таксист"], "Таксист"), { wikiEn: "Taxi Driver", wikiRu: "Таксист (фильм, 1976)" }),
+    Object.assign(f("wdq3023357", "12 лет рабства", "12 Years a Slave", 2014, "фильм", ["horror", "dark"], ["12 Years a Slave", "12 лет рабства"], "12 лет рабства"), { wikiEn: "12 Years a Slave (film)", wikiRu: "12 лет рабства" }),
+    Object.assign(f("wdq171669", "Пролетая над гнездом кукушки", "One Flew Over the Cuckoo's Nest", 1976, "фильм", ["horror", "dark"], ["One Flew Over the Cuckoo's Nest", "Пролетая над гнездом кукушки"], "Пролетая над гнездом кукушки"), { wikiEn: "One Flew Over the Cuckoo's Nest (film)", wikiRu: "Пролетая над гнездом кукушки (фильм)" }),
+    Object.assign(f("wdq105598", "Крепкий орешек", "Die Hard", 1988, "фильм", ["space", "slow"], ["Die Hard", "Крепкий орешек"], "Крепкий орешек"), { wikiEn: "Die Hard", wikiRu: "Крепкий орешек (фильм, 1988)" }),
+    Object.assign(f("wdq180098", "Бен-Гур", "Ben-Hur", 1959, "фильм", ["comedy", "irony"], ["Ben-Hur", "Бен-Гур"], "Бен-Гур"), { wikiEn: "Ben-Hur (1959 film)", wikiRu: "Бен-Гур (фильм, 1959)" }),
+    Object.assign(f("wdq217020", "Тор", "Thor", 2011, "фильм", ["fantasy", "family"], ["Thor", "Тор"], "Тор"), { wikiEn: "Thor (film)", wikiRu: "Тор (фильм)" }),
+    Object.assign(f("wdq150804", "Пианист", "The Pianist", 2002, "фильм", ["fantasy", "family"], ["The Pianist", "Пианист"], "Пианист"), { wikiEn: "The Pianist (2002 film)", wikiRu: "Пианист (фильм)" }),
+    Object.assign(f("wdq484048", "Амели", "Amélie", 2002, "фильм", ["tempo", "dark"], ["Amélie", "Амели"], "Амели"), { wikiEn: "Amélie", wikiRu: "Амели" }),
+    Object.assign(f("wdq160060", "Король говорит!", "The King's Speech", 2011, "фильм", ["fantasy", "family"], ["The King's Speech", "Король говорит!"], "Король говорит!"), { wikiEn: "The King's Speech", wikiRu: "Король говорит!" }),
+    Object.assign(f("wdq163038", "Психо", "Psycho", 1960, "фильм", ["space", "slow"], ["Psycho", "Психо"], "Психо"), { wikiEn: "Psycho (1960 film)", wikiRu: "Психо" }),
+    Object.assign(f("wdq4941", "007: Координаты «Скайфолл»", "Skyfall", 2012, "фильм", ["horror", "dark"], ["Skyfall", "007: Координаты «Скайфолл»"], "007: Координаты «Скайфолл»"), { wikiEn: "Skyfall", wikiRu: "007: Координаты «Скайфолл»" }),
+    Object.assign(f("wdq208263", "Зелёная миля", "The Green Mile", 2000, "фильм", ["war", "dark"], ["The Green Mile", "Зелёная миля"], "Зелёная миля"), { wikiEn: "The Green Mile (film)", wikiRu: "Зелёная миля (фильм)" }),
+    Object.assign(f("wdq2579784", "Гравитация", "Gravity", 2013, "фильм", ["tempo", "dark"], ["Gravity", "Гравитация"], "Гравитация"), { wikiEn: "Gravity (2013 film)", wikiRu: "Гравитация (фильм)" }),
+    Object.assign(f("wdq46551", "Престиж", "The Prestige", 2007, "фильм", ["war", "dark"], ["The Prestige", "Престиж"], "Престиж"), { wikiEn: "The Prestige", wikiRu: "Престиж (фильм)" }),
+    Object.assign(f("wdq202326", "Крёстный отец 3", "The Godfather Part III", 1991, "фильм", ["space", "slow"], ["The Godfather Part III", "Крёстный отец 3"], "Крёстный отец 3"), { wikiEn: "The Godfather Part III", wikiRu: "Крёстный отец 3" }),
+    Object.assign(f("wdq102754", "Доктор Ноу", "Dr. No", 1963, "фильм", ["comedy", "irony"], ["Dr. No", "Доктор Ноу"], "Доктор Ноу"), { wikiEn: "Dr. No (film)", wikiRu: "Доктор Ноу" }),
+    Object.assign(f("wdq208108", "Поймай меня, если сможешь", "Catch Me If You Can", 2003, "фильм", ["fantasy", "family"], ["Catch Me If You Can", "Поймай меня, если сможешь"], "Поймай меня, если сможешь"), { wikiEn: "Catch Me If You Can", wikiRu: "Поймай меня, если сможешь" }),
+    Object.assign(f("wdq2345", "12 разгневанных мужчин", "12 Angry Men", 1958, "фильм", ["family", "slow"], ["12 Angry Men", "12 разгневанных мужчин"], "12 разгневанных мужчин"), { wikiEn: "12 Angry Men", wikiRu: "12 разгневанных мужчин (фильм, 1957)" }),
+    Object.assign(f("wdq23780734", "Чёрная пантера", "Black Panther", 2018, "фильм", ["space", "slow"], ["Black Panther", "Чёрная пантера"], "Чёрная пантера"), { wikiEn: "Black Panther (film)", wikiRu: "Чёрная пантера (фильм, 2018)" }),
+    Object.assign(f("wdq270470", "Питер Пэн", "Peter Pan", 1953, "фильм", ["space", "slow"], ["Peter Pan", "Питер Пэн"], "Питер Пэн"), { wikiEn: "Peter Pan (1953 film)", wikiRu: "Питер Пэн (мультфильм)" }),
+    Object.assign(f("wdq186341", "Сияние", "The Shining", 1980, "фильм", ["horror", "dark"], ["The Shining", "Сияние"], "Сияние"), { wikiEn: "The Shining (film)", wikiRu: "Сияние (фильм, 1980)" }),
+    Object.assign(f("wdq186587", "Троя", "Troy", 2004, "фильм", ["crime", "slick-urban"], ["Troy", "Троя"], "Троя"), { wikiEn: "Troy (film)", wikiRu: "Троя (фильм)" }),
+    Object.assign(f("wdq42759035", "Джокер", "Joker", 2019, "фильм", ["crime", "slick-urban"], ["Joker", "Джокер"], "Джокер"), { wikiEn: "Joker (2019 film)", wikiRu: "Джокер (фильм, 2019)" }),
+    Object.assign(f("wdq6074", "Звёздные войны: Пробуждение силы", "Star Wars: Episode VII – The Force Awakens", 2016, "фильм", ["comedy", "irony"], ["Star Wars: Episode VII – The Force Awakens", "Звёздные войны: Пробуждение силы"], "Звёздные войны: Пробуждение силы"), { wikiEn: "Star Wars: The Force Awakens", wikiRu: "Звёздные войны: Пробуждение силы" }),
+    Object.assign(f("wdq571032", "Джанго освобождённый", "Django Unchained", 2013, "фильм", ["tempo", "dark"], ["Django Unchained", "Джанго освобождённый"], "Джанго освобождённый"), { wikiEn: "Django Unchained", wikiRu: "Джанго освобождённый" }),
+    Object.assign(f("wdq23010088", "Человек-паук: Возвращение домой", "Spider-Man: Homecoming", 2017, "фильм", ["tempo", "dark"], ["Spider-Man: Homecoming", "Человек-паук: Возвращение домой"], "Человек-паук: Возвращение домой"), { wikiEn: "Spider-Man: Homecoming", wikiRu: "Человек-паук: Возвращение домой" }),
+    Object.assign(f("wdq1392744", "Волк с Уолл-стрит", "The Wolf of Wall Street", 2014, "фильм", ["tempo", "dark"], ["The Wolf of Wall Street", "Волк с Уолл-стрит"], "Волк с Уолл-стрит"), { wikiEn: "The Wolf of Wall Street (2013 film)", wikiRu: "Волк с Уолл-стрит" }),
+    Object.assign(f("wdq13255497", "Бёрдмен", "Birdman", 2015, "фильм", ["family", "slow"], ["Birdman", "Бёрдмен"], "Бёрдмен"), { wikiEn: "Birdman (film)", wikiRu: "Бёрдмэн" }),
+    Object.assign(f("wdq205028", "Железный человек 2", "Iron Man 2", 2010, "фильм", ["fantasy", "family"], ["Iron Man 2", "Железный человек 2"], "Железный человек 2"), { wikiEn: "Iron Man 2", wikiRu: "Железный человек 2" }),
+    Object.assign(f("wdq183555", "Пираты Карибского моря: На странных берегах", "Pirates of the Caribbean: On Stranger Tides", 2011, "фильм", ["crime", "slick-urban"], ["Pirates of the Caribbean: On Stranger Tides", "Пираты Карибского моря: На странных берегах"], "Пираты Карибского моря: На странных берегах"), { wikiEn: "Pirates of the Caribbean: On Stranger Tides", wikiRu: "Пираты Карибского моря: На странных берегах" }),
+    Object.assign(f("wdq185888", "Социальная сеть", "The Social Network", 2010, "фильм", ["tempo", "dark"], ["The Social Network", "Социальная сеть"], "Социальная сеть"), { wikiEn: "The Social Network", wikiRu: "Социальная сеть (фильм)" }),
+    Object.assign(f("wdq188845", "Человек дождя", "Rain Man", 1989, "фильм", ["horror", "dark"], ["Rain Man", "Человек дождя"], "Человек дождя"), { wikiEn: "Rain Man", wikiRu: "Человек дождя" }),
+    Object.assign(f("wdq160071", "Сумерки", "Twilight", 2009, "фильм", ["war", "dark"], ["Twilight", "Сумерки"], "Сумерки"), { wikiEn: "Twilight (2008 film)", wikiRu: "Сумерки (фильм, 2008)" }),
+    Object.assign(f("wdq171861", "Артист", "The Artist", 2020, "фильм", ["horror", "dark"], ["The Artist", "Артист"], "Артист"), { wikiEn: "The Artist (film)", wikiRu: "Артист (фильм)" }),
+    Object.assign(f("wdq80379", "Хоббит: Нежданное путешествие", "The Hobbit: An Unexpected Journey", 2012, "фильм", ["crime", "slick-urban"], ["The Hobbit: An Unexpected Journey", "Хоббит: Нежданное путешествие"], "Хоббит: Нежданное путешествие"), { wikiEn: "The Hobbit: An Unexpected Journey", wikiRu: "Хоббит: Нежданное путешествие" }),
+    Object.assign(f("wdq180214", "Чёрный лебедь", "Black Swan", 2011, "фильм", ["space", "slow"], ["Black Swan", "Чёрный лебедь"], "Чёрный лебедь"), { wikiEn: "Black Swan (film)", wikiRu: "Чёрный лебедь (фильм, 2010)" }),
+    Object.assign(f("wdq214801", "Шоу Трумана", "The Truman Show", 1998, "фильм", ["family", "slow"], ["The Truman Show", "Шоу Трумана"], "Шоу Трумана"), { wikiEn: "The Truman Show", wikiRu: "Шоу Трумана" }),
+    Object.assign(f("wdq18406872", "Доктор Стрэндж", "Doctor Strange", 2016, "фильм", ["tempo", "dark"], ["Doctor Strange", "Доктор Стрэндж"], "Доктор Стрэндж"), { wikiEn: "Doctor Strange (2016 film)", wikiRu: "Доктор Стрэндж (фильм, 2016)" }),
+    Object.assign(f("wdq20856802", "Ла-Ла Ленд", "", 2017, "фильм", ["comedy", "irony"], ["Ла-Ла Ленд"], "Ла-Ла Ленд"), { wikiEn: "La La Land", wikiRu: "Ла-Ла Ленд" }),
+    Object.assign(f("wdq484675", "Леон", "Léon: The Professional", 1994, "фильм", ["crime", "slick-urban"], ["Léon: The Professional", "Леон"], "Леон"), { wikiEn: "Léon: The Professional", wikiRu: "Леон (фильм)" }),
+    Object.assign(f("wdq212965", "Голодные игры", "The Hunger Games", 2012, "фильм", ["horror", "dark"], ["The Hunger Games", "Голодные игры"], "Голодные игры"), { wikiEn: "The Hunger Games (film)", wikiRu: "Голодные игры (фильм)" }),
+    Object.assign(f("wdq18002795", "Выживший", "The Revenant", 2016, "фильм", ["crime", "slick-urban"], ["The Revenant", "Выживший"], "Выживший"), { wikiEn: "The Revenant (2015 film)", wikiRu: "Выживший (фильм, 2015)" }),
+    Object.assign(f("wdq152780", "Жизнь Пи", "Life of Pi", 2012, "фильм", ["fantasy", "family"], ["Life of Pi", "Жизнь Пи"], "Жизнь Пи"), { wikiEn: "Life of Pi (film)", wikiRu: "Жизнь Пи (фильм)" }),
+    Object.assign(f("wdq190908", "Семь", "Seven", 1995, "фильм", ["fantasy", "family"], ["Seven", "Семь"], "Семь"), { wikiEn: "Seven (1995 film)", wikiRu: "Семь (фильм)" }),
+    Object.assign(f("wdq842306", "Привет, друзья!", "Saludos Amigos", 1942, "фильм", ["comedy", "irony"], ["Saludos Amigos", "Привет, друзья!"], "Привет, друзья!"), { wikiEn: "Saludos Amigos", wikiRu: "Салют, друзья!" }),
+    Object.assign(f("wdq42047", "Славные парни", "Goodfellas", 1990, "фильм", ["war", "dark"], ["Goodfellas", "Славные парни"], "Славные парни"), { wikiEn: "Goodfellas", wikiRu: "Славные парни" }),
+    Object.assign(f("wdq5887360", "Стражи Галактики", "Guardians of the Galaxy", 2014, "фильм", ["tempo", "dark"], ["Guardians of the Galaxy", "Стражи Галактики"], "Стражи Галактики"), { wikiEn: "Guardians of the Galaxy (film)", wikiRu: "Стражи Галактики (фильм)" }),
+    Object.assign(f("wdq105702", "Доктор Стрейнджлав, или Как я перестал бояться и полюбил бомбу", "Dr. Strangelove", 1964, "фильм", ["space", "slow"], ["Dr. Strangelove", "Доктор Стрейнджлав, или Как я перестал бояться и полюбил бомбу"], "Доктор Стрейнджлав, или Как я перестал бояться и полюбил бомбу"), { wikiEn: "Dr. Strangelove", wikiRu: "Доктор Стрейнджлав, или Как я перестал бояться и полюбил бомбу" }),
+    Object.assign(f("wdq181086", "Заводной апельсин", "A Clockwork Orange", 1972, "фильм", ["space", "slow"], ["A Clockwork Orange", "Заводной апельсин"], "Заводной апельсин"), { wikiEn: "A Clockwork Orange (film)", wikiRu: "Заводной апельсин (фильм)" }),
+    Object.assign(f("wdq18547944", "Марсианин", "The Martian", 2015, "фильм", ["tempo", "dark"], ["The Martian", "Марсианин"], "Марсианин"), { wikiEn: "The Martian (film)", wikiRu: "Марсианин (фильм)" }),
+    Object.assign(f("wdq182944", "Влюблённый Шекспир", "Shakespeare in Love", 1999, "фильм", ["tempo", "dark"], ["Shakespeare in Love", "Влюблённый Шекспир"], "Влюблённый Шекспир"), { wikiEn: "Shakespeare in Love", wikiRu: "Влюблённый Шекспир" }),
+    Object.assign(f("wdq19347291", "Дэдпул", "Deadpool", 2016, "фильм", ["crime", "slick-urban"], ["Deadpool", "Дэдпул"], "Дэдпул"), { wikiEn: "Deadpool (film)", wikiRu: "Дэдпул (фильм)" }),
+    Object.assign(f("wdq184605", "2012", "2012", 2009, "фильм", ["horror", "dark"], ["2012", "2012"], "2012"), { wikiEn: "2012 (film)", wikiRu: "2012 (фильм)" }),
+    Object.assign(f("wdq189505", "Челюсти", "Jaws", 1976, "фильм", ["family", "slow"], ["Jaws", "Челюсти"], "Челюсти"), { wikiEn: "Jaws (film)", wikiRu: "Челюсти (фильм)" }),
+    Object.assign(f("wdq189540", "Семь самураев", "Seven Samurai", 1965, "фильм", ["fantasy", "family"], ["Seven Samurai", "Семь самураев"], "Семь самураев"), { wikiEn: "Seven Samurai", wikiRu: "Семь самураев" }),
+    Object.assign(f("wdq188652", "Рокки", "Rocky", 1976, "фильм", ["fantasy", "family"], ["Rocky", "Рокки"], "Рокки"), { wikiEn: "Rocky", wikiRu: "Рокки" }),
+    Object.assign(f("wdq174385", "Алиса в Стране чудес", "Alice in Wonderland", 2010, "фильм", ["family", "slow"], ["Alice in Wonderland", "Алиса в Стране чудес"], "Алиса в Стране чудес"), { wikiEn: "Alice in Wonderland (2010 film)", wikiRu: "Алиса в Стране чудес (фильм, 2010)" }),
+    Object.assign(f("wdq109331", "Назад в будущее 2", "Back to the Future Part II", 1989, "фильм", ["crime", "slick-urban"], ["Back to the Future Part II", "Назад в будущее 2"], "Назад в будущее 2"), { wikiEn: "Back to the Future Part II", wikiRu: "Назад в будущее 2" }),
+    Object.assign(f("wdq190525", "Помни", "Memento", 2001, "фильм", ["horror", "dark"], ["Memento", "Помни"], "Помни"), { wikiEn: "Memento (film)", wikiRu: "Помни" }),
+    Object.assign(f("wdq190956", "Амадей", "Amadeus", 2013, "фильм", ["fantasy", "family"], ["Amadeus", "Амадей"], "Амадей"), { wikiEn: "Amadeus (film)", wikiRu: "Амадей (фильм)" }),
+    Object.assign(f("wdq47075", "Лицо со шрамом", "Scarface", 1984, "фильм", ["crime", "slick-urban"], ["Scarface", "Лицо со шрамом"], "Лицо со шрамом"), { wikiEn: "Scarface (1983 film)", wikiRu: "Лицо со шрамом (фильм, 1983)" }),
+    Object.assign(f("wdq202508", "Мумия", "The Mummy", 1999, "фильм", ["fantasy", "family"], ["The Mummy", "Мумия"], "Мумия"), { wikiEn: "The Mummy (1999 film)", wikiRu: "Мумия (фильм, 1999)" }),
+    Object.assign(f("wdq105387", "День независимости", "Independence Day", 1996, "фильм", ["crime", "slick-urban"], ["Independence Day", "День независимости"], "День независимости"), { wikiEn: "Independence Day (1996 film)", wikiRu: "День независимости (фильм, 1996)" }),
+    Object.assign(f("wdq209538", "Железный человек 3", "Iron Man 3", 2013, "фильм", ["comedy", "irony"], ["Iron Man 3", "Железный человек 3"], "Железный человек 3"), { wikiEn: "Iron Man 3", wikiRu: "Железный человек 3" }),
+    Object.assign(f("wdq210364", "Остров проклятых", "Shutter Island", 2010, "фильм", ["fantasy", "family"], ["Shutter Island", "Остров проклятых"], "Остров проклятых"), { wikiEn: "Shutter Island (film)", wikiRu: "Остров проклятых (фильм)" }),
+    Object.assign(f("wdq18407657", "Первый мститель: Противостояние", "Captain America: Civil War", 2016, "фильм", ["family", "slow"], ["Captain America: Civil War", "Первый мститель: Противостояние"], "Первый мститель: Противостояние"), { wikiEn: "Captain America: Civil War", wikiRu: "Первый мститель: Противостояние" }),
+    Object.assign(f("wdq184255", "Малышка на миллион", "Million Dollar Baby", 2005, "фильм", ["war", "dark"], ["Million Dollar Baby", "Малышка на миллион"], "Малышка на миллион"), { wikiEn: "Million Dollar Baby", wikiRu: "Малышка на миллион" }),
+    Object.assign(f("wdq22665878", "Тор: Рагнарёк", "Thor: Ragnarok", 2017, "фильм", ["space", "slow"], ["Thor: Ragnarok", "Тор: Рагнарёк"], "Тор: Рагнарёк"), { wikiEn: "Thor: Ragnarok", wikiRu: "Тор: Рагнарёк" }),
+    Object.assign(f("wdq20502242", "Чудо-женщина", "Wonder Woman", 2017, "фильм", ["comedy", "irony"], ["Wonder Woman", "Чудо-женщина"], "Чудо-женщина"), { wikiEn: "Wonder Woman (2017 film)", wikiRu: "Чудо-женщина (фильм)" }),
+    Object.assign(f("wdq188718", "Мост через реку Квай", "The Bridge on the River Kwai", 1958, "фильм", ["space", "slow"], ["The Bridge on the River Kwai", "Мост через реку Квай"], "Мост через реку Квай"), { wikiEn: "The Bridge on the River Kwai", wikiRu: "Мост через реку Квай" }),
+    Object.assign(f("wdq189330", "Тёмный рыцарь: Возрождение легенды", "The Dark Knight Rises", 2022, "фильм", ["comedy", "irony"], ["The Dark Knight Rises", "Тёмный рыцарь: Возрождение легенды"], "Тёмный рыцарь: Возрождение легенды"), { wikiEn: "The Dark Knight Rises", wikiRu: "Тёмный рыцарь: Возрождение легенды" }),
+    Object.assign(f("wdq1765358", "Первый мститель: Другая война", "Captain America: The Winter Soldier", 2014, "фильм", ["space", "slow"], ["Captain America: The Winter Soldier", "Первый мститель: Другая война"], "Первый мститель: Другая война"), { wikiEn: "Captain America: The Winter Soldier", wikiRu: "Первый мститель: Другая война" }),
+    Object.assign(f("wdq151904", "Казино «Рояль»", "Casino Royale", 2006, "фильм", ["tempo", "dark"], ["Casino Royale", "Казино «Рояль»"], "Казино «Рояль»"), { wikiEn: "Casino Royale (2006 film)", wikiRu: "Казино «Рояль» (фильм, 2006)" }),
+    Object.assign(f("wdq152350", "Броненосец «Потёмкин»", "Battleship Potemkin", 1925, "фильм", ["space", "slow"], ["Battleship Potemkin", "Броненосец «Потёмкин»"], "Броненосец «Потёмкин»"), { wikiEn: "Battleship Potemkin", wikiRu: "Броненосец «Потёмкин» (фильм)" }),
+    Object.assign(f("wdq48673898", "Зелёная книга", "Green Book", 2018, "фильм", ["comedy", "irony"], ["Green Book", "Зелёная книга"], "Зелёная книга"), { wikiEn: "Green Book (film)", wikiRu: "Зелёная книга (фильм)" }),
+    Object.assign(f("wdq60072", "Звуки музыки", "The Sound of Music", 1965, "фильм", ["tempo", "dark"], ["The Sound of Music", "Звуки музыки"], "Звуки музыки"), { wikiEn: "The Sound of Music (film)", wikiRu: "Звуки музыки (фильм)" }),
+    Object.assign(f("wdq63026", "Английский пациент", "The English Patient", 1997, "фильм", ["comedy", "irony"], ["The English Patient", "Английский пациент"], "Английский пациент"), { wikiEn: "The English Patient (film)", wikiRu: "Английский пациент (фильм)" }),
+    Object.assign(f("wdq204191", "Эта замечательная жизнь", "It's a Wonderful Life", 1947, "фильм", ["war", "dark"], ["It's a Wonderful Life", "Эта замечательная жизнь"], "Эта замечательная жизнь"), { wikiEn: "It's a Wonderful Life", wikiRu: "Эта замечательная жизнь" }),
+    Object.assign(f("wdq104814", "Чужие", "Aliens", 1986, "фильм", ["space", "slow"], ["Aliens", "Чужие"], "Чужие"), { wikiEn: "Aliens (film)", wikiRu: "Чужие (фильм, 1986)" }),
+    Object.assign(f("wdq72962", "Бешеные псы", "Reservoir Dogs", 1992, "фильм", ["comedy", "irony"], ["Reservoir Dogs", "Бешеные псы"], "Бешеные псы"), { wikiEn: "Reservoir Dogs", wikiRu: "Бешеные псы" }),
+    Object.assign(f("wdq179215", "Индиана Джонс и храм судьбы", "Indiana Jones and the Temple of Doom", 1984, "фильм", ["war", "dark"], ["Indiana Jones and the Temple of Doom", "Индиана Джонс и храм судьбы"], "Индиана Джонс и храм судьбы"), { wikiEn: "Indiana Jones and the Temple of Doom", wikiRu: "Индиана Джонс и храм судьбы" }),
+    Object.assign(f("wdq18602670", "007: Спектр", "Spectre", 2015, "фильм", ["space", "slow"], ["Spectre", "007: Спектр"], "007: Спектр"), { wikiEn: "Spectre (2015 film)", wikiRu: "007: Спектр" }),
+    Object.assign(f("wdq719915", "Хоббит: Пустошь Смауга", "The Hobbit: The Desolation of Smaug", 2013, "фильм", ["crime", "slick-urban"], ["The Hobbit: The Desolation of Smaug", "Хоббит: Пустошь Смауга"], "Хоббит: Пустошь Смауга"), { wikiEn: "The Hobbit: The Desolation of Smaug", wikiRu: "Хоббит: Пустошь Смауга" }),
+    Object.assign(f("wdq736731", "Три кабальеро", "The Three Caballeros", 1944, "фильм", ["crime", "slick-urban"], ["The Three Caballeros", "Три кабальеро"], "Три кабальеро"), { wikiEn: "The Three Caballeros", wikiRu: "Три кабальеро" }),
+    Object.assign(f("wdq26698156", "Форма воды", "The Shape of Water", 2018, "фильм", ["fantasy", "family"], ["The Shape of Water", "Форма воды"], "Форма воды"), { wikiEn: "The Shape of Water", wikiRu: "Форма воды" }),
+    Object.assign(f("wdq190145", "Человек-паук 2", "Spider-Man 2", 2004, "фильм", ["family", "slow"], ["Spider-Man 2", "Человек-паук 2"], "Человек-паук 2"), { wikiEn: "Spider-Man 2", wikiRu: "Человек-паук 2" }),
+    Object.assign(f("wdq60834962", "Дюна", "Dune", 2021, "фильм", ["comedy", "irony"], ["Dune", "Дюна"], "Дюна"), { wikiEn: "Dune (2021 film)", wikiRu: "Дюна (фильм, 2021)" }),
+    Object.assign(f("wdq160560", "Код да Винчи", "The Da Vinci Code", 2006, "фильм", ["tempo", "dark"], ["The Da Vinci Code", "Код да Винчи"], "Код да Винчи"), { wikiEn: "The Da Vinci Code (film)", wikiRu: "Код да Винчи (фильм)" }),
+    Object.assign(f("wdq47300912", "Однажды в Голливуде", "Once Upon a Time in Hollywood", 2019, "фильм", ["tempo", "dark"], ["Once Upon a Time in Hollywood", "Однажды в Голливуде"], "Однажды в Голливуде"), { wikiEn: "Once Upon a Time in Hollywood", wikiRu: "Однажды в Голливуде (фильм, 2019)" }),
+    Object.assign(f("wdq201293", "Римские каникулы", "Roman Holiday", 1953, "фильм", ["horror", "dark"], ["Roman Holiday", "Римские каникулы"], "Римские каникулы"), { wikiEn: "Roman Holiday", wikiRu: "Римские каникулы" }),
+    Object.assign(f("wdq39571", "Мой сосед Тоторо", "My Neighbor Totoro", 1990, "фильм", ["crime", "slick-urban"], ["My Neighbor Totoro", "Мой сосед Тоторо"], "Мой сосед Тоторо"), { wikiEn: "My Neighbor Totoro", wikiRu: "Мой сосед Тоторо" }),
+    Object.assign(f("wdq3604746", "Аватар: Путь воды", "Avatar: The Way of Water", 2025, "фильм", ["comedy", "irony"], ["Avatar: The Way of Water", "Аватар: Путь воды"], "Аватар: Путь воды"), { wikiEn: "Avatar: The Way of Water", wikiRu: "Аватар: Путь воды" }),
+    Object.assign(f("wdq5901134", "Человек-муравей", "Ant-Man", 2015, "фильм", ["space", "slow"], ["Ant-Man", "Человек-муравей"], "Человек-муравей"), { wikiEn: "Ant-Man (film)", wikiRu: "Человек-муравей (фильм)" }),
+    Object.assign(f("wdq107270", "Трудности перевода", "Lost in Translation", 2004, "фильм", ["space", "slow"], ["Lost in Translation", "Трудности перевода"], "Трудности перевода"), { wikiEn: "Lost in Translation (film)", wikiRu: "Трудности перевода" }),
+    Object.assign(f("wdq181540", "Квант милосердия", "Quantum of Solace", 2008, "фильм", ["fantasy", "family"], ["Quantum of Solace", "Квант милосердия"], "Квант милосердия"), { wikiEn: "Quantum of Solace", wikiRu: "Квант милосердия" }),
+    Object.assign(f("wdq183066", "Повелитель бури", "The Hurt Locker", 2010, "фильм", ["comedy", "irony"], ["The Hurt Locker", "Повелитель бури"], "Повелитель бури"), { wikiEn: "The Hurt Locker", wikiRu: "Повелитель бури" }),
+    Object.assign(f("wdq13619743", "Миньоны", "Minions", 2015, "фильм", ["war", "dark"], ["Minions", "Миньоны"], "Миньоны"), { wikiEn: "Minions (film)", wikiRu: "Миньоны (мультфильм)" }),
+    Object.assign(f("wdq190588", "Реальная любовь", "Love Actually", 2003, "фильм", ["fantasy", "family"], ["Love Actually", "Реальная любовь"], "Реальная любовь"), { wikiEn: "Love Actually", wikiRu: "Реальная любовь" }),
+    Object.assign(f("wdq622769", "Человек из стали", "Man of Steel", 2013, "фильм", ["family", "slow"], ["Man of Steel", "Человек из стали"], "Человек из стали"), { wikiEn: "Man of Steel (film)", wikiRu: "Человек из стали" }),
+    Object.assign(f("wdq27985819", "Человек-паук: Вдали от дома", "Spider-Man: Far From Home", 2019, "фильм", ["crime", "slick-urban"], ["Spider-Man: Far From Home", "Человек-паук: Вдали от дома"], "Человек-паук: Вдали от дома"), { wikiEn: "Spider-Man: Far From Home", wikiRu: "Человек-паук: Вдали от дома" }),
+    Object.assign(f("wdq193835", "Умница Уилл Хантинг", "Good Will Hunting", 1998, "фильм", ["crime", "slick-urban"], ["Good Will Hunting", "Умница Уилл Хантинг"], "Умница Уилл Хантинг"), { wikiEn: "Good Will Hunting", wikiRu: "Умница Уилл Хантинг" }),
+    Object.assign(f("wdq55436290", "Барби", "Barbie", 2023, "фильм", ["comedy", "irony"], ["Barbie", "Барби"], "Барби"), { wikiEn: "Barbie (film)", wikiRu: "Барби (фильм)" }),
+    Object.assign(f("wdq11621", "Инопланетянин", "E.T. the Extra-Terrestrial", 1982, "фильм", ["horror", "dark"], ["E.T. the Extra-Terrestrial", "Инопланетянин"], "Инопланетянин"), { wikiEn: "E.T. the Extra-Terrestrial", wikiRu: "Инопланетянин (фильм)" }),
+    Object.assign(f("wdq20456", "Танцующий с волками", "Dances with Wolves", 1991, "фильм", ["tempo", "dark"], ["Dances with Wolves", "Танцующий с волками"], "Танцующий с волками"), { wikiEn: "Dances With Wolves", wikiRu: "Танцующий с волками" }),
+    Object.assign(f("wdq68934496", "Человек-паук: Нет пути домой", "Spider-Man: No Way Home", 2021, "фильм", ["tempo", "dark"], ["Spider-Man: No Way Home", "Человек-паук: Нет пути домой"], "Человек-паук: Нет пути домой"), { wikiEn: "Spider-Man: No Way Home", wikiRu: "Человек-паук: Нет пути домой" }),
+    Object.assign(f("wdq202211", "Ганди", "Gandhi", 1983, "фильм", ["crime", "slick-urban"], ["Gandhi", "Ганди"], "Ганди"), { wikiEn: "Gandhi (film)", wikiRu: "Ганди (фильм)" }),
+    Object.assign(f("wdq171453", "Трансформеры", "Transformers", 2007, "фильм", ["horror", "dark"], ["Transformers", "Трансформеры"], "Трансформеры"), { wikiEn: "Transformers (film)", wikiRu: "Трансформеры (фильм)" }),
+    Object.assign(f("wdq183063", "Шестое чувство", "The Sixth Sense", 2000, "фильм", ["war", "dark"], ["The Sixth Sense", "Шестое чувство"], "Шестое чувство"), { wikiEn: "The Sixth Sense", wikiRu: "Шестое чувство (фильм, 1999)" }),
+    Object.assign(f("wdq213411", "Изгой", "Cast Away", 2001, "фильм", ["crime", "slick-urban"], ["Cast Away", "Изгой"], "Изгой"), { wikiEn: "Cast Away", wikiRu: "Изгой (фильм, 2000)" }),
+    Object.assign(f("wdq185658", "Индиана Джонс и последний крестовый поход", "Indiana Jones and the Last Crusade", 1989, "фильм", ["comedy", "irony"], ["Indiana Jones and the Last Crusade", "Индиана Джонс и последний крестовый поход"], "Индиана Джонс и последний крестовый поход"), { wikiEn: "Indiana Jones and the Last Crusade", wikiRu: "Индиана Джонс и последний крестовый поход" }),
+    Object.assign(f("wdq151599", "Метрополис", "Metropolis", 1930, "фильм", ["war", "dark"], ["Metropolis", "Метрополис"], "Метрополис"), { wikiEn: "Metropolis (1927 film)", wikiRu: "Метрополис" }),
+    Object.assign(f("wdq220741", "Город Бога", "City of God", 2024, "фильм", ["horror", "dark"], ["City of God", "Город Бога"], "Город Бога"), { wikiEn: "City of God (2002 film)", wikiRu: "Город Бога" }),
+    Object.assign(f("wdq182212", "Человек-паук 3: Враг в отражении", "Spider-Man 3", 2007, "фильм", ["fantasy", "family"], ["Spider-Man 3", "Человек-паук 3: Враг в отражении"], "Человек-паук 3: Враг в отражении"), { wikiEn: "Spider-Man 3", wikiRu: "Человек-паук 3: Враг в отражении" }),
+    Object.assign(f("wdq154581", "Банды Нью-Йорка", "Gangs of New York", 2003, "фильм", ["horror", "dark"], ["Gangs of New York", "Банды Нью-Йорка"], "Банды Нью-Йорка"), { wikiEn: "Gangs of New York", wikiRu: "Банды Нью-Йорка" }),
+    Object.assign(f("wdq1201853", "Тор 2: Царство тьмы", "Thor: The Dark World", 2013, "фильм", ["horror", "dark"], ["Thor: The Dark World", "Тор 2: Царство тьмы"], "Тор 2: Царство тьмы"), { wikiEn: "Thor: The Dark World", wikiRu: "Тор 2: Царство тьмы" }),
+    Object.assign(f("wdq200299", "Всё о Еве", "All About Eve", 1951, "фильм", ["crime", "slick-urban"], ["All About Eve", "Всё о Еве"], "Всё о Еве"), { wikiEn: "All About Eve", wikiRu: "Всё о Еве" }),
+    Object.assign(f("wdq19089", "Золотой глаз", "GoldenEye", 1995, "фильм", ["family", "slow"], ["GoldenEye", "Золотой глаз"], "Золотой глаз"), { wikiEn: "GoldenEye", wikiRu: "Золотой глаз (фильм, 1995)" }),
+    Object.assign(f("wdq207698", "Царство небесное", "Kingdom of Heaven", 2005, "фильм", ["comedy", "irony"], ["Kingdom of Heaven", "Царство небесное"], "Царство небесное"), { wikiEn: "Kingdom of Heaven (film)", wikiRu: "Царство небесное (фильм)" }),
+    Object.assign(f("wdq208269", "Вечное сияние чистого разума", "Eternal Sunshine of the Spotless Mind", 2004, "фильм", ["horror", "dark"], ["Eternal Sunshine of the Spotless Mind", "Вечное сияние чистого разума"], "Вечное сияние чистого разума"), { wikiEn: "Eternal Sunshine of the Spotless Mind", wikiRu: "Вечное сияние чистого разума" }),
+    Object.assign(f("wdq186323", "Борат", "Borat", 2006, "фильм", ["crime", "slick-urban"], ["Borat", "Борат"], "Борат"), { wikiEn: "Borat", wikiRu: "Борат" }),
+    Object.assign(f("wdq20001199", "Стражи Галактики. Часть 2", "Guardians of the Galaxy Vol. 2", 2017, "фильм", ["war", "dark"], ["Guardians of the Galaxy Vol. 2", "Стражи Галактики. Часть 2"], "Стражи Галактики. Часть 2"), { wikiEn: "Guardians of the Galaxy Vol. 2", wikiRu: "Стражи Галактики. Часть 2" }),
+    Object.assign(f("wdq221202", "Один дома 2: Потерявшийся в Нью-Йорке", "Home Alone 2: Lost in New York", 1992, "фильм", ["comedy", "irony"], ["Home Alone 2: Lost in New York", "Один дома 2: Потерявшийся в Нью-Йорке"], "Один дома 2: Потерявшийся в Нью-Йорке"), { wikiEn: "Home Alone 2: Lost in New York", wikiRu: "Один дома 2: Потерявшийся в Нью-Йорке" }),
+    Object.assign(f("wdq132351", "Подозрительные лица", "The Usual Suspects", 1996, "фильм", ["war", "dark"], ["The Usual Suspects", "Подозрительные лица"], "Подозрительные лица"), { wikiEn: "The Usual Suspects", wikiRu: "Подозрительные лица" }),
+    Object.assign(f("wdq486239", "Пила: Игра на выживание", "Saw", 2005, "фильм", ["war", "dark"], ["Saw", "Пила: Игра на выживание"], "Пила: Игра на выживание"), { wikiEn: "Saw (film)", wikiRu: "Пила: Игра на выживание" }),
+    Object.assign(f("wdq155476", "Форсаж", "The Fast and the Furious", 2001, "фильм", ["fantasy", "family"], ["The Fast and the Furious", "Форсаж"], "Форсаж"), { wikiEn: "The Fast and the Furious (2001 film)", wikiRu: "Форсаж (фильм, 2001, США)" }),
+    Object.assign(f("wdq229808", "Новый Человек-паук", "The Amazing Spider-Man", 2014, "фильм", ["tempo", "dark"], ["The Amazing Spider-Man", "Новый Человек-паук"], "Новый Человек-паук"), { wikiEn: "The Amazing Spider-Man (film)", wikiRu: "Новый Человек-паук" }),
+    Object.assign(f("wdq919649", "Хоббит: Битва пяти воинств", "The Hobbit: The Battle of the Five Armies", 2014, "фильм", ["family", "slow"], ["The Hobbit: The Battle of the Five Armies", "Хоббит: Битва пяти воинств"], "Хоббит: Битва пяти воинств"), { wikiEn: "The Hobbit: The Battle of the Five Armies", wikiRu: "Хоббит: Битва пяти воинств" }),
+    Object.assign(f("wdq193695", "Волшебник страны Оз", "The Wizard of Oz", 1939, "фильм", ["war", "dark"], ["The Wizard of Oz", "Волшебник страны Оз"], "Волшебник страны Оз"), { wikiEn: "The Wizard of Oz", wikiRu: "Волшебник страны Оз (фильм, 1939)" }),
+    Object.assign(f("wdq202548", "Головокружение", "Vertigo", 1959, "фильм", ["fantasy", "family"], ["Vertigo", "Головокружение"], "Головокружение"), { wikiEn: "Vertigo (film)", wikiRu: "Головокружение (фильм)" }),
+    Object.assign(f("wdq4254026", "Новый Человек-паук. Высокое напряжение", "The Amazing Spider-Man 2", 2014, "фильм", ["comedy", "irony"], ["The Amazing Spider-Man 2", "Новый Человек-паук. Высокое напряжение"], "Новый Человек-паук. Высокое напряжение"), { wikiEn: "The Amazing Spider-Man 2", wikiRu: "Новый Человек-паук: Высокое напряжение" }),
+    Object.assign(f("wdq172837", "Похитители велосипедов", "Bicycle Thieves", 1949, "фильм", ["horror", "dark"], ["Bicycle Thieves", "Похитители велосипедов"], "Похитители велосипедов"), { wikiEn: "Bicycle Thieves", wikiRu: "Похитители велосипедов" }),
+    Object.assign(f("wdq273978", "Крадущийся тигр, затаившийся дракон", "Crouching Tiger, Hidden Dragon", 2001, "фильм", ["comedy", "irony"], ["Crouching Tiger, Hidden Dragon", "Крадущийся тигр, затаившийся дракон"], "Крадущийся тигр, затаившийся дракон"), { wikiEn: "Crouching Tiger, Hidden Dragon", wikiRu: "Крадущийся тигр, затаившийся дракон" }),
+    Object.assign(f("wdq108297", "Спартак", "Spartacus", 1960, "фильм", ["family", "slow"], ["Spartacus", "Спартак"], "Спартак"), { wikiEn: "Spartacus (film)", wikiRu: "Спартак (фильм, 1960)" }),
+    Object.assign(f("wdq218235", "Чарли и шоколадная фабрика", "Charlie and the Chocolate Factory", 2005, "фильм", ["crime", "slick-urban"], ["Charlie and the Chocolate Factory", "Чарли и шоколадная фабрика"], "Чарли и шоколадная фабрика"), { wikiEn: "Charlie and the Chocolate Factory (film)", wikiRu: "Чарли и шоколадная фабрика (фильм)" }),
+    Object.assign(f("wdq18604504", "Отряд самоубийц", "Suicide Squad", 2016, "фильм", ["tempo", "dark"], ["Suicide Squad", "Отряд самоубийц"], "Отряд самоубийц"), { wikiEn: "Suicide Squad (2016 film)", wikiRu: "Отряд самоубийц (фильм)" }),
+    Object.assign(f("wdq219421", "Маска", "The Mask", 1994, "фильм", ["horror", "dark"], ["The Mask", "Маска"], "Маска"), { wikiEn: "The Mask (1994 film)", wikiRu: "Маска (фильм, 1994)" }),
+    Object.assign(f("wdq188035", "Апокалипсис", "Apocalypto", 2006, "фильм", ["crime", "slick-urban"], ["Apocalypto", "Апокалипсис"], "Апокалипсис"), { wikiEn: "Apocalypto", wikiRu: "Апокалипсис (фильм)" }),
+    Object.assign(f("wdq18199330", "Фантастические твари и где они обитают", "Fantastic Beasts and Where to Find Them", 2016, "фильм", ["comedy", "irony"], ["Fantastic Beasts and Where to Find Them", "Фантастические твари и где они обитают"], "Фантастические твари и где они обитают"), { wikiEn: "Fantastic Beasts and Where to Find Them (film)", wikiRu: "Фантастические твари и где они обитают" }),
+    Object.assign(f("wdq190643", "Взвод", "Platoon", 1987, "фильм", ["crime", "slick-urban"], ["Platoon", "Взвод"], "Взвод"), { wikiEn: "Platoon (film)", wikiRu: "Взвод (фильм)" }),
+    Object.assign(f("wdq29054009", "Терминатор 3: Восстание машин", "Terminator 3: Rise of the Machines", 2003, "фильм", ["family", "slow"], ["Terminator 3: Rise of the Machines", "Терминатор 3: Восстание машин"], "Терминатор 3: Восстание машин"), { wikiEn: "Terminator 3: Rise of the Machines", wikiRu: "Терминатор 3: Восстание машин" }),
+    Object.assign(f("wdq200804", "Хищник", "Predator", 1987, "фильм", ["fantasy", "family"], ["Predator", "Хищник"], "Хищник"), { wikiEn: "Predator (film)", wikiRu: "Хищник (фильм, 1987)" }),
+    Object.assign(f("wdq189600", "Матрица: Перезагрузка", "The Matrix Reloaded", 2003, "фильм", ["tempo", "dark"], ["The Matrix Reloaded", "Матрица: Перезагрузка"], "Матрица: Перезагрузка"), { wikiEn: "The Matrix Reloaded", wikiRu: "Матрица: Перезагрузка" }),
+    Object.assign(f("wdq230552", "Назад в будущее 3", "Back to the Future Part III", 1990, "фильм", ["tempo", "dark"], ["Back to the Future Part III", "Назад в будущее 3"], "Назад в будущее 3"), { wikiEn: "Back to the Future Part III", wikiRu: "Назад в будущее 3" }),
+    Object.assign(f("wdq200396", "Шерлок Холмс", "Sherlock Holmes", 2010, "фильм", ["fantasy", "family"], ["Sherlock Holmes", "Шерлок Холмс"], "Шерлок Холмс"), { wikiEn: "Sherlock Holmes (2009 film)", wikiRu: "Шерлок Холмс (фильм)" }),
+    Object.assign(f("wdq14320", "Послезавтра", "The Day After Tomorrow", 2004, "фильм", ["tempo", "dark"], ["The Day After Tomorrow", "Послезавтра"], "Послезавтра"), { wikiEn: "The Day After Tomorrow", wikiRu: "Послезавтра" }),
+    Object.assign(f("wdq201924", "Авиатор", "The Aviator", 2005, "фильм", ["fantasy", "family"], ["The Aviator", "Авиатор"], "Авиатор"), { wikiEn: "The Aviator (2004 film)", wikiRu: "Авиатор (фильм, 2004)" }),
+    Object.assign(f("wdq233464", "Энни Холл", "Annie Hall", 1980, "фильм", ["tempo", "dark"], ["Annie Hall", "Энни Холл"], "Энни Холл"), { wikiEn: "Annie Hall", wikiRu: "Энни Холл" }),
+    Object.assign(f("wdq207536", "Матрица: Революция", "The Matrix Revolutions", 2003, "фильм", ["tempo", "dark"], ["The Matrix Revolutions", "Матрица: Революция"], "Матрица: Революция"), { wikiEn: "The Matrix Revolutions", wikiRu: "Матрица: Революция" }),
+    Object.assign(f("wdq76479", "За пригоршню долларов", "A Fistful of Dollars", 1965, "фильм", ["war", "dark"], ["A Fistful of Dollars", "За пригоршню долларов"], "За пригоршню долларов"), { wikiEn: "A Fistful of Dollars", wikiRu: "За пригоршню долларов" }),
+    Object.assign(f("wdq207130", "Последний самурай", "The Last Samurai", 2007, "фильм", ["comedy", "irony"], ["The Last Samurai", "Последний самурай"], "Последний самурай"), { wikiEn: "The Last Samurai", wikiRu: "Последний самурай (фильм, 2003)" }),
+    Object.assign(f("wdq15079318", "Теория всего", "The Theory of Everything", 2015, "фильм", ["space", "slow"], ["The Theory of Everything", "Теория всего"], "Теория всего"), { wikiEn: "The Theory of Everything (2014 film)", wikiRu: "Вселенная Стивена Хокинга" }),
+    Object.assign(f("wdq20382729", "Прибытие", "Arrival", 2016, "фильм", ["family", "slow"], ["Arrival", "Прибытие"], "Прибытие"), { wikiEn: "Arrival (film)", wikiRu: "Прибытие (фильм, 2016)" }),
+    Object.assign(f("wdq106440", "Голдфингер", "Goldfinger", 1964, "фильм", ["tempo", "dark"], ["Goldfinger", "Голдфингер"], "Голдфингер"), { wikiEn: "Goldfinger (film)", wikiRu: "Голдфингер" }),
+    Object.assign(f("wdq14772351", "Бэтмен против Супермена: На заре справедливости", "Batman v Superman: Dawn of Justice", 2016, "фильм", ["war", "dark"], ["Batman v Superman: Dawn of Justice", "Бэтмен против Супермена: На заре справедливости"], "Бэтмен против Супермена: На заре справедливости"), { wikiEn: "Batman v Superman: Dawn of Justice", wikiRu: "Бэтмен против Супермена: На заре справедливости" }),
+    Object.assign(f("wdq182373", "Индиана Джонс и Королевство хрустального черепа", "Indiana Jones and the Kingdom of the Crystal Skull", 2008, "фильм", ["horror", "dark"], ["Indiana Jones and the Kingdom of the Crystal Skull", "Индиана Джонс и Королевство хрустального черепа"], "Индиана Джонс и Королевство хрустального черепа"), { wikiEn: "Indiana Jones and the Kingdom of the Crystal Skull", wikiRu: "Индиана Джонс и Королевство хрустального черепа" }),
+    Object.assign(f("wdq853718", "Весёлые и беззаботные", "Fun and Fancy Free", 1947, "фильм", ["space", "slow"], ["Fun and Fancy Free", "Весёлые и беззаботные"], "Весёлые и беззаботные"), { wikiEn: "Fun and Fancy Free", wikiRu: "Весёлые и беззаботные" }),
+    Object.assign(f("wdq192686", "Прометей", "Prometheus", 2012, "фильм", ["space", "slow"], ["Prometheus", "Прометей"], "Прометей"), { wikiEn: "Prometheus (2012 film)", wikiRu: "Прометей (фильм, 2012)" }),
+    Object.assign(f("wdq229633", "3 идиота", "3 Idiots", 2013, "фильм", ["family", "slow"], ["3 Idiots", "3 идиота"], "3 идиота"), { wikiEn: "3 Idiots", wikiRu: "3 идиота" }),
+    Object.assign(f("wdq200873", "Парк юрского периода: Затерянный мир", "The Lost World: Jurassic Park", 1997, "фильм", ["family", "slow"], ["The Lost World: Jurassic Park", "Парк юрского периода: Затерянный мир"], "Парк юрского периода: Затерянный мир"), { wikiEn: "The Lost World: Jurassic Park", wikiRu: "Парк юрского периода: Затерянный мир" }),
+    Object.assign(f("wdq59653", "Операция «Арго»", "Argo", 2012, "фильм", ["horror", "dark"], ["Argo", "Операция «Арго»"], "Операция «Арго»"), { wikiEn: "Argo (2012 film)", wikiRu: "Операция «Арго»" }),
+    Object.assign(f("wdq131547207", "Одиссея", "The Odyssey", 2026, "фильм", ["war", "dark"], ["The Odyssey", "Одиссея"], "Одиссея"), { wikiEn: "The Odyssey (2026 film)", wikiRu: "Одиссея (фильм, 2026)" }),
+    Object.assign(f("wdq206124", "Полночь в Париже", "Midnight in Paris", 2011, "фильм", ["fantasy", "family"], ["Midnight in Paris", "Полночь в Париже"], "Полночь в Париже"), { wikiEn: "Midnight in Paris", wikiRu: "Полночь в Париже" }),
+    Object.assign(f("wdq106182", "Люди Икс", "X-Men", 2009, "фильм", ["space", "slow"], ["X-Men", "Люди Икс"], "Люди Икс"), { wikiEn: "X-Men (film)", wikiRu: "Люди Икс (фильм, 2000)" }),
+    Object.assign(f("wdq74958", "Кровавый алмаз", "Blood Diamond", 2007, "фильм", ["space", "slow"], ["Blood Diamond", "Кровавый алмаз"], "Кровавый алмаз"), { wikiEn: "Blood Diamond", wikiRu: "Кровавый алмаз" }),
+    Object.assign(f("wdq104137", "Непрощённый", "Unforgiven", 1992, "фильм", ["family", "slow"], ["Unforgiven", "Непрощённый"], "Непрощённый"), { wikiEn: "Unforgiven", wikiRu: "Непрощённый (фильм, 1992)" }),
+    Object.assign(f("wdq106571", "Из России с любовью", "From Russia with Love", 1964, "фильм", ["crime", "slick-urban"], ["From Russia with Love", "Из России с любовью"], "Из России с любовью"), { wikiEn: "From Russia with Love (film)", wikiRu: "Из России с любовью" }),
+    Object.assign(f("wdq208572", "Американская история Икс", "American History X", 1999, "фильм", ["fantasy", "family"], ["American History X", "Американская история Икс"], "Американская история Икс"), { wikiEn: "American History X", wikiRu: "Американская история Икс" }),
+    Object.assign(f("wdq209170", "Мэри Поппинс", "Mary Poppins", 1965, "фильм", ["comedy", "irony"], ["Mary Poppins", "Мэри Поппинс"], "Мэри Поппинс"), { wikiEn: "Mary Poppins (film)", wikiRu: "Мэри Поппинс (фильм)" }),
+    Object.assign(f("wdq14918344", "Игра в имитацию", "The Imitation Game", 2015, "фильм", ["tempo", "dark"], ["The Imitation Game", "Игра в имитацию"], "Игра в имитацию"), { wikiEn: "The Imitation Game", wikiRu: "Игра в имитацию" }),
+    Object.assign(f("wdq318766", "Терминал", "The Terminal", 2004, "фильм", ["space", "slow"], ["The Terminal", "Терминал"], "Терминал"), { wikiEn: "The Terminal", wikiRu: "Терминал (фильм)" }),
+    Object.assign(f("wdq116852", "Бэтмен", "Batman", 1989, "фильм", ["fantasy", "family"], ["Batman", "Бэтмен"], "Бэтмен"), { wikiEn: "Batman (1989 film)", wikiRu: "Бэтмен (фильм, 1989)" }),
+    Object.assign(f("wdq426828", "Донни Дарко", "Donnie Darko", 2003, "фильм", ["fantasy", "family"], ["Donnie Darko", "Донни Дарко"], "Донни Дарко"), { wikiEn: "Donnie Darko", wikiRu: "Донни Дарко" }),
+    Object.assign(f("wdq217189", "Седьмая печать", "The Seventh Seal", 1963, "фильм", ["horror", "dark"], ["The Seventh Seal", "Седьмая печать"], "Седьмая печать"), { wikiEn: "The Seventh Seal", wikiRu: "Седьмая печать" }),
+    Object.assign(f("wdq22957393", "Человек-муравей и Оса", "Ant-Man and the Wasp", 2018, "фильм", ["family", "slow"], ["Ant-Man and the Wasp", "Человек-муравей и Оса"], "Человек-муравей и Оса"), { wikiEn: "Ant-Man and the Wasp", wikiRu: "Человек-муравей и Оса" }),
+    Object.assign(f("wdq23006268", "Веном", "Venom", 2018, "фильм", ["fantasy", "family"], ["Venom", "Веном"], "Веном"), { wikiEn: "Venom (2018 film)", wikiRu: "Веном (фильм)" }),
+    Object.assign(f("wdq21935651", "Дюнкерк", "Dunkirk", 2017, "фильм", ["crime", "slick-urban"], ["Dunkirk", "Дюнкерк"], "Дюнкерк"), { wikiEn: "Dunkirk (2017 film)", wikiRu: "Дюнкерк (фильм, 2017)" }),
+    Object.assign(f("wdq106428", "Аполлон-13", "Apollo 13", 1995, "фильм", ["fantasy", "family"], ["Apollo 13", "Аполлон-13"], "Аполлон-13"), { wikiEn: "Apollo 13 (film)", wikiRu: "Аполлон-13 (фильм)" }),
+    Object.assign(f("wdq106506", "Пятый элемент", "The Fifth Element", 1997, "фильм", ["comedy", "irony"], ["The Fifth Element", "Пятый элемент"], "Пятый элемент"), { wikiEn: "The Fifth Element", wikiRu: "Пятый элемент (фильм)" }),
+    Object.assign(f("wdq175038", "12 обезьян", "12 Monkeys", 1996, "фильм", ["space", "slow"], ["12 Monkeys", "12 обезьян"], "12 обезьян"), { wikiEn: "12 Monkeys", wikiRu: "12 обезьян (фильм)" }),
+    Object.assign(f("wdq109135", "На игле", "Trainspotting", 1996, "фильм", ["war", "dark"], ["Trainspotting", "На игле"], "На игле"), { wikiEn: "Trainspotting (film)", wikiRu: "На игле (фильм)" }),
+    Object.assign(f("wdq212775", "Последний император", "The Last Emperor", 1987, "фильм", ["war", "dark"], ["The Last Emperor", "Последний император"], "Последний император"), { wikiEn: "The Last Emperor", wikiRu: "Последний император" }),
+    Object.assign(f("wdq191040", "Мистер и миссис Смит", "Mr. & Mrs. Smith", 2005, "фильм", ["tempo", "dark"], ["Mr. & Mrs. Smith", "Мистер и миссис Смит"], "Мистер и миссис Смит"), { wikiEn: "Mr. & Mrs. Smith (2005 film)", wikiRu: "Мистер и миссис Смит (фильм, 2005)" }),
+    Object.assign(f("wdq189889", "Чикаго", "Chicago", 2003, "фильм", ["family", "slow"], ["Chicago", "Чикаго"], "Чикаго"), { wikiEn: "Chicago (2002 film)", wikiRu: "Чикаго (фильм, 2002)" }),
+    Object.assign(f("wdq51416", "Люди в чёрном", "Men in Black", 1997, "фильм", ["tempo", "dark"], ["Men in Black", "Люди в чёрном"], "Люди в чёрном"), { wikiEn: "Men in Black (1997 film)", wikiRu: "Люди в чёрном (фильм)" }),
+    Object.assign(f("wdq168154", "Однажды на Диком Западе", "Once Upon a Time in the West", 1969, "фильм", ["comedy", "irony"], ["Once Upon a Time in the West", "Однажды на Диком Западе"], "Однажды на Диком Западе"), { wikiEn: "Once Upon a Time in the West", wikiRu: "Однажды на Диком Западе" }),
+    Object.assign(f("wdq204212", "Ребекка", "Rebecca", 1940, "фильм", ["fantasy", "family"], ["Rebecca", "Ребекка"], "Ребекка"), { wikiEn: "Rebecca (1940 film)", wikiRu: "Ребекка (фильм, 1940)" }),
+    Object.assign(f("wdq243439", "Цельнометаллическая оболочка", "Full Metal Jacket", 1987, "фильм", ["war", "dark"], ["Full Metal Jacket", "Цельнометаллическая оболочка"], "Цельнометаллическая оболочка"), { wikiEn: "Full Metal Jacket", wikiRu: "Цельнометаллическая оболочка" }),
+    Object.assign(f("wdq3512046", "Мир юрского периода", "Jurassic World", 2015, "фильм", ["space", "slow"], ["Jurassic World", "Мир юрского периода"], "Мир юрского периода"), { wikiEn: "Jurassic World", wikiRu: "Мир юрского периода" }),
+    Object.assign(f("wdq271830", "Третий человек", "The Third Man", 1950, "фильм", ["space", "slow"], ["The Third Man", "Третий человек"], "Третий человек"), { wikiEn: "The Third Man", wikiRu: "Третий человек" }),
+    Object.assign(f("wdq206388", "Однажды в Америке", "Once Upon a Time in America", 1984, "фильм", ["fantasy", "family"], ["Once Upon a Time in America", "Однажды в Америке"], "Однажды в Америке"), { wikiEn: "Once Upon a Time in America", wikiRu: "Однажды в Америке" }),
+    Object.assign(f("wdq206576", "Хранитель времени", "Hugo", 2012, "фильм", ["tempo", "dark"], ["Hugo", "Хранитель времени"], "Хранитель времени"), { wikiEn: "Hugo (film)", wikiRu: "Хранитель времени (фильм)" }),
+    Object.assign(f("wdq172271", "Малефисента", "Maleficent", 2014, "фильм", ["war", "dark"], ["Maleficent", "Малефисента"], "Малефисента"), { wikiEn: "Maleficent (film)", wikiRu: "Малефисента (фильм)" }),
+    Object.assign(f("wdq10350033", "Пираты Карибского моря: Мертвецы не рассказывают сказок", "Pirates of the Caribbean: Dead Men Tell no Tales", 2017, "фильм", ["family", "slow"], ["Pirates of the Caribbean: Dead Men Tell no Tales", "Пираты Карибского моря: Мертвецы не рассказывают сказок"], "Пираты Карибского моря: Мертвецы не рассказывают сказок"), { wikiEn: "Pirates of the Caribbean: Dead Men Tell No Tales", wikiRu: "Пираты Карибского моря: Мертвецы не рассказывают сказки" }),
+    Object.assign(f("wdq274167", "Изгоняющий дьявола", "The Exorcist", 1974, "фильм", ["war", "dark"], ["The Exorcist", "Изгоняющий дьявола"], "Изгоняющий дьявола"), { wikiEn: "The Exorcist", wikiRu: "Изгоняющий дьявола" }),
+    Object.assign(f("wdq209481", "С широко закрытыми глазами", "Eyes Wide Shut", 1999, "фильм", ["family", "slow"], ["Eyes Wide Shut", "С широко закрытыми глазами"], "С широко закрытыми глазами"), { wikiEn: "Eyes Wide Shut", wikiRu: "С широко закрытыми глазами" }),
+    Object.assign(f("wdq183239", "Загадочная история Бенджамина Баттона", "The Curious Case of Benjamin Button", 2009, "фильм", ["war", "dark"], ["The Curious Case of Benjamin Button", "Загадочная история Бенджамина Баттона"], "Загадочная история Бенджамина Баттона"), { wikiEn: "The Curious Case of Benjamin Button (film)", wikiRu: "Загадочная история Бенджамина Баттона (фильм)" }),
+    Object.assign(f("wdq466611", "Невероятный Халк", "The Incredible Hulk", 2008, "фильм", ["crime", "slick-urban"], ["The Incredible Hulk", "Невероятный Халк"], "Невероятный Халк"), { wikiEn: "The Incredible Hulk (film)", wikiRu: "Невероятный Халк (фильм)" }),
+    Object.assign(f("wdq135465", "Расёмон", "Rashomon", 1952, "фильм", ["family", "slow"], ["Rashomon", "Расёмон"], "Расёмон"), { wikiEn: "Rashomon", wikiRu: "Расёмон (фильм)" }),
+    Object.assign(f("wdq18154496", "В центре внимания", "Spotlight", 2015, "фильм", ["tempo", "dark"], ["Spotlight", "В центре внимания"], "В центре внимания"), { wikiEn: "Spotlight (film)", wikiRu: "В центре внимания" }),
+    Object.assign(f("wdq153677", "На несколько долларов больше", "For a Few Dollars More", 1967, "фильм", ["horror", "dark"], ["For a Few Dollars More", "На несколько долларов больше"], "На несколько долларов больше"), { wikiEn: "For a Few Dollars More", wikiRu: "На несколько долларов больше" }),
+    Object.assign(f("wdq192115", "Город грехов", "Sin City", 2005, "фильм", ["crime", "slick-urban"], ["Sin City", "Город грехов"], "Город грехов"), { wikiEn: "Sin City (film)", wikiRu: "Город грехов (фильм)" }),
+    Object.assign(f("wdq152857", "Бункер", "Downfall", 2005, "фильм", ["family", "slow"], ["Downfall", "Бункер"], "Бункер"), { wikiEn: "Downfall (2004 film)", wikiRu: "Бункер (фильм, 2004)" }),
+    Object.assign(f("wdq23781129", "Капитан Марвел", "Captain Marvel", 2019, "фильм", ["family", "slow"], ["Captain Marvel", "Капитан Марвел"], "Капитан Марвел"), { wikiEn: "Captain Marvel (film)", wikiRu: "Капитан Марвел (фильм)" }),
+    Object.assign(f("wdq27894574", "Богемская рапсодия", "Bohemian Rhapsody", 2018, "фильм", ["space", "slow"], ["Bohemian Rhapsody", "Богемская рапсодия"], "Богемская рапсодия"), { wikiEn: "Bohemian Rhapsody (film)", wikiRu: "Богемская рапсодия (фильм)" }),
+    Object.assign(f("wdq201674", "Охотник на оленей", "The Deer Hunter", 1979, "фильм", ["comedy", "irony"], ["The Deer Hunter", "Охотник на оленей"], "Охотник на оленей"), { wikiEn: "The Deer Hunter", wikiRu: "Охотник на оленей" }),
+    Object.assign(f("wdq34414", "Окно во двор", "Rear Window", 1995, "фильм", ["space", "slow"], ["Rear Window", "Окно во двор"], "Окно во двор"), { wikiEn: "Rear Window", wikiRu: "Окно во двор" }),
+    Object.assign(f("wdq61117344", "Бэтмен", "The Batman", 2022, "фильм", ["tempo", "dark"], ["The Batman", "Бэтмен"], "Бэтмен"), { wikiEn: "The Batman (film)", wikiRu: "Бэтмен (фильм, 2022)" }),
+    Object.assign(f("wdq243643", "Шерлок Холмс: Игра теней", "Sherlock Holmes: A Game of Shadows", 2011, "фильм", ["crime", "slick-urban"], ["Sherlock Holmes: A Game of Shadows", "Шерлок Холмс: Игра теней"], "Шерлок Холмс: Игра теней"), { wikiEn: "Sherlock Holmes: A Game of Shadows", wikiRu: "Шерлок Холмс: Игра теней" }),
+    Object.assign(f("wdq244963", "Рэмбо: Первая кровь", "First Blood", 1983, "фильм", ["crime", "slick-urban"], ["First Blood", "Рэмбо: Первая кровь"], "Рэмбо: Первая кровь"), { wikiEn: "First Blood", wikiRu: "Рэмбо: Первая кровь" }),
+    Object.assign(f("wdq105624", "Идентификация Борна", "The Bourne Identity", 2002, "фильм", ["tempo", "dark"], ["The Bourne Identity", "Идентификация Борна"], "Идентификация Борна"), { wikiEn: "The Bourne Identity (2002 film)", wikiRu: "Идентификация Борна (фильм)" }),
+    Object.assign(f("wdq107226", "Ультиматум Борна", "The Bourne Ultimatum", 2007, "фильм", ["comedy", "irony"], ["The Bourne Ultimatum", "Ультиматум Борна"], "Ультиматум Борна"), { wikiEn: "The Bourne Ultimatum (film)", wikiRu: "Ультиматум Борна" }),
+    Object.assign(f("wdq15624215", "Люси", "Lucy", 2014, "фильм", ["war", "dark"], ["Lucy", "Люси"], "Люси"), { wikiEn: "Lucy (2014 film)", wikiRu: "Люси (фильм)" }),
+    Object.assign(f("wdq211372", "В порту", "On the Waterfront", 1954, "фильм", ["fantasy", "family"], ["On the Waterfront", "В порту"], "В порту"), { wikiEn: "On the Waterfront", wikiRu: "В порту (фильм)" }),
+    Object.assign(f("wdq212145", "И целого мира мало", "The World Is Not Enough", 1999, "фильм", ["family", "slow"], ["The World Is Not Enough", "И целого мира мало"], "И целого мира мало"), { wikiEn: "The World Is Not Enough", wikiRu: "И целого мира мало" }),
+    Object.assign(f("wdq15648198", "Одержимость", "Whiplash", 2015, "фильм", ["space", "slow"], ["Whiplash", "Одержимость"], "Одержимость"), { wikiEn: "Whiplash (2014 film)", wikiRu: "Одержимость (фильм, 2014)" }),
+    Object.assign(f("wdq16857406", "Книга джунглей", "The Jungle Book", 2016, "фильм", ["space", "slow"], ["The Jungle Book", "Книга джунглей"], "Книга джунглей"), { wikiEn: "The Jungle Book (2016 film)", wikiRu: "Книга джунглей (фильм, 2016)" }),
+    Object.assign(f("wdq18486021", "Звёздные войны: Последние джедаи", "Star Wars: Episode VIII – The Last Jedi", 2018, "фильм", ["horror", "dark"], ["Star Wars: Episode VIII – The Last Jedi", "Звёздные войны: Последние джедаи"], "Звёздные войны: Последние джедаи"), { wikiEn: "Star Wars: The Last Jedi", wikiRu: "Звёздные войны: Последние джедаи" }),
+    Object.assign(f("wdq110138", "Лучший стрелок", "Top Gun", 1986, "фильм", ["comedy", "irony"], ["Top Gun", "Лучший стрелок"], "Лучший стрелок"), { wikiEn: "Top Gun", wikiRu: "Лучший стрелок" }),
+    Object.assign(f("wdq213208", "Тройной форсаж: Токийский дрифт", "The Fast and the Furious: Tokyo Drift", 2006, "фильм", ["tempo", "dark"], ["The Fast and the Furious: Tokyo Drift", "Тройной форсаж: Токийский дрифт"], "Тройной форсаж: Токийский дрифт"), { wikiEn: "The Fast and the Furious: Tokyo Drift", wikiRu: "Тройной форсаж: Токийский дрифт" }),
+    Object.assign(f("wdq337078", "Большой Лебовски", "The Big Lebowski", 1998, "фильм", ["space", "slow"], ["The Big Lebowski", "Большой Лебовски"], "Большой Лебовски"), { wikiEn: "The Big Lebowski", wikiRu: "Большой Лебовски" }),
+    Object.assign(f("wdq116928", "Сумерки. Сага. Новолуние", "The Twilight Saga: New Moon", 2009, "фильм", ["tempo", "dark"], ["The Twilight Saga: New Moon", "Сумерки. Сага. Новолуние"], "Сумерки. Сага. Новолуние"), { wikiEn: "The Twilight Saga: New Moon", wikiRu: "Сумерки. Сага. Новолуние" }),
+    Object.assign(f("wdq487181", "Реквием по мечте", "Requiem for a Dream", 2002, "фильм", ["horror", "dark"], ["Requiem for a Dream", "Реквием по мечте"], "Реквием по мечте"), { wikiEn: "Requiem for a Dream", wikiRu: "Реквием по мечте" }),
+    Object.assign(f("wdq488655", "День сурка", "Groundhog Day", 1993, "фильм", ["war", "dark"], ["Groundhog Day", "День сурка"], "День сурка"), { wikiEn: "Groundhog Day (film)", wikiRu: "День сурка (фильм)" }),
+    Object.assign(f("wdq22998395", "Аквамен", "Aquaman", 2018, "фильм", ["crime", "slick-urban"], ["Aquaman", "Аквамен"], "Аквамен"), { wikiEn: "Aquaman (film)", wikiRu: "Аквамен (фильм)" }),
+    Object.assign(f("wdq188000", "Столкновение", "Crash", 2005, "фильм", ["tempo", "dark"], ["Crash", "Столкновение"], "Столкновение"), { wikiEn: "Crash (2004 film)", wikiRu: "Столкновение (фильм, 2004)" }),
+    Object.assign(f("wdq25136757", "Зови меня своим именем", "Call Me by Your Name", 2018, "фильм", ["horror", "dark"], ["Call Me by Your Name", "Зови меня своим именем"], "Зови меня своим именем"), { wikiEn: "Call Me by Your Name (film)", wikiRu: "Назови меня своим именем (фильм)" }),
+    Object.assign(f("wdq208266", "Из Африки", "Out of Africa", 1986, "фильм", ["comedy", "irony"], ["Out of Africa", "Из Африки"], "Из Африки"), { wikiEn: "Out of Africa (film)", wikiRu: "Из Африки" }),
+    Object.assign(f("wdq272599", "На западном фронте без перемен", "All Quiet on the Western Front", 1931, "фильм", ["war", "dark"], ["All Quiet on the Western Front", "На западном фронте без перемен"], "На западном фронте без перемен"), { wikiEn: "All Quiet on the Western Front (1930 film)", wikiRu: "На Западном фронте без перемен (фильм, 1930)" }),
+    Object.assign(f("wdq272608", "Малхолланд-драйв", "Mulholland Drive", 2002, "фильм", ["tempo", "dark"], ["Mulholland Drive", "Малхолланд-драйв"], "Малхолланд-драйв"), { wikiEn: "Mulholland Drive (film)", wikiRu: "Малхолланд Драйв" }),
+    Object.assign(f("wdq212689", "Я — легенда", "I Am Legend", 2008, "фильм", ["family", "slow"], ["I Am Legend", "Я — легенда"], "Я — легенда"), { wikiEn: "I Am Legend (film)", wikiRu: "Я — легенда (фильм)" }),
+    Object.assign(f("wdq321561", "Запах женщины", "Scent of a Woman", 1993, "фильм", ["family", "slow"], ["Scent of a Woman", "Запах женщины"], "Запах женщины"), { wikiEn: "Scent of a Woman (1992 film)", wikiRu: "Запах женщины (фильм, 1992)" }),
+    Object.assign(f("wdq153882", "Жизнь других", "The Lives of Others", 2006, "фильм", ["comedy", "irony"], ["The Lives of Others", "Жизнь других"], "Жизнь других"), { wikiEn: "The Lives of Others", wikiRu: "Жизнь других" }),
+    Object.assign(f("wdq222720", "Фарго", "Fargo", 1996, "фильм", ["tempo", "dark"], ["Fargo", "Фарго"], "Фарго"), { wikiEn: "Fargo (1996 film)", wikiRu: "Фарго (фильм)" }),
+    Object.assign(f("wdq222939", "Джуманджи", "Jumanji", 1996, "фильм", ["crime", "slick-urban"], ["Jumanji", "Джуманджи"], "Джуманджи"), { wikiEn: "Jumanji (film)", wikiRu: "Джуманджи (фильм)" }),
+    Object.assign(f("wdq192934", "Ангелы и демоны", "Angels & Demons", 2009, "фильм", ["space", "slow"], ["Angels & Demons", "Ангелы и демоны"], "Ангелы и демоны"), { wikiEn: "Angels & Demons (film)", wikiRu: "Ангелы и демоны (фильм)" }),
+    Object.assign(f("wdq27188178", "Аладдин", "Aladdin", 2019, "фильм", ["comedy", "irony"], ["Aladdin", "Аладдин"], "Аладдин"), { wikiEn: "Aladdin (2019 film)", wikiRu: "Аладдин (фильм, 2019)" }),
+    Object.assign(f("wdq193577", "Крамер против Крамера", "Kramer vs. Kramer", 1979, "фильм", ["family", "slow"], ["Kramer vs. Kramer", "Крамер против Крамера"], "Крамер против Крамера"), { wikiEn: "Kramer vs. Kramer", wikiRu: "Крамер против Крамера" }),
+    Object.assign(f("wdq1757288", "Безумный Макс: Дорога ярости", "Mad Max: Fury Road", 2015, "фильм", ["tempo", "dark"], ["Mad Max: Fury Road", "Безумный Макс: Дорога ярости"], "Безумный Макс: Дорога ярости"), { wikiEn: "Mad Max: Fury Road", wikiRu: "Безумный Макс: Дорога ярости" }),
+    Object.assign(f("wdq29906232", "Соник в кино", "Sonic the Hedgehog", 2020, "фильм", ["tempo", "dark"], ["Sonic the Hedgehog", "Соник в кино"], "Соник в кино"), { wikiEn: "Sonic the Hedgehog (film)", wikiRu: "Соник в кино" }),
+    Object.assign(f("wdq595", "1+1", "The Intouchables", 2012, "фильм", ["crime", "slick-urban"], ["The Intouchables", "1+1"], "1+1"), { wikiEn: "The Intouchables", wikiRu: "1+1 (фильм)" }),
+    Object.assign(f("wdq12018", "Восемь с половиной", "8½", 1963, "фильм", ["comedy", "irony"], ["8½", "Восемь с половиной"], "Восемь с половиной"), { wikiEn: "8½", wikiRu: "Восемь с половиной" }),
+    Object.assign(f("wdq193066", "Завтрак у Тиффани", "Breakfast at Tiffany's", 1962, "фильм", ["comedy", "irony"], ["Breakfast at Tiffany's", "Завтрак у Тиффани"], "Завтрак у Тиффани"), { wikiEn: "Breakfast at Tiffany's (film)", wikiRu: "Завтрак у Тиффани (фильм)" }),
+    Object.assign(f("wdq232774", "Трансформеры 3: Тёмная сторона Луны", "Transformers: Dark of the Moon", 2011, "фильм", ["space", "slow"], ["Transformers: Dark of the Moon", "Трансформеры 3: Тёмная сторона Луны"], "Трансформеры 3: Тёмная сторона Луны"), { wikiEn: "Transformers: Dark of the Moon", wikiRu: "Трансформеры 3: Тёмная сторона Луны" }),
+    Object.assign(f("wdq19069", "Великолепная семёрка", "The Magnificent Seven", 1961, "фильм", ["horror", "dark"], ["The Magnificent Seven", "Великолепная семёрка"], "Великолепная семёрка"), { wikiEn: "The Magnificent Seven", wikiRu: "Великолепная семёрка (фильм, 1960)" }),
+    Object.assign(f("wdq30931", "Умри, но не сейчас", "Die Another Day", 2002, "фильм", ["crime", "slick-urban"], ["Die Another Day", "Умри, но не сейчас"], "Умри, но не сейчас"), { wikiEn: "Die Another Day", wikiRu: "Умри, но не сейчас" }),
+    Object.assign(f("wdq169082", "10 причин моей ненависти", "10 Things I Hate About You", 1999, "фильм", ["comedy", "irony"], ["10 Things I Hate About You", "10 причин моей ненависти"], "10 причин моей ненависти"), { wikiEn: "10 Things I Hate About You", wikiRu: "10 причин моей ненависти" }),
+    Object.assign(f("wdq3521099", "Отель «Гранд Будапешт»", "The Grand Budapest Hotel", 2014, "фильм", ["crime", "slick-urban"], ["The Grand Budapest Hotel", "Отель «Гранд Будапешт»"], "Отель «Гранд Будапешт»"), { wikiEn: "The Grand Budapest Hotel", wikiRu: "Отель «Гранд Будапешт»" }),
+    Object.assign(f("wdq207916", "Завтра не умрёт никогда", "Tomorrow Never Dies", 1997, "фильм", ["fantasy", "family"], ["Tomorrow Never Dies", "Завтра не умрёт никогда"], "Завтра не умрёт никогда"), { wikiEn: "Tomorrow Never Dies", wikiRu: "Завтра не умрёт никогда" }),
+    Object.assign(f("wdq107761", "Живёшь только дважды", "You Only Live Twice", 1967, "фильм", ["family", "slow"], ["You Only Live Twice", "Живёшь только дважды"], "Живёшь только дважды"), { wikiEn: "You Only Live Twice (film)", wikiRu: "Живёшь только дважды" }),
+    Object.assign(f("wdq401976", "Форсаж 5", "Fast Five", 2011, "фильм", ["tempo", "dark"], ["Fast Five", "Форсаж 5"], "Форсаж 5"), { wikiEn: "Fast Five", wikiRu: "Форсаж 5" }),
+    Object.assign(f("wdq379873", "Кто подставил кролика Роджера", "Who Framed Roger Rabbit", 1988, "фильм", ["family", "slow"], ["Who Framed Roger Rabbit", "Кто подставил кролика Роджера"], "Кто подставил кролика Роджера"), { wikiEn: "Who Framed Roger Rabbit", wikiRu: "Кто подставил кролика Роджера" }),
+    Object.assign(f("wdq219776", "Люди Икс 2", "X2", 2009, "фильм", ["tempo", "dark"], ["X2", "Люди Икс 2"], "Люди Икс 2"), { wikiEn: "X2 (film)", wikiRu: "Люди Икс 2" }),
+    Object.assign(f("wdq475693", "Олдбой", "Oldboy", 2005, "фильм", ["horror", "dark"], ["Oldboy", "Олдбой"], "Олдбой"), { wikiEn: "Oldboy (2003 film)", wikiRu: "Олдбой (фильм, 2003)" }),
+    Object.assign(f("wdq21500755", "Бегущий по лезвию 2049", "Blade Runner 2049", 2017, "фильм", ["crime", "slick-urban"], ["Blade Runner 2049", "Бегущий по лезвию 2049"], "Бегущий по лезвию 2049"), { wikiEn: "Blade Runner 2049", wikiRu: "Бегущий по лезвию 2049" }),
+    Object.assign(f("wdq146673", "Основной инстинкт", "Basic Instinct", 1992, "фильм", ["family", "slow"], ["Basic Instinct", "Основной инстинкт"], "Основной инстинкт"), { wikiEn: "Basic Instinct", wikiRu: "Основной инстинкт" }),
+    Object.assign(f("wdq21534241", "Не время умирать", "No Time to Die", 2021, "фильм", ["family", "slow"], ["No Time to Die", "Не время умирать"], "Не время умирать"), { wikiEn: "No Time to Die", wikiRu: "Не время умирать" }),
+    Object.assign(f("wdq14650496", "Форсаж 7", "Furious 7", 2015, "фильм", ["tempo", "dark"], ["Furious 7", "Форсаж 7"], "Форсаж 7"), { wikiEn: "Furious 7", wikiRu: "Форсаж 7" }),
+    Object.assign(f("wdq213081", "Звёздный путь", "Star Trek", 2009, "фильм", ["family", "slow"], ["Star Trek", "Звёздный путь"], "Звёздный путь"), { wikiEn: "Star Trek (2009 film)", wikiRu: "Звёздный путь (фильм, 2009)" }),
+    Object.assign(f("wdq323827", "Доктор Живаго", "Doctor Zhivago", 1965, "фильм", ["crime", "slick-urban"], ["Doctor Zhivago", "Доктор Живаго"], "Доктор Живаго"), { wikiEn: "Doctor Zhivago (film)", wikiRu: "Доктор Живаго (фильм, 1965)" }),
+    Object.assign(f("wdq24053263", "Логан", "Logan", 2017, "фильм", ["war", "dark"], ["Logan", "Логан"], "Логан"), { wikiEn: "Logan (film)", wikiRu: "Логан (фильм)" }),
+    Object.assign(f("wdq191074", "Вавилон", "Babel", 2006, "фильм", ["comedy", "irony"], ["Babel", "Вавилон"], "Вавилон"), { wikiEn: "Babel (2006 film)", wikiRu: "Вавилон (фильм, 2006)" }),
+    Object.assign(f("wdq869741", "Время мелодий", "Melody Time", 1948, "фильм", ["horror", "dark"], ["Melody Time", "Время мелодий"], "Время мелодий"), { wikiEn: "Melody Time", wikiRu: "Время мелодий" }),
+    Object.assign(f("wdq644987", "Китайский квартал", "Chinatown", 1974, "фильм", ["crime", "slick-urban"], ["Chinatown", "Китайский квартал"], "Китайский квартал"), { wikiEn: "Chinatown (1974 film)", wikiRu: "Китайский квартал (фильм)" }),
+    Object.assign(f("wdq788822", "Она", "Her", 2014, "фильм", ["space", "slow"], ["Her", "Она"], "Она"), { wikiEn: "Her (2013 film)", wikiRu: "Она (фильм, 2013)" }),
+    Object.assign(f("wdq1102220", "Парк юрского периода III", "Jurassic Park III", 2001, "фильм", ["fantasy", "family"], ["Jurassic Park III", "Парк юрского периода III"], "Парк юрского периода III"), { wikiEn: "Jurassic Park III", wikiRu: "Парк юрского периода III" }),
+    Object.assign(f("wdq201215", "Моя прекрасная леди", "My Fair Lady", 1964, "фильм", ["war", "dark"], ["My Fair Lady", "Моя прекрасная леди"], "Моя прекрасная леди"), { wikiEn: "My Fair Lady (film)", wikiRu: "Моя прекрасная леди (фильм)" }),
+    Object.assign(f("wdq152456", "Мюнхен", "Munich", 2006, "фильм", ["tempo", "dark"], ["Munich", "Мюнхен"], "Мюнхен"), { wikiEn: "Munich (2005 film)", wikiRu: "Мюнхен (фильм)" }),
+    Object.assign(f("wdq193570", "Бульвар Сансет", "Sunset Boulevard", 1950, "фильм", ["comedy", "irony"], ["Sunset Boulevard", "Бульвар Сансет"], "Бульвар Сансет"), { wikiEn: "Sunset Boulevard (film)", wikiRu: "Бульвар Сансет (фильм)" }),
+    Object.assign(f("wdq201687", "Харви Милк", "Milk", 2009, "фильм", ["war", "dark"], ["Milk", "Харви Милк"], "Харви Милк"), { wikiEn: "Milk (2008 American film)", wikiRu: "Харви Милк (фильм)" }),
+    Object.assign(f("wdq27411", "Крик", "Scream", 1997, "фильм", ["crime", "slick-urban"], ["Scream", "Крик"], "Крик"), { wikiEn: "Scream (1996 film)", wikiRu: "Крик (фильм, 1996)" }),
+    Object.assign(f("wdq62721520", "1917", "1917", 2020, "фильм", ["tempo", "dark"], ["1917", "1917"], "1917"), { wikiEn: "1917 (2019 film)", wikiRu: "1917 (фильм)" }),
+    Object.assign(f("wdq64211112", "Доктор Стрэндж: В мультивселенной безумия", "Doctor Strange in the Multiverse of Madness", 2022, "фильм", ["tempo", "dark"], ["Doctor Strange in the Multiverse of Madness", "Доктор Стрэндж: В мультивселенной безумия"], "Доктор Стрэндж: В мультивселенной безумия"), { wikiEn: "Doctor Strange in the Multiverse of Madness", wikiRu: "Доктор Стрэндж: В мультивселенной безумия" }),
+    Object.assign(f("wdq50861", "Крепкий орешек 4.0", "Live Free or Die Hard", 2007, "фильм", ["horror", "dark"], ["Live Free or Die Hard", "Крепкий орешек 4.0"], "Крепкий орешек 4.0"), { wikiEn: "Live Free or Die Hard", wikiRu: "Крепкий орешек 4.0" }),
+    Object.assign(f("wdq205447", "Одиннадцать друзей Оушена", "Ocean's Eleven", 2002, "фильм", ["war", "dark"], ["Ocean's Eleven", "Одиннадцать друзей Оушена"], "Одиннадцать друзей Оушена"), { wikiEn: "Ocean's Eleven", wikiRu: "Одиннадцать друзей Оушена (фильм, 2001)" }),
+    Object.assign(f("wdq244315", "Нефть", "There Will Be Blood", 2008, "фильм", ["crime", "slick-urban"], ["There Will Be Blood", "Нефть"], "Нефть"), { wikiEn: "There Will Be Blood", wikiRu: "Нефть (фильм)" }),
+    Object.assign(f("wdq4985891", "Люди Икс: Дни минувшего будущего", "X-Men: Days of Future Past", 2014, "фильм", ["crime", "slick-urban"], ["X-Men: Days of Future Past", "Люди Икс: Дни минувшего будущего"], "Люди Икс: Дни минувшего будущего"), { wikiEn: "X-Men: Days of Future Past", wikiRu: "Люди Икс: Дни минувшего будущего" }),
+    Object.assign(f("wdq238211", "Огни большого города", "City Lights", 1931, "фильм", ["crime", "slick-urban"], ["City Lights", "Огни большого города"], "Огни большого города"), { wikiEn: "City Lights", wikiRu: "Огни большого города" }),
+    Object.assign(f("wdq207588", "Отныне и во веки веков", "From Here to Eternity", 1953, "фильм", ["fantasy", "family"], ["From Here to Eternity", "Отныне и во веки веков"], "Отныне и во веки веков"), { wikiEn: "From Here to Eternity", wikiRu: "Отныне и во веки веков (фильм)" }),
+    Object.assign(f("wdq269912", "В диких условиях", "Into the Wild", 2008, "фильм", ["tempo", "dark"], ["Into the Wild", "В диких условиях"], "В диких условиях"), { wikiEn: "Into the Wild (film)", wikiRu: "В диких условиях" }),
+    Object.assign(f("wdq207954", "Красотка", "Pretty Woman", 2001, "фильм", ["comedy", "irony"], ["Pretty Woman", "Красотка"], "Красотка"), { wikiEn: "Pretty Woman", wikiRu: "Красотка" }),
+    Object.assign(f("wdq207921", "Огненные колесницы", "Chariots of Fire", 1982, "фильм", ["family", "slow"], ["Chariots of Fire", "Огненные колесницы"], "Огненные колесницы"), { wikiEn: "Chariots of Fire", wikiRu: "Огненные колесницы" }),
+    Object.assign(f("wdq107724", "Шаровая молния", "Thunderball", 1966, "фильм", ["fantasy", "family"], ["Thunderball", "Шаровая молния"], "Шаровая молния"), { wikiEn: "Thunderball (film)", wikiRu: "Шаровая молния (фильм)" }),
+    Object.assign(f("wdq14920425", "Исчезнувшая", "Gone Girl", 2014, "фильм", ["family", "slow"], ["Gone Girl", "Исчезнувшая"], "Исчезнувшая"), { wikiEn: "Gone Girl (film)", wikiRu: "Исчезнувшая" }),
+    Object.assign(f("wdq107914", "Бриллианты навсегда", "Diamonds Are Forever", 1971, "фильм", ["comedy", "irony"], ["Diamonds Are Forever", "Бриллианты навсегда"], "Бриллианты навсегда"), { wikiEn: "Diamonds Are Forever (film)", wikiRu: "Бриллианты навсегда" }),
+    Object.assign(f("wdq108745", "Охотники за привидениями", "Ghostbusters", 1985, "фильм", ["family", "slow"], ["Ghostbusters", "Охотники за привидениями"], "Охотники за привидениями"), { wikiEn: "Ghostbusters", wikiRu: "Охотники за привидениями (фильм, 1984)" }),
+    Object.assign(f("wdq114819", "Дюна", "Dune", 1984, "фильм", ["crime", "slick-urban"], ["Dune", "Дюна"], "Дюна"), { wikiEn: "Dune (1984 film)", wikiRu: "Дюна (фильм, 1984)" }),
+    Object.assign(f("wdq18225084", "Омерзительная восьмёрка", "The Hateful Eight", 2016, "фильм", ["fantasy", "family"], ["The Hateful Eight", "Омерзительная восьмёрка"], "Омерзительная восьмёрка"), { wikiEn: "The Hateful Eight", wikiRu: "Омерзительная восьмёрка" }),
+    Object.assign(f("wdq380996", "Форсаж 4", "Fast & Furious", 2009, "фильм", ["fantasy", "family"], ["Fast & Furious", "Форсаж 4"], "Форсаж 4"), { wikiEn: "Fast & Furious (2009 film)", wikiRu: "Форсаж 4" }),
+    Object.assign(f("wdq151895", "Носферату. Симфония ужаса", "Nosferatu", 1922, "фильм", ["war", "dark"], ["Nosferatu", "Носферату. Симфония ужаса"], "Носферату. Симфония ужаса"), { wikiEn: "Nosferatu", wikiRu: "Носферату, симфония ужаса" }),
+    Object.assign(f("wdq471716", "Барри Линдон", "Barry Lyndon", 1977, "фильм", ["fantasy", "family"], ["Barry Lyndon", "Барри Линдон"], "Барри Линдон"), { wikiEn: "Barry Lyndon", wikiRu: "Барри Линдон" }),
+    Object.assign(f("wdq220780", "Бешеный бык", "Raging Bull", 1981, "фильм", ["fantasy", "family"], ["Raging Bull", "Бешеный бык"], "Бешеный бык"), { wikiEn: "Raging Bull", wikiRu: "Бешеный бык" }),
+    Object.assign(f("wdq21010856", "По соображениям совести", "Hacksaw Ridge", 2017, "фильм", ["tempo", "dark"], ["Hacksaw Ridge", "По соображениям совести"], "По соображениям совести"), { wikiEn: "Hacksaw Ridge", wikiRu: "По соображениям совести" }),
+    Object.assign(f("wdq221103", "Хэллоуин", "Halloween", 1979, "фильм", ["war", "dark"], ["Halloween", "Хэллоуин"], "Хэллоуин"), { wikiEn: "Halloween (1978 film)", wikiRu: "Хэллоуин (фильм, 1978)" }),
+    Object.assign(f("wdq110043", "Птицы", "The Birds", 1963, "фильм", ["crime", "slick-urban"], ["The Birds", "Птицы"], "Птицы"), { wikiEn: "The Birds (film)", wikiRu: "Птицы (фильм, 1963)" }),
+    Object.assign(f("wdq222867", "Двойной форсаж", "2 Fast 2 Furious", 2003, "фильм", ["crime", "slick-urban"], ["2 Fast 2 Furious", "Двойной форсаж"], "Двойной форсаж"), { wikiEn: "2 Fast 2 Furious", wikiRu: "Двойной форсаж" }),
+    Object.assign(f("wdq223139", "К северу через северо-запад", "North by Northwest", 1959, "фильм", ["crime", "slick-urban"], ["North by Northwest", "К северу через северо-запад"], "К северу через северо-запад"), { wikiEn: "North by Northwest", wikiRu: "К северу через северо-запад" }),
+    Object.assign(f("wdq23894626", "Чёрная вдова", "Black Widow", 2021, "фильм", ["comedy", "irony"], ["Black Widow", "Чёрная вдова"], "Чёрная вдова"), { wikiEn: "Black Widow (2021 film)", wikiRu: "Чёрная вдова (фильм, 2021)" }),
+    Object.assign(f("wdq191543", "Терминатор: Да придёт спаситель", "Terminator Salvation", 2009, "фильм", ["war", "dark"], ["Terminator Salvation", "Терминатор: Да придёт спаситель"], "Терминатор: Да придёт спаситель"), { wikiEn: "Terminator Salvation", wikiRu: "Терминатор: Да придёт спаситель" }),
+    Object.assign(f("wdq892735", "Великий Гэтсби", "The Great Gatsby", 2013, "фильм", ["war", "dark"], ["The Great Gatsby", "Великий Гэтсби"], "Великий Гэтсби"), { wikiEn: "The Great Gatsby (2013 film)", wikiRu: "Великий Гэтсби (фильм, 2013)" }),
+    Object.assign(f("wdq27044293", "Король Лев", "The Lion King", 2021, "фильм", ["horror", "dark"], ["The Lion King", "Король Лев"], "Король Лев"), { wikiEn: "The Lion King (2019 film)", wikiRu: "Король Лев (мультфильм, 2019)" }),
+    Object.assign(f("wdq23572", "Игра престолов", "Game of Thrones", 0, "сериал", ["fantasy", "family"], ["Game of Thrones", "Игра престолов"], "Игра престолов"), { wikiEn: "Game of Thrones", wikiRu: "Игра престолов (телесериал)" }),
+    Object.assign(f("wdq8172269", "Лив и Мэдди", "Liv and Maddie", 0, "сериал", ["horror", "dark"], ["Liv and Maddie", "Лив и Мэдди"], "Лив и Мэдди"), { wikiEn: "Liv and Maddie", wikiRu: "Лив и Мэдди" }),
+    Object.assign(f("wdq8539", "Теория большого взрыва", "The Big Bang Theory", 0, "сериал", ["crime", "slick-urban"], ["The Big Bang Theory", "Теория большого взрыва"], "Теория большого взрыва"), { wikiEn: "The Big Bang Theory", wikiRu: "Теория Большого взрыва (телесериал)" }),
+    Object.assign(f("wdq79784", "Друзья", "", 0, "сериал", ["tempo", "dark"], ["Друзья"], "Друзья"), { wikiEn: "Friends", wikiRu: "Друзья (телесериал)" }),
+    Object.assign(f("wdq106582931", "Игра в кальмара", "Squid Game", 0, "сериал", ["crime", "slick-urban"], ["Squid Game", "Игра в кальмара"], "Игра в кальмара"), { wikiEn: "Squid Game", wikiRu: "Игра в кальмара" }),
+    Object.assign(f("wdq41403", "Телепузики", "Teletubbies", 0, "сериал", ["crime", "slick-urban"], ["Teletubbies", "Телепузики"], "Телепузики"), { wikiEn: "Teletubbies", wikiRu: "Телепузики" }),
+    Object.assign(f("wdq1079", "Во все тяжкие", "Breaking Bad", 0, "сериал", ["war", "dark"], ["Breaking Bad", "Во все тяжкие"], "Во все тяжкие"), { wikiEn: "Breaking Bad", wikiRu: "Во все тяжкие" }),
+    Object.assign(f("wdq34316", "Доктор Кто", "Doctor Who", 0, "сериал", ["fantasy", "family"], ["Doctor Who", "Доктор Кто"], "Доктор Кто"), { wikiEn: "Doctor Who", wikiRu: "Доктор Кто" }),
+    Object.assign(f("wdq155629", "Улица Сезам", "Sesame Street", 0, "сериал", ["horror", "dark"], ["Sesame Street", "Улица Сезам"], "Улица Сезам"), { wikiEn: "Sesame Street", wikiRu: "Улица Сезам" }),
+    Object.assign(f("wdq23558", "Доктор Хаус", "House M.D.", 0, "сериал", ["space", "slow"], ["House M.D.", "Доктор Хаус"], "Доктор Хаус"), { wikiEn: "House (TV series)", wikiRu: "Доктор Хаус" }),
+    Object.assign(f("wdq2744", "Секретные материалы", "The X-Files", 0, "сериал", ["tempo", "dark"], ["The X-Files", "Секретные материалы"], "Секретные материалы"), { wikiEn: "The X-Files", wikiRu: "Секретные материалы" }),
+    Object.assign(f("wdq23567", "Остаться в живых", "Lost", 0, "сериал", ["war", "dark"], ["Lost", "Остаться в живых"], "Остаться в живых"), { wikiEn: "Lost (TV series)", wikiRu: "Остаться в живых (телесериал)" }),
+    Object.assign(f("wdq80044", "Побег", "Prison Break", 0, "сериал", ["fantasy", "family"], ["Prison Break", "Побег"], "Побег"), { wikiEn: "Prison Break", wikiRu: "Побег (телесериал, 2005)" }),
+    Object.assign(f("wdq147235", "Как я встретил вашу маму", "How I Met Your Mother", 0, "сериал", ["crime", "slick-urban"], ["How I Met Your Mother", "Как я встретил вашу маму"], "Как я встретил вашу маму"), { wikiEn: "How I Met Your Mother", wikiRu: "Как я встретил вашу маму" }),
+    Object.assign(f("wdq232737", "Ходячие мертвецы", "The Walking Dead", 0, "сериал", ["family", "slow"], ["The Walking Dead", "Ходячие мертвецы"], "Ходячие мертвецы"), { wikiEn: "The Walking Dead (TV series)", wikiRu: "Ходячие мертвецы (телесериал)" }),
+    Object.assign(f("wdq484020", "Мистер Бин", "Mr. Bean", 0, "сериал", ["fantasy", "family"], ["Mr. Bean", "Мистер Бин"], "Мистер Бин"), { wikiEn: "Mr. Bean", wikiRu: "Мистер Бин" }),
+    Object.assign(f("wdq23831", "Офис", "The Office", 0, "сериал", ["war", "dark"], ["The Office", "Офис"], "Офис"), { wikiEn: "The Office (American TV series)", wikiRu: "Офис (телесериал, США)" }),
+    Object.assign(f("wdq38497", "Зена — королева воинов", "Xena: Warrior Princess", 0, "сериал", ["family", "slow"], ["Xena: Warrior Princess", "Зена — королева воинов"], "Зена — королева воинов"), { wikiEn: "Xena: Warrior Princess", wikiRu: "Зена — королева воинов" }),
+    Object.assign(f("wdq19798734", "Очень странные дела", "Stranger Things", 0, "сериал", ["space", "slow"], ["Stranger Things", "Очень странные дела"], "Очень странные дела"), { wikiEn: "Stranger Things", wikiRu: "Очень странные дела" }),
+    Object.assign(f("wdq438406", "Анатомия страсти", "Grey's Anatomy", 0, "сериал", ["space", "slow"], ["Grey's Anatomy", "Анатомия страсти"], "Анатомия страсти"), { wikiEn: "Grey's Anatomy", wikiRu: "Анатомия страсти" }),
+    Object.assign(f("wdq192837", "Шерлок", "Sherlock", 0, "сериал", ["horror", "dark"], ["Sherlock", "Шерлок"], "Шерлок"), { wikiEn: "Sherlock (TV series)", wikiRu: "Шерлок (телесериал)" }),
+    Object.assign(f("wdq130585", "Сверхъестественное", "Supernatural", 0, "сериал", ["family", "slow"], ["Supernatural", "Сверхъестественное"], "Сверхъестественное"), { wikiEn: "Supernatural (American TV series)", wikiRu: "Сверхъестественное (телесериал)" }),
+    Object.assign(f("wdq131758", "Отчаянные домохозяйки", "Desperate Housewives", 0, "сериал", ["space", "slow"], ["Desperate Housewives", "Отчаянные домохозяйки"], "Отчаянные домохозяйки"), { wikiEn: "Desperate Housewives", wikiRu: "Отчаянные домохозяйки" }),
+    Object.assign(f("wdq29647346", "Бумажный дом", "Money Heist", 0, "сериал", ["comedy", "irony"], ["Money Heist", "Бумажный дом"], "Бумажный дом"), { wikiEn: "Money Heist", wikiRu: "Бумажный дом (телесериал)" }),
+    Object.assign(f("wdq23628", "Клан Сопрано", "The Sopranos", 0, "сериал", ["fantasy", "family"], ["The Sopranos", "Клан Сопрано"], "Клан Сопрано"), { wikiEn: "The Sopranos", wikiRu: "Клан Сопрано" }),
+    Object.assign(f("wdq28537", "Дневники вампира", "The Vampire Diaries", 0, "сериал", ["family", "slow"], ["The Vampire Diaries", "Дневники вампира"], "Дневники вампира"), { wikiEn: "The Vampire Diaries", wikiRu: "Дневники вампира (телесериал)" }),
+    Object.assign(f("wdq83401", "Герои", "Heroes", 0, "сериал", ["family", "slow"], ["Heroes", "Герои"], "Герои"), { wikiEn: "Heroes (American TV series)", wikiRu: "Герои (телесериал)" }),
+    Object.assign(f("wdq126631", "Ханна Монтана", "Hannah Montana", 2008, "сериал", ["war", "dark"], ["Hannah Montana", "Ханна Монтана"], "Ханна Монтана"), { wikiEn: "Hannah Montana", wikiRu: "Ханна Монтана" }),
+    Object.assign(f("wdq152178", "Хор", "Glee", 0, "сериал", ["comedy", "irony"], ["Glee", "Хор"], "Хор"), { wikiEn: "Glee (TV series)", wikiRu: "Хор (телесериал)" }),
+    Object.assign(f("wdq56194", "24 часа", "24", 0, "сериал", ["comedy", "irony"], ["24", "24 часа"], "24 часа"), { wikiEn: "24 (TV series)", wikiRu: "24 часа (телесериал)" }),
+    Object.assign(f("wdq23577", "Декстер", "Dexter", 2007, "сериал", ["family", "slow"], ["Dexter", "Декстер"], "Декстер"), { wikiEn: "Dexter (TV series)", wikiRu: "Декстер" }),
+    Object.assign(f("wdq35791", "Секс в большом городе", "Sex and the City", 0, "сериал", ["war", "dark"], ["Sex and the City", "Секс в большом городе"], "Секс в большом городе"), { wikiEn: "Sex and the City", wikiRu: "Секс в большом городе" }),
+    Object.assign(f("wdq4533", "Виктория-победительница", "Victorious", 0, "сериал", ["horror", "dark"], ["Victorious", "Виктория-победительница"], "Виктория-победительница"), { wikiEn: "Victorious", wikiRu: "Виктория-победительница" }),
+    Object.assign(f("wdq189267", "Два с половиной человека", "Two and a Half Men", 0, "сериал", ["crime", "slick-urban"], ["Two and a Half Men", "Два с половиной человека"], "Два с половиной человека"), { wikiEn: "Two and a Half Men", wikiRu: "Два с половиной человека" }),
+    Object.assign(f("wdq558112", "Чёрное зеркало", "Black Mirror", 0, "сериал", ["tempo", "dark"], ["Black Mirror", "Чёрное зеркало"], "Чёрное зеркало"), { wikiEn: "Black Mirror", wikiRu: "Чёрное зеркало (телесериал)" }),
+    Object.assign(f("wdq53922", "Американская история ужасов", "American Horror Story", 0, "сериал", ["comedy", "irony"], ["American Horror Story", "Американская история ужасов"], "Американская история ужасов"), { wikiEn: "American Horror Story", wikiRu: "Американская история ужасов" }),
+    Object.assign(f("wdq180228", "Тайны Смолвиля", "Smallville", 0, "сериал", ["fantasy", "family"], ["Smallville", "Тайны Смолвиля"], "Тайны Смолвиля"), { wikiEn: "Smallville", wikiRu: "Тайны Смолвиля" }),
+    Object.assign(f("wdq14944179", "Острые козырьки", "Peaky Blinders", 0, "сериал", ["crime", "slick-urban"], ["Peaky Blinders", "Острые козырьки"], "Острые козырьки"), { wikiEn: "Peaky Blinders (TV series)", wikiRu: "Острые козырьки" }),
+    Object.assign(f("wdq202141", "Мыслить как преступник", "Criminal Minds", 0, "сериал", ["horror", "dark"], ["Criminal Minds", "Мыслить как преступник"], "Мыслить как преступник"), { wikiEn: "Criminal Minds", wikiRu: "Мыслить как преступник" }),
+    Object.assign(f("wdq3013", "АйКарли", "iCarly", 0, "сериал", ["horror", "dark"], ["iCarly", "АйКарли"], "АйКарли"), { wikiEn: "ICarly", wikiRu: "АйКарли" }),
+    Object.assign(f("wdq16756", "Американская семейка", "Modern Family", 0, "сериал", ["fantasy", "family"], ["Modern Family", "Американская семейка"], "Американская семейка"), { wikiEn: "Modern Family", wikiRu: "Американская семейка" }),
+    Object.assign(f("wdq87131973", "Одни из нас", "The Last of Us", 0, "сериал", ["horror", "dark"], ["The Last of Us", "Одни из нас"], "Одни из нас"), { wikiEn: "The Last of Us (TV series)", wikiRu: "Одни из нас (телесериал)" }),
+    Object.assign(f("wdq162371", "Зачарованные", "Charmed", 0, "сериал", ["crime", "slick-urban"], ["Charmed", "Зачарованные"], "Зачарованные"), { wikiEn: "Charmed", wikiRu: "Зачарованные" }),
+    Object.assign(f("wdq117396", "C.S.I.: Место преступления", "CSI: Crime Scene Investigation", 0, "сериал", ["fantasy", "family"], ["CSI: Crime Scene Investigation", "C.S.I.: Место преступления"], "C.S.I.: Место преступления"), { wikiEn: "CSI: Crime Scene Investigation", wikiRu: "C.S.I.: Место преступления" }),
+    Object.assign(f("wdq187462", "Звёздные врата: SG-1", "Stargate SG-1", 0, "сериал", ["space", "slow"], ["Stargate SG-1", "Звёздные врата: SG-1"], "Звёздные врата: SG-1"), { wikiEn: "Stargate SG-1", wikiRu: "Звёздные врата: SG-1" }),
+    Object.assign(f("wdq72930269", "Дом Дракона", "House of the Dragon", 0, "сериал", ["horror", "dark"], ["House of the Dragon", "Дом Дракона"], "Дом Дракона"), { wikiEn: "House of the Dragon", wikiRu: "Дом Дракона" }),
+    Object.assign(f("wdq105553568", "Уэнздей", "Wednesday", 0, "сериал", ["tempo", "dark"], ["Wednesday", "Уэнздей"], "Уэнздей"), { wikiEn: "Wednesday (TV series)", wikiRu: "Уэнздей" }),
+    Object.assign(f("wdq2085", "Твин Пикс", "Twin Peaks", 0, "сериал", ["horror", "dark"], ["Twin Peaks", "Твин Пикс"], "Твин Пикс"), { wikiEn: "Twin Peaks", wikiRu: "Твин Пикс" }),
+    Object.assign(f("wdq183513", "Баффи — истребительница вампиров", "Buffy the Vampire Slayer", 0, "сериал", ["family", "slow"], ["Buffy the Vampire Slayer", "Баффи — истребительница вампиров"], "Баффи — истребительница вампиров"), { wikiEn: "Buffy the Vampire Slayer", wikiRu: "Баффи — истребительница вампиров (телесериал)" }),
+    Object.assign(f("wdq204228", "Менталист", "The Mentalist", 0, "сериал", ["fantasy", "family"], ["The Mentalist", "Менталист"], "Менталист"), { wikiEn: "The Mentalist", wikiRu: "Менталист (телесериал)" }),
+    Object.assign(f("wdq4525", "Морская полиция: Спецотдел", "NCIS", 0, "сериал", ["horror", "dark"], ["NCIS", "Морская полиция: Спецотдел"], "Морская полиция: Спецотдел"), { wikiEn: "NCIS (TV series)", wikiRu: "Морская полиция: Спецотдел" }),
+    Object.assign(f("wdq14925221", "Лучше звоните Солу", "Better Call Saul", 0, "сериал", ["horror", "dark"], ["Better Call Saul", "Лучше звоните Солу"], "Лучше звоните Солу"), { wikiEn: "Better Call Saul", wikiRu: "Лучше звоните Солу" }),
+    Object.assign(f("wdq199853", "Сплетница", "Gossip Girl", 0, "сериал", ["horror", "dark"], ["Gossip Girl", "Сплетница"], "Сплетница"), { wikiEn: "Gossip Girl", wikiRu: "Сплетница (телесериал)" }),
+    Object.assign(f("wdq65258113", "Аварийная посадка любви", "Crash Landing on You", 0, "сериал", ["family", "slow"], ["Crash Landing on You", "Аварийная посадка любви"], "Аварийная посадка любви"), { wikiEn: "Crash Landing on You", wikiRu: "Любовь приходит с неба" }),
+    Object.assign(f("wdq13979", "Saturday Night Live", "Saturday Night Live", 0, "сериал", ["crime", "slick-urban"], ["Saturday Night Live", "Saturday Night Live"], "Saturday Night Live"), { wikiEn: "Saturday Night Live", wikiRu: "Saturday Night Live" }),
+    Object.assign(f("wdq55632932", "Половое воспитание", "Sex Education", 2019, "сериал", ["fantasy", "family"], ["Sex Education", "Половое воспитание"], "Половое воспитание"), { wikiEn: "Sex Education (TV series)", wikiRu: "Половое воспитание (сериал, 2019)" }),
+    Object.assign(f("wdq189068", "Детектив Монк", "Monk", 0, "сериал", ["fantasy", "family"], ["Monk", "Детектив Монк"], "Детектив Монк"), { wikiEn: "Monk (TV series)", wikiRu: "Детектив Монк" }),
+    Object.assign(f("wdq207375", "Скорая помощь", "ER", 0, "сериал", ["war", "dark"], ["ER", "Скорая помощь"], "Скорая помощь"), { wikiEn: "ER (TV series)", wikiRu: "Скорая помощь (телесериал)" }),
+    Object.assign(f("wdq65272745", "Истинная красота", "True Beauty", 0, "сериал", ["family", "slow"], ["True Beauty", "Истинная красота"], "Истинная красота"), { wikiEn: "True Beauty (South Korean TV series)", wikiRu: "Истинная красота" }),
+    Object.assign(f("wdq552314", "Стрела", "Arrow", 0, "сериал", ["comedy", "irony"], ["Arrow", "Стрела"], "Стрела"), { wikiEn: "Arrow (TV series)", wikiRu: "Стрела (телесериал)" }),
+    Object.assign(f("wdq3330940", "Карточный домик", "House of Cards", 0, "сериал", ["fantasy", "family"], ["House of Cards", "Карточный домик"], "Карточный домик"), { wikiEn: "House of Cards (American TV series)", wikiRu: "Карточный домик (телесериал)" }),
+    Object.assign(f("wdq20707362", "Корона", "The Crown", 0, "сериал", ["comedy", "irony"], ["The Crown", "Корона"], "Корона"), { wikiEn: "The Crown (TV series)", wikiRu: "Корона (телесериал)" }),
+    Object.assign(f("wdq85987403", "Пентхаус", "The Penthouse: War in Life", 0, "сериал", ["crime", "slick-urban"], ["The Penthouse: War in Life", "Пентхаус"], "Пентхаус"), { wikiEn: "The Penthouse: War in Life", wikiRu: "Пентхаус (телесериал)" }),
+    Object.assign(f("wdq23733", "Сайнфелд", "Seinfeld", 0, "сериал", ["horror", "dark"], ["Seinfeld", "Сайнфелд"], "Сайнфелд"), { wikiEn: "Seinfeld", wikiRu: "Сайнфелд (телесериал)" }),
+    Object.assign(f("wdq17572811", "Мир Дикого запада", "Westworld", 0, "сериал", ["crime", "slick-urban"], ["Westworld", "Мир Дикого запада"], "Мир Дикого запада"), { wikiEn: "Westworld (TV series)", wikiRu: "Мир Дикого Запада (телесериал)" }),
+    Object.assign(f("wdq485668", "Клиника", "Scrubs", 0, "сериал", ["fantasy", "family"], ["Scrubs", "Клиника"], "Клиника"), { wikiEn: "Scrubs (TV series)", wikiRu: "Клиника (телесериал)" }),
+    Object.assign(f("wdq1077", "Звёздный путь: Оригинальный сериал", "Star Trek: The Original Series", 0, "сериал", ["horror", "dark"], ["Star Trek: The Original Series", "Звёздный путь: Оригинальный сериал"], "Звёздный путь: Оригинальный сериал"), { wikiEn: "Star Trek: The Original Series", wikiRu: "Звёздный путь: Оригинальный сериал" }),
+    Object.assign(f("wdq16290", "Звёздный путь: Следующее поколение", "Star Trek: The Next Generation", 0, "сериал", ["comedy", "irony"], ["Star Trek: The Next Generation", "Звёздный путь: Следующее поколение"], "Звёздный путь: Следующее поколение"), { wikiEn: "Star Trek: The Next Generation", wikiRu: "Звёздный путь: Следующее поколение" }),
+    Object.assign(f("wdq176615", "Великолепный век", "Magnificent Century", 0, "сериал", ["war", "dark"], ["Magnificent Century", "Великолепный век"], "Великолепный век"), { wikiEn: "Muhteşem Yüzyıl", wikiRu: "Великолепный век" }),
+    Object.assign(f("wdq370185", "Форс-мажоры", "Suits", 0, "сериал", ["family", "slow"], ["Suits", "Форс-мажоры"], "Форс-мажоры"), { wikiEn: "Suits (American TV series)", wikiRu: "Форс-мажоры" }),
+    Object.assign(f("wdq56876444", "Мандалорец", "The Mandalorian", 0, "сериал", ["fantasy", "family"], ["The Mandalorian", "Мандалорец"], "Мандалорец"), { wikiEn: "The Mandalorian", wikiRu: "Мандалорец" }),
+    Object.assign(f("wdq193462", "Девочки Гилмор", "Gilmore Girls", 0, "сериал", ["space", "slow"], ["Gilmore Girls", "Девочки Гилмор"], "Девочки Гилмор"), { wikiEn: "Gilmore Girls", wikiRu: "Девочки Гилмор" }),
+    Object.assign(f("wdq13417244", "Бруклин 9-9", "Brooklyn Nine-Nine", 0, "сериал", ["fantasy", "family"], ["Brooklyn Nine-Nine", "Бруклин 9-9"], "Бруклин 9-9"), { wikiEn: "Brooklyn Nine-Nine", wikiRu: "Бруклин 9-9" }),
+    Object.assign(f("wdq24859151", "Гоблин", "Guardian: The Lonely and Great God", 0, "сериал", ["war", "dark"], ["Guardian: The Lonely and Great God", "Гоблин"], "Гоблин"), { wikiEn: "Guardian: The Lonely and Great God", wikiRu: "Гоблин (телесериал)" }),
+    Object.assign(f("wdq116957085", "Земля и страсть", "Terra e paixão", 0, "сериал", ["horror", "dark"], ["Terra e paixão", "Земля и страсть"], "Земля и страсть"), { wikiEn: "Terra e Paixão", wikiRu: "Земля и страсть" }),
+    Object.assign(f("wdq83071", "Аббатство Даунтон", "Downton Abbey", 0, "сериал", ["war", "dark"], ["Downton Abbey", "Аббатство Даунтон"], "Аббатство Даунтон"), { wikiEn: "Downton Abbey", wikiRu: "Аббатство Даунтон (сериал)" }),
+    Object.assign(f("wdq15711398", "Флэш", "The Flash", 2015, "сериал", ["space", "slow"], ["The Flash", "Флэш"], "Флэш"), { wikiEn: "The Flash (2014 TV series)", wikiRu: "Флэш (телесериал, 2014)" }),
+    Object.assign(f("wdq184342", "Волшебники из Вэйверли Плэйс", "Wizards of Waverly Place", 0, "сериал", ["space", "slow"], ["Wizards of Waverly Place", "Волшебники из Вэйверли Плэйс"], "Волшебники из Вэйверли Плэйс"), { wikiEn: "Wizards of Waverly Place", wikiRu: "Волшебники из Вэйверли Плэйс" }),
+    Object.assign(f("wdq386880", "Касл", "Castle", 0, "сериал", ["tempo", "dark"], ["Castle", "Касл"], "Касл"), { wikiEn: "Castle (TV series)", wikiRu: "Касл (телесериал)" }),
+    Object.assign(f("wdq2579463", "Викинги", "Vikings", 2013, "сериал", ["war", "dark"], ["Vikings", "Викинги"], "Викинги"), { wikiEn: "Vikings (TV series)", wikiRu: "Викинги (телесериал)" }),
+    Object.assign(f("wdq21546165", "Слуга народа", "Servant of the People", 0, "сериал", ["horror", "dark"], ["Servant of the People", "Слуга народа"], "Слуга народа"), { wikiEn: "Servant of the People (2015 TV series)", wikiRu: "Слуга народа (телесериал)" }),
+    Object.assign(f("wdq1176076", "Мерлин", "Merlin", 0, "сериал", ["fantasy", "family"], ["Merlin", "Мерлин"], "Мерлин"), { wikiEn: "Merlin (2008 TV series)", wikiRu: "Мерлин (телесериал)" }),
+    Object.assign(f("wdq207803", "Кости", "Bones", 0, "сериал", ["crime", "slick-urban"], ["Bones", "Кости"], "Кости"), { wikiEn: "Bones (TV series)", wikiRu: "Кости (телесериал)" }),
+    Object.assign(f("wdq64349029", "Локи", "Loki", 0, "сериал", ["horror", "dark"], ["Loki", "Локи"], "Локи"), { wikiEn: "Loki (TV series)", wikiRu: "Локи (сериал)" }),
+    Object.assign(f("wdq18652415", "Потомки солнца", "Descendants of the Sun", 0, "сериал", ["war", "dark"], ["Descendants of the Sun", "Потомки солнца"], "Потомки солнца"), { wikiEn: "Descendants of the Sun", wikiRu: "Потомки солнца" }),
+    Object.assign(f("wdq208072", "Шоу 70-х", "That '70s Show", 0, "сериал", ["tempo", "dark"], ["That '70s Show", "Шоу 70-х"], "Шоу 70-х"), { wikiEn: "That '70s Show", wikiRu: "Шоу 70-х" }),
+    Object.assign(f("wdq32450", "Милые обманщицы", "Pretty Little Liars", 0, "сериал", ["comedy", "irony"], ["Pretty Little Liars", "Милые обманщицы"], "Милые обманщицы"), { wikiEn: "Pretty Little Liars", wikiRu: "Милые обманщицы (телесериал)" }),
+    Object.assign(f("wdq156329", "Звёздный путь: Вояджер", "Star Trek: Voyager", 0, "сериал", ["family", "slow"], ["Star Trek: Voyager", "Звёздный путь: Вояджер"], "Звёздный путь: Вояджер"), { wikiEn: "Star Trek: Voyager", wikiRu: "Звёздный путь: Вояджер" }),
+    Object.assign(f("wdq79997183", "Псих, но всё в порядке", "It's Okay to Not Be Okay", 0, "сериал", ["war", "dark"], ["It's Okay to Not Be Okay", "Псих, но всё в порядке"], "Псих, но всё в порядке"), { wikiEn: "It's Okay to Not Be Okay", wikiRu: "Псих, но всё в порядке" }),
+    Object.assign(f("wdq1323981", "Эль-Чаво-дель-Очо", "El Chavo del 8", 0, "сериал", ["horror", "dark"], ["El Chavo del 8", "Эль-Чаво-дель-Очо"], "Эль-Чаво-дель-Очо"), { wikiEn: "El Chavo del Ocho", wikiRu: "Эль-Чаво-дель-Очо" }),
+    Object.assign(f("wdq18844729", "Мистер Робот", "Mr. Robot", 0, "сериал", ["family", "slow"], ["Mr. Robot", "Мистер Робот"], "Мистер Робот"), { wikiEn: "Mr. Robot", wikiRu: "Мистер Робот" }),
+    Object.assign(f("wdq486844", "Разрушители легенд", "MythBusters", 0, "сериал", ["fantasy", "family"], ["MythBusters", "Разрушители легенд"], "Разрушители легенд"), { wikiEn: "MythBusters", wikiRu: "Разрушители легенд" }),
+    Object.assign(f("wdq65980217", "Ванда/Вижн", "WandaVision", 0, "сериал", ["family", "slow"], ["WandaVision", "Ванда/Вижн"], "Ванда/Вижн"), { wikiEn: "WandaVision", wikiRu: "Ванда/Вижн" }),
+    Object.assign(f("wdq223977", "Безумцы", "Mad Men", 0, "сериал", ["family", "slow"], ["Mad Men", "Безумцы"], "Безумцы"), { wikiEn: "Mad Men", wikiRu: "Безумцы (телесериал)" }),
+    Object.assign(f("wdq20642206", "Нарко", "Narcos", 0, "сериал", ["space", "slow"], ["Narcos", "Нарко"], "Нарко"), { wikiEn: "Narcos", wikiRu: "Нарко (телесериал)" }),
+    Object.assign(f("wdq23001951", "Ривердейл", "Riverdale", 0, "сериал", ["war", "dark"], ["Riverdale", "Ривердейл"], "Ривердейл"), { wikiEn: "Riverdale (American TV series)", wikiRu: "Ривердейл (телесериал)" }),
+    Object.assign(f("wdq264221", "Альф", "ALF", 1986, "сериал", ["horror", "dark"], ["ALF", "Альф"], "Альф"), { wikiEn: "ALF (TV series)", wikiRu: "Альф" }),
+    Object.assign(f("wdq3815", "Грань", "Fringe", 0, "сериал", ["war", "dark"], ["Fringe", "Грань"], "Грань"), { wikiEn: "Fringe (TV series)", wikiRu: "Грань (телесериал)" }),
+    Object.assign(f("wdq186219", "Настоящая кровь", "True Blood", 0, "сериал", ["crime", "slick-urban"], ["True Blood", "Настоящая кровь"], "Настоящая кровь"), { wikiEn: "True Blood", wikiRu: "Настоящая кровь" }),
+    Object.assign(f("wdq13098946", "Сотня", "The 100", 0, "сериал", ["comedy", "irony"], ["The 100", "Сотня"], "Сотня"), { wikiEn: "The 100 (TV series)", wikiRu: "Сотня (телесериал)" }),
+    Object.assign(f("wdq213588", "Барни и друзья", "Barney & Friends", 0, "сериал", ["fantasy", "family"], ["Barney & Friends", "Барни и друзья"], "Барни и друзья"), { wikiEn: "Barney & Friends", wikiRu: "Барни и друзья" }),
+    Object.assign(f("wdq218524", "Totally Spies!", "Totally Spies!", 0, "сериал", ["fantasy", "family"], ["Totally Spies!", "Totally Spies!"], "Totally Spies!"), { wikiEn: "Totally Spies!", wikiRu: "Totally Spies!" }),
+    Object.assign(f("wdq49019", "Чёрная Гадюка", "Blackadder", 0, "сериал", ["crime", "slick-urban"], ["Blackadder", "Чёрная Гадюка"], "Чёрная Гадюка"), { wikiEn: "Blackadder", wikiRu: "Чёрная Гадюка (телесериал)" }),
+    Object.assign(f("wdq47500433", "Ведьмак", "The Witcher", 0, "сериал", ["family", "slow"], ["The Witcher", "Ведьмак"], "Ведьмак"), { wikiEn: "The Witcher (TV series)", wikiRu: "Ведьмак (телесериал, 2019)" }),
+    Object.assign(f("wdq48796994", "Пацаны", "", 0, "сериал", ["comedy", "irony"], ["Пацаны"], "Пацаны"), { wikiEn: "The Boys (TV series)", wikiRu: "Пацаны (телесериал)" }),
+    Object.assign(f("wdq16977365", "Сорвиголова", "Daredevil", 0, "сериал", ["horror", "dark"], ["Daredevil", "Сорвиголова"], "Сорвиголова"), { wikiEn: "Daredevil (TV series)", wikiRu: "Сорвиголова (телесериал)" }),
+    Object.assign(f("wdq201052", "American Idol", "American Idol", 0, "сериал", ["fantasy", "family"], ["American Idol", "American Idol"], "American Idol"), { wikiEn: "American Idol", wikiRu: "American Idol" }),
+    Object.assign(f("wdq203385", "Холм одного дерева", "One Tree Hill", 0, "сериал", ["family", "slow"], ["One Tree Hill", "Холм одного дерева"], "Холм одного дерева"), { wikiEn: "One Tree Hill (TV series)", wikiRu: "Холм одного дерева" }),
+    Object.assign(f("wdq2940339", "Карусель", "Carrossel", 0, "сериал", ["crime", "slick-urban"], ["Carrossel", "Карусель"], "Карусель"), { wikiEn: "Carrossel", wikiRu: "Карусель (телесериал, 2012)" }),
+    Object.assign(f("wdq482653", "Мальчики краше цветов", "Boys Over Flowers", 0, "сериал", ["horror", "dark"], ["Boys Over Flowers", "Мальчики краше цветов"], "Мальчики краше цветов"), { wikiEn: "Boys Over Flowers (South Korean TV series)", wikiRu: "Мальчики краше цветов" }),
+    Object.assign(f("wdq23673", "Однажды в сказке", "Once Upon a Time", 0, "сериал", ["family", "slow"], ["Once Upon a Time", "Однажды в сказке"], "Однажды в сказке"), { wikiEn: "Once Upon a Time (TV series)", wikiRu: "Однажды в сказке" }),
+    Object.assign(f("wdq117590", "Беверли-Хиллз, 90210", "Beverly Hills, 90210", 0, "сериал", ["space", "slow"], ["Beverly Hills, 90210", "Беверли-Хиллз, 90210"], "Беверли-Хиллз, 90210"), { wikiEn: "Beverly Hills, 90210", wikiRu: "Беверли-Хиллз, 90210" }),
+    Object.assign(f("wdq30014613", "Детство Шелдона", "Young Sheldon", 0, "сериал", ["horror", "dark"], ["Young Sheldon", "Детство Шелдона"], "Детство Шелдона"), { wikiEn: "Young Sheldon", wikiRu: "Детство Шелдона" }),
+    Object.assign(f("wdq836393", "Волчонок", "Teen Wolf", 0, "сериал", ["family", "slow"], ["Teen Wolf", "Волчонок"], "Волчонок"), { wikiEn: "Teen Wolf (2011 TV series)", wikiRu: "Волчонок (телесериал)" }),
+    Object.assign(f("wdq192259", "C.S.I.: Место преступления Нью-Йорк", "CSI: NY", 0, "сериал", ["crime", "slick-urban"], ["CSI: NY", "C.S.I.: Место преступления Нью-Йорк"], "C.S.I.: Место преступления Нью-Йорк"), { wikiEn: "CSI: NY", wikiRu: "C.S.I.: Место преступления Нью-Йорк" }),
+    Object.assign(f("wdq18464203", "13 причин почему", "13 Reasons Why", 0, "сериал", ["crime", "slick-urban"], ["13 Reasons Why", "13 причин почему"], "13 причин почему"), { wikiEn: "13 Reasons Why", wikiRu: "13 причин почему" }),
+    Object.assign(f("wdq210146", "Вавилон-5", "Babylon 5", 0, "сериал", ["comedy", "irony"], ["Babylon 5", "Вавилон-5"], "Вавилон-5"), { wikiEn: "Babylon 5", wikiRu: "Вавилон-5" }),
+    Object.assign(f("wdq478360", "Прослушка", "The Wire", 0, "сериал", ["tempo", "dark"], ["The Wire", "Прослушка"], "Прослушка"), { wikiEn: "The Wire", wikiRu: "Прослушка" }),
+    Object.assign(f("wdq72100361", "Медсёстры", "Enfermeras", 2019, "сериал", ["family", "slow"], ["Enfermeras", "Медсёстры"], "Медсёстры"), { wikiEn: "Nurses (Colombian TV series)", wikiRu: "Медсёстры" }),
+    Object.assign(f("wdq7847400", "Настоящий детектив", "True Detective", 0, "сериал", ["tempo", "dark"], ["True Detective", "Настоящий детектив"], "Настоящий детектив"), { wikiEn: "True Detective", wikiRu: "Настоящий детектив" }),
+    Object.assign(f("wdq101252455", "Винченцо", "Vincenzo", 0, "сериал", ["war", "dark"], ["Vincenzo", "Винченцо"], "Винченцо"), { wikiEn: "Vincenzo (TV series)", wikiRu: "Винченцо (телесериал)" }),
+    Object.assign(f("wdq108774", "Звёздный путь: Глубокий космос 9", "Star Trek: Deep Space Nine", 0, "сериал", ["space", "slow"], ["Star Trek: Deep Space Nine", "Звёздный путь: Глубокий космос 9"], "Звёздный путь: Глубокий космос 9"), { wikiEn: "Star Trek: Deep Space Nine", wikiRu: "Звёздный путь: Глубокий космос 9" }),
+    Object.assign(f("wdq371207", "Коломбо", "Columbo", 0, "сериал", ["war", "dark"], ["Columbo", "Коломбо"], "Коломбо"), { wikiEn: "Columbo", wikiRu: "Коломбо (телесериал)" }),
+    Object.assign(f("wdq189411", "C.S.I.: Место преступления Майами", "CSI: Miami", 0, "сериал", ["crime", "slick-urban"], ["CSI: Miami", "C.S.I.: Место преступления Майами"], "C.S.I.: Место преступления Майами"), { wikiEn: "CSI: Miami", wikiRu: "C.S.I.: Место преступления Майами" }),
+    Object.assign(f("wdq194427", "Одинокие сердца", "The O.C.", 0, "сериал", ["crime", "slick-urban"], ["The O.C.", "Одинокие сердца"], "Одинокие сердца"), { wikiEn: "The O.C.", wikiRu: "Одинокие сердца (телесериал)" }),
+    Object.assign(f("wdq212135", "Уилл и Грейс", "Will & Grace", 0, "сериал", ["war", "dark"], ["Will & Grace", "Уилл и Грейс"], "Уилл и Грейс"), { wikiEn: "Will & Grace", wikiRu: "Уилл и Грейс" }),
+    Object.assign(f("wdq208647", "Женаты… с детьми", "Married... with Children", 0, "сериал", ["war", "dark"], ["Married... with Children", "Женаты… с детьми"], "Женаты… с детьми"), { wikiEn: "Married... with Children", wikiRu: "Женаты… с детьми" }),
+    Object.assign(f("wdq98791700", "Подснежник (телесериал)", "Snowdrop", 0, "сериал", ["fantasy", "family"], ["Snowdrop", "Подснежник (телесериал)"], "Подснежник (телесериал)"), { wikiEn: "Snowdrop (South Korean TV series)", wikiRu: "Подснежник (телесериал)" }),
+    Object.assign(f("wdq242596", "Малкольм в центре внимания", "Malcolm in the Middle", 0, "сериал", ["fantasy", "family"], ["Malcolm in the Middle", "Малкольм в центре внимания"], "Малкольм в центре внимания"), { wikiEn: "Malcolm in the Middle", wikiRu: "Малкольм в центре внимания" }),
+    Object.assign(f("wdq100605045", "Королева Чорин", "Mr. Queen", 0, "сериал", ["horror", "dark"], ["Mr. Queen", "Королева Чорин"], "Королева Чорин"), { wikiEn: "Mr. Queen", wikiRu: "Королева Чорин" }),
+    Object.assign(f("wdq23599", "Бесстыжие", "Shameless", 0, "сериал", ["war", "dark"], ["Shameless", "Бесстыжие"], "Бесстыжие"), { wikiEn: "Shameless (American TV series)", wikiRu: "Бесстыжие" }),
+    Object.assign(f("wdq35622", "WWE SmackDown", "WWE SmackDown", 1999, "сериал", ["space", "slow"], ["WWE SmackDown", "WWE SmackDown"], "WWE SmackDown"), { wikiEn: "WWE SmackDown", wikiRu: "WWE SmackDown" }),
+    Object.assign(f("wdq171254", "Сыны анархии", "Sons of Anarchy", 0, "сериал", ["space", "slow"], ["Sons of Anarchy", "Сыны анархии"], "Сыны анархии"), { wikiEn: "Sons of Anarchy", wikiRu: "Сыны анархии" }),
+    Object.assign(f("wdq15726959", "Готэм", "Gotham", 2015, "сериал", ["war", "dark"], ["Gotham", "Готэм"], "Готэм"), { wikiEn: "Gotham (TV series)", wikiRu: "Готэм (телесериал)" }),
+    Object.assign(f("wdq56275505", "Эйфория", "Euphoria", 2019, "сериал", ["family", "slow"], ["Euphoria", "Эйфория"], "Эйфория"), { wikiEn: "Euphoria (American TV series)", wikiRu: "Эйфория (телесериал)" }),
+    Object.assign(f("wdq210257", "Секретный агент Макгайвер", "MacGyver", 0, "сериал", ["family", "slow"], ["MacGyver", "Секретный агент Макгайвер"], "Секретный агент Макгайвер"), { wikiEn: "MacGyver (1985 TV series)", wikiRu: "Секретный агент Макгайвер" }),
+    Object.assign(f("wdq537911", "Агенты «Щ.И.Т.»", "Agents of S.H.I.E.L.D.", 0, "сериал", ["war", "dark"], ["Agents of S.H.I.E.L.D.", "Агенты «Щ.И.Т.»"], "Агенты «Щ.И.Т.»"), { wikiEn: "Agents of S.H.I.E.L.D.", wikiRu: "Агенты «Щ.И.Т.»" }),
+    Object.assign(f("wdq3577037", "Западное крыло", "The West Wing", 0, "сериал", ["horror", "dark"], ["The West Wing", "Западное крыло"], "Западное крыло"), { wikiEn: "The West Wing", wikiRu: "Западное крыло (телесериал)" }),
+    Object.assign(f("wdq7099650", "Оранжевый — хит сезона", "Orange Is the New Black", 0, "сериал", ["comedy", "irony"], ["Orange Is the New Black", "Оранжевый — хит сезона"], "Оранжевый — хит сезона"), { wikiEn: "Orange Is the New Black", wikiRu: "Оранжевый — хит сезона" }),
+    Object.assign(f("wdq13148212", "Чёрный список", "The Blacklist", 0, "сериал", ["fantasy", "family"], ["The Blacklist", "Чёрный список"], "Чёрный список"), { wikiEn: "The Blacklist", wikiRu: "Чёрный список (телесериал)" }),
+    Object.assign(f("wdq125867196", "Папы для удобства", "Papás por conveniencia", 0, "сериал", ["fantasy", "family"], ["Papás por conveniencia", "Папы для удобства"], "Папы для удобства"), { wikiEn: "Papás por conveniencia", wikiRu: "Папы для удобства" }),
+    Object.assign(f("wdq33162", "Top Gear", "Top Gear", 0, "сериал", ["comedy", "irony"], ["Top Gear", "Top Gear"], "Top Gear"), { wikiEn: "Top Gear (2002 TV series)", wikiRu: "Top Gear" }),
+    Object.assign(f("wdq380519", "Звёздный путь: Энтерпрайз", "Star Trek: Enterprise", 0, "сериал", ["war", "dark"], ["Star Trek: Enterprise", "Звёздный путь: Энтерпрайз"], "Звёздный путь: Энтерпрайз"), { wikiEn: "Star Trek: Enterprise", wikiRu: "Звёздный путь: Энтерпрайз" }),
+    Object.assign(f("wdq209282", "Фрейзер", "Frasier", 0, "сериал", ["comedy", "irony"], ["Frasier", "Фрейзер"], "Фрейзер"), { wikiEn: "Frasier", wikiRu: "Фрейзер (телесериал)" }),
+    Object.assign(f("wdq65979734", "Сокол и Зимний солдат", "The Falcon and the Winter Soldier", 0, "сериал", ["space", "slow"], ["The Falcon and the Winter Soldier", "Сокол и Зимний солдат"], "Сокол и Зимний солдат"), { wikiEn: "The Falcon and the Winter Soldier", wikiRu: "Сокол и Зимний солдат" }),
+    Object.assign(f("wdq223320", "Спасатели Малибу", "Baywatch", 0, "сериал", ["tempo", "dark"], ["Baywatch", "Спасатели Малибу"], "Спасатели Малибу"), { wikiEn: "Baywatch", wikiRu: "Спасатели Малибу" }),
+    Object.assign(f("wdq215287", "Звёздные врата: Атлантида", "Stargate Atlantis", 0, "сериал", ["war", "dark"], ["Stargate Atlantis", "Звёздные врата: Атлантида"], "Звёздные врата: Атлантида"), { wikiEn: "Stargate Atlantis", wikiRu: "Звёздные врата: Атлантида" }),
+    Object.assign(f("wdq28443710", "Тьма", "Dark", 0, "сериал", ["space", "slow"], ["Dark", "Тьма"], "Тьма"), { wikiEn: "Dark (TV series)", wikiRu: "Тьма (телесериал)" }),
+    Object.assign(f("wdq326143", "Californication", "Californication", 0, "сериал", ["war", "dark"], ["Californication", "Californication"], "Californication"), { wikiEn: "Californication (TV series)", wikiRu: "Californication (телесериал)" }),
+    Object.assign(f("wdq39082126", "Ты", "You", 0, "сериал", ["space", "slow"], ["You", "Ты"], "Ты"), { wikiEn: "You (TV series)", wikiRu: "Ты (телесериал)" }),
+    Object.assign(f("wdq217246", "Всё тип-топ, или Жизнь Зака и Коди", "The Suite Life of Zack & Cody", 0, "сериал", ["space", "slow"], ["The Suite Life of Zack & Cody", "Всё тип-топ, или Жизнь Зака и Коди"], "Всё тип-топ, или Жизнь Зака и Коди"), { wikiEn: "The Suite Life of Zack & Cody", wikiRu: "Всё тип-топ, или Жизнь Зака и Коди" }),
+    Object.assign(f("wdq25207350", "Рассказ служанки", "The Handmaid's Tale", 0, "сериал", ["space", "slow"], ["The Handmaid's Tale", "Рассказ служанки"], "Рассказ служанки"), { wikiEn: "The Handmaid's Tale (TV series)", wikiRu: "Рассказ служанки (телесериал)" }),
+    Object.assign(f("wdq18754", "WWE Raw", "WWE Raw", 1993, "сериал", ["comedy", "irony"], ["WWE Raw", "WWE Raw"], "WWE Raw"), { wikiEn: "WWE Raw", wikiRu: "WWE Raw" }),
+    Object.assign(f("wdq326180", "Молокососы", "Skins", 0, "сериал", ["fantasy", "family"], ["Skins", "Молокососы"], "Молокососы"), { wikiEn: "Skins (British TV series)", wikiRu: "Молокососы" }),
+    Object.assign(f("wdq1065443", "Маримар", "Marimar", 0, "сериал", ["crime", "slick-urban"], ["Marimar", "Маримар"], "Маримар"), { wikiEn: "Marimar (Mexican TV series)", wikiRu: "Маримар" }),
+    Object.assign(f("wdq844059", "Новенькая", "New Girl", 0, "сериал", ["crime", "slick-urban"], ["New Girl", "Новенькая"], "Новенькая"), { wikiEn: "New Girl", wikiRu: "Новенькая (телесериал)" }),
+    Object.assign(f("wdq59149852", "Властелин колец: Кольца власти", "The Lord of the Rings: The Rings of Power", 2022, "сериал", ["fantasy", "family"], ["The Lord of the Rings: The Rings of Power", "Властелин колец: Кольца власти"], "Властелин колец: Кольца власти"), { wikiEn: "The Lord of the Rings: The Rings of Power", wikiRu: "Властелин колец: Кольца власти" }),
+    Object.assign(f("wdq61981835", "Отель дель Луна", "Hotel del Luna", 0, "сериал", ["crime", "slick-urban"], ["Hotel del Luna", "Отель дель Луна"], "Отель дель Луна"), { wikiEn: "Hotel del Luna", wikiRu: "Отель дель Луна" }),
+    Object.assign(f("wdq18844732", "Супергёрл", "Supergirl", 0, "сериал", ["fantasy", "family"], ["Supergirl", "Супергёрл"], "Супергёрл"), { wikiEn: "Supergirl (TV series)", wikiRu: "Супергёрл (телесериал)" }),
+    Object.assign(f("wdq19863968", "Легенды завтрашнего дня", "Legends of Tomorrow", 2016, "сериал", ["tempo", "dark"], ["Legends of Tomorrow", "Легенды завтрашнего дня"], "Легенды завтрашнего дня"), { wikiEn: "Legends of Tomorrow", wikiRu: "Легенды завтрашнего дня" }),
+    Object.assign(f("wdq244803", "Элли Макбил", "Ally McBeal", 0, "сериал", ["crime", "slick-urban"], ["Ally McBeal", "Элли Макбил"], "Элли Макбил"), { wikiEn: "Ally McBeal", wikiRu: "Элли Макбил" }),
+    Object.assign(f("wdq237072", "Звёздный крейсер «Галактика»", "Battlestar Galactica", 0, "сериал", ["tempo", "dark"], ["Battlestar Galactica", "Звёздный крейсер «Галактика»"], "Звёздный крейсер «Галактика»"), { wikiEn: "Battlestar Galactica (2004 TV series)", wikiRu: "Звёздный крейсер «Галактика» (телесериал, 2004)" }),
+    Object.assign(f("wdq2293", "Чак", "Chuck", 0, "сериал", ["horror", "dark"], ["Chuck", "Чак"], "Чак"), { wikiEn: "Chuck (TV series)", wikiRu: "Чак (телесериал)" }),
+    Object.assign(f("wdq640403", "Лентяево", "LazyTown", 0, "сериал", ["crime", "slick-urban"], ["LazyTown", "Лентяево"], "Лентяево"), { wikiEn: "LazyTown", wikiRu: "Лентяево" }),
+    Object.assign(f("wdq6084", "Морская полиция: Лос-Анджелес", "NCIS: Los Angeles", 0, "сериал", ["fantasy", "family"], ["NCIS: Los Angeles", "Морская полиция: Лос-Анджелес"], "Морская полиция: Лос-Анджелес"), { wikiEn: "NCIS: Los Angeles", wikiRu: "Морская полиция: Лос-Анджелес" }),
+    Object.assign(f("wdq318649", "Говорящая с призраками", "Ghost Whisperer", 0, "сериал", ["family", "slow"], ["Ghost Whisperer", "Говорящая с призраками"], "Говорящая с призраками"), { wikiEn: "Ghost Whisperer", wikiRu: "Говорящая с призраками" }),
+    Object.assign(f("wdq168708", "Даллас", "Dallas", 0, "сериал", ["fantasy", "family"], ["Dallas", "Даллас"], "Даллас"), { wikiEn: "Dallas (TV series)", wikiRu: "Даллас (телесериал)" }),
+    Object.assign(f("wdq391101", "Пуаро Агаты Кристи", "Agatha Christie's Poirot", 0, "сериал", ["horror", "dark"], ["Agatha Christie's Poirot", "Пуаро Агаты Кристи"], "Пуаро Агаты Кристи"), { wikiEn: "Agatha Christie's Poirot", wikiRu: "Пуаро Агаты Кристи" }),
+    Object.assign(f("wdq321423", "Закон и порядок", "Law & Order", 0, "сериал", ["war", "dark"], ["Law & Order", "Закон и порядок"], "Закон и порядок"), { wikiEn: "Law & Order", wikiRu: "Закон и порядок" }),
+    Object.assign(f("wdq30599007", "Наследники", "Succession", 0, "сериал", ["war", "dark"], ["Succession", "Наследники"], "Наследники"), { wikiEn: "Succession (TV series)", wikiRu: "Наследники (телесериал, 2018)" }),
+    Object.assign(f("wdq908345", "Руби", "Rubí", 0, "сериал", ["family", "slow"], ["Rubí", "Руби"], "Руби"), { wikiEn: "Rubí (2004 TV series)", wikiRu: "Руби (телесериал, 2004)" }),
+    Object.assign(f("wdq15931555", "Фарго", "Fargo", 0, "сериал", ["crime", "slick-urban"], ["Fargo", "Фарго"], "Фарго"), { wikiEn: "Fargo (TV series)", wikiRu: "Фарго (телесериал)" }),
+    Object.assign(f("wdq79997161", "Мир женатой пары", "The World of the Married", 0, "сериал", ["family", "slow"], ["The World of the Married", "Мир женатой пары"], "Мир женатой пары"), { wikiEn: "The World of the Married", wikiRu: "Мир женатой пары" }),
+    Object.assign(f("wdq19520525", "Люцифер", "Lucifer", 0, "сериал", ["horror", "dark"], ["Lucifer", "Люцифер"], "Люцифер"), { wikiEn: "Lucifer (TV series)", wikiRu: "Люцифер (телесериал)" }),
+    Object.assign(f("wdq2120540", "Маппет-шоу", "The Muppet Show", 0, "сериал", ["fantasy", "family"], ["The Muppet Show", "Маппет-шоу"], "Маппет-шоу"), { wikiEn: "The Muppet Show", wikiRu: "Маппет-шоу" }),
+    Object.assign(f("wdq84712802", "Лунный рыцарь", "Moon Knight", 0, "сериал", ["comedy", "irony"], ["Moon Knight", "Лунный рыцарь"], "Лунный рыцарь"), { wikiEn: "Moon Knight (miniseries)", wikiRu: "Лунный рыцарь (сериал)" }),
+    Object.assign(f("wdq84712806", "Женщина-Халк: Адвокат", "She-Hulk: Attorney at Law", 0, "сериал", ["space", "slow"], ["She-Hulk: Attorney at Law", "Женщина-Халк: Адвокат"], "Женщина-Халк: Адвокат"), { wikiEn: "She-Hulk: Attorney at Law", wikiRu: "Женщина-Халк: Адвокат" }),
+    Object.assign(f("wdq209878", "Рим", "Rome", 0, "сериал", ["space", "slow"], ["Rome", "Рим"], "Рим"), { wikiEn: "Rome (TV series)", wikiRu: "Рим (телесериал)" }),
+    Object.assign(f("wdq96414952", "Мы все мертвы", "All of Us Are Dead", 0, "сериал", ["tempo", "dark"], ["All of Us Are Dead", "Мы все мертвы"], "Мы все мертвы"), { wikiEn: "All of Us Are Dead", wikiRu: "Мы все мертвы" }),
+    Object.assign(f("wdq3109770", "Zoboomafoo", "Zoboomafoo", 0, "сериал", ["comedy", "irony"], ["Zoboomafoo", "Zoboomafoo"], "Zoboomafoo"), { wikiEn: "Zoboomafoo", wikiRu: "Zoboomafoo" }),
+    Object.assign(f("wdq585758", "Подпольная империя", "Boardwalk Empire", 0, "сериал", ["space", "slow"], ["Boardwalk Empire", "Подпольная империя"], "Подпольная империя"), { wikiEn: "Boardwalk Empire", wikiRu: "Подпольная империя" }),
+    Object.assign(f("wdq564345", "В поле зрения", "Person of Interest", 0, "сериал", ["family", "slow"], ["Person of Interest", "В поле зрения"], "В поле зрения"), { wikiEn: "Person of Interest (TV series)", wikiRu: "В поле зрения" }),
+    Object.assign(f("wdq13409848", "Наследники", "The Heirs", 0, "сериал", ["tempo", "dark"], ["The Heirs", "Наследники"], "Наследники"), { wikiEn: "The Heirs", wikiRu: "Наследники (телесериал, 2013)" }),
+    Object.assign(f("wdq659653", "Джесси", "Jessie", 2011, "сериал", ["horror", "dark"], ["Jessie", "Джесси"], "Джесси"), { wikiEn: "Jessie (2011 TV series)", wikiRu: "Джесси (телесериал)" }),
+    Object.assign(f("wdq16401", "Летающий цирк Монти Пайтона", "Monty Python's Flying Circus", 0, "сериал", ["family", "slow"], ["Monty Python's Flying Circus", "Летающий цирк Монти Пайтона"], "Летающий цирк Монти Пайтона"), { wikiEn: "Monty Python's Flying Circus", wikiRu: "Летающий цирк Монти Пайтона" }),
+    Object.assign(f("wdq32488", "Две девицы на мели", "2 Broke Girls", 0, "сериал", ["tempo", "dark"], ["2 Broke Girls", "Две девицы на мели"], "Две девицы на мели"), { wikiEn: "2 Broke Girls", wikiRu: "Две девицы на мели" }),
+    Object.assign(f("wdq14655473", "Человек со звезды", "My Love from the Star", 0, "сериал", ["family", "slow"], ["My Love from the Star", "Человек со звезды"], "Человек со звезды"), { wikiEn: "My Love from the Star", wikiRu: "Человек со звезды (телесериал)" }),
+    Object.assign(f("wdq29908604", "Хороший доктор", "The Good Doctor", 0, "сериал", ["fantasy", "family"], ["The Good Doctor", "Хороший доктор"], "Хороший доктор"), { wikiEn: "The Good Doctor (American TV series)", wikiRu: "Хороший доктор (телесериал, 2017)" }),
+    Object.assign(f("wdq139849", "Все тип-топ, или жизнь на борту", "The Suite Life on Deck", 0, "сериал", ["family", "slow"], ["The Suite Life on Deck", "Все тип-топ, или жизнь на борту"], "Все тип-топ, или жизнь на борту"), { wikiEn: "The Suite Life on Deck", wikiRu: "Всё тип-топ, или Жизнь на борту" }),
+    Object.assign(f("wdq464123", "Команда «А»", "The A-Team", 0, "сериал", ["crime", "slick-urban"], ["The A-Team", "Команда «А»"], "Команда «А»"), { wikiEn: "The A-Team", wikiRu: "Команда «А»" }),
+    Object.assign(f("wdq212156", "Ангел", "Angel", 0, "сериал", ["fantasy", "family"], ["Angel", "Ангел"], "Ангел"), { wikiEn: "Angel (1999 TV series)", wikiRu: "Ангел (телесериал)" }),
+    Object.assign(f("wdq212807", "Шпионка", "Alias", 0, "сериал", ["war", "dark"], ["Alias", "Шпионка"], "Шпионка"), { wikiEn: "Alias (TV series)", wikiRu: "Шпионка (телесериал)" }),
+    Object.assign(f("wdq208568", "Все любят Рэймонда", "Everybody Loves Raymond", 0, "сериал", ["tempo", "dark"], ["Everybody Loves Raymond", "Все любят Рэймонда"], "Все любят Рэймонда"), { wikiEn: "Everybody Loves Raymond", wikiRu: "Все любят Рэймонда" }),
+    Object.assign(f("wdq221230", "Части тела", "Nip/Tuck", 0, "сериал", ["space", "slow"], ["Nip/Tuck", "Части тела"], "Части тела"), { wikiEn: "Nip/Tuck", wikiRu: "Части тела (телесериал)" }),
+    Object.assign(f("wdq216919", "Клиент всегда мёртв", "Six Feet Under", 0, "сериал", ["war", "dark"], ["Six Feet Under", "Клиент всегда мёртв"], "Клиент всегда мёртв"), { wikiEn: "Six Feet Under (TV series)", wikiRu: "Клиент всегда мёртв" }),
+    Object.assign(f("wdq79997521", "Start-Up", "Start-Up", 0, "сериал", ["family", "slow"], ["Start-Up", "Start-Up"], "Start-Up"), { wikiEn: "Start-Up (South Korean TV series)", wikiRu: "" }),
+    Object.assign(f("wdq598499", "Тихий океан", "The Pacific", 0, "сериал", ["crime", "slick-urban"], ["The Pacific", "Тихий океан"], "Тихий океан"), { wikiEn: "The Pacific (miniseries)", wikiRu: "Тихий океан (мини-сериал)" }),
+    Object.assign(f("wdq19570", "Хорошая жена", "The Good Wife", 0, "сериал", ["comedy", "irony"], ["The Good Wife", "Хорошая жена"], "Хорошая жена"), { wikiEn: "The Good Wife", wikiRu: "Хорошая жена (телесериал)" }),
+    Object.assign(f("wdq23829", "Офис", "The Office", 0, "сериал", ["horror", "dark"], ["The Office", "Офис"], "Офис"), { wikiEn: "The Office (British TV series)", wikiRu: "Офис (телесериал, Великобритания)" }),
+    Object.assign(f("wdq728443", "Гавайи 5.0", "Hawaii Five-0", 0, "сериал", ["crime", "slick-urban"], ["Hawaii Five-0", "Гавайи 5.0"], "Гавайи 5.0"), { wikiEn: "Hawaii Five-0 (2010 TV series)", wikiRu: "Гавайи 5.0" }),
+    Object.assign(f("wdq732063", "Весёлая компания", "Cheers", 0, "сериал", ["war", "dark"], ["Cheers", "Весёлая компания"], "Весёлая компания"), { wikiEn: "Cheers", wikiRu: "Весёлая компания" }),
+    Object.assign(f("wdq25182", "Обмани меня", "Lie to Me", 0, "сериал", ["space", "slow"], ["Lie to Me", "Обмани меня"], "Обмани меня"), { wikiEn: "Lie to Me", wikiRu: "Обмани меня (телесериал, 2009)" }),
+    Object.assign(f("wdq308700", "Танцевальная лихорадка", "Shake It Up", 2011, "сериал", ["fantasy", "family"], ["Shake It Up", "Танцевальная лихорадка"], "Танцевальная лихорадка"), { wikiEn: "Shake It Up (American TV series)", wikiRu: "Танцевальная лихорадка!" }),
+    Object.assign(f("wdq16862534", "Как избежать наказания за убийство", "How to Get Away with Murder", 0, "сериал", ["space", "slow"], ["How to Get Away with Murder", "Как избежать наказания за убийство"], "Как избежать наказания за убийство"), { wikiEn: "How to Get Away with Murder", wikiRu: "Как избежать наказания за убийство" }),
+    Object.assign(f("wdq326731", "Тюдоры", "The Tudors", 0, "сериал", ["crime", "slick-urban"], ["The Tudors", "Тюдоры"], "Тюдоры"), { wikiEn: "The Tudors", wikiRu: "Тюдоры (телесериал)" }),
+    Object.assign(f("wdq390120", "Торчвуд", "Torchwood", 0, "сериал", ["tempo", "dark"], ["Torchwood", "Торчвуд"], "Торчвуд"), { wikiEn: "Torchwood", wikiRu: "Торчвуд" }),
+    Object.assign(f("wdq64584978", "Эмили в Париже", "Emily in Paris", 0, "сериал", ["comedy", "irony"], ["Emily in Paris", "Эмили в Париже"], "Эмили в Париже"), { wikiEn: "Emily in Paris", wikiRu: "Эмили в Париже" }),
+    Object.assign(f("wdq21980662", "Лунные влюблённые — Алые сердца: Корё", "Moon Lovers: Scarlet Heart Ryeo", 0, "сериал", ["space", "slow"], ["Moon Lovers: Scarlet Heart Ryeo", "Лунные влюблённые — Алые сердца: Корё"], "Лунные влюблённые — Алые сердца: Корё"), { wikiEn: "Moon Lovers: Scarlet Heart Ryeo", wikiRu: "Лунные влюблённые — Алые сердца: Корё" }),
+    Object.assign(f("wdq4307100", "Первородные", "The Originals", 0, "сериал", ["fantasy", "family"], ["The Originals", "Первородные"], "Первородные"), { wikiEn: "The Originals (TV series)", wikiRu: "Древние (телесериал)" }),
+    Object.assign(f("wdq21296543", "Звёздный путь: Дискавери", "Star Trek: Discovery", 0, "сериал", ["war", "dark"], ["Star Trek: Discovery", "Звёздный путь: Дискавери"], "Звёздный путь: Дискавери"), { wikiEn: "Star Trek: Discovery", wikiRu: "Звёздный путь: Дискавери" }),
+    Object.assign(f("wdq247643", "Элементарно", "Elementary", 2014, "сериал", ["crime", "slick-urban"], ["Elementary", "Элементарно"], "Элементарно"), { wikiEn: "Elementary (TV series)", wikiRu: "Элементарно (телесериал)" }),
+    Object.assign(f("wdq23770993", "Стыд", "Skam", 0, "сериал", ["family", "slow"], ["Skam", "Стыд"], "Стыд"), { wikiEn: "Skam (TV series)", wikiRu: "Стыд (телесериал)" }),
+    Object.assign(f("wdq23594", "Родина", "Homeland", 0, "сериал", ["comedy", "irony"], ["Homeland", "Родина"], "Родина"), { wikiEn: "Homeland (TV series)", wikiRu: "Родина (телесериал, 2011)" }),
+    Object.assign(f("wdq728553", "Сообщество", "Community", 0, "сериал", ["family", "slow"], ["Community", "Сообщество"], "Сообщество"), { wikiEn: "Community (TV series)", wikiRu: "Сообщество (телесериал)" }),
+    Object.assign(f("wdq11622", "Светлячок", "Firefly", 0, "сериал", ["space", "slow"], ["Firefly", "Светлячок"], "Светлячок"), { wikiEn: "Firefly (TV series)", wikiRu: "Светлячок (телесериал)" }),
+    Object.assign(f("wdq136813219", "Жаркое соперничество", "Heated Rivalry", 0, "сериал", ["crime", "slick-urban"], ["Heated Rivalry", "Жаркое соперничество"], "Жаркое соперничество"), { wikiEn: "Heated Rivalry", wikiRu: "Жаркое соперничество" }),
+    Object.assign(f("wdq82729", "Дерзкие и красивые", "The Bold and the Beautiful", 0, "сериал", ["family", "slow"], ["The Bold and the Beautiful", "Дерзкие и красивые"], "Дерзкие и красивые"), { wikiEn: "The Bold and the Beautiful", wikiRu: "Дерзкие и красивые" }),
+    Object.assign(f("wdq15072906", "Чужестранка", "Outlander", 0, "сериал", ["comedy", "irony"], ["Outlander", "Чужестранка"], "Чужестранка"), { wikiEn: "Outlander (TV series)", wikiRu: "Чужестранка (телесериал)" }),
+    Object.assign(f("wdq16942035", "Мое сердце твоё", "Mi corazón es tuyo", 0, "сериал", ["crime", "slick-urban"], ["Mi corazón es tuyo", "Мое сердце твоё"], "Мое сердце твоё"), { wikiEn: "Mi corazón es tuyo", wikiRu: "Моё сердце твоё" }),
+    Object.assign(f("wdq888841", "Ганнибал", "Hannibal", 0, "сериал", ["family", "slow"], ["Hannibal", "Ганнибал"], "Ганнибал"), { wikiEn: "Hannibal (TV series)", wikiRu: "Ганнибал (телесериал)" }),
+    Object.assign(f("wdq945030", "Улица Коронации", "Coronation Street", 0, "сериал", ["space", "slow"], ["Coronation Street", "Улица Коронации"], "Улица Коронации"), { wikiEn: "Coronation Street", wikiRu: "Улица Коронации" }),
+    Object.assign(f("wdq189350", "Студия 30", "30 Rock", 0, "сериал", ["space", "slow"], ["30 Rock", "Студия 30"], "Студия 30"), { wikiEn: "30 Rock", wikiRu: "Студия 30" }),
+    Object.assign(f("wdq18605540", "Джессика Джонс", "Jessica Jones", 0, "сериал", ["fantasy", "family"], ["Jessica Jones", "Джессика Джонс"], "Джессика Джонс"), { wikiEn: "Jessica Jones (TV series)", wikiRu: "Джессика Джонс (телесериал)" }),
+    Object.assign(f("wdq212731", "Башни Фолти", "Fawlty Towers", 0, "сериал", ["crime", "slick-urban"], ["Fawlty Towers", "Башни Фолти"], "Башни Фолти"), { wikiEn: "Fawlty Towers", wikiRu: "Башни Фолти" }),
+    Object.assign(f("wdq2947967", "Под куполом", "Under the Dome", 0, "сериал", ["war", "dark"], ["Under the Dome", "Под куполом"], "Под куполом"), { wikiEn: "Under the Dome (TV series)", wikiRu: "Под куполом (телесериал)" }),
+    Object.assign(f("wdq218567", "Закон и порядок: Специальный корпус", "Law & Order: Special Victims Unit", 0, "сериал", ["war", "dark"], ["Law & Order: Special Victims Unit", "Закон и порядок: Специальный корпус"], "Закон и порядок: Специальный корпус"), { wikiEn: "Law & Order: Special Victims Unit", wikiRu: "Закон и порядок: Специальный корпус" }),
+    Object.assign(f("wdq5174583", "Космос: пространство и время", "Cosmos: A Spacetime Odyssey", 2014, "сериал", ["war", "dark"], ["Cosmos: A Spacetime Odyssey", "Космос: пространство и время"], "Космос: пространство и время"), { wikiEn: "Cosmos: A Spacetime Odyssey", wikiRu: "Космос: пространство и время" }),
+    Object.assign(f("wdq559321", "Полиция Майами", "Miami Vice", 0, "сериал", ["family", "slow"], ["Miami Vice", "Полиция Майами"], "Полиция Майами"), { wikiEn: "Miami Vice", wikiRu: "Полиция Майами" }),
+    Object.assign(f("wdq22908690", "В лучшем мире", "The Good Place", 0, "сериал", ["comedy", "irony"], ["The Good Place", "В лучшем мире"], "В лучшем мире"), { wikiEn: "The Good Place", wikiRu: "В лучшем мире" }),
+    Object.assign(f("wdq25205293", "Озарк", "Ozark", 0, "сериал", ["horror", "dark"], ["Ozark", "Озарк"], "Озарк"), { wikiEn: "Ozark (TV series)", wikiRu: "Озарк (телесериал)" }),
+    Object.assign(f("wdq617274", "Ангелы Чарли", "Charlie's Angels", 0, "сериал", ["comedy", "irony"], ["Charlie's Angels", "Ангелы Чарли"], "Ангелы Чарли"), { wikiEn: "Charlie's Angels", wikiRu: "Ангелы Чарли (телесериал)" }),
+    Object.assign(f("wdq108441863", "Секретное вторжение", "Secret Invasion", 0, "сериал", ["war", "dark"], ["Secret Invasion", "Секретное вторжение"], "Секретное вторжение"), { wikiEn: "Secret Invasion (miniseries)", wikiRu: "Секретное вторжение (сериал)" }),
+    Object.assign(f("wdq23619", "Близкие друзья", "Queer as Folk", 0, "сериал", ["crime", "slick-urban"], ["Queer as Folk", "Близкие друзья"], "Близкие друзья"), { wikiEn: "Queer as Folk (2000 TV series)", wikiRu: "Близкие друзья (телесериал, 2000)" }),
+    Object.assign(f("wdq742103", "Сумеречная зона", "The Twilight Zone", 0, "сериал", ["war", "dark"], ["The Twilight Zone", "Сумеречная зона"], "Сумеречная зона"), { wikiEn: "The Twilight Zone", wikiRu: "Сумеречная зона (телесериал, 1959)" }),
+    Object.assign(f("wdq152108", "Семейство Кардашян", "Keeping Up with the Kardashians", 0, "сериал", ["fantasy", "family"], ["Keeping Up with the Kardashians", "Семейство Кардашян"], "Семейство Кардашян"), { wikiEn: "Keeping Up with the Kardashians", wikiRu: "Семейство Кардашьян" }),
+    Object.assign(f("wdq16860023", "Агент Картер", "Agent Carter", 0, "сериал", ["war", "dark"], ["Agent Carter", "Агент Картер"], "Агент Картер"), { wikiEn: "Agent Carter (TV series)", wikiRu: "Агент Картер" }),
+    Object.assign(f("wdq366375", "Держись, Чарли!", "Good Luck Charlie", 0, "сериал", ["war", "dark"], ["Good Luck Charlie", "Держись, Чарли!"], "Держись, Чарли!"), { wikiEn: "Good Luck Charlie", wikiRu: "Держись, Чарли!" }),
+    Object.assign(f("wdq30636463", "Конец ***го мира", "The End of the F***ing World", 0, "сериал", ["war", "dark"], ["The End of the F***ing World", "Конец ***го мира"], "Конец ***го мира"), { wikiEn: "The End of the F***ing World", wikiRu: "Конец ***го мира" }),
+    Object.assign(f("wdq461357", "Бухта Доусона", "Dawson's Creek", 0, "сериал", ["horror", "dark"], ["Dawson's Creek", "Бухта Доусона"], "Бухта Доусона"), { wikiEn: "Dawson's Creek", wikiRu: "Бухта Доусона" }),
+    Object.assign(f("wdq464009", "Рыцарь дорог", "Knight Rider", 0, "сериал", ["family", "slow"], ["Knight Rider", "Рыцарь дорог"], "Рыцарь дорог"), { wikiEn: "Knight Rider (1982 TV series)", wikiRu: "Рыцарь дорог (телесериал, 1982)" }),
+    Object.assign(f("wdq130615", "H₂O: Просто добавь воды", "H₂O: Just Add Water", 0, "сериал", ["war", "dark"], ["H₂O: Just Add Water", "H₂O: Просто добавь воды"], "H₂O: Просто добавь воды"), { wikiEn: "H2O: Just Add Water", wikiRu: "H2O: Просто добавь воды" }),
+    Object.assign(f("wdq18338011", "Воскресший Эртугрул", "Diriliş: Ertuğrul", 0, "сериал", ["crime", "slick-urban"], ["Diriliş: Ertuğrul", "Воскресший Эртугрул"], "Воскресший Эртугрул"), { wikiEn: "Diriliş: Ertuğrul", wikiRu: "Возрождение: Эртугрул" }),
+    Object.assign(f("wdq216792", "Секс в другом городе", "The L Word", 0, "сериал", ["tempo", "dark"], ["The L Word", "Секс в другом городе"], "Секс в другом городе"), { wikiEn: "The L Word", wikiRu: "Секс в другом городе" }),
+    Object.assign(f("wdq218035", "Парки и зоны отдыха", "Parks and Recreation", 0, "сериал", ["crime", "slick-urban"], ["Parks and Recreation", "Парки и зоны отдыха"], "Парки и зоны отдыха"), { wikiEn: "Parks and Recreation", wikiRu: "Парки и зоны отдыха" }),
+    Object.assign(f("wdq84712813", "Мисс Марвел", "Ms. Marvel", 0, "сериал", ["horror", "dark"], ["Ms. Marvel", "Мисс Марвел"], "Мисс Марвел"), { wikiEn: "Ms. Marvel (miniseries)", wikiRu: "Мисс Марвел (сериал)" }),
+    Object.assign(f("wdq219942", "Дайте Санни шанс", "Sonny with a Chance", 2010, "сериал", ["space", "slow"], ["Sonny with a Chance", "Дайте Санни шанс"], "Дайте Санни шанс"), { wikiEn: "Sonny with a Chance", wikiRu: "Дайте Санни шанс" }),
+    Object.assign(f("wdq500032", "Комиссар Рекс", "Inspector Rex", 0, "сериал", ["tempo", "dark"], ["Inspector Rex", "Комиссар Рекс"], "Комиссар Рекс"), { wikiEn: "Inspector Rex", wikiRu: "Комиссар Рекс" }),
+    Object.assign(f("wdq21148896", "Железный кулак", "Iron Fist", 0, "сериал", ["tempo", "dark"], ["Iron Fist", "Железный кулак"], "Железный кулак"), { wikiEn: "Iron Fist (TV series)", wikiRu: "Железный кулак (телесериал)" }),
+    Object.assign(f("wdq247869", "60 минут", "60 Minutes", 0, "сериал", ["horror", "dark"], ["60 Minutes", "60 минут"], "60 минут"), { wikiEn: "60 Minutes", wikiRu: "60 минут (телешоу, США)" }),
+    Object.assign(f("wdq101089777", "Миротворец", "Peacemaker", 0, "сериал", ["family", "slow"], ["Peacemaker", "Миротворец"], "Миротворец"), { wikiEn: "Peacemaker (TV series)", wikiRu: "Миротворец (сериал)" }),
+    Object.assign(f("wdq25340152", "Охотник за разумом", "Mindhunter", 0, "сериал", ["tempo", "dark"], ["Mindhunter", "Охотник за разумом"], "Охотник за разумом"), { wikiEn: "Mindhunter (TV series)", wikiRu: "Охотник за разумом" }),
+    Object.assign(f("wdq106679014", "Белый лотос", "The White Lotus", 0, "сериал", ["space", "slow"], ["The White Lotus", "Белый лотос"], "Белый лотос"), { wikiEn: "The White Lotus", wikiRu: "Белый лотос (телесериал)" }),
+    Object.assign(f("wdq623222", "Сэм и Кэт", "Sam & Cat", 0, "сериал", ["space", "slow"], ["Sam & Cat", "Сэм и Кэт"], "Сэм и Кэт"), { wikiEn: "Sam & Cat", wikiRu: "Сэм и Кэт" }),
+    Object.assign(f("wdq48758", "Ясновидец (телесериал, 2006)", "Psych", 0, "сериал", ["space", "slow"], ["Psych", "Ясновидец (телесериал, 2006)"], "Ясновидец (телесериал, 2006)"), { wikiEn: "Psych", wikiRu: "Ясновидец (телесериал, 2006)" }),
+    Object.assign(f("wdq74801", "Вице-президент", "Veep", 0, "сериал", ["family", "slow"], ["Veep", "Вице-президент"], "Вице-президент"), { wikiEn: "Veep", wikiRu: "Вице-президент (телесериал)" }),
+    Object.assign(f("wdq826477", "Без следа", "Without a Trace", 0, "сериал", ["horror", "dark"], ["Without a Trace", "Без следа"], "Без следа"), { wikiEn: "Without a Trace", wikiRu: "Без следа (телесериал)" }),
+    Object.assign(f("wdq94713", "Терминатор: Битва за будущее", "Terminator: The Sarah Connor Chronicles", 0, "сериал", ["family", "slow"], ["Terminator: The Sarah Connor Chronicles", "Терминатор: Битва за будущее"], "Терминатор: Битва за будущее"), { wikiEn: "Terminator: The Sarah Connor Chronicles", wikiRu: "Терминатор: Битва за будущее" }),
+    Object.assign(f("wdq463999", "Шоу Косби", "The Cosby Show", 0, "сериал", ["war", "dark"], ["The Cosby Show", "Шоу Косби"], "Шоу Косби"), { wikiEn: "The Cosby Show", wikiRu: "Шоу Косби" }),
+    Object.assign(f("wdq866368", "Космос: персональное путешествие", "Cosmos: A Personal Voyage", 0, "сериал", ["tempo", "dark"], ["Cosmos: A Personal Voyage", "Космос: персональное путешествие"], "Космос: персональное путешествие"), { wikiEn: "Cosmos: A Personal Voyage", wikiRu: "Космос: персональное путешествие" }),
+    Object.assign(f("wdq44535025", "Академия Амбрелла", "The Umbrella Academy", 0, "сериал", ["family", "slow"], ["The Umbrella Academy", "Академия Амбрелла"], "Академия Амбрелла"), { wikiEn: "The Umbrella Academy (TV series)", wikiRu: "Академия Амбрелла (телесериал)" }),
+    Object.assign(f("wdq60462338", "Андор", "Andor", 0, "сериал", ["comedy", "irony"], ["Andor", "Андор"], "Андор"), { wikiEn: "Andor", wikiRu: "Андор (телесериал)" }),
+    Object.assign(f("wdq472018", "Семнадцать мгновений весны", "Seventeen Moments of Spring", 0, "сериал", ["comedy", "irony"], ["Seventeen Moments of Spring", "Семнадцать мгновений весны"], "Семнадцать мгновений весны"), { wikiEn: "Seventeen Moments of Spring", wikiRu: "Семнадцать мгновений весны" }),
+    Object.assign(f("wdq494244", "МЭШ", "M*A*S*H", 0, "сериал", ["fantasy", "family"], ["M*A*S*H", "МЭШ"], "МЭШ"), { wikiEn: "M*A*S*H (TV series)", wikiRu: "МЭШ (телесериал)" }),
+    Object.assign(f("wdq498438", "Американцы", "The Americans", 2014, "сериал", ["space", "slow"], ["The Americans", "Американцы"], "Американцы"), { wikiEn: "The Americans", wikiRu: "Американцы (телесериал)" }),
+    Object.assign(f("wdq19873404", "Большая маленькая ложь", "Big Little Lies", 0, "сериал", ["fantasy", "family"], ["Big Little Lies", "Большая маленькая ложь"], "Большая маленькая ложь"), { wikiEn: "Big Little Lies (TV series)", wikiRu: "Большая маленькая ложь" }),
+    Object.assign(f("wdq85748936", "Бриджертоны", "Bridgerton", 0, "сериал", ["tempo", "dark"], ["Bridgerton", "Бриджертоны"], "Бриджертоны"), { wikiEn: "Bridgerton", wikiRu: "Бриджертоны" }),
+    Object.assign(f("wdq504023", "Седьмое небо", "7th Heaven", 0, "сериал", ["war", "dark"], ["7th Heaven", "Седьмое небо"], "Седьмое небо"), { wikiEn: "7th Heaven (TV series)", wikiRu: "Седьмое небо (телесериал)" }),
+    Object.assign(f("wdq104154217", "Оби-Ван Кеноби", "Obi-Wan Kenobi", 0, "сериал", ["family", "slow"], ["Obi-Wan Kenobi", "Оби-Ван Кеноби"], "Оби-Ван Кеноби"), { wikiEn: "Obi-Wan Kenobi (miniseries)", wikiRu: "Оби-Ван Кеноби (сериал)" }),
+    Object.assign(f("wdq239672", "Компьютерщики", "The IT Crowd", 0, "сериал", ["tempo", "dark"], ["The IT Crowd", "Компьютерщики"], "Компьютерщики"), { wikiEn: "The IT Crowd", wikiRu: "Компьютерщики" }),
+    Object.assign(f("wdq575373", "Розанна", "Roseanne", 0, "сериал", ["horror", "dark"], ["Roseanne", "Розанна"], "Розанна"), { wikiEn: "Roseanne", wikiRu: "Розанна (телесериал)" }),
+    Object.assign(f("wdq96104041", "Helga y Flora", "Helga y Flora", 0, "сериал", ["family", "slow"], ["Helga y Flora", "Helga y Flora"], "Helga y Flora"), { wikiEn: "Helga y Flora", wikiRu: "" }),
+    Object.assign(f("wdq275260", "Клон", "O Clone", 0, "сериал", ["fantasy", "family"], ["O Clone", "Клон"], "Клон"), { wikiEn: "O Clone", wikiRu: "Клон (телесериал, 2001)" }),
+    Object.assign(f("wdq733960", "Детектив Раш", "Cold Case", 0, "сериал", ["tempo", "dark"], ["Cold Case", "Детектив Раш"], "Детектив Раш"), { wikiEn: "Cold Case", wikiRu: "Детектив Раш" }),
+    Object.assign(f("wdq113127312", "Фоллаут", "Fallout", 0, "сериал", ["tempo", "dark"], ["Fallout", "Фоллаут"], "Фоллаут"), { wikiEn: "Fallout (American TV series)", wikiRu: "Fallout (телесериал)" }),
+    Object.assign(f("wdq34659", "Меня зовут Эрл", "My Name Is Earl", 0, "сериал", ["crime", "slick-urban"], ["My Name Is Earl", "Меня зовут Эрл"], "Меня зовут Эрл"), { wikiEn: "My Name Is Earl", wikiRu: "Меня зовут Эрл" }),
+    Object.assign(f("wdq833322", "Она написала убийство", "Murder, She Wrote", 0, "сериал", ["comedy", "irony"], ["Murder, She Wrote", "Она написала убийство"], "Она написала убийство"), { wikiEn: "Murder, She Wrote", wikiRu: "Она написала убийство" }),
+    Object.assign(f("wdq16868648", "Дрянь", "Fleabag", 0, "сериал", ["tempo", "dark"], ["Fleabag", "Дрянь"], "Дрянь"), { wikiEn: "Fleabag", wikiRu: "Дрянь (телесериал)" }),
+    Object.assign(f("wdq53000974", "Элита", "Elite", 0, "сериал", ["space", "slow"], ["Elite", "Элита"], "Элита"), { wikiEn: "Elite (TV series)", wikiRu: "Элита (телесериал)" }),
+    Object.assign(f("wdq773202", "Я — Бетти, дурнушка", "Yo soy Betty, la fea", 0, "сериал", ["comedy", "irony"], ["Yo soy Betty, la fea", "Я — Бетти, дурнушка"], "Я — Бетти, дурнушка"), { wikiEn: "Yo soy Betty, la fea", wikiRu: "Я — Бетти, дурнушка" }),
+    Object.assign(f("wdq839869", "Маленький домик в прериях", "Little House on the Prairie", 0, "сериал", ["horror", "dark"], ["Little House on the Prairie", "Маленький домик в прериях"], "Маленький домик в прериях"), { wikiEn: "Little House on the Prairie (1974 TV series)", wikiRu: "Маленький домик в прериях (телесериал)" }),
+    Object.assign(f("wdq912467", "Золотые девочки", "The Golden Girls", 0, "сериал", ["crime", "slick-urban"], ["The Golden Girls", "Золотые девочки"], "Золотые девочки"), { wikiEn: "The Golden Girls", wikiRu: "Золотые девочки" }),
+    Object.assign(f("wdq383104", "Сабрина — маленькая ведьма", "Sabrina the Teenage Witch", 0, "сериал", ["tempo", "dark"], ["Sabrina the Teenage Witch", "Сабрина — маленькая ведьма"], "Сабрина — маленькая ведьма"), { wikiEn: "Sabrina the Teenage Witch (1996 TV series)", wikiRu: "Сабрина — маленькая ведьма (телесериал, 1996)" }),
+    Object.assign(f("wdq464865", "Няня", "The Nanny", 0, "сериал", ["family", "slow"], ["The Nanny", "Няня"], "Няня"), { wikiEn: "The Nanny", wikiRu: "Няня (телесериал)" }),
+    Object.assign(f("wdq465472", "Полный дом", "Full House", 0, "сериал", ["tempo", "dark"], ["Full House", "Полный дом"], "Полный дом"), { wikiEn: "Full House", wikiRu: "Полный дом" }),
+    Object.assign(f("wdq63607949", "Бэтвумен", "Batwoman", 0, "сериал", ["horror", "dark"], ["Batwoman", "Бэтвумен"], "Бэтвумен"), { wikiEn: "Batwoman (TV series)", wikiRu: "Бэтвумен (телесериал)" }),
+    Object.assign(f("wdq18844725", "Бойтесь ходячих мертвецов", "Fear the Walking Dead", 0, "сериал", ["horror", "dark"], ["Fear the Walking Dead", "Бойтесь ходячих мертвецов"], "Бойтесь ходячих мертвецов"), { wikiEn: "Fear the Walking Dead", wikiRu: "Бойтесь ходячих мертвецов" }),
+    Object.assign(f("wdq216867", "Выжить любой ценой", "Man vs. Wild", 0, "сериал", ["crime", "slick-urban"], ["Man vs. Wild", "Выжить любой ценой"], "Выжить любой ценой"), { wikiEn: "Man vs. Wild", wikiRu: "Выжить любой ценой" }),
+    Object.assign(f("wdq24068191", "Это мы", "This Is Us", 0, "сериал", ["war", "dark"], ["This Is Us", "Это мы"], "Это мы"), { wikiEn: "This Is Us", wikiRu: "Это мы" }),
+    Object.assign(f("wdq253205", "Красавцы", "Entourage", 0, "сериал", ["horror", "dark"], ["Entourage", "Красавцы"], "Красавцы"), { wikiEn: "Entourage (American TV series)", wikiRu: "Красавцы" }),
+    Object.assign(f("wdq276528", "Дурнушка Бетти", "Ugly Betty", 0, "сериал", ["tempo", "dark"], ["Ugly Betty", "Дурнушка Бетти"], "Дурнушка Бетти"), { wikiEn: "Ugly Betty", wikiRu: "Дурнушка Бетти" }),
+    Object.assign(f("wdq28429653", "Орвилл", "The Orville", 0, "сериал", ["horror", "dark"], ["The Orville", "Орвилл"], "Орвилл"), { wikiEn: "The Orville", wikiRu: "Орвилл" }),
+    Object.assign(f("wdq23609", "Дурман", "Weeds", 0, "сериал", ["family", "slow"], ["Weeds", "Дурман"], "Дурман"), { wikiEn: "Weeds (TV series)", wikiRu: "Дурман (телесериал)" }),
+    Object.assign(f("wdq23722", "Умерь свой энтузиазм", "Curb Your Enthusiasm", 0, "сериал", ["comedy", "irony"], ["Curb Your Enthusiasm", "Умерь свой энтузиазм"], "Умерь свой энтузиазм"), { wikiEn: "Curb Your Enthusiasm", wikiRu: "Умерь свой энтузиазм" }),
+    Object.assign(f("wdq685481", "Кайл XY", "Kyle XY", 0, "сериал", ["family", "slow"], ["Kyle XY", "Кайл XY"], "Кайл XY"), { wikiEn: "Kyle XY", wikiRu: "Кайл XY" }),
+    Object.assign(f("wdq724491", "Крот", "The Little Mole", 1957, "сериал", ["crime", "slick-urban"], ["The Little Mole", "Крот"], "Крот"), { wikiEn: "The Little Mole", wikiRu: "Крот (мультсериал)" }),
+    Object.assign(f("wdq113587211", "Мой путь – любить тебя", "Mi camino es amarte", 0, "сериал", ["crime", "slick-urban"], ["Mi camino es amarte", "Мой путь – любить тебя"], "Мой путь – любить тебя"), { wikiEn: "Mi camino es amarte", wikiRu: "Мой путь – любить тебя" }),
+    Object.assign(f("wdq31915", "Белый воротничок", "White Collar", 0, "сериал", ["crime", "slick-urban"], ["White Collar", "Белый воротничок"], "Белый воротничок"), { wikiEn: "White Collar (TV series)", wikiRu: "Белый воротничок (телесериал)" }),
+    Object.assign(f("wdq308984", "Юристы Бостона", "Boston Legal", 0, "сериал", ["tempo", "dark"], ["Boston Legal", "Юристы Бостона"], "Юристы Бостона"), { wikiEn: "Boston Legal", wikiRu: "Юристы Бостона" }),
+    Object.assign(f("wdq309063", "Принц из Беверли-Хиллз", "The Fresh Prince of Bel-Air", 0, "сериал", ["war", "dark"], ["The Fresh Prince of Bel-Air", "Принц из Беверли-Хиллз"], "Принц из Беверли-Хиллз"), { wikiEn: "The Fresh Prince of Bel-Air", wikiRu: "Принц из Беверли-Хиллз" }),
+    Object.assign(f("wdq319817", "Джоуи", "Joey", 0, "сериал", ["family", "slow"], ["Joey", "Джоуи"], "Джоуи"), { wikiEn: "Joey (TV series)", wikiRu: "Джоуи (телесериал)" }),
+    Object.assign(f("wdq426432", "Крутой Уокер: Правосудие по-техасски", "Walker, Texas Ranger", 0, "сериал", ["tempo", "dark"], ["Walker, Texas Ranger", "Крутой Уокер: Правосудие по-техасски"], "Крутой Уокер: Правосудие по-техасски"), { wikiEn: "Walker, Texas Ranger", wikiRu: "Крутой Уокер: Правосудие по-техасски" }),
+    Object.assign(f("wdq754197", "Военно-юридическая служба", "JAG", 0, "сериал", ["horror", "dark"], ["JAG", "Военно-юридическая служба"], "Военно-юридическая служба"), { wikiEn: "JAG (TV series)", wikiRu: "Военно-юридическая служба (телесериал)" }),
+    Object.assign(f("wdq780941", "Остин и Элли", "Austin & Ally", 0, "сериал", ["horror", "dark"], ["Austin & Ally", "Остин и Элли"], "Остин и Элли"), { wikiEn: "Austin & Ally", wikiRu: "Остин и Элли" }),
+    Object.assign(f("wdq181943", "Я люблю Люси", "I Love Lucy", 0, "сериал", ["war", "dark"], ["I Love Lucy", "Я люблю Люси"], "Я люблю Люси"), { wikiEn: "I Love Lucy", wikiRu: "Я люблю Люси" }),
+    Object.assign(f("wdq870490", "Третья планета от Солнца", "3rd Rock from the Sun", 0, "сериал", ["comedy", "irony"], ["3rd Rock from the Sun", "Третья планета от Солнца"], "Третья планета от Солнца"), { wikiEn: "3rd Rock from the Sun", wikiRu: "Третья планета от Солнца" }),
+    Object.assign(f("wdq1187416", "Пожарные Чикаго", "Chicago Fire", 0, "сериал", ["tempo", "dark"], ["Chicago Fire", "Пожарные Чикаго"], "Пожарные Чикаго"), { wikiEn: "Chicago Fire (TV series)", wikiRu: "Пожарные Чикаго" }),
+    Object.assign(f("wdq133898", "Жемчужина дворца", "Dae Jang Geum", 0, "сериал", ["comedy", "irony"], ["Dae Jang Geum", "Жемчужина дворца"], "Жемчужина дворца"), { wikiEn: "Jewel in the Palace", wikiRu: "Жемчужина дворца" }),
+    Object.assign(f("wdq56276181", "Сёгун", "Shōgun", 0, "сериал", ["horror", "dark"], ["Shōgun", "Сёгун"], "Сёгун"), { wikiEn: "Shōgun (2024 TV series)", wikiRu: "Сёгун (телесериал, 2024)" }),
+    Object.assign(f("wdq19866569", "Куантико", "Quantico", 0, "сериал", ["family", "slow"], ["Quantico", "Куантико"], "Куантико"), { wikiEn: "Quantico (TV series)", wikiRu: "Куантико (телесериал)" }),
+    Object.assign(f("wdq20646602", "Люк Кейдж", "Luke Cage", 0, "сериал", ["comedy", "irony"], ["Luke Cage", "Люк Кейдж"], "Люк Кейдж"), { wikiEn: "Luke Cage (TV series)", wikiRu: "Люк Кейдж (телесериал)" }),
+    Object.assign(f("wdq584025", "Династия", "Dynasty", 0, "сериал", ["family", "slow"], ["Dynasty", "Династия"], "Династия"), { wikiEn: "Dynasty (1981 TV series)", wikiRu: "Династия (телесериал)" }),
+    Object.assign(f("wdq24698311", "Легенда синего моря", "The Legend of the Blue Sea", 0, "сериал", ["war", "dark"], ["The Legend of the Blue Sea", "Легенда синего моря"], "Легенда синего моря"), { wikiEn: "The Legend of the Blue Sea", wikiRu: "Легенда синего моря" }),
+    Object.assign(f("wdq104396610", "Книга Бобы Фетта", "The Book of Boba Fett", 0, "сериал", ["comedy", "irony"], ["The Book of Boba Fett", "Книга Бобы Фетта"], "Книга Бобы Фетта"), { wikiEn: "The Book of Boba Fett", wikiRu: "Книга Бобы Фетта" }),
+    Object.assign(f("wdq22906308", "Видоизменённый углерод", "Altered Carbon", 0, "сериал", ["fantasy", "family"], ["Altered Carbon", "Видоизменённый углерод"], "Видоизменённый углерод"), { wikiEn: "Altered Carbon (TV series)", wikiRu: "Видоизменённый углерод (сериал)" }),
+    Object.assign(f("wdq104007235", "Убийства в одном здании", "Only Murders in the Building", 0, "сериал", ["crime", "slick-urban"], ["Only Murders in the Building", "Убийства в одном здании"], "Убийства в одном здании"), { wikiEn: "Only Murders in the Building", wikiRu: "Убийства в одном здании" }),
+    Object.assign(f("wdq259494", "Мария из предместья", "María la del Barrio", 0, "сериал", ["space", "slow"], ["María la del Barrio", "Мария из предместья"], "Мария из предместья"), { wikiEn: "María la del Barrio", wikiRu: "Мария из предместья" }),
+    Object.assign(f("wdq26989383", "Личико ангела (телесериал, 2016)", "Carinha de Anjo", 0, "сериал", ["war", "dark"], ["Carinha de Anjo", "Личико ангела (телесериал, 2016)"], "Личико ангела (телесериал, 2016)"), { wikiEn: "Carinha de Anjo", wikiRu: "Личико ангела (телесериал, 2016)" }),
+    Object.assign(f("wdq106623586", "Трепет сердца", "Heartstopper", 0, "сериал", ["comedy", "irony"], ["Heartstopper", "Трепет сердца"], "Трепет сердца"), { wikiEn: "Heartstopper (TV series)", wikiRu: "Трепет сердца" }),
+    Object.assign(f("wdq2748", "Гримм", "Grimm", 0, "сериал", ["fantasy", "family"], ["Grimm", "Гримм"], "Гримм"), { wikiEn: "Grimm (TV series)", wikiRu: "Гримм (телесериал)" }),
+    Object.assign(f("wdq732383", "Да, господин министр", "Yes Minister", 0, "сериал", ["war", "dark"], ["Yes Minister", "Да, господин министр"], "Да, господин министр"), { wikiEn: "Yes Minister", wikiRu: "Да, господин министр" }),
+    Object.assign(f("wdq156155", "Спецотряд «Кобра 11»", "Alarm for Cobra 11 – The Highway Police", 0, "сериал", ["crime", "slick-urban"], ["Alarm for Cobra 11 – The Highway Police", "Спецотряд «Кобра 11»"], "Спецотряд «Кобра 11»"), { wikiEn: "Alarm for Cobra 11 – The Highway Police", wikiRu: "Спецотряд «Кобра 11»" }),
+    Object.assign(f("wdq48326845", "Кобра Кай", "Cobra Kai", 0, "сериал", ["horror", "dark"], ["Cobra Kai", "Кобра Кай"], "Кобра Кай"), { wikiEn: "Cobra Kai", wikiRu: "Кобра Кай" }),
+    Object.assign(f("wdq51661554", "Что случилось с секретарём Ким", "What's Wrong with Secretary Kim", 0, "сериал", ["comedy", "irony"], ["What's Wrong with Secretary Kim", "Что случилось с секретарём Ким"], "Что случилось с секретарём Ким"), { wikiEn: "What's Wrong with Secretary Kim", wikiRu: "Что случилось с секретарём Ким?" }),
+    Object.assign(f("wdq751917", "Убийства в Мидсомере", "Midsomer Murders", 0, "сериал", ["horror", "dark"], ["Midsomer Murders", "Убийства в Мидсомере"], "Убийства в Мидсомере"), { wikiEn: "Midsomer Murders", wikiRu: "Убийства в Мидсомере (телесериал)" }),
+    Object.assign(f("wdq16913682", "Девственница Джейн", "Jane the Virgin", 0, "сериал", ["comedy", "irony"], ["Jane the Virgin", "Девственница Джейн"], "Девственница Джейн"), { wikiEn: "Jane the Virgin", wikiRu: "Девственница Джейн" }),
+    Object.assign(f("wdq53375767", "Наследие", "Legacies", 0, "сериал", ["war", "dark"], ["Legacies", "Наследие"], "Наследие"), { wikiEn: "Legacies (TV series)", wikiRu: "Наследие (телесериал, 2018)" }),
+    Object.assign(f("wdq794761", "Вперёд — к успеху", "Big Time Rush", 0, "сериал", ["family", "slow"], ["Big Time Rush", "Вперёд — к успеху"], "Вперёд — к успеху"), { wikiEn: "Big Time Rush (TV series)", wikiRu: "Биг Тайм Раш" }),
+    Object.assign(f("wdq47452423", "Йеллоустон", "Yellowstone", 0, "сериал", ["war", "dark"], ["Yellowstone", "Йеллоустон"], "Йеллоустон"), { wikiEn: "Yellowstone (TV series)", wikiRu: "Йеллоустон (телесериал)" }),
+    Object.assign(f("wdq17080059", "Восьмое чувство", "Sense8", 0, "сериал", ["crime", "slick-urban"], ["Sense8", "Восьмое чувство"], "Восьмое чувство"), { wikiEn: "Sense8", wikiRu: "Восьмое чувство" }),
+    Object.assign(f("wdq194213", "Звёздные врата: Вселенная", "Stargate Universe", 0, "сериал", ["horror", "dark"], ["Stargate Universe", "Звёздные врата: Вселенная"], "Звёздные врата: Вселенная"), { wikiEn: "Stargate Universe", wikiRu: "Звёздные врата: Вселенная" }),
+    Object.assign(f("wdq1525645", "Скандал", "Scandal", 2013, "сериал", ["horror", "dark"], ["Scandal", "Скандал"], "Скандал"), { wikiEn: "Scandal (TV series)", wikiRu: "Скандал (телесериал)" }),
+    Object.assign(f("wdq19858482", "Слепая зона", "Blindspot", 0, "сериал", ["comedy", "irony"], ["Blindspot", "Слепая зона"], "Слепая зона"), { wikiEn: "Blindspot (TV series)", wikiRu: "Слепая зона (телесериал)" }),
+    Object.assign(f("wdq65050906", "Король: Вечный монарх", "The King: Eternal Monarch", 0, "сериал", ["comedy", "irony"], ["The King: Eternal Monarch", "Король: Вечный монарх"], "Король: Вечный монарх"), { wikiEn: "The King: Eternal Monarch", wikiRu: "Король: Вечный монарх" }),
+    Object.assign(f("wdq221237", "Иерихон", "Jericho", 0, "сериал", ["horror", "dark"], ["Jericho", "Иерихон"], "Иерихон"), { wikiEn: "Jericho (2006 TV series)", wikiRu: "Иерихон (телесериал)" }),
+    Object.assign(f("wdq92590789", "Песочный человек", "The Sandman", 0, "сериал", ["horror", "dark"], ["The Sandman", "Песочный человек"], "Песочный человек"), { wikiEn: "The Sandman (TV series)", wikiRu: "Песочный человек (сериал)" }),
+    Object.assign(f("wdq460427", "That's So Raven", "That's So Raven", 0, "сериал", ["crime", "slick-urban"], ["That's So Raven", "That's So Raven"], "That's So Raven"), { wikiEn: "That's So Raven", wikiRu: "" }),
+    Object.assign(f("wdq26251293", "Восходящее солнце", "Sol Nascente", 0, "сериал", ["horror", "dark"], ["Sol Nascente", "Восходящее солнце"], "Восходящее солнце"), { wikiEn: "Sol Nascente", wikiRu: "Восходящее солнце (телесериал)" }),
+    Object.assign(f("wdq27067918", "Учитель Ким, доктор-романтик", "Dr. Romantic", 0, "сериал", ["space", "slow"], ["Dr. Romantic", "Учитель Ким, доктор-романтик"], "Учитель Ким, доктор-романтик"), { wikiEn: "Dr. Romantic", wikiRu: "Учитель Ким, доктор Романтик" }),
+    Object.assign(f("wdq607514", "Жители Ист-Энда", "EastEnders", 0, "сериал", ["comedy", "irony"], ["EastEnders", "Жители Ист-Энда"], "Жители Ист-Энда"), { wikiEn: "EastEnders", wikiRu: "Жители Ист-Энда" }),
+    Object.assign(f("wdq663759", "Месть", "Revenge", 0, "сериал", ["war", "dark"], ["Revenge", "Месть"], "Месть"), { wikiEn: "Revenge (TV series)", wikiRu: "Месть (телесериал)" }),
+    Object.assign(f("wdq4529", "Вероника Марс", "Veronica Mars", 0, "сериал", ["family", "slow"], ["Veronica Mars", "Вероника Марс"], "Вероника Марс"), { wikiEn: "Veronica Mars", wikiRu: "Вероника Марс" }),
+    Object.assign(f("wdq5935", "4исла", "Numbers", 0, "сериал", ["war", "dark"], ["Numbers", "4исла"], "4исла"), { wikiEn: "Numbers (TV series)", wikiRu: "4исла" }),
+    Object.assign(f("wdq23670", "В Филадельфии всегда солнечно", "It's Always Sunny in Philadelphia", 0, "сериал", ["space", "slow"], ["It's Always Sunny in Philadelphia", "В Филадельфии всегда солнечно"], "В Филадельфии всегда солнечно"), { wikiEn: "It's Always Sunny in Philadelphia", wikiRu: "В Филадельфии всегда солнечно" }),
+    Object.assign(f("wdq117662601", "Гарри Поттер", "Harry Potter", 0, "сериал", ["family", "slow"], ["Harry Potter", "Гарри Поттер"], "Гарри Поттер"), { wikiEn: "Harry Potter (TV series)", wikiRu: "Гарри Поттер (сериал)" }),
+    Object.assign(f("wdq120277524", "Рыцарь Семи Королевств", "A Knight of the Seven Kingdoms", 0, "сериал", ["fantasy", "family"], ["A Knight of the Seven Kingdoms", "Рыцарь Семи Королевств"], "Рыцарь Семи Королевств"), { wikiEn: "A Knight of the Seven Kingdoms (TV series)", wikiRu: "Рыцарь Семи Королевств (сериал)" }),
+    Object.assign(f("wdq425628", "Алло, алло!", "'Allo 'Allo!", 0, "сериал", ["fantasy", "family"], ["'Allo 'Allo!", "Алло, алло!"], "Алло, алло!"), { wikiEn: "'Allo 'Allo!", wikiRu: "Алло, алло!" }),
+    Object.assign(f("wdq834868", "Борджиа", "The Borgias", 0, "сериал", ["fantasy", "family"], ["The Borgias", "Борджиа"], "Борджиа"), { wikiEn: "The Borgias (2011 TV series)", wikiRu: "Борджиа (телесериал, Канада — Венгрия — Ирландия)" }),
+    Object.assign(f("wdq16802335", "Морская полиция: Новый Орлеан", "NCIS: New Orleans", 0, "сериал", ["war", "dark"], ["NCIS: New Orleans", "Морская полиция: Новый Орлеан"], "Морская полиция: Новый Орлеан"), { wikiEn: "NCIS: New Orleans", wikiRu: "Морская полиция: Новый Орлеан" }),
+    Object.assign(f("wdq50809037", "Леденящие душу приключения Сабрины", "Chilling Adventures of Sabrina", 0, "сериал", ["horror", "dark"], ["Chilling Adventures of Sabrina", "Леденящие душу приключения Сабрины"], "Леденящие душу приключения Сабрины"), { wikiEn: "Chilling Adventures of Sabrina (TV series)", wikiRu: "Леденящие душу приключения Сабрины" }),
+    Object.assign(f("wdq185059", "Дни нашей жизни", "Days of Our Lives", 0, "сериал", ["crime", "slick-urban"], ["Days of Our Lives", "Дни нашей жизни"], "Дни нашей жизни"), { wikiEn: "Days of Our Lives", wikiRu: "Дни нашей жизни (телесериал)" }),
+    Object.assign(f("wdq390076", "Братья и сёстры", "Brothers & Sisters", 0, "сериал", ["fantasy", "family"], ["Brothers & Sisters", "Братья и сёстры"], "Братья и сёстры"), { wikiEn: "Brothers & Sisters (2006 TV series)", wikiRu: "Братья и сёстры (телесериал)" }),
+    Object.assign(f("wdq862187", "Бонанца", "Bonanza", 0, "сериал", ["crime", "slick-urban"], ["Bonanza", "Бонанца"], "Бонанца"), { wikiEn: "Bonanza", wikiRu: "Бонанза" }),
+    Object.assign(f("wdq465616", "Чудаки", "Jackass", 0, "сериал", ["tempo", "dark"], ["Jackass", "Чудаки"], "Чудаки"), { wikiEn: "Jackass (franchise)", wikiRu: "Чудаки (франшиза)" }),
+    Object.assign(f("wdq470111", "Медиум", "Medium", 0, "сериал", ["war", "dark"], ["Medium", "Медиум"], "Медиум"), { wikiEn: "Medium (TV series)", wikiRu: "Медиум (телесериал)" }),
+    Object.assign(f("wdq1976180", "Виолетта", "Violetta", 0, "сериал", ["fantasy", "family"], ["Violetta", "Виолетта"], "Виолетта"), { wikiEn: "Violetta (TV series)", wikiRu: "Виолетта (телесериал)" }),
+    Object.assign(f("wdq19756164", "Сумеречные охотники", "Shadowhunters", 0, "сериал", ["fantasy", "family"], ["Shadowhunters", "Сумеречные охотники"], "Сумеречные охотники"), { wikiEn: "Shadowhunters", wikiRu: "Сумеречные охотники" }),
+    Object.assign(f("wdq1338655", "The Tonight Show", "The Tonight Show", 0, "сериал", ["war", "dark"], ["The Tonight Show", "The Tonight Show"], "The Tonight Show"), { wikiEn: "The Tonight Show", wikiRu: "The Tonight Show" }),
+    Object.assign(f("wdq18209262", "Американская история преступлений", "American Crime Story", 0, "сериал", ["space", "slow"], ["American Crime Story", "Американская история преступлений"], "Американская история преступлений"), { wikiEn: "American Crime Story", wikiRu: "Американская история преступлений" }),
+    Object.assign(f("wdq18389644", "Пространство", "The Expanse", 0, "сериал", ["fantasy", "family"], ["The Expanse", "Пространство"], "Пространство"), { wikiEn: "The Expanse (TV series)", wikiRu: "Пространство (телесериал)" }),
+    Object.assign(f("wdq512977", "Андромеда", "Andromeda", 0, "сериал", ["family", "slow"], ["Andromeda", "Андромеда"], "Андромеда"), { wikiEn: "Andromeda (TV series)", wikiRu: "Андромеда (телесериал)" }),
+    Object.assign(f("wdq578623", "Тёмный ангел", "Dark Angel", 0, "сериал", ["war", "dark"], ["Dark Angel", "Тёмный ангел"], "Тёмный ангел"), { wikiEn: "Dark Angel (American TV series)", wikiRu: "Тёмный ангел (телесериал)" }),
+    Object.assign(f("wdq101096725", "Разделение", "Severance", 0, "сериал", ["horror", "dark"], ["Severance", "Разделение"], "Разделение"), { wikiEn: "Severance (TV series)", wikiRu: "Разделение (телесериал, 2022)" }),
+    Object.assign(f("wdq276071", "90210: Новое поколение", "90210", 0, "сериал", ["war", "dark"], ["90210", "90210: Новое поколение"], "90210: Новое поколение"), { wikiEn: "90210 (TV series)", wikiRu: "90210: Новое поколение" }),
+    Object.assign(f("wdq278375", "Высший класс", "A.N.T. Farm", 0, "сериал", ["war", "dark"], ["A.N.T. Farm", "Высший класс"], "Высший класс"), { wikiEn: "A.N.T. Farm", wikiRu: "Высший класс (телесериал)" }),
+    Object.assign(f("wdq27089570", "Каратель", "The Punisher", 0, "сериал", ["comedy", "irony"], ["The Punisher", "Каратель"], "Каратель"), { wikiEn: "The Punisher (TV series)", wikiRu: "Каратель (телесериал)" }),
+    Object.assign(f("wdq635717", "Лиззи Магуайер", "Lizzie McGuire", 0, "сериал", ["horror", "dark"], ["Lizzie McGuire", "Лиззи Магуайер"], "Лиззи Магуайер"), { wikiEn: "Lizzie McGuire", wikiRu: "Лиззи Магуайер" }),
+    Object.assign(f("wdq109526557", "One Piece. Большой куш", "One Piece", 0, "сериал", ["horror", "dark"], ["One Piece", "One Piece. Большой куш"], "One Piece. Большой куш"), { wikiEn: "One Piece (2023 TV series)", wikiRu: "One Piece. Большой Куш (телесериал)" }),
+    Object.assign(f("wdq110652727", "Задача трёх тел", "3 Body Problem", 0, "сериал", ["war", "dark"], ["3 Body Problem", "Задача трёх тел"], "Задача трёх тел"), { wikiEn: "3 Body Problem (TV series)", wikiRu: "Задача трёх тел (телесериал, 2024)" }),
+    Object.assign(f("wdq122155720", "Одна из многих", "Pluribus", 0, "сериал", ["tempo", "dark"], ["Pluribus", "Одна из многих"], "Одна из многих"), { wikiEn: "Pluribus (TV series)", wikiRu: "Одна из многих (телесериал)" }),
+    Object.assign(f("wdq126284846", "Моя любовь вне времени", "Mi amor sin tiempo", 0, "сериал", ["space", "slow"], ["Mi amor sin tiempo", "Моя любовь вне времени"], "Моя любовь вне времени"), { wikiEn: "Mi amor sin tiempo", wikiRu: "Моя любовь вне времени" }),
+    Object.assign(f("wdq323722", "Мотель Бейтса", "Bates Motel", 2013, "сериал", ["comedy", "irony"], ["Bates Motel", "Мотель Бейтса"], "Мотель Бейтса"), { wikiEn: "Bates Motel (TV series)", wikiRu: "Мотель Бейтс" }),
+    Object.assign(f("wdq369111", "Миссия невыполнима", "Mission: Impossible", 0, "сериал", ["war", "dark"], ["Mission: Impossible", "Миссия невыполнима"], "Миссия невыполнима"), { wikiEn: "Mission: Impossible (1966 TV series)", wikiRu: "Миссия невыполнима (телесериал, 1966)" }),
+    Object.assign(f("wdq39049904", "Убивая Еву", "Killing Eve", 2018, "сериал", ["tempo", "dark"], ["Killing Eve", "Убивая Еву"], "Убивая Еву"), { wikiEn: "Killing Eve", wikiRu: "Убивая Еву" }),
+    Object.assign(f("wdq56195117", "Тёмные начала", "His Dark Materials", 0, "сериал", ["horror", "dark"], ["His Dark Materials", "Тёмные начала"], "Тёмные начала"), { wikiEn: "His Dark Materials (TV series)", wikiRu: "Тёмные начала (телесериал)" }),
+    Object.assign(f("wdq885643", "Голубая кровь", "Blue Bloods", 0, "сериал", ["crime", "slick-urban"], ["Blue Bloods", "Голубая кровь"], "Голубая кровь"), { wikiEn: "Blue Bloods", wikiRu: "Голубая кровь (телесериал)" }),
+    Object.assign(f("wdq1247201", "Бэтмен", "Batman", 0, "сериал", ["family", "slow"], ["Batman", "Бэтмен"], "Бэтмен"), { wikiEn: "Batman (TV series)", wikiRu: "Бэтмен (телесериал)" }),
+    Object.assign(f("wdq794784", "Запретная любовь", "Aşk-ı Memnu", 0, "сериал", ["tempo", "dark"], ["Aşk-ı Memnu", "Запретная любовь"], "Запретная любовь"), { wikiEn: "Aşk-ı Memnu (2008 TV series)", wikiRu: "Запретная любовь (телесериал, Турция, 2008)" }),
+    Object.assign(f("wdq15956708", "Кремниевая долина", "Silicon Valley", 0, "сериал", ["fantasy", "family"], ["Silicon Valley", "Кремниевая долина"], "Кремниевая долина"), { wikiEn: "Silicon Valley (TV series)", wikiRu: "Кремниевая долина (телесериал)" }),
+    Object.assign(f("wdq39323920", "Я не робот", "I'm Not a Robot", 0, "сериал", ["tempo", "dark"], ["I'm Not a Robot", "Я не робот"], "Я не робот"), { wikiEn: "I'm Not a Robot", wikiRu: "Я не робот" }),
+    Object.assign(f("wdq18844750", "Человек в высоком замке", "The Man in the High Castle", 0, "сериал", ["space", "slow"], ["The Man in the High Castle", "Человек в высоком замке"], "Человек в высоком замке"), { wikiEn: "The Man in the High Castle (TV series)", wikiRu: "Человек в высоком замке (телесериал)" }),
+    Object.assign(f("wdq62573305", "Звёздный путь: Пикар", "Star Trek: Picard", 0, "сериал", ["family", "slow"], ["Star Trek: Picard", "Звёздный путь: Пикар"], "Звёздный путь: Пикар"), { wikiEn: "Star Trek: Picard", wikiRu: "Звёздный путь: Пикар" }),
+    Object.assign(f("wdq1324189", "Домой и в путь", "Home and Away", 0, "сериал", ["horror", "dark"], ["Home and Away", "Домой и в путь"], "Домой и в путь"), { wikiEn: "Home and Away", wikiRu: "Дома и в пути" }),
+    Object.assign(f("wdq19820021", "Продюсер", "Producer", 0, "сериал", ["horror", "dark"], ["Producer", "Продюсер"], "Продюсер"), { wikiEn: "The Producers (TV series)", wikiRu: "Продюсер (телесериал)" }),
+    Object.assign(f("wdq9197118", "Грозная семейка", "The Thundermans", 0, "сериал", ["space", "slow"], ["The Thundermans", "Грозная семейка"], "Грозная семейка"), { wikiEn: "The Thundermans", wikiRu: "Грозная семейка" }),
+    Object.assign(f("wdq96407897", "Тед Лассо", "Ted Lasso", 0, "сериал", ["family", "slow"], ["Ted Lasso", "Тед Лассо"], "Тед Лассо"), { wikiEn: "Ted Lasso", wikiRu: "Тед Лассо" }),
+    Object.assign(f("wdq217276", "Jonas L.A.", "Jonas", 0, "сериал", ["fantasy", "family"], ["Jonas", "Jonas L.A."], "Jonas L.A."), { wikiEn: "Jonas (TV series)", wikiRu: "Jonas L.A." }),
+    Object.assign(f("wdq20062598", "Мой призрак", "Oh My Ghostess", 0, "сериал", ["space", "slow"], ["Oh My Ghostess", "Мой призрак"], "Мой призрак"), { wikiEn: "Oh My Ghost (South Korean TV series)", wikiRu: "Мой призрак" }),
+    Object.assign(f("wdq218591", "Terra Nova", "Terra Nova", 0, "сериал", ["war", "dark"], ["Terra Nova", "Terra Nova"], "Terra Nova"), { wikiEn: "Terra Nova (TV series)", wikiRu: "Терра Нова (телесериал)" }),
+    Object.assign(f("wdq6757674", "Марко Поло", "Marco Polo", 0, "сериал", ["comedy", "irony"], ["Marco Polo", "Марко Поло"], "Марко Поло"), { wikiEn: "Marco Polo (2014 TV series)", wikiRu: "Марко Поло (телесериал)" }),
+    Object.assign(f("wdq21205134", "Чёрная любовь", "Endless Love", 0, "сериал", ["space", "slow"], ["Endless Love", "Чёрная любовь"], "Чёрная любовь"), { wikiEn: "Endless Love (2015 TV series)", wikiRu: "Чёрная любовь (телесериал)" }),
+    Object.assign(f("wdq589569", "Плохие", "Misfits", 0, "сериал", ["family", "slow"], ["Misfits", "Плохие"], "Плохие"), { wikiEn: "Misfits (TV series)", wikiRu: "Плохие" }),
+    Object.assign(f("wdq13475479", "Чёрные паруса", "Black Sails", 0, "сериал", ["war", "dark"], ["Black Sails", "Чёрные паруса"], "Чёрные паруса"), { wikiEn: "Black Sails (TV series)", wikiRu: "Чёрные паруса" }),
+    Object.assign(f("wdq234386", "4400", "The 4400", 0, "сериал", ["comedy", "irony"], ["The 4400", "4400"], "4400"), { wikiEn: "The 4400", wikiRu: "4400" }),
+    Object.assign(f("wdq103967305", "Алиса в Пограничье", "Alice in Borderland", 0, "сериал", ["family", "slow"], ["Alice in Borderland", "Алиса в Пограничье"], "Алиса в Пограничье"), { wikiEn: "Alice in Borderland (TV series)", wikiRu: "Алиса в Пограничье" }),
+    Object.assign(f("wdq484986", "Jumong", "Jumong", 0, "сериал", ["comedy", "irony"], ["Jumong", "Jumong"], "Jumong"), { wikiEn: "Jumong (TV series)", wikiRu: "" }),
+    Object.assign(f("wdq840657", "Эзель", "Ezel", 0, "сериал", ["family", "slow"], ["Ezel", "Эзель"], "Эзель"), { wikiEn: "Ezel (TV series)", wikiRu: "" }),
+    Object.assign(f("wdq256527", "Спин-Сити", "Spin City", 0, "сериал", ["war", "dark"], ["Spin City", "Спин-Сити"], "Спин-Сити"), { wikiEn: "Spin City", wikiRu: "Спин-Сити" }),
+    Object.assign(f("wdq276180", "Служба новостей", "The Newsroom", 0, "сериал", ["fantasy", "family"], ["The Newsroom", "Служба новостей"], "Служба новостей"), { wikiEn: "The Newsroom (American TV series)", wikiRu: "Служба новостей (телесериал)" }),
+    Object.assign(f("wdq108124282", "Железное сердце", "Ironheart", 0, "сериал", ["comedy", "irony"], ["Ironheart", "Железное сердце"], "Железное сердце"), { wikiEn: "Ironheart (miniseries)", wikiRu: "Железное сердце (сериал)" }),
+    Object.assign(f("wdq652015", "Росалинда", "Rosalinda", 0, "сериал", ["war", "dark"], ["Rosalinda", "Росалинда"], "Росалинда"), { wikiEn: "Rosalinda (Mexican TV series)", wikiRu: "Росалинда (телесериал)" }),
+    Object.assign(f("wdq111676994", "Эхо", "Echo", 0, "сериал", ["comedy", "irony"], ["Echo", "Эхо"], "Эхо"), { wikiEn: "Echo (miniseries)", wikiRu: "Эхо (сериал)" }),
+    Object.assign(f("wdq112845107", "Оно: Добро пожаловать в Дерри", "It: Welcome to Derry", 0, "сериал", ["crime", "slick-urban"], ["It: Welcome to Derry", "Оно: Добро пожаловать в Дерри"], "Оно: Добро пожаловать в Дерри"), { wikiEn: "It – Welcome to Derry", wikiRu: "Оно: Добро пожаловать в Дерри" }),
+    Object.assign(f("wdq21149", "бегущий человек", "Running Man", 0, "сериал", ["horror", "dark"], ["Running Man", "бегущий человек"], "бегущий человек"), { wikiEn: "Running Man (TV program)", wikiRu: "Running Man" }),
+    Object.assign(f("wdq739780", "Тюрьма Оз", "Oz", 0, "сериал", ["fantasy", "family"], ["Oz", "Тюрьма Оз"], "Тюрьма Оз"), { wikiEn: "Oz (TV series)", wikiRu: "Тюрьма Оз" }),
+    Object.assign(f("wdq824192", "The Daily Show", "The Daily Show", 0, "сериал", ["tempo", "dark"], ["The Daily Show", "The Daily Show"], "The Daily Show"), { wikiEn: "The Daily Show", wikiRu: "The Daily Show" }),
+    Object.assign(f("wdq825946", "Good Morning America", "Good Morning America", 0, "сериал", ["comedy", "irony"], ["Good Morning America", "Good Morning America"], "Good Morning America"), { wikiEn: "Good Morning America", wikiRu: "Good Morning America" }),
+    Object.assign(f("wdq48744320", "Новобранец", "The Rookie", 0, "сериал", ["tempo", "dark"], ["The Rookie", "Новобранец"], "Новобранец"), { wikiEn: "The Rookie", wikiRu: "Новичок (телесериал, 2018)" }),
+    Object.assign(f("wdq390405", "Никита", "Nikita", 0, "сериал", ["horror", "dark"], ["Nikita", "Никита"], "Никита"), { wikiEn: "Nikita (TV series)", wikiRu: "Никита (телесериал)" }),
+    Object.assign(f("wdq30611820", "9-1-1", "9-1-1", 0, "сериал", ["fantasy", "family"], ["9-1-1", "9-1-1"], "9-1-1"), { wikiEn: "9-1-1 (TV series)", wikiRu: "9-1-1 (телесериал)" }),
+    Object.assign(f("wdq456666", "На краю Вселенной", "Farscape", 0, "сериал", ["comedy", "irony"], ["Farscape", "На краю Вселенной"], "На краю Вселенной"), { wikiEn: "Farscape", wikiRu: "На краю Вселенной" }),
+    Object.assign(f("wdq908708", "Соседи", "Neighbours", 0, "сериал", ["fantasy", "family"], ["Neighbours", "Соседи"], "Соседи"), { wikiEn: "Neighbours", wikiRu: "Соседи (телесериал, 1985)" }),
+    Object.assign(f("wdq913989", "Узурпаторша", "La usurpadora", 0, "сериал", ["horror", "dark"], ["La usurpadora", "Узурпаторша"], "Узурпаторша"), { wikiEn: "La usurpadora (1998 TV series)", wikiRu: "Узурпаторша (телесериал, 1998)" }),
+    Object.assign(f("wdq1044635", "Моя жена меня приворожила", "Bewitched", 0, "сериал", ["crime", "slick-urban"], ["Bewitched", "Моя жена меня приворожила"], "Моя жена меня приворожила"), { wikiEn: "Bewitched", wikiRu: "Моя жена меня приворожила" }),
+    Object.assign(f("wdq855673", "Гордость и предубеждение", "Pride and Prejudice", 0, "сериал", ["family", "slow"], ["Pride and Prejudice", "Гордость и предубеждение"], "Гордость и предубеждение"), { wikiEn: "Pride and Prejudice (1995 TV series)", wikiRu: "Гордость и предубеждение (телесериал, 1995)" }),
+    Object.assign(f("wdq858778", "Позднее шоу с Дэвидом Леттерманом", "Late Show with David Letterman", 0, "сериал", ["comedy", "irony"], ["Late Show with David Letterman", "Позднее шоу с Дэвидом Леттерманом"], "Позднее шоу с Дэвидом Леттерманом"), { wikiEn: "Late Show with David Letterman", wikiRu: "Позднее шоу с Дэвидом Леттерманом" }),
+    Object.assign(f("wdq17111973", "Шиттс Крик", "", 0, "сериал", ["horror", "dark"], ["Шиттс Крик"], "Шиттс Крик"), { wikiEn: "Schitt's Creek", wikiRu: "Шиттс Крик" }),
+    Object.assign(f("wdq471350", "Детективное агентство «Лунный свет»", "Moonlighting", 0, "сериал", ["space", "slow"], ["Moonlighting", "Детективное агентство «Лунный свет»"], "Детективное агентство «Лунный свет»"), { wikiEn: "Moonlighting (TV series)", wikiRu: "Детективное агентство «Лунный свет»" }),
+    Object.assign(f("wdq2813828", "Банши", "Banshee", 0, "сериал", ["fantasy", "family"], ["Banshee", "Банши"], "Банши"), { wikiEn: "Banshee (TV series)", wikiRu: "Банши (телесериал)" }),
+    Object.assign(f("wdq527965", "Расследования авиакатастроф", "Mayday", 0, "сериал", ["horror", "dark"], ["Mayday", "Расследования авиакатастроф"], "Расследования авиакатастроф"), { wikiEn: "Mayday (Canadian TV series)", wikiRu: "Расследования авиакатастроф" }),
+    Object.assign(f("wdq556444", "Britain’s Got Talent", "Britain's Got Talent", 0, "сериал", ["fantasy", "family"], ["Britain's Got Talent", "Britain’s Got Talent"], "Britain’s Got Talent"), { wikiEn: "Britain's Got Talent", wikiRu: "Britain’s Got Talent" }),
+    Object.assign(f("wdq21528692", "11.22.63", "11.22.63", 0, "сериал", ["fantasy", "family"], ["11.22.63", "11.22.63"], "11.22.63"), { wikiEn: "11.22.63", wikiRu: "11.22.63" }),
+    Object.assign(f("wdq590132", "Пат и Мат", "Pat & Mat", 0, "сериал", ["fantasy", "family"], ["Pat & Mat", "Пат и Мат"], "Пат и Мат"), { wikiEn: "Pat & Mat", wikiRu: "Пат и Мат" }),
+    Object.assign(f("wdq104153367", "Асока", "Ahsoka", 0, "сериал", ["war", "dark"], ["Ahsoka", "Асока"], "Асока"), { wikiEn: "Star Wars: Ahsoka", wikiRu: "Асока (сериал)" }),
+    Object.assign(f("wdq22988401", "Защитники", "The Defenders", 0, "сериал", ["family", "slow"], ["The Defenders", "Защитники"], "Защитники"), { wikiEn: "The Defenders (miniseries)", wikiRu: "Защитники (телесериал, 2017)" }),
+    Object.assign(f("wdq15220426", "Прилив", "Medcezir", 0, "сериал", ["comedy", "irony"], ["Medcezir", "Прилив"], "Прилив"), { wikiEn: "Medcezir", wikiRu: "" }),
+    Object.assign(f("wdq254689", "Частный детектив Магнум", "Magnum, P.I.", 0, "сериал", ["family", "slow"], ["Magnum, P.I.", "Частный детектив Магнум"], "Частный детектив Магнум"), { wikiEn: "Magnum, P.I.", wikiRu: "Частный детектив Магнум (телесериал, 1980)" }),
+    Object.assign(f("wdq265152", "Щит", "The Shield", 0, "сериал", ["tempo", "dark"], ["The Shield", "Щит"], "Щит"), { wikiEn: "The Shield", wikiRu: "Щит (телесериал)" }),
+    Object.assign(f("wdq609274", "Полиция Нью-Йорка", "NYPD Blue", 0, "сериал", ["comedy", "irony"], ["NYPD Blue", "Полиция Нью-Йорка"], "Полиция Нью-Йорка"), { wikiEn: "NYPD Blue", wikiRu: "Полиция Нью-Йорка (телесериал)" }),
+    Object.assign(f("wdq618329", "Девчонки", "Girls", 0, "сериал", ["family", "slow"], ["Girls", "Девчонки"], "Девчонки"), { wikiEn: "Girls (TV series)", wikiRu: "Девчонки (телесериал)" }),
+    Object.assign(f("wdq637033", "Маленькая Британия", "Little Britain", 0, "сериал", ["family", "slow"], ["Little Britain", "Маленькая Британия"], "Маленькая Британия"), { wikiEn: "Little Britain (TV series)", wikiRu: "Маленькая Британия" }),
+    Object.assign(f("wdq108837156", "Агата: Дом Харкнесс", "Agatha All Along", 0, "сериал", ["fantasy", "family"], ["Agatha All Along", "Агата: Дом Харкнесс"], "Агата: Дом Харкнесс"), { wikiEn: "Agatha All Along", wikiRu: "Это всё Агата" }),
+    Object.assign(f("wdq109608844", "Аватар: Легенда об Аанге", "Avatar: The Last Airbender", 0, "сериал", ["fantasy", "family"], ["Avatar: The Last Airbender", "Аватар: Легенда об Аанге"], "Аватар: Легенда об Аанге"), { wikiEn: "Avatar: The Last Airbender (2024 TV series)", wikiRu: "Аватар: Легенда об Аанге (сериал, 2024)" }),
+    Object.assign(f("wdq694106", "Шоу Опры Уинфри", "The Oprah Winfrey Show", 0, "сериал", ["comedy", "irony"], ["The Oprah Winfrey Show", "Шоу Опры Уинфри"], "Шоу Опры Уинфри"), { wikiEn: "The Oprah Winfrey Show", wikiRu: "Шоу Опры Уинфри" }),
+    Object.assign(f("wdq33323", "Все ненавидят Криса", "Everybody Hates Chris", 0, "сериал", ["crime", "slick-urban"], ["Everybody Hates Chris", "Все ненавидят Криса"], "Все ненавидят Криса"), { wikiEn: "Everybody Hates Chris", wikiRu: "Все ненавидят Криса" }),
+    Object.assign(f("wdq832040", "Город пришельцев", "Roswell", 0, "сериал", ["tempo", "dark"], ["Roswell", "Город пришельцев"], "Город пришельцев"), { wikiEn: "Roswell (TV series)", wikiRu: "Город пришельцев" }),
+    Object.assign(f("wdq753647", "Дрейк и Джош", "Drake & Josh", 0, "сериал", ["war", "dark"], ["Drake & Josh", "Дрейк и Джош"], "Дрейк и Джош"), { wikiEn: "Drake & Josh", wikiRu: "Дрейк и Джош" }),
+    Object.assign(f("wdq15070536", "Девушка познаёт мир", "Girl Meets World", 0, "сериал", ["tempo", "dark"], ["Girl Meets World", "Девушка познаёт мир"], "Девушка познаёт мир"), { wikiEn: "Girl Meets World", wikiRu: "Истории Райли" }),
+    Object.assign(f("wdq15070575", "Штамм", "The Strain", 0, "сериал", ["war", "dark"], ["The Strain", "Штамм"], "Штамм"), { wikiEn: "The Strain (TV series)", wikiRu: "Штамм (телесериал)" }),
+    Object.assign(f("wdq15627692", "Последний корабль", "The Last Ship", 2014, "сериал", ["fantasy", "family"], ["The Last Ship", "Последний корабль"], "Последний корабль"), { wikiEn: "The Last Ship (TV series)", wikiRu: "Последний корабль" }),
+    Object.assign(f("wdq1048856", "Все в семье", "All in the Family", 0, "сериал", ["tempo", "dark"], ["All in the Family", "Все в семье"], "Все в семье"), { wikiEn: "All in the Family", wikiRu: "Все в семье" }),
+    Object.assign(f("wdq1247180", "Истинная любовь", "Amor real", 0, "сериал", ["fantasy", "family"], ["Amor real", "Истинная любовь"], "Истинная любовь"), { wikiEn: "Amor real", wikiRu: "Истинная любовь (телесериал)" }),
+    Object.assign(f("wdq790457", "Проспект Бразилии", "Avenida Brasil", 0, "сериал", ["family", "slow"], ["Avenida Brasil", "Проспект Бразилии"], "Проспект Бразилии"), { wikiEn: "Avenida Brasil (TV series)", wikiRu: "Проспект Бразилии" }),
+    Object.assign(f("wdq17328326", "Опасный Генри", "Henry Danger", 0, "сериал", ["space", "slow"], ["Henry Danger", "Опасный Генри"], "Опасный Генри"), { wikiEn: "Henry Danger", wikiRu: "Опасный Генри" }),
+    Object.assign(f("wdq1249642", "Спартак", "Spartacus", 0, "сериал", ["comedy", "irony"], ["Spartacus", "Спартак"], "Спартак"), { wikiEn: "Spartacus (TV series)", wikiRu: "Спартак (телесериал)" }),
+    Object.assign(f("wdq18810169", "Королевы крика", "Scream Queens", 0, "сериал", ["family", "slow"], ["Scream Queens", "Королевы крика"], "Королевы крика"), { wikiEn: "Scream Queens (2015 TV series)", wikiRu: "Королевы крика" }),
+    Object.assign(f("wdq200437", "Сталкер", "Stalker", 1979, "фильм", ["horror", "dark"], ["Stalker", "Сталкер"], "Сталкер"), { wikiEn: "Stalker (1979 film)", wikiRu: "Сталкер (фильм)" }),
+    Object.assign(f("wdq125772", "Солярис", "Solaris", 1973, "фильм", ["fantasy", "family"], ["Solaris", "Солярис"], "Солярис"), { wikiEn: "Solaris (1972 film)", wikiRu: "Солярис (фильм, 1972)" }),
+    Object.assign(f("wdq53105", "Москва слезам не верит", "Moscow Does Not Believe in Tears", 1982, "фильм", ["family", "slow"], ["Moscow Does Not Believe in Tears", "Москва слезам не верит"], "Москва слезам не верит"), { wikiEn: "Moscow Does Not Believe in Tears", wikiRu: "Москва слезам не верит" }),
+    Object.assign(f("wdq948023", "Дерсу Узала", "Dersu Uzala", 1979, "фильм", ["war", "dark"], ["Dersu Uzala", "Дерсу Узала"], "Дерсу Узала"), { wikiEn: "Dersu Uzala (1975 film)", wikiRu: "Дерсу Узала (фильм, 1975)" }),
+    Object.assign(f("wdq1999930", "Бриллиантовая рука", "The Diamond Arm", 1969, "фильм", ["comedy", "irony"], ["The Diamond Arm", "Бриллиантовая рука"], "Бриллиантовая рука"), { wikiEn: "The Diamond Arm", wikiRu: "Бриллиантовая рука" }),
+    Object.assign(f("wdq147878", "Иваново детство", "Ivan's Childhood", 1962, "фильм", ["space", "slow"], ["Ivan's Childhood", "Иваново детство"], "Иваново детство"), { wikiEn: "Ivan's Childhood", wikiRu: "Иваново детство" }),
+    Object.assign(f("wdq503046", "Андрей Рублёв", "Andrei Rublev", 1971, "фильм", ["space", "slow"], ["Andrei Rublev", "Андрей Рублёв"], "Андрей Рублёв"), { wikiEn: "Andrei Rublev (film)", wikiRu: "Андрей Рублёв (фильм)" }),
+    Object.assign(f("wdq845176", "Война и мир (фильм, 1967)", "War and Peace", 1967, "фильм", ["tempo", "dark"], ["War and Peace", "Война и мир (фильм, 1967)"], "Война и мир (фильм, 1967)"), { wikiEn: "War and Peace (film series)", wikiRu: "Война и мир (фильм, 1967)" }),
+    Object.assign(f("wdq777739", "Иван Васильевич меняет профессию", "Ivan Vasilievich: Back to the Future", 1973, "фильм", ["crime", "slick-urban"], ["Ivan Vasilievich: Back to the Future", "Иван Васильевич меняет профессию"], "Иван Васильевич меняет профессию"), { wikiEn: "Ivan Vasilievich: Back to the Future", wikiRu: "Иван Васильевич меняет профессию" }),
+    Object.assign(f("wdq838149", "Зеркало", "The Mirror", 1975, "фильм", ["horror", "dark"], ["The Mirror", "Зеркало"], "Зеркало"), { wikiEn: "Mirror (1975 film)", wikiRu: "Зеркало (фильм, 1974)" }),
+    Object.assign(f("wdq1127167", "Утомлённые солнцем", "Burnt by the Sun", 1994, "фильм", ["war", "dark"], ["Burnt by the Sun", "Утомлённые солнцем"], "Утомлённые солнцем"), { wikiEn: "Burnt by the Sun", wikiRu: "Утомлённые солнцем" }),
+    Object.assign(f("wdq4444", "Особо опасен", "Wanted", 2008, "фильм", ["fantasy", "family"], ["Wanted", "Особо опасен"], "Особо опасен"), { wikiEn: "Wanted (2008 film)", wikiRu: "Особо опасен (фильм, 2008)" }),
+    Object.assign(f("wdq118976", "Александр Невский", "Alexander Nevsky", 1939, "фильм", ["tempo", "dark"], ["Alexander Nevsky", "Александр Невский"], "Александр Невский"), { wikiEn: "Alexander Nevsky (film)", wikiRu: "Александр Невский (фильм)" }),
+    Object.assign(f("wdq913426", "Ирония судьбы, или С лёгким паром!", "The Irony of Fate", 1976, "фильм", ["comedy", "irony"], ["The Irony of Fate", "Ирония судьбы, или С лёгким паром!"], "Ирония судьбы, или С лёгким паром!"), { wikiEn: "The Irony of Fate", wikiRu: "Ирония судьбы, или С лёгким паром!" }),
+    Object.assign(f("wdq733059", "Монгол", "Mongol", 2008, "фильм", ["crime", "slick-urban"], ["Mongol", "Монгол"], "Монгол"), { wikiEn: "Mongol (film)", wikiRu: "Монгол (фильм)" }),
+    Object.assign(f("wdq1130395", "Иди и смотри", "Come and See", 1997, "фильм", ["crime", "slick-urban"], ["Come and See", "Иди и смотри"], "Иди и смотри"), { wikiEn: "Come and See", wikiRu: "Иди и смотри" }),
+    Object.assign(f("wdq15972383", "Левиафан", "Leviathan", 2014, "фильм", ["war", "dark"], ["Leviathan", "Левиафан"], "Левиафан"), { wikiEn: "Leviathan (2014 film)", wikiRu: "Левиафан (фильм, 2014)" }),
+    Object.assign(f("wdq829250", "Человек с киноаппаратом", "Man with a Movie Camera", 1929, "фильм", ["comedy", "irony"], ["Man with a Movie Camera", "Человек с киноаппаратом"], "Человек с киноаппаратом"), { wikiEn: "Man with a Movie Camera", wikiRu: "Человек с киноаппаратом" }),
+    Object.assign(f("wdq662342", "К-19", "K-19: The Widowmaker", 2002, "фильм", ["space", "slow"], ["K-19: The Widowmaker", "К-19"], "К-19"), { wikiEn: "K-19: The Widowmaker", wikiRu: "К-19 (фильм)" }),
+    Object.assign(f("wdq1138968", "Ностальгия", "Nostalghia", 1987, "фильм", ["tempo", "dark"], ["Nostalghia", "Ностальгия"], "Ностальгия"), { wikiEn: "Nostalghia", wikiRu: "Ностальгия (фильм)" }),
+    Object.assign(f("wdq55188", "Земля", "Earth", 1930, "фильм", ["fantasy", "family"], ["Earth", "Земля"], "Земля"), { wikiEn: "Earth (1930 film)", wikiRu: "Земля (фильм, 1930)" }),
+    Object.assign(f("wdq714524", "Летят журавли", "The Cranes Are Flying", 1960, "фильм", ["fantasy", "family"], ["The Cranes Are Flying", "Летят журавли"], "Летят журавли"), { wikiEn: "The Cranes Are Flying", wikiRu: "Летят журавли" }),
+    Object.assign(f("wdq2306068", "Белое солнце пустыни", "White Sun of the Desert", 1970, "фильм", ["fantasy", "family"], ["White Sun of the Desert", "Белое солнце пустыни"], "Белое солнце пустыни"), { wikiEn: "White Sun of the Desert", wikiRu: "Белое солнце пустыни" }),
+    Object.assign(f("wdq1953944", "Кавказская пленница, или Новые приключения Шурика", "Kidnapping, Caucasian Style", 1967, "фильм", ["tempo", "dark"], ["Kidnapping, Caucasian Style", "Кавказская пленница, или Новые приключения Шурика"], "Кавказская пленница, или Новые приключения Шурика"), { wikiEn: "Kidnapping, Caucasian Style", wikiRu: "Кавказская пленница, или Новые приключения Шурика" }),
+    Object.assign(f("wdq385494", "Возвращение", "The Return", 2003, "фильм", ["space", "slow"], ["The Return", "Возвращение"], "Возвращение"), { wikiEn: "The Return (2003 film)", wikiRu: "Возвращение (фильм, 2003, Россия)" }),
+    Object.assign(f("wdq1130512", "9 рота", "The 9th Company", 2005, "фильм", ["tempo", "dark"], ["The 9th Company", "9 рота"], "9 рота"), { wikiEn: "9th Company", wikiRu: "9 рота (фильм)" }),
+    Object.assign(f("wdq2513681", "Операция «Ы» и другие приключения Шурика", "Operation Y and Other Shurik's Adventures", 1965, "фильм", ["family", "slow"], ["Operation Y and Other Shurik's Adventures", "Операция «Ы» и другие приключения Шурика"], "Операция «Ы» и другие приключения Шурика"), { wikiEn: "Operation Y and Shurik's Other Adventures", wikiRu: "Операция «Ы» и другие приключения Шурика" }),
+    Object.assign(f("wdq1305092", "Баллада о солдате", "Ballad of a Soldier", 1960, "фильм", ["fantasy", "family"], ["Ballad of a Soldier", "Баллада о солдате"], "Баллада о солдате"), { wikiEn: "Ballad of a Soldier", wikiRu: "Баллада о солдате" }),
+    Object.assign(f("wdq1156836", "Октябрь", "October: Ten Days That Shook the World", 1927, "фильм", ["fantasy", "family"], ["October: Ten Days That Shook the World", "Октябрь"], "Октябрь"), { wikiEn: "October: Ten Days That Shook the World", wikiRu: "Октябрь (фильм)" }),
+    Object.assign(f("wdq13806247", "№ 44", "Child 44", 2015, "фильм", ["war", "dark"], ["Child 44", "№ 44"], "№ 44"), { wikiEn: "Child 44 (film)", wikiRu: "Номер 44" }),
+    Object.assign(f("wdq1409627", "Тени забытых предков", "Shadows of Forgotten Ancestors", 1965, "фильм", ["crime", "slick-urban"], ["Shadows of Forgotten Ancestors", "Тени забытых предков"], "Тени забытых предков"), { wikiEn: "Shadows of Forgotten Ancestors", wikiRu: "Тени забытых предков" }),
+    Object.assign(f("wdq151177", "Стачка", "Strike", 1925, "фильм", ["family", "slow"], ["Strike", "Стачка"], "Стачка"), { wikiEn: "Strike (1925 film)", wikiRu: "Стачка (фильм)" }),
+    Object.assign(f("wdq464536", "Табор уходит в небо", "Queen of the Gypsies", 1992, "фильм", ["tempo", "dark"], ["Queen of the Gypsies", "Табор уходит в небо"], "Табор уходит в небо"), { wikiEn: "Gypsies Are Found Near Heaven", wikiRu: "Табор уходит в небо" }),
+    Object.assign(f("wdq2235380", "Цвет граната", "The Color of Pomegranates", 1969, "фильм", ["fantasy", "family"], ["The Color of Pomegranates", "Цвет граната"], "Цвет граната"), { wikiEn: "The Color of Pomegranates", wikiRu: "Цвет граната" }),
+    Object.assign(f("wdq2528155", "Служебный роман", "Office Romance", 1977, "фильм", ["crime", "slick-urban"], ["Office Romance", "Служебный роман"], "Служебный роман"), { wikiEn: "Office Romance", wikiRu: "Служебный роман" }),
+    Object.assign(f("wdq1192679", "Брат", "Brother", 1998, "фильм", ["war", "dark"], ["Brother", "Брат"], "Брат"), { wikiEn: "Brother (1997 film)", wikiRu: "Брат (фильм, 1997)" }),
+    Object.assign(f("wdq84147", "Анна Каренина", "Anna Karenina", 1997, "фильм", ["crime", "slick-urban"], ["Anna Karenina", "Анна Каренина"], "Анна Каренина"), { wikiEn: "Anna Karenina (1997 film)", wikiRu: "Анна Каренина (фильм, 1997)" }),
+    Object.assign(f("wdq625110", "Джентльмены удачи", "Gentlemen of Fortune", 1971, "фильм", ["space", "slow"], ["Gentlemen of Fortune", "Джентльмены удачи"], "Джентльмены удачи"), { wikiEn: "Gentlemen of Fortune", wikiRu: "Джентльмены удачи" }),
+    Object.assign(f("wdq552725", "Сталинград", "Stalingrad", 2013, "фильм", ["horror", "dark"], ["Stalingrad", "Сталинград"], "Сталинград"), { wikiEn: "Stalingrad (2013 film)", wikiRu: "Сталинград (фильм, 2013)" }),
+    Object.assign(f("wdq59721", "Русский ковчег", "Russian Ark", 2003, "фильм", ["family", "slow"], ["Russian Ark", "Русский ковчег"], "Русский ковчег"), { wikiEn: "Russian Ark", wikiRu: "Русский ковчег" }),
+    Object.assign(f("wdq16692754", "Битва за Севастополь", "Battle for Sevastopol", 2015, "фильм", ["comedy", "irony"], ["Battle for Sevastopol", "Битва за Севастополь"], "Битва за Севастополь"), { wikiEn: "Battle for Sevastopol", wikiRu: "Битва за Севастополь (фильм, 2015)" }),
+    Object.assign(f("wdq27049581", "Нелюбовь", "Loveless", 2018, "фильм", ["horror", "dark"], ["Loveless", "Нелюбовь"], "Нелюбовь"), { wikiEn: "Loveless (film)", wikiRu: "Нелюбовь (фильм, 2017)" }),
+    Object.assign(f("wdq714531", "А зори здесь тихие", "The Dawns Here Are Quiet", 1972, "фильм", ["crime", "slick-urban"], ["The Dawns Here Are Quiet", "А зори здесь тихие"], "А зори здесь тихие"), { wikiEn: "The Dawns Here Are Quiet (1972 film)", wikiRu: "А зори здесь тихие (фильм, 1972)" }),
+    Object.assign(f("wdq1415194", "Кин-дза-дза!", "Kin-dza-dza!", 1986, "фильм", ["comedy", "irony"], ["Kin-dza-dza!", "Кин-дза-дза!"], "Кин-дза-дза!"), { wikiEn: "Kin-dza-dza!", wikiRu: "Кин-дза-дза!" }),
+    Object.assign(f("wdq380803", "Аэлита", "Aelita", 1924, "фильм", ["crime", "slick-urban"], ["Aelita", "Аэлита"], "Аэлита"), { wikiEn: "Aelita (film)", wikiRu: "Аэлита (фильм)" }),
+    Object.assign(f("wdq2712854", "Подсолнухи", "Sunflower", 1970, "фильм", ["space", "slow"], ["Sunflower", "Подсолнухи"], "Подсолнухи"), { wikiEn: "Sunflower (1970 film)", wikiRu: "Подсолнухи (фильм)" }),
+    Object.assign(f("wdq20982361", "Хардкор", "Hardcore Henry", 2016, "фильм", ["family", "slow"], ["Hardcore Henry", "Хардкор"], "Хардкор"), { wikiEn: "Hardcore Henry", wikiRu: "Хардкор (фильм)" }),
+    Object.assign(f("wdq153593", "Чапаев", "Chapaev", 1935, "фильм", ["family", "slow"], ["Chapaev", "Чапаев"], "Чапаев"), { wikiEn: "Chapaev (film)", wikiRu: "Чапаев (фильм)" }),
+    Object.assign(f("wdq175014", "12", "12", 2007, "фильм", ["space", "slow"], ["12", "12"], "12"), { wikiEn: "12 (2007 film)", wikiRu: "12 (фильм)" }),
+    Object.assign(f("wdq1214957", "Мать", "Mother", 1926, "фильм", ["horror", "dark"], ["Mother", "Мать"], "Мать"), { wikiEn: "Mother (1926 film)", wikiRu: "Мать (фильм, 1926)" }),
+    Object.assign(f("wdq964657", "Фантом", "The Darkest Hour", 2011, "фильм", ["family", "slow"], ["The Darkest Hour", "Фантом"], "Фантом"), { wikiEn: "The Darkest Hour (film)", wikiRu: "Фантом (фильм, 2011)" }),
+    Object.assign(f("wdq1519753", "Мимино", "Mimino", 1977, "фильм", ["family", "slow"], ["Mimino", "Мимино"], "Мимино"), { wikiEn: "Mimino", wikiRu: "Мимино" }),
+    Object.assign(f("wdq1045388", "Ночной Дозор", "Night Watch", 2005, "фильм", ["fantasy", "family"], ["Night Watch", "Ночной Дозор"], "Ночной Дозор"), { wikiEn: "Night Watch (2004 film)", wikiRu: "Ночной Дозор (фильм, 2004)" }),
+    Object.assign(f("wdq1604818", "Ватерлоо", "Waterloo", 1971, "фильм", ["comedy", "irony"], ["Waterloo", "Ватерлоо"], "Ватерлоо"), { wikiEn: "Waterloo (1970 film)", wikiRu: "Ватерлоо (фильм)" }),
+    Object.assign(f("wdq1113702", "Остров", "The Island", 2006, "фильм", ["space", "slow"], ["The Island", "Остров"], "Остров"), { wikiEn: "The Island (2006 film)", wikiRu: "Остров (фильм, 2006)" }),
+    Object.assign(f("wdq1807931", "Потомок Чингисхана", "Storm over Asia", 1928, "фильм", ["crime", "slick-urban"], ["Storm over Asia", "Потомок Чингисхана"], "Потомок Чингисхана"), { wikiEn: "Storm over Asia (1928 film)", wikiRu: "Потомок Чингисхана" }),
+    Object.assign(f("wdq331405", "Вий", "Viy", 1970, "фильм", ["horror", "dark"], ["Viy", "Вий"], "Вий"), { wikiEn: "Viy (1967 film)", wikiRu: "Вий (фильм, 1967)" }),
+    Object.assign(f("wdq924756", "Полицейская академия 7: Миссия в Москве", "Police Academy: Mission to Moscow", 1994, "фильм", ["fantasy", "family"], ["Police Academy: Mission to Moscow", "Полицейская академия 7: Миссия в Москве"], "Полицейская академия 7: Миссия в Москве"), { wikiEn: "Police Academy: Mission to Moscow", wikiRu: "Полицейская академия 7: Миссия в Москве" }),
+    Object.assign(f("wdq358985", "Адмиралъ", "The Admiral", 2009, "фильм", ["family", "slow"], ["The Admiral", "Адмиралъ"], "Адмиралъ"), { wikiEn: "Admiral (2008 film)", wikiRu: "Адмиралъ" }),
+    Object.assign(f("wdq1528731", "Брат 2", "Brother 2", 2000, "фильм", ["crime", "slick-urban"], ["Brother 2", "Брат 2"], "Брат 2"), { wikiEn: "Brother 2", wikiRu: "Брат 2" }),
+    Object.assign(f("wdq2527730", "Я — Куба", "I Am Cuba", 1995, "фильм", ["comedy", "irony"], ["I Am Cuba", "Я — Куба"], "Я — Куба"), { wikiEn: "I Am Cuba", wikiRu: "Я — Куба" }),
+    Object.assign(f("wdq471628", "Сибирский цирюльник", "The Barber of Siberia", 2000, "фильм", ["fantasy", "family"], ["The Barber of Siberia", "Сибирский цирюльник"], "Сибирский цирюльник"), { wikiEn: "The Barber of Siberia", wikiRu: "Сибирский цирюльник" }),
+    Object.assign(f("wdq1125687", "Тегеран-43", "Teheran 43", 1983, "фильм", ["war", "dark"], ["Teheran 43", "Тегеран-43"], "Тегеран-43"), { wikiEn: "Teheran 43", wikiRu: "Тегеран-43" }),
+    Object.assign(f("wdq23871", "Брестская крепость", "The Brest Fortress", 2010, "фильм", ["war", "dark"], ["The Brest Fortress", "Брестская крепость"], "Брестская крепость"), { wikiEn: "Fortress of War", wikiRu: "Брестская крепость (фильм)" }),
+    Object.assign(f("wdq83487969", "Уроки фарси", "Persian Lessons", 2022, "фильм", ["family", "slow"], ["Persian Lessons", "Уроки фарси"], "Уроки фарси"), { wikiEn: "Persian Lessons", wikiRu: "Уроки фарси" }),
+    Object.assign(f("wdq104906978", "Дворец для Путина. История самой большой взятки", "Putin's Palace", 2021, "фильм", ["comedy", "irony"], ["Putin's Palace", "Дворец для Путина. История самой большой взятки"], "Дворец для Путина. История самой большой взятки"), { wikiEn: "Putin's Palace (film)", wikiRu: "Дворец для Путина. История самой большой взятки" }),
+    Object.assign(f("wdq185229", "Чёрная Молния", "Black Lightning", 2009, "фильм", ["horror", "dark"], ["Black Lightning", "Чёрная Молния"], "Чёрная Молния"), { wikiEn: "Black Lightning (2009 film)", wikiRu: "Чёрная молния (фильм, 2009)" }),
+    Object.assign(f("wdq760053", "Восхождение", "The Ascent", 1977, "фильм", ["horror", "dark"], ["The Ascent", "Восхождение"], "Восхождение"), { wikiEn: "The Ascent (1977 film)", wikiRu: "Восхождение (фильм, 1976)" }),
+    Object.assign(f("wdq244999", "Я шагаю по Москве", "Walking the Streets of Moscow", 1964, "фильм", ["war", "dark"], ["Walking the Streets of Moscow", "Я шагаю по Москве"], "Я шагаю по Москве"), { wikiEn: "Walking the Streets of Moscow", wikiRu: "Я шагаю по Москве" }),
+    Object.assign(f("wdq1304993", "Судьба человека", "Destiny of a Man", 1959, "фильм", ["family", "slow"], ["Destiny of a Man", "Судьба человека"], "Судьба человека"), { wikiEn: "Fate of a Man (film)", wikiRu: "Судьба человека (фильм)" }),
+    Object.assign(f("wdq2587854", "Падение Берлина", "The Fall of Berlin", 1950, "фильм", ["space", "slow"], ["The Fall of Berlin", "Падение Берлина"], "Падение Берлина"), { wikiEn: "The Fall of Berlin (film)", wikiRu: "Падение Берлина" }),
+    Object.assign(f("wdq2622313", "Волга-Волга", "Volga-Volga", 1938, "фильм", ["family", "slow"], ["Volga-Volga", "Волга-Волга"], "Волга-Волга"), { wikiEn: "Volga-Volga", wikiRu: "Волга-Волга" }),
+    Object.assign(f("wdq2386718", "Оборона Севастополя", "Defence of Sevastopol", 1911, "фильм", ["space", "slow"], ["Defence of Sevastopol", "Оборона Севастополя"], "Оборона Севастополя"), { wikiEn: "Defence of Sevastopol", wikiRu: "Оборона Севастополя (фильм)" }),
+    Object.assign(f("wdq2576334", "Маленькая Вера", "Little Vera", 1990, "фильм", ["space", "slow"], ["Little Vera", "Маленькая Вера"], "Маленькая Вера"), { wikiEn: "Little Vera", wikiRu: "Маленькая Вера" }),
+    Object.assign(f("wdq2368678", "Карнавальная ночь", "Carnival Night", 1956, "фильм", ["space", "slow"], ["Carnival Night", "Карнавальная ночь"], "Карнавальная ночь"), { wikiEn: "Carnival Night", wikiRu: "Карнавальная ночь" }),
+    Object.assign(f("wdq1635046", "Белый Бим Чёрное ухо", "White Bim Black Ear", 1978, "фильм", ["space", "slow"], ["White Bim Black Ear", "Белый Бим Чёрное ухо"], "Белый Бим Чёрное ухо"), { wikiEn: "White Bim Black Ear", wikiRu: "Белый Бим Чёрное ухо (фильм)" }),
+    Object.assign(f("wdq1169942", "Урга — территория любви", "Close to Eden", 1991, "фильм", ["space", "slow"], ["Close to Eden", "Урга — территория любви"], "Урга — территория любви"), { wikiEn: "Close to Eden", wikiRu: "Урга — территория любви" }),
+    Object.assign(f("wdq24515019", "Притяжение", "Attraction", 2017, "фильм", ["crime", "slick-urban"], ["Attraction", "Притяжение"], "Притяжение"), { wikiEn: "Attraction (2017 film)", wikiRu: "Притяжение (фильм, 2017)" }),
+    Object.assign(f("wdq2368378", "Мио, мой Мио", "Mio in the Land of Faraway", 2002, "фильм", ["comedy", "irony"], ["Mio in the Land of Faraway", "Мио, мой Мио"], "Мио, мой Мио"), { wikiEn: "Mio in the Land of Faraway", wikiRu: "Мио, мой Мио (фильм)" }),
+    Object.assign(f("wdq1634319", "Чайковский", "Tchaikovsky", 1970, "фильм", ["war", "dark"], ["Tchaikovsky", "Чайковский"], "Чайковский"), { wikiEn: "Tchaikovsky (film)", wikiRu: "Чайковский (фильм)" }),
+    Object.assign(f("wdq2990368", "Белый тигр", "White Tiger", 2012, "фильм", ["tempo", "dark"], ["White Tiger", "Белый тигр"], "Белый тигр"), { wikiEn: "White Tiger (2012 film)", wikiRu: "Белый тигр (фильм, 2012)" }),
+    Object.assign(f("wdq655133", "Остров сокровищ", "Treasure Island", 1989, "фильм", ["horror", "dark"], ["Treasure Island", "Остров сокровищ"], "Остров сокровищ"), { wikiEn: "Treasure Island (1988 film)", wikiRu: "Остров сокровищ (мультфильм, 1988)" }),
+    Object.assign(f("wdq2198716", "Конец Санкт-Петербурга", "The End of St. Petersburg", 1927, "фильм", ["fantasy", "family"], ["The End of St. Petersburg", "Конец Санкт-Петербурга"], "Конец Санкт-Петербурга"), { wikiEn: "The End of St. Petersburg", wikiRu: "Конец Санкт-Петербурга" }),
+    Object.assign(f("wdq43295469", "Майор Гром: Чумной Доктор", "Major Grom: Plague Doctor", 2021, "фильм", ["horror", "dark"], ["Major Grom: Plague Doctor", "Майор Гром: Чумной Доктор"], "Майор Гром: Чумной Доктор"), { wikiEn: "Major Grom: Plague Doctor", wikiRu: "Майор Гром: Чумной Доктор" }),
+    Object.assign(f("wdq74568", "Садко", "Sadko", 1953, "фильм", ["tempo", "dark"], ["Sadko", "Садко"], "Садко"), { wikiEn: "Sadko (film)", wikiRu: "Садко (фильм)" }),
+    Object.assign(f("wdq1272202", "Берегись автомобиля", "Beware of the Car", 1966, "фильм", ["comedy", "irony"], ["Beware of the Car", "Берегись автомобиля"], "Берегись автомобиля"), { wikiEn: "Beware of the Car", wikiRu: "Берегись автомобиля" }),
+    Object.assign(f("wdq1330689", "Калина красная", "The Red Snowball Tree", 1974, "фильм", ["family", "slow"], ["The Red Snowball Tree", "Калина красная"], "Калина красная"), { wikiEn: "The Red Snowball Tree", wikiRu: "Калина красная (фильм)" }),
+    Object.assign(f("wdq940081", "Невероятные приключения итальянцев в России", "Unbelievable Adventures of Italians in Russia", 1974, "фильм", ["family", "slow"], ["Unbelievable Adventures of Italians in Russia", "Невероятные приключения итальянцев в России"], "Невероятные приключения итальянцев в России"), { wikiEn: "Unbelievable Adventures of Italians in Russia", wikiRu: "Невероятные приключения итальянцев в России" }),
+    Object.assign(f("wdq387140", "Кукушка", "The Cuckoo", 2005, "фильм", ["fantasy", "family"], ["The Cuckoo", "Кукушка"], "Кукушка"), { wikiEn: "The Cuckoo (film)", wikiRu: "Кукушка (фильм)" }),
+    Object.assign(f("wdq2018550", "Ашик-Кериб", "Ashik Kerib", 1988, "фильм", ["space", "slow"], ["Ashik Kerib", "Ашик-Кериб"], "Ашик-Кериб"), { wikiEn: "Ashik Kerib (film)", wikiRu: "Ашик-Кериб (фильм)" }),
+    Object.assign(f("wdq1211800", "Братья Карамазовы", "The Brothers Karamazov", 1969, "фильм", ["tempo", "dark"], ["The Brothers Karamazov", "Братья Карамазовы"], "Братья Карамазовы"), { wikiEn: "The Brothers Karamazov (1969 film)", wikiRu: "Братья Карамазовы (фильм, 1968)" }),
+    Object.assign(f("wdq1192171", "Человек-амфибия", "Amphibian Man", 1962, "фильм", ["crime", "slick-urban"], ["Amphibian Man", "Человек-амфибия"], "Человек-амфибия"), { wikiEn: "Amphibian Man (film)", wikiRu: "Человек-амфибия (фильм)" }),
+    Object.assign(f("wdq535081", "Последнее воскресение", "The Last Station", 2010, "фильм", ["family", "slow"], ["The Last Station", "Последнее воскресение"], "Последнее воскресение"), { wikiEn: "The Last Station", wikiRu: "Последнее воскресение" }),
+    Object.assign(f("wdq541354", "Фауст (фильм, 2011)", "Faust (2011 film)", 2012, "фильм", ["comedy", "irony"], ["Faust (2011 film)", "Фауст (фильм, 2011)"], "Фауст (фильм, 2011)"), { wikiEn: "Faust (2011 film)", wikiRu: "Фауст (фильм, 2011)" }),
+    Object.assign(f("wdq2370671", "Они сражались за Родину", "They Fought for Their Country", 1975, "фильм", ["war", "dark"], ["They Fought for Their Country", "Они сражались за Родину"], "Они сражались за Родину"), { wikiEn: "They Fought for Their Country", wikiRu: "Они сражались за Родину (фильм)" }),
+    Object.assign(f("wdq2371262", "12 стульев", "The Twelve Chairs", 1971, "фильм", ["space", "slow"], ["The Twelve Chairs", "12 стульев"], "12 стульев"), { wikiEn: "The Twelve Chairs (1971 film)", wikiRu: "12 стульев (фильм, 1971)" }),
+    Object.assign(f("wdq25397044", "Довлатов", "Dovlatov", 2018, "фильм", ["fantasy", "family"], ["Dovlatov", "Довлатов"], "Довлатов"), { wikiEn: "Dovlatov (film)", wikiRu: "Довлатов (фильм)" }),
+    Object.assign(f("wdq19742713", "Защитники", "Guardians", 2017, "фильм", ["family", "slow"], ["Guardians", "Защитники"], "Защитники"), { wikiEn: "Guardians (2017 film)", wikiRu: "Защитники (фильм)" }),
+    Object.assign(f("wdq108528962", "Вызов", "The Challenge", 2023, "фильм", ["comedy", "irony"], ["The Challenge", "Вызов"], "Вызов"), { wikiEn: "The Challenge (2023 film)", wikiRu: "Вызов (фильм, 2023)" }),
+    Object.assign(f("wdq764734", "Кавказский пленник", "Prisoner of the Mountains", 1998, "фильм", ["space", "slow"], ["Prisoner of the Mountains", "Кавказский пленник"], "Кавказский пленник"), { wikiEn: "Prisoner of the Mountains", wikiRu: "Кавказский пленник (фильм, 1996)" }),
+    Object.assign(f("wdq195576", "1612", "1612", 2007, "фильм", ["tempo", "dark"], ["1612", "1612"], "1612"), { wikiEn: "1612 (film)", wikiRu: "1612 (фильм)" }),
+    Object.assign(f("wdq319163", "Морозко", "Jack Frost", 1965, "фильм", ["crime", "slick-urban"], ["Jack Frost", "Морозко"], "Морозко"), { wikiEn: "Jack Frost (1964 film)", wikiRu: "Морозко (фильм, 1964)" }),
+    Object.assign(f("wdq848825", "Осенний марафон", "Autumn Marathon", 1979, "фильм", ["family", "slow"], ["Autumn Marathon", "Осенний марафон"], "Осенний марафон"), { wikiEn: "Autumn Marathon", wikiRu: "Осенний марафон" }),
+    Object.assign(f("wdq1304344", "Неотправленное письмо", "Letter Never Sent", 1960, "фильм", ["tempo", "dark"], ["Letter Never Sent", "Неотправленное письмо"], "Неотправленное письмо"), { wikiEn: "Letter Never Sent (film)", wikiRu: "Неотправленное письмо" }),
+    Object.assign(f("wdq960920", "Потоп", "The Deluge", 1974, "фильм", ["tempo", "dark"], ["The Deluge", "Потоп"], "Потоп"), { wikiEn: "The Deluge (film)", wikiRu: "Потоп (фильм, 1974)" }),
+    Object.assign(f("wdq400123", "Жестокий романс", "A Cruel Romance", 1985, "фильм", ["crime", "slick-urban"], ["A Cruel Romance", "Жестокий романс"], "Жестокий романс"), { wikiEn: "A Cruel Romance", wikiRu: "Жестокий романс (фильм)" }),
+    Object.assign(f("wdq529053", "Дневной Дозор", "Day Watch", 2007, "фильм", ["horror", "dark"], ["Day Watch", "Дневной Дозор"], "Дневной Дозор"), { wikiEn: "Day Watch (film)", wikiRu: "Дневной Дозор (фильм)" }),
+    Object.assign(f("wdq1755424", "Очи чёрные", "Dark Eyes", 1991, "фильм", ["tempo", "dark"], ["Dark Eyes", "Очи чёрные"], "Очи чёрные"), { wikiEn: "Dark Eyes (1987 film)", wikiRu: "Очи чёрные (фильм)" }),
+    Object.assign(f("wdq1198394", "Синяя птица", "The Blue Bird", 1978, "фильм", ["comedy", "irony"], ["The Blue Bird", "Синяя птица"], "Синяя птица"), { wikiEn: "The Blue Bird (1976 film)", wikiRu: "Синяя птица (фильм, 1976)" }),
+    Object.assign(f("wdq2714901", "Красная палатка", "The Red Tent", 1972, "фильм", ["horror", "dark"], ["The Red Tent", "Красная палатка"], "Красная палатка"), { wikiEn: "The Red Tent (film)", wikiRu: "Красная палатка (фильм)" }),
+    Object.assign(f("wdq20968495", "Викинг", "Viking", 2017, "фильм", ["war", "dark"], ["Viking", "Викинг"], "Викинг"), { wikiEn: "Viking (2016 film)", wikiRu: "Викинг (фильм, 2016)" }),
+    Object.assign(f("wdq30611842", "Салют-7", "Salyut 7", 2017, "фильм", ["comedy", "irony"], ["Salyut 7", "Салют-7"], "Салют-7"), { wikiEn: "Salyut 7 (film)", wikiRu: "Салют-7 (фильм)" }),
+    Object.assign(f("wdq39293164", "Т-34", "T-34", 2019, "фильм", ["fantasy", "family"], ["T-34", "Т-34"], "Т-34"), { wikiEn: "T-34 (film)", wikiRu: "Т-34 (фильм)" }),
+    Object.assign(f("wdq1415082", "Интердевочка", "Intergirl", 1991, "фильм", ["comedy", "irony"], ["Intergirl", "Интердевочка"], "Интердевочка"), { wikiEn: "Intergirl", wikiRu: "Интердевочка (фильм)" }),
+    Object.assign(f("wdq1965523", "Вокзал для двоих", "Station for Two", 1987, "фильм", ["crime", "slick-urban"], ["Station for Two", "Вокзал для двоих"], "Вокзал для двоих"), { wikiEn: "Station for Two", wikiRu: "Вокзал для двоих" }),
+    Object.assign(f("wdq383581", "Восток-Запад", "East/West", 1999, "фильм", ["horror", "dark"], ["East/West", "Восток-Запад"], "Восток-Запад"), { wikiEn: "East/West", wikiRu: "Восток-Запад" }),
+    Object.assign(f("wdq1764277", "Тарас Бульба", "Taras Bulba", 2009, "фильм", ["horror", "dark"], ["Taras Bulba", "Тарас Бульба"], "Тарас Бульба"), { wikiEn: "Taras Bulba (2009 film)", wikiRu: "Тарас Бульба (фильм, 2009)" }),
+    Object.assign(f("wdq2995252", "Царь", "Tsar", 2009, "фильм", ["fantasy", "family"], ["Tsar", "Царь"], "Царь"), { wikiEn: "Tsar (film)", wikiRu: "Царь (фильм)" }),
+    Object.assign(f("wdq2996571", "Легенда о Сурамской крепости", "The Legend of Suram Fortress", 1985, "фильм", ["crime", "slick-urban"], ["The Legend of Suram Fortress", "Легенда о Сурамской крепости"], "Легенда о Сурамской крепости"), { wikiEn: "The Legend of Suram Fortress", wikiRu: "Легенда о Сурамской крепости (фильм)" }),
+    Object.assign(f("wdq2481391", "Гамлет", "Hamlet", 1964, "фильм", ["war", "dark"], ["Hamlet", "Гамлет"], "Гамлет"), { wikiEn: "Hamlet (1964 film)", wikiRu: "Гамлет (фильм, 1964)" }),
+    Object.assign(f("wdq12008230", "Легенда № 17", "Legenda No. 17", 2013, "фильм", ["space", "slow"], ["Legenda No. 17", "Легенда № 17"], "Легенда № 17"), { wikiEn: "Legend No. 17", wikiRu: "Легенда № 17" }),
+    Object.assign(f("wdq4204793", "Трудно быть богом", "Hard to Be a God", 2015, "фильм", ["family", "slow"], ["Hard to Be a God", "Трудно быть богом"], "Трудно быть богом"), { wikiEn: "Hard to Be a God (2013 film)", wikiRu: "Трудно быть богом (фильм, 2013)" }),
+    Object.assign(f("wdq21637453", "Время первых", "First Time", 2017, "фильм", ["horror", "dark"], ["First Time", "Время первых"], "Время первых"), { wikiEn: "The Age of Pioneers", wikiRu: "Время первых" }),
+    Object.assign(f("wdq80849200", "Калашников", "AK-47", 2020, "фильм", ["tempo", "dark"], ["AK-47", "Калашников"], "Калашников"), { wikiEn: "AK-47 (2020 film)", wikiRu: "Калашников (фильм)" }),
+    Object.assign(f("wdq188384", "Орландо", "Orlando", 2025, "фильм", ["tempo", "dark"], ["Orlando", "Орландо"], "Орландо"), { wikiEn: "Orlando (film)", wikiRu: "Орландо (фильм)" }),
+    Object.assign(f("wdq782262", "Сибириада", "Siberiade", 1979, "фильм", ["space", "slow"], ["Siberiade", "Сибириада"], "Сибириада"), { wikiEn: "Siberiade", wikiRu: "Сибириада" }),
+    Object.assign(f("wdq339467", "Снежная королева", "The Snow Queen", 2015, "фильм", ["crime", "slick-urban"], ["The Snow Queen", "Снежная королева"], "Снежная королева"), { wikiEn: "The Snow Queen (2012 film)", wikiRu: "Снежная королева (мультфильм, 2012)" }),
+    Object.assign(f("wdq914190", "Письма мёртвого человека", "Dead Man's Letters", 1987, "фильм", ["space", "slow"], ["Dead Man's Letters", "Письма мёртвого человека"], "Письма мёртвого человека"), { wikiEn: "Dead Man's Letters", wikiRu: "Письма мёртвого человека" }),
+    Object.assign(f("wdq1428430", "Земля против летающих тарелок", "Earth vs. the Flying Saucers", 1956, "фильм", ["space", "slow"], ["Earth vs. the Flying Saucers", "Земля против летающих тарелок"], "Земля против летающих тарелок"), { wikiEn: "Earth vs. the Flying Saucers", wikiRu: "Земля против летающих тарелок" }),
+    Object.assign(f("wdq1964744", "Звенигора", "Zvenigora", 1928, "фильм", ["tempo", "dark"], ["Zvenigora", "Звенигора"], "Звенигора"), { wikiEn: "Zvenigora", wikiRu: "Звенигора" }),
+    Object.assign(f("wdq1004801", "Бумер", "Bumer", 2003, "фильм", ["family", "slow"], ["Bumer", "Бумер"], "Бумер"), { wikiEn: "Bimmer (film)", wikiRu: "Бумер (фильм)" }),
+    Object.assign(f("wdq1059786", "Игла", "Needle", 1988, "фильм", ["comedy", "irony"], ["Needle", "Игла"], "Игла"), { wikiEn: "The Needle (1988 film)", wikiRu: "Игла (фильм)" }),
+    Object.assign(f("wdq518901", "Дон Кихот", "Don Quixote", 1957, "фильм", ["horror", "dark"], ["Don Quixote", "Дон Кихот"], "Дон Кихот"), { wikiEn: "Don Quixote (1957 film)", wikiRu: "Дон Кихот (фильм, 1957)" }),
+    Object.assign(f("wdq1678442", "Вор", "The Thief", 1999, "фильм", ["comedy", "irony"], ["The Thief", "Вор"], "Вор"), { wikiEn: "The Thief (1997 film)", wikiRu: "Вор (фильм, 1997)" }),
+    Object.assign(f("wdq1775194", "Десять негритят", "Desyat Negrityat", 1987, "фильм", ["comedy", "irony"], ["Desyat Negrityat", "Десять негритят"], "Десять негритят"), { wikiEn: "Desyat Negrityat", wikiRu: "Десять негритят (фильм, 1987)" }),
+    Object.assign(f("wdq1877764", "Весёлые ребята (фильм)", "Jolly Fellows", 1934, "фильм", ["fantasy", "family"], ["Jolly Fellows", "Весёлые ребята (фильм)"], "Весёлые ребята (фильм)"), { wikiEn: "Jolly Fellows", wikiRu: "Весёлые ребята (фильм)" }),
+    Object.assign(f("wdq2196619", "Груз 200", "Cargo 200", 2007, "фильм", ["crime", "slick-urban"], ["Cargo 200", "Груз 200"], "Груз 200"), { wikiEn: "Cargo 200 (film)", wikiRu: "Груз 200 (фильм)" }),
+    Object.assign(f("wdq3270392", "Ленин в Октябре", "Lenin in October", 1937, "фильм", ["tempo", "dark"], ["Lenin in October", "Ленин в Октябре"], "Ленин в Октябре"), { wikiEn: "Lenin in October", wikiRu: "Ленин в Октябре" }),
+    Object.assign(f("wdq16514509", "Двадцать восемь панфиловцев", "Panfilov's 28 Men", 2016, "фильм", ["horror", "dark"], ["Panfilov's 28 Men", "Двадцать восемь панфиловцев"], "Двадцать восемь панфиловцев"), { wikiEn: "Panfilov's 28 Men", wikiRu: "Двадцать восемь панфиловцев (фильм)" }),
+    Object.assign(f("wdq26198150", "Рай", "Paradise", 2017, "фильм", ["space", "slow"], ["Paradise", "Рай"], "Рай"), { wikiEn: "Paradise (2016 film)", wikiRu: "Рай (фильм, 2016)" }),
+    Object.assign(f("wdq85859809", "Дорогие товарищи", "Dear Comrades", 2020, "фильм", ["family", "slow"], ["Dear Comrades", "Дорогие товарищи"], "Дорогие товарищи"), { wikiEn: "Dear Comrades!", wikiRu: "Дорогие товарищи!" }),
+    Object.assign(f("wdq780428", "Приключения Али-Бабы и сорока разбойников", "Alibaba Aur 40 Chor", 1980, "фильм", ["fantasy", "family"], ["Alibaba Aur 40 Chor", "Приключения Али-Бабы и сорока разбойников"], "Приключения Али-Бабы и сорока разбойников"), { wikiEn: "Adventures of Ali-Baba and the Forty Thieves (film)", wikiRu: "Приключения Али-Бабы и сорока разбойников" }),
+    Object.assign(f("wdq339708", "Дама с собачкой", "The Lady with the Dog", 1960, "фильм", ["fantasy", "family"], ["The Lady with the Dog", "Дама с собачкой"], "Дама с собачкой"), { wikiEn: "The Lady with the Dog (film)", wikiRu: "Дама с собачкой (фильм)" }),
+    Object.assign(f("wdq1409466", "Последняя реликвия", "The Last Relic", 2002, "фильм", ["comedy", "irony"], ["The Last Relic", "Последняя реликвия"], "Последняя реликвия"), { wikiEn: "Viimne reliikvia", wikiRu: "Последняя реликвия" }),
+    Object.assign(f("wdq1967124", "Путёвка в жизнь", "Road to Life", 1931, "фильм", ["fantasy", "family"], ["Road to Life", "Путёвка в жизнь"], "Путёвка в жизнь"), { wikiEn: "Road to Life (1931 film)", wikiRu: "Путёвка в жизнь" }),
+    Object.assign(f("wdq1530651", "Девять дней одного года", "Nine Days in One Year", 1962, "фильм", ["crime", "slick-urban"], ["Nine Days in One Year", "Девять дней одного года"], "Девять дней одного года"), { wikiEn: "Nine Days in One Year", wikiRu: "Девять дней одного года" }),
+    Object.assign(f("wdq1976863", "Цирк", "Circus", 1936, "фильм", ["war", "dark"], ["Circus", "Цирк"], "Цирк"), { wikiEn: "Circus (1936 film)", wikiRu: "Цирк (фильм, 1936)" }),
+    Object.assign(f("wdq1977969", "Третья Мещанская", "Bed and Sofa", 1927, "фильм", ["family", "slow"], ["Bed and Sofa", "Третья Мещанская"], "Третья Мещанская"), { wikiEn: "Bed and Sofa", wikiRu: "Третья Мещанская" }),
+    Object.assign(f("wdq1626585", "В бой идут одни «старики»", "Only \"Old Men\" Are Going Into Battle", 1973, "фильм", ["family", "slow"], ["Only \"Old Men\" Are Going Into Battle", "В бой идут одни «старики»"], "В бой идут одни «старики»"), { wikiEn: "Only \"Old Men\" Are Going Into Battle", wikiRu: "В бой идут одни «старики»" }),
+    Object.assign(f("wdq1112886", "Поручик Киже", "Lieutenant Kijé", 1934, "фильм", ["space", "slow"], ["Lieutenant Kijé", "Поручик Киже"], "Поручик Киже"), { wikiEn: "Lieutenant Kijé (film)", wikiRu: "Поручик Киже (фильм)" }),
+    Object.assign(f("wdq1658610", "Илья Муромец", "Ilya Muromets", 1956, "фильм", ["comedy", "irony"], ["Ilya Muromets", "Илья Муромец"], "Илья Муромец"), { wikiEn: "Ilya Muromets (film)", wikiRu: "Илья Муромец (фильм)" }),
+    Object.assign(f("wdq620231", "Золушка", "Cinderella", 1947, "фильм", ["war", "dark"], ["Cinderella", "Золушка"], "Золушка"), { wikiEn: "Cinderella (1947 film)", wikiRu: "Золушка (фильм, 1947)" }),
+    Object.assign(f("wdq1858285", "Разгром немецких войск под Москвой", "Moscow Strikes Back", 1942, "фильм", ["horror", "dark"], ["Moscow Strikes Back", "Разгром немецких войск под Москвой"], "Разгром немецких войск под Москвой"), { wikiEn: "Moscow Strikes Back", wikiRu: "Разгром немецких войск под Москвой" }),
+    Object.assign(f("wdq2471725", "Ленин в 1918 году", "Lenin in 1918", 1939, "фильм", ["horror", "dark"], ["Lenin in 1918", "Ленин в 1918 году"], "Ленин в 1918 году"), { wikiEn: "Lenin in 1918", wikiRu: "Ленин в 1918 году" }),
+    Object.assign(f("wdq2493669", "Звезда", "The Star", 2002, "фильм", ["horror", "dark"], ["The Star", "Звезда"], "Звезда"), { wikiEn: "The Star (2002 film)", wikiRu: "Звезда (фильм, 2002)" }),
+    Object.assign(f("wdq4110928", "Вий", "Viy", 2014, "фильм", ["tempo", "dark"], ["Viy", "Вий"], "Вий"), { wikiEn: "Viy (2014 film)", wikiRu: "Вий (фильм, 2014)" }),
+    Object.assign(f("wdq45740018", "Балканский рубеж", "The Balkan Line", 2020, "фильм", ["comedy", "irony"], ["The Balkan Line", "Балканский рубеж"], "Балканский рубеж"), { wikiEn: "The Balkan Line", wikiRu: "Балканский рубеж" }),
+    Object.assign(f("wdq48416710", "Лето", "Summertime", 2018, "фильм", ["space", "slow"], ["Summertime", "Лето"], "Лето"), { wikiEn: "Leto (film)", wikiRu: "Лето (фильм, 2018)" }),
+    Object.assign(f("wdq18758193", "Экипаж", "Flight Crew", 2016, "фильм", ["family", "slow"], ["Flight Crew", "Экипаж"], "Экипаж"), { wikiEn: "Flight Crew (film)", wikiRu: "Экипаж (фильм, 2016)" }),
+    Object.assign(f("wdq107092356", "Купе номер шесть", "Compartment No. 6", 2022, "фильм", ["fantasy", "family"], ["Compartment No. 6", "Купе номер шесть"], "Купе номер шесть"), { wikiEn: "Compartment No. 6", wikiRu: "Купе номер шесть" }),
+    Object.assign(f("wdq738399", "Асса (фильм)", "Assa", 1987, "фильм", ["war", "dark"], ["Assa", "Асса (фильм)"], "Асса (фильм)"), { wikiEn: "Assa (film)", wikiRu: "Асса (фильм)" }),
+    Object.assign(f("wdq1213999", "Комиссар", "Commissar", 1988, "фильм", ["war", "dark"], ["Commissar", "Комиссар"], "Комиссар"), { wikiEn: "Commissar (film)", wikiRu: "Комиссар (фильм)" }),
+    Object.assign(f("wdq678643", "Елена", "Elena", 2011, "фильм", ["crime", "slick-urban"], ["Elena", "Елена"], "Елена"), { wikiEn: "Elena (2011 film)", wikiRu: "Елена (фильм, 2011)" }),
+    Object.assign(f("wdq769599", "Утомлённые солнцем 2: Предстояние", "Burnt by the Sun 2：Escape", 2010, "фильм", ["war", "dark"], ["Burnt by the Sun 2：Escape", "Утомлённые солнцем 2: Предстояние"], "Утомлённые солнцем 2: Предстояние"), { wikiEn: "Burnt by the Sun 2", wikiRu: "Утомлённые солнцем 2: Предстояние" }),
+    Object.assign(f("wdq771011", "Анна Каренина", "Anna Karenina", 1914, "фильм", ["crime", "slick-urban"], ["Anna Karenina", "Анна Каренина"], "Анна Каренина"), { wikiEn: "Anna Karenina (1914 film)", wikiRu: "Анна Каренина (фильм, 1914)" }),
+    Object.assign(f("wdq873313", "Звёзды и солдаты", "The Red and the White", 1968, "фильм", ["family", "slow"], ["The Red and the White", "Звёзды и солдаты"], "Звёзды и солдаты"), { wikiEn: "The Red and the White", wikiRu: "Звёзды и солдаты" }),
+    Object.assign(f("wdq2369228", "Аэроград", "Aerograd", 1935, "фильм", ["fantasy", "family"], ["Aerograd", "Аэроград"], "Аэроград"), { wikiEn: "Aerograd", wikiRu: "Аэроград" }),
+    Object.assign(f("wdq378969", "Старики-разбойники", "Grandads-Robbers", 1972, "фильм", ["family", "slow"], ["Grandads-Robbers", "Старики-разбойники"], "Старики-разбойники"), { wikiEn: "Grandads-Robbers", wikiRu: "Старики-разбойники" }),
+    Object.assign(f("wdq1634714", "Большая семья", "A Big Family", 1954, "фильм", ["comedy", "irony"], ["A Big Family", "Большая семья"], "Большая семья"), { wikiEn: "A Big Family", wikiRu: "Большая семья" }),
+    Object.assign(f("wdq2011345", "Отец Сергий", "Father Sergius", 1918, "фильм", ["family", "slow"], ["Father Sergius", "Отец Сергий"], "Отец Сергий"), { wikiEn: "Father Sergius (1918 film)", wikiRu: "Отец Сергий (фильм, 1918)" }),
+    Object.assign(f("wdq2529345", "Да здравствует Мексика!", "¡Que viva México!", 1978, "фильм", ["family", "slow"], ["¡Que viva México!", "Да здравствует Мексика!"], "Да здравствует Мексика!"), { wikiEn: "¡Que viva México! (unfinished film)", wikiRu: "Да здравствует Мексика!" }),
+    Object.assign(f("wdq512070", "Изгнание", "The Banishment", 2007, "фильм", ["space", "slow"], ["The Banishment", "Изгнание"], "Изгнание"), { wikiEn: "The Banishment", wikiRu: "Изгнание (фильм)" }),
+    Object.assign(f("wdq2046724", "Слуга государев", "The Sovereign's Servant", 2007, "фильм", ["fantasy", "family"], ["The Sovereign's Servant", "Слуга государев"], "Слуга государев"), { wikiEn: "The Sovereign's Servant", wikiRu: "Слуга государев" }),
+    Object.assign(f("wdq2117834", "Ленин в Польше", "Lenin in Poland", 1966, "фильм", ["comedy", "irony"], ["Lenin in Poland", "Ленин в Польше"], "Ленин в Польше"), { wikiEn: "Lenin in Poland", wikiRu: "Ленин в Польше" }),
+    Object.assign(f("wdq2634496", "Битва за Москву", "Battle of Moscow", 1985, "фильм", ["tempo", "dark"], ["Battle of Moscow", "Битва за Москву"], "Битва за Москву"), { wikiEn: "Battle of Moscow (film)", wikiRu: "Битва за Москву (киноэпопея)" }),
+    Object.assign(f("wdq1169399", "Концерт", "Le Concert", 2010, "фильм", ["war", "dark"], ["Le Concert", "Концерт"], "Концерт"), { wikiEn: "Le Concert", wikiRu: "Концерт (фильм, 2009)" }),
+    Object.assign(f("wdq1786295", "Край", "The Edge", 2010, "фильм", ["war", "dark"], ["The Edge", "Край"], "Край"), { wikiEn: "The Edge (2010 film)", wikiRu: "Край (фильм)" }),
+    Object.assign(f("wdq2250645", "Отелло", "Othello", 1956, "фильм", ["horror", "dark"], ["Othello", "Отелло"], "Отелло"), { wikiEn: "Othello (1955 film)", wikiRu: "Отелло (фильм, 1955)" }),
+    Object.assign(f("wdq2379008", "Древо желания", "The Wishing Tree", 1976, "фильм", ["tempo", "dark"], ["The Wishing Tree", "Древо желания"], "Древо желания"), { wikiEn: "The Wishing Tree (1976 film)", wikiRu: "Древо желания" }),
+    Object.assign(f("wdq2399153", "Ёлки", "Yolki", 2011, "фильм", ["family", "slow"], ["Yolki", "Ёлки"], "Ёлки"), { wikiEn: "Yolki", wikiRu: "Ёлки (фильм)" }),
+    Object.assign(f("wdq2445353", "Сорок первый", "The Forty-First", 1956, "фильм", ["family", "slow"], ["The Forty-First", "Сорок первый"], "Сорок первый"), { wikiEn: "The Forty-First (1956 film)", wikiRu: "Сорок первый (фильм, 1956)" }),
+    Object.assign(f("wdq2664157", "Необычайные приключения мистера Веста в стране большевиков", "The Extraordinary Adventures of Mr. West in the Land of the Bolsheviks", 1924, "фильм", ["horror", "dark"], ["The Extraordinary Adventures of Mr. West in the Land of the Bolsheviks", "Необычайные приключения мистера Веста в стране большевиков"], "Необычайные приключения мистера Веста в стране большевиков"), { wikiEn: "The Extraordinary Adventures of Mr. West in the Land of the Bolsheviks", wikiRu: "Необычайные приключения мистера Веста в стране большевиков" }),
+    Object.assign(f("wdq3739484", "Приключения Буратино", "The Adventures of Buratino", 1975, "фильм", ["fantasy", "family"], ["The Adventures of Buratino", "Приключения Буратино"], "Приключения Буратино"), { wikiEn: "The Adventures of Buratino (1975 film)", wikiRu: "Приключения Буратино (фильм)" }),
+    Object.assign(f("wdq3225870", "Первый учитель", "The First Teacher", 1966, "фильм", ["space", "slow"], ["The First Teacher", "Первый учитель"], "Первый учитель"), { wikiEn: "The First Teacher", wikiRu: "Первый учитель (фильм)" }),
+    Object.assign(f("wdq33189", "Волкодав из рода Серых Псов", "Wolfhound", 2007, "фильм", ["horror", "dark"], ["Wolfhound", "Волкодав из рода Серых Псов"], "Волкодав из рода Серых Псов"), { wikiEn: "Wolfhound (2006 film)", wikiRu: "Волкодав из рода Серых Псов" }),
+    Object.assign(f("wdq4193504", "Золотой ключик", "The Golden Key", 1939, "фильм", ["tempo", "dark"], ["The Golden Key", "Золотой ключик"], "Золотой ключик"), { wikiEn: "The Golden Key (1939 film)", wikiRu: "Золотой ключик (фильм, 1939)" }),
+    Object.assign(f("wdq17512617", "Шрам", "The Cut", 2014, "фильм", ["family", "slow"], ["The Cut", "Шрам"], "Шрам"), { wikiEn: "The Cut (2014 drama film)", wikiRu: "Шрам (фильм, 2014)" }),
+    Object.assign(f("wdq27168722", "Матильда", "Matilda", 2017, "фильм", ["comedy", "irony"], ["Matilda", "Матильда"], "Матильда"), { wikiEn: "Matilda (2017 film)", wikiRu: "Матильда (фильм, 2017)" }),
+    Object.assign(f("wdq55655546", "Вторжение", "Invasion", 2020, "фильм", ["comedy", "irony"], ["Invasion", "Вторжение"], "Вторжение"), { wikiEn: "Invasion (2020 film)", wikiRu: "Вторжение (фильм, 2019)" }),
+    Object.assign(f("wdq29034531", "Собибор", "Sobibor", 2018, "фильм", ["crime", "slick-urban"], ["Sobibor", "Собибор"], "Собибор"), { wikiEn: "Sobibor (film)", wikiRu: "Собибор (фильм)" }),
+    Object.assign(f("wdq751842", "Радуга", "Rainbow", 1944, "фильм", ["comedy", "irony"], ["Rainbow", "Радуга"], "Радуга"), { wikiEn: "Rainbow (1944 film)", wikiRu: "Радуга (фильм, 1943)" }),
+    Object.assign(f("wdq1212842", "Гараж", "The Garage", 1980, "фильм", ["comedy", "irony"], ["The Garage", "Гараж"], "Гараж"), { wikiEn: "The Garage (1980 film)", wikiRu: "Гараж (фильм, 1979)" }),
+    Object.assign(f("wdq1888943", "Полосатый рейс", "Striped Trip", 1961, "фильм", ["war", "dark"], ["Striped Trip", "Полосатый рейс"], "Полосатый рейс"), { wikiEn: "Striped Trip", wikiRu: "Полосатый рейс" }),
+    Object.assign(f("wdq1895210", "Планета бурь", "Planeta Bur", 1962, "фильм", ["comedy", "irony"], ["Planeta Bur", "Планета бурь"], "Планета бурь"), { wikiEn: "Planeta Bur", wikiRu: "Планета бурь (фильм)" }),
+    Object.assign(f("wdq83594", "Сёстры", "Sisters", 2001, "фильм", ["comedy", "irony"], ["Sisters", "Сёстры"], "Сёстры"), { wikiEn: "Sisters (2001 film)", wikiRu: "Сёстры (фильм, 2001)" }),
+    Object.assign(f("wdq1959191", "Афоня", "Afonya", 1975, "фильм", ["war", "dark"], ["Afonya", "Афоня"], "Афоня"), { wikiEn: "Afonya", wikiRu: "Афоня" }),
+    Object.assign(f("wdq247713", "Волшебная лампа Аладдина", "Aladdin and His Magic Lamp", 1968, "фильм", ["family", "slow"], ["Aladdin and His Magic Lamp", "Волшебная лампа Аладдина"], "Волшебная лампа Аладдина"), { wikiEn: "Aladdin and His Magic Lamp (1967 film)", wikiRu: "Волшебная лампа Аладдина (фильм, 1966)" }),
+    Object.assign(f("wdq2369914", "Дознание пилота Пиркса", "Inquest of Pilot Pirx", 1978, "фильм", ["comedy", "irony"], ["Inquest of Pilot Pirx", "Дознание пилота Пиркса"], "Дознание пилота Пиркса"), { wikiEn: "Inquest of Pilot Pirx", wikiRu: "Дознание пилота Пиркса" }),
+    Object.assign(f("wdq1976498", "Молодая гвардия", "The Young Guard", 1948, "фильм", ["comedy", "irony"], ["The Young Guard", "Молодая гвардия"], "Молодая гвардия"), { wikiEn: "The Young Guard (film)", wikiRu: "Молодая гвардия (фильм)" }),
+    Object.assign(f("wdq1978763", "Преступление и наказание", "Crime and Punishment", 1970, "фильм", ["crime", "slick-urban"], ["Crime and Punishment", "Преступление и наказание"], "Преступление и наказание"), { wikiEn: "Crime and Punishment (1970 film)", wikiRu: "Преступление и наказание (фильм, 1969)" }),
+    Object.assign(f("wdq388266", "Побег из Гулага", "As Far as My Feet Will Carry Me", 2001, "фильм", ["comedy", "irony"], ["As Far as My Feet Will Carry Me", "Побег из Гулага"], "Побег из Гулага"), { wikiEn: "As Far as My Feet Will Carry Me", wikiRu: "Побег из Гулага (фильм)" }),
+    Object.assign(f("wdq2581338", "Старое и новое", "The General Line", 1929, "фильм", ["comedy", "irony"], ["The General Line", "Старое и новое"], "Старое и новое"), { wikiEn: "The General Line", wikiRu: "Старое и новое" }),
+    Object.assign(f("wdq2628313", "Два бойца", "Two Soldiers", 1943, "фильм", ["family", "slow"], ["Two Soldiers", "Два бойца"], "Два бойца"), { wikiEn: "Two Soldiers (1943 film)", wikiRu: "Два бойца" }),
+    Object.assign(f("wdq1199188", "Холодное лето пятьдесят третьего…", "Cold Summer of 1953", 1998, "фильм", ["fantasy", "family"], ["Cold Summer of 1953", "Холодное лето пятьдесят третьего…"], "Холодное лето пятьдесят третьего…"), { wikiEn: "The Cold Summer of 1953", wikiRu: "Холодное лето пятьдесят третьего…" }),
+    Object.assign(f("wdq2996969", "Турецкий гамбит", "The Turkish Gambit", 2005, "фильм", ["family", "slow"], ["The Turkish Gambit", "Турецкий гамбит"], "Турецкий гамбит"), { wikiEn: "The Turkish Gambit (film)", wikiRu: "Турецкий гамбит (фильм)" }),
+    Object.assign(f("wdq3007695", "Шинель", "The Overcoat", 1926, "фильм", ["war", "dark"], ["The Overcoat", "Шинель"], "Шинель"), { wikiEn: "The Overcoat (1926 film)", wikiRu: "Шинель (фильм, 1926)" }),
+    Object.assign(f("wdq4376329", "Праздник святого Йоргена", "St. Jorgen's Day", 1930, "фильм", ["family", "slow"], ["St. Jorgen's Day", "Праздник святого Йоргена"], "Праздник святого Йоргена"), { wikiEn: "St. Jorgen's Day", wikiRu: "Праздник святого Иоргена" }),
+    Object.assign(f("wdq561229", "Анна Каренина (фильм, 1967)", "Anna Karenina", 1968, "фильм", ["horror", "dark"], ["Anna Karenina", "Анна Каренина (фильм, 1967)"], "Анна Каренина (фильм, 1967)"), { wikiEn: "Anna Karenina (1967 film)", wikiRu: "Анна Каренина (фильм, 1967)" }),
+    Object.assign(f("wdq570526", "Лунный папа", "Luna Papa", 2000, "фильм", ["space", "slow"], ["Luna Papa", "Лунный папа"], "Лунный папа"), { wikiEn: "Luna Papa", wikiRu: "Лунный папа" }),
+    Object.assign(f("wdq2394071", "Чистое небо", "Clear Skies", 1961, "фильм", ["war", "dark"], ["Clear Skies", "Чистое небо"], "Чистое небо"), { wikiEn: "Clear Skies (film)", wikiRu: "Чистое небо (фильм)" }),
+    Object.assign(f("wdq2707305", "Великий воин Албании Скандербег", "The Great Warrior Skanderbeg", 1954, "фильм", ["family", "slow"], ["The Great Warrior Skanderbeg", "Великий воин Албании Скандербег"], "Великий воин Албании Скандербег"), { wikiEn: "The Great Warrior Skanderbeg", wikiRu: "Великий воин Албании Скандербег" }),
+    Object.assign(f("wdq2723465", "Александра", "Alexandra", 2007, "фильм", ["family", "slow"], ["Alexandra", "Александра"], "Александра"), { wikiEn: "Alexandra (2007 film)", wikiRu: "Александра (фильм)" }),
+    Object.assign(f("wdq3824997", "Жизнь за жизнь (фильм, 1916)", "A Life for a Life", 1916, "фильм", ["horror", "dark"], ["A Life for a Life", "Жизнь за жизнь (фильм, 1916)"], "Жизнь за жизнь (фильм, 1916)"), { wikiEn: "A Life for a Life (1916 film)", wikiRu: "Жизнь за жизнь (фильм, 1916)" }),
+    Object.assign(f("wdq3336224", "Насреддин в Бухаре", "Nasreddin in Bukhara", 1943, "фильм", ["tempo", "dark"], ["Nasreddin in Bukhara", "Насреддин в Бухаре"], "Насреддин в Бухаре"), { wikiEn: "Nasreddin in Bukhara", wikiRu: "Насреддин в Бухаре" }),
+    Object.assign(f("wdq52442", "Окраина", "The Patriots", 1933, "фильм", ["comedy", "irony"], ["The Patriots", "Окраина"], "Окраина"), { wikiEn: "Outskirts (film)", wikiRu: "Окраина (фильм, 1933)" }),
+    Object.assign(f("wdq6696555", "Луч смерти", "Luch Smerti", 1925, "фильм", ["crime", "slick-urban"], ["Luch Smerti", "Луч смерти"], "Луч смерти"), { wikiEn: "The Death Ray (1925 film)", wikiRu: "Луч смерти (фильм)" }),
+    Object.assign(f("wdq4157228", "Деловые люди", "Strictly Business", 1963, "фильм", ["fantasy", "family"], ["Strictly Business", "Деловые люди"], "Деловые люди"), { wikiEn: "Strictly Business (1962 film)", wikiRu: "Деловые люди" }),
+    Object.assign(f("wdq4185026", "Закройщик из Торжка", "The Tailor from Torzhok", 1925, "фильм", ["comedy", "irony"], ["The Tailor from Torzhok", "Закройщик из Торжка"], "Закройщик из Торжка"), { wikiEn: "The Tailor from Torzhok", wikiRu: "Закройщик из Торжка" }),
+    Object.assign(f("wdq4189193", "Трактористы", "Tractor Drivers", 1939, "фильм", ["family", "slow"], ["Tractor Drivers", "Трактористы"], "Трактористы"), { wikiEn: "Tractor Drivers", wikiRu: "Трактористы" }),
+    Object.assign(f("wdq60829653", "Холоп", "Serf", 2020, "фильм", ["horror", "dark"], ["Serf", "Холоп"], "Холоп"), { wikiEn: "Serf (film)", wikiRu: "Холоп (фильм)" }),
+    Object.assign(f("wdq718475", "Водитель для Веры", "A Driver for Vera", 2004, "фильм", ["crime", "slick-urban"], ["A Driver for Vera", "Водитель для Веры"], "Водитель для Веры"), { wikiEn: "A Driver for Vera", wikiRu: "Водитель для Веры" }),
+    Object.assign(f("wdq144054", "Всадник без головы", "The Headless Horseman", 1973, "фильм", ["space", "slow"], ["The Headless Horseman", "Всадник без головы"], "Всадник без головы"), { wikiEn: "The Headless Horseman (1973 film)", wikiRu: "Всадник без головы (фильм, 1973)" }),
+    Object.assign(f("wdq704456", "Арсенал", "Arsenal", 1929, "фильм", ["tempo", "dark"], ["Arsenal", "Арсенал"], "Арсенал"), { wikiEn: "Arsenal (1929 film)", wikiRu: "Арсенал (фильм)" }),
+    Object.assign(f("wdq1964094", "Неоконченная пьеса для механического пианино", "An Unfinished Piece for Mechanical Piano", 1977, "фильм", ["space", "slow"], ["An Unfinished Piece for Mechanical Piano", "Неоконченная пьеса для механического пианино"], "Неоконченная пьеса для механического пианино"), { wikiEn: "An Unfinished Piece for Mechanical Piano", wikiRu: "Неоконченная пьеса для механического пианино" }),
+    Object.assign(f("wdq866673", "Война", "War", 2002, "фильм", ["family", "slow"], ["War", "Война"], "Война"), { wikiEn: "War (2002 film)", wikiRu: "Война (фильм, 2002)" }),
+    Object.assign(f("wdq1454748", "Ирония судьбы. Продолжение", "The Irony of Fate 2", 2007, "фильм", ["fantasy", "family"], ["The Irony of Fate 2", "Ирония судьбы. Продолжение"], "Ирония судьбы. Продолжение"), { wikiEn: "The Irony of Fate 2", wikiRu: "Ирония судьбы. Продолжение" }),
+    Object.assign(f("wdq1470319", "Военно-полевой роман", "Wartime Romance", 1985, "фильм", ["war", "dark"], ["Wartime Romance", "Военно-полевой роман"], "Военно-полевой роман"), { wikiEn: "Wartime Romance", wikiRu: "Военно-полевой роман" }),
+    Object.assign(f("wdq1971536", "Намус", "Namus", 1926, "фильм", ["tempo", "dark"], ["Namus", "Намус"], "Намус"), { wikiEn: "Namus (film)", wikiRu: "Намус" }),
+    Object.assign(f("wdq1975020", "Встреча на Эльбе", "Encounter at the Elbe", 1949, "фильм", ["fantasy", "family"], ["Encounter at the Elbe", "Встреча на Эльбе"], "Встреча на Эльбе"), { wikiEn: "Encounter at the Elbe", wikiRu: "Встреча на Эльбе (фильм)" }),
+    Object.assign(f("wdq1282161", "Ленин в Париже", "Lenin in Paris", 1981, "фильм", ["family", "slow"], ["Lenin in Paris", "Ленин в Париже"], "Ленин в Париже"), { wikiEn: "Lenin in Paris", wikiRu: "Ленин в Париже" }),
+    Object.assign(f("wdq1385258", "Русалка", "The Mermaid", 2007, "фильм", ["comedy", "irony"], ["The Mermaid", "Русалка"], "Русалка"), { wikiEn: "Mermaid (2007 film)", wikiRu: "Русалка (фильм, 2007)" }),
+    Object.assign(f("wdq945852", "Великий перелом", "The Turning Point", 1946, "фильм", ["fantasy", "family"], ["The Turning Point", "Великий перелом"], "Великий перелом"), { wikiEn: "The Turning Point (1945 film)", wikiRu: "Великий перелом (фильм)" }),
+    Object.assign(f("wdq1528336", "Раба любви", "A Slave of Love", 1987, "фильм", ["tempo", "dark"], ["A Slave of Love", "Раба любви"], "Раба любви"), { wikiEn: "A Slave of Love", wikiRu: "Раба любви" }),
+    Object.assign(f("wdq477602", "По закону", "Po Zakonu", 1926, "фильм", ["comedy", "irony"], ["Po Zakonu", "По закону"], "По закону"), { wikiEn: "By the Law", wikiRu: "По закону" }),
+    Object.assign(f("wdq1640074", "Они шли на Восток", "Attack and Retreat", 1964, "фильм", ["comedy", "irony"], ["Attack and Retreat", "Они шли на Восток"], "Они шли на Восток"), { wikiEn: "Attack and Retreat", wikiRu: "Они шли на Восток" }),
+    Object.assign(f("wdq2620500", "Обитаемый остров", "The Inhabited Island", 2009, "фильм", ["fantasy", "family"], ["The Inhabited Island", "Обитаемый остров"], "Обитаемый остров"), { wikiEn: "Dark Planet (2008 film)", wikiRu: "Обитаемый остров (фильм, 2008)" }),
+    Object.assign(f("wdq611849", "Душа", "Dusha", 1982, "фильм", ["family", "slow"], ["Dusha", "Душа"], "Душа"), { wikiEn: "Dusha", wikiRu: "Душа (фильм)" }),
+    Object.assign(f("wdq1171515", "Алые паруса", "Scarlet Sails", 1961, "фильм", ["crime", "slick-urban"], ["Scarlet Sails", "Алые паруса"], "Алые паруса"), { wikiEn: "Scarlet Sails (film)", wikiRu: "Алые паруса (фильм)" }),
+    Object.assign(f("wdq3017113", "Молчи, грусть… молчи…", "Be Silent, My Sorrow, Be Silent", 1918, "фильм", ["family", "slow"], ["Be Silent, My Sorrow, Be Silent", "Молчи, грусть… молчи…"], "Молчи, грусть… молчи…"), { wikiEn: "Be Silent, My Sorrow, Be Silent", wikiRu: "Молчи, грусть, молчи" }),
+    Object.assign(f("wdq604954", "Молох", "Moloch", 2003, "фильм", ["comedy", "irony"], ["Moloch", "Молох"], "Молох"), { wikiEn: "Moloch (1999 film)", wikiRu: "Молох (фильм)" }),
+    Object.assign(f("wdq2373306", "Девчата", "The Girls", 1962, "фильм", ["comedy", "irony"], ["The Girls", "Девчата"], "Девчата"), { wikiEn: "The Girls (1961 film)", wikiRu: "Девчата (фильм)" }),
+    Object.assign(f("wdq4080435", "Бег", "The Flight", 1971, "фильм", ["crime", "slick-urban"], ["The Flight", "Бег"], "Бег"), { wikiEn: "The Flight (film)", wikiRu: "Бег (фильм, 1970)" }),
+    Object.assign(f("wdq4427861", "Солнечный удар", "Sunstroke", 2014, "фильм", ["horror", "dark"], ["Sunstroke", "Солнечный удар"], "Солнечный удар"), { wikiEn: "Sunstroke (2014 film)", wikiRu: "Солнечный удар (фильм, 2014)" }),
+    Object.assign(f("wdq4429093", "Сорок первый", "The Forty-First", 1927, "фильм", ["horror", "dark"], ["The Forty-First", "Сорок первый"], "Сорок первый"), { wikiEn: "The Forty-First (1927 film)", wikiRu: "Сорок первый (фильм, 1927)" }),
+    Object.assign(f("wdq4400241", "Русалка", "The Water Nymph", 1910, "фильм", ["family", "slow"], ["The Water Nymph", "Русалка"], "Русалка"), { wikiEn: "The Water Nymph (1910 film)", wikiRu: "Русалка (фильм, 1910)" }),
+    Object.assign(f("wdq4439205", "Сталинград", "Stalingrad", 1990, "фильм", ["horror", "dark"], ["Stalingrad", "Сталинград"], "Сталинград"), { wikiEn: "Stalingrad (1990 film)", wikiRu: "Сталинград (фильм, 1989)" }),
+    Object.assign(f("wdq4475492", "Умирающий лебедь", "The Dying Swan", 1917, "фильм", ["fantasy", "family"], ["The Dying Swan", "Умирающий лебедь"], "Умирающий лебедь"), { wikiEn: "The Dying Swan (film)", wikiRu: "Умирающий лебедь (фильм)" }),
+    Object.assign(f("wdq4109506", "Весна", "Springtime", 1947, "фильм", ["comedy", "irony"], ["Springtime", "Весна"], "Весна"), { wikiEn: "Springtime (1947 film)", wikiRu: "Весна (фильм, 1947)" }),
+    Object.assign(f("wdq4173185", "Еврейское счастье", "Jewish Luck", 1925, "фильм", ["family", "slow"], ["Jewish Luck", "Еврейское счастье"], "Еврейское счастье"), { wikiEn: "Jewish Luck", wikiRu: "Еврейское счастье (фильм, 1925)" }),
+    Object.assign(f("wdq4156475", "Девушка с гитарой", "A Girl with Guitar", 1958, "фильм", ["crime", "slick-urban"], ["A Girl with Guitar", "Девушка с гитарой"], "Девушка с гитарой"), { wikiEn: "A Girl with Guitar", wikiRu: "Девушка с гитарой" }),
+    Object.assign(f("wdq4271831", "Любовь и голуби", "Love and Pigeons", 1984, "фильм", ["war", "dark"], ["Love and Pigeons", "Любовь и голуби"], "Любовь и голуби"), { wikiEn: "Love and Pigeons", wikiRu: "Любовь и голуби" }),
+    Object.assign(f("wdq15059365", "Чёрное море", "Black Sea", 2015, "фильм", ["horror", "dark"], ["Black Sea", "Чёрное море"], "Чёрное море"), { wikiEn: "Black Sea (2014 film)", wikiRu: "Чёрное море (фильм)" }),
+    Object.assign(f("wdq4291959", "Метро", "Metro", 2014, "фильм", ["war", "dark"], ["Metro", "Метро"], "Метро"), { wikiEn: "Metro (2013 film)", wikiRu: "Метро (фильм, 2013)" }),
+    Object.assign(f("wdq26797463", "Землетрясение", "Earthquake", 2016, "фильм", ["war", "dark"], ["Earthquake", "Землетрясение"], "Землетрясение"), { wikiEn: "Earthquake (2016 film)", wikiRu: "Землетрясение (фильм, 2016)" }),
+    Object.assign(f("wdq27965092", "Тайна печати дракона", "Viy 2: Journey to China", 2020, "фильм", ["fantasy", "family"], ["Viy 2: Journey to China", "Тайна печати дракона"], "Тайна печати дракона"), { wikiEn: "Viy 2: Journey to China", wikiRu: "Тайна печати дракона" }),
+    Object.assign(f("wdq28180653", "Кома", "COMA", 2020, "фильм", ["horror", "dark"], ["COMA", "Кома"], "Кома"), { wikiEn: "Coma (2020 film)", wikiRu: "Кома (фильм, 2020)" }),
+    Object.assign(f("wdq4340308", "Офицеры (фильм)", "Officers", 1971, "фильм", ["fantasy", "family"], ["Officers", "Офицеры (фильм)"], "Офицеры (фильм)"), { wikiEn: "Officers (film)", wikiRu: "Офицеры (фильм)" }),
+    Object.assign(f("wdq19019141", "Дурак", "The Fool", 2014, "фильм", ["horror", "dark"], ["The Fool", "Дурак"], "Дурак"), { wikiEn: "The Fool (2014 film)", wikiRu: "Дурак (фильм)" }),
+    Object.assign(f("wdq52009401", "Айка", "The Little One", 2019, "фильм", ["family", "slow"], ["The Little One", "Айка"], "Айка"), { wikiEn: "Ayka", wikiRu: "Айка (фильм)" }),
+    Object.assign(f("wdq63985408", "Дылда", "Beanpole", 2019, "фильм", ["tempo", "dark"], ["Beanpole", "Дылда"], "Дылда"), { wikiEn: "Beanpole (film)", wikiRu: "Дылда" }),
+    Object.assign(f("wdq65154504", "Чернобыль", "Chernobyl: Abyss", 2021, "фильм", ["tempo", "dark"], ["Chernobyl: Abyss", "Чернобыль"], "Чернобыль"), { wikiEn: "Chernobyl: Abyss", wikiRu: "Чернобыль (фильм, 2021)" }),
+    Object.assign(f("wdq86675345", "Спутник", "Sputnik", 2020, "фильм", ["family", "slow"], ["Sputnik", "Спутник"], "Спутник"), { wikiEn: "Sputnik (film)", wikiRu: "Спутник (фильм)" }),
+    Object.assign(f("wdq1218234", "Аленький цветочек", "The Scarlet Flower", 1979, "фильм", ["comedy", "irony"], ["The Scarlet Flower", "Аленький цветочек"], "Аленький цветочек"), { wikiEn: "The Scarlet Flower (1977 film)", wikiRu: "Аленький цветочек (фильм)" }),
+    Object.assign(f("wdq677628", "У самого синего моря", "By the Bluest of Seas", 1936, "фильм", ["fantasy", "family"], ["By the Bluest of Seas", "У самого синего моря"], "У самого синего моря"), { wikiEn: "By the Bluest of Seas", wikiRu: "У самого синего моря" }),
+    Object.assign(f("wdq1962112", "Стиляги", "Stilyagi", 2008, "фильм", ["tempo", "dark"], ["Stilyagi", "Стиляги"], "Стиляги"), { wikiEn: "Stilyagi (film)", wikiRu: "Стиляги (фильм, 2008)" }),
+    Object.assign(f("wdq1969508", "Белорусский вокзал", "Belorussian Station", 1971, "фильм", ["fantasy", "family"], ["Belorussian Station", "Белорусский вокзал"], "Белорусский вокзал"), { wikiEn: "Belorussian Station", wikiRu: "Белорусский вокзал (фильм)" }),
+    Object.assign(f("wdq1319274", "Хождение за три моря", "Journey Beyond Three Seas", 1957, "фильм", ["comedy", "irony"], ["Journey Beyond Three Seas", "Хождение за три моря"], "Хождение за три моря"), { wikiEn: "Pardesi (1957 film)", wikiRu: "Хождение за три моря (фильм)" }),
+    Object.assign(f("wdq2368465", "Кубанские казаки", "Cossacks of the Kuban", 1950, "фильм", ["family", "slow"], ["Cossacks of the Kuban", "Кубанские казаки"], "Кубанские казаки"), { wikiEn: "Cossacks of the Kuban", wikiRu: "Кубанские казаки (фильм)" }),
+    Object.assign(f("wdq359119", "Адмирал Нахимов", "Admiral Nachimow", 1947, "фильм", ["war", "dark"], ["Admiral Nachimow", "Адмирал Нахимов"], "Адмирал Нахимов"), { wikiEn: "Admiral Nakhimov (film)", wikiRu: "Адмирал Нахимов (фильм)" }),
+    Object.assign(f("wdq935893", "Снежная королева", "The Snow Queen", 1967, "фильм", ["horror", "dark"], ["The Snow Queen", "Снежная королева"], "Снежная королева"), { wikiEn: "The Snow Queen (1967 film)", wikiRu: "Снежная королева (фильм, 1966)" }),
+    Object.assign(f("wdq1533887", "Как я провёл этим летом", "How I Ended This Summer", 2012, "фильм", ["war", "dark"], ["How I Ended This Summer", "Как я провёл этим летом"], "Как я провёл этим летом"), { wikiEn: "How I Ended This Summer", wikiRu: "Как я провёл этим летом" }),
+    Object.assign(f("wdq388339", "Юность Максима", "The Youth of Maxim", 1935, "фильм", ["crime", "slick-urban"], ["The Youth of Maxim", "Юность Максима"], "Юность Максима"), { wikiEn: "The Youth of Maxim", wikiRu: "Юность Максима" }),
+    Object.assign(f("wdq400218", "Дайте жалобную книгу", "Give me a complaints book", 1965, "фильм", ["comedy", "irony"], ["Give me a complaints book", "Дайте жалобную книгу"], "Дайте жалобную книгу"), { wikiEn: "Give Me a Book of Complaints", wikiRu: "Дайте жалобную книгу" }),
+    Object.assign(f("wdq425937", "Отель «У погибшего альпиниста»", "Dead Mountaineer's Hotel", 1979, "фильм", ["family", "slow"], ["Dead Mountaineer's Hotel", "Отель «У погибшего альпиниста»"], "Отель «У погибшего альпиниста»"), { wikiEn: "Dead Mountaineer's Hotel (film)", wikiRu: "Отель «У погибшего альпиниста» (фильм)" }),
+    Object.assign(f("wdq2003684", "Не горюй!", "Don't Grieve", 1969, "фильм", ["fantasy", "family"], ["Don't Grieve", "Не горюй!"], "Не горюй!"), { wikiEn: "Don't Grieve", wikiRu: "Не горюй!" }),
+    Object.assign(f("wdq2026745", "Новая Земля", "Novaya Zemlya", 2008, "фильм", ["family", "slow"], ["Novaya Zemlya", "Новая Земля"], "Новая Земля"), { wikiEn: "Terra Nova (2008 film)", wikiRu: "Новая Земля (фильм, 2008)" }),
+    Object.assign(f("wdq1636925", "Частная жизнь", "Private Life", 1982, "фильм", ["horror", "dark"], ["Private Life", "Частная жизнь"], "Частная жизнь"), { wikiEn: "Private Life (1982 film)", wikiRu: "Частная жизнь (фильм, 1982)" }),
+    Object.assign(f("wdq1771333", "Девушка с коробкой", "The Girl with the Hat Box", 1927, "фильм", ["horror", "dark"], ["The Girl with the Hat Box", "Девушка с коробкой"], "Девушка с коробкой"), { wikiEn: "The Girl with a Hatbox", wikiRu: "Девушка с коробкой" }),
+    Object.assign(f("wdq2096663", "Щорс", "Shchors", 1939, "фильм", ["war", "dark"], ["Shchors", "Щорс"], "Щорс"), { wikiEn: "Shchors (film)", wikiRu: "Щорс (фильм)" }),
+    Object.assign(f("wdq3198577", "Композитор Глинка", "Composer Glinka", 1952, "фильм", ["family", "slow"], ["Composer Glinka", "Композитор Глинка"], "Композитор Глинка"), { wikiEn: "The Composer Glinka", wikiRu: "Композитор Глинка" }),
+    Object.assign(f("wdq3212458", "Чёртово колесо", "The Devil's Wheel", 1926, "фильм", ["comedy", "irony"], ["The Devil's Wheel", "Чёртово колесо"], "Чёртово колесо"), { wikiEn: "The Devil's Wheel", wikiRu: "Чёртово колесо (фильм, 1926)" }),
+    Object.assign(f("wdq2732154", "Ближний круг", "The Inner Circle", 1992, "фильм", ["comedy", "irony"], ["The Inner Circle", "Ближний круг"], "Ближний круг"), { wikiEn: "The Inner Circle (1991 film)", wikiRu: "Ближний круг" }),
+    Object.assign(f("wdq2809796", "1812 год", "1812", 1912, "фильм", ["fantasy", "family"], ["1812", "1812 год"], "1812 год"), { wikiEn: "1812 (1912 film)", wikiRu: "1812 год (фильм)" }),
+    Object.assign(f("wdq1976428", "Незабываемый 1919 год", "The Unforgettable Year 1919", 1951, "фильм", ["fantasy", "family"], ["The Unforgettable Year 1919", "Незабываемый 1919 год"], "Незабываемый 1919 год"), { wikiEn: "The Unforgettable Year 1919", wikiRu: "Незабываемый 1919 год" }),
+    Object.assign(f("wdq2552456", "Такси-блюз", "Taxi Blues", 1991, "фильм", ["tempo", "dark"], ["Taxi Blues", "Такси-блюз"], "Такси-блюз"), { wikiEn: "Taxi Blues", wikiRu: "Такси-блюз" }),
+    Object.assign(f("wdq3624825", "Ворошиловский стрелок", "The Voroshilov Shooter", 1999, "фильм", ["family", "slow"], ["The Voroshilov Shooter", "Ворошиловский стрелок"], "Ворошиловский стрелок"), { wikiEn: "Voroshilov Sharpshooter (film)", wikiRu: "Ворошиловский стрелок (фильм)" }),
+    Object.assign(f("wdq4382272", "Процесс о трёх миллионах", "The Three Million Trial", 1926, "фильм", ["tempo", "dark"], ["The Three Million Trial", "Процесс о трёх миллионах"], "Процесс о трёх миллионах"), { wikiEn: "The Three Million Trial", wikiRu: "Процесс о трёх миллионах" }),
+    Object.assign(f("wdq3228251", "Космический рейс", "The Space Voyage", 1936, "фильм", ["crime", "slick-urban"], ["The Space Voyage", "Космический рейс"], "Космический рейс"), { wikiEn: "Cosmic Voyage (1936 film)", wikiRu: "Космический рейс" }),
+    Object.assign(f("wdq4369971", "Поликушка", "Polikushka", 1922, "фильм", ["crime", "slick-urban"], ["Polikushka", "Поликушка"], "Поликушка"), { wikiEn: "Polikushka (film)", wikiRu: "Поликушка (фильм)" }),
+    Object.assign(f("wdq4177789", "Жаворонок", "The Lark", 1964, "фильм", ["horror", "dark"], ["The Lark", "Жаворонок"], "Жаворонок"), { wikiEn: "The Lark (1965 film)", wikiRu: "Жаворонок (фильм, 1964)" }),
+    Object.assign(f("wdq7598540", "Идиот", "Idiot", 1958, "фильм", ["fantasy", "family"], ["Idiot", "Идиот"], "Идиот"), { wikiEn: "The Idiot (1958 film)", wikiRu: "Идиот (фильм, 1958)" }),
+    Object.assign(f("wdq8074696", "Зоя", "Zoya", 1945, "фильм", ["tempo", "dark"], ["Zoya", "Зоя"], "Зоя"), { wikiEn: "Zoya (1944 film)", wikiRu: "Зоя (фильм, 1944)" }),
+    Object.assign(f("wdq4165536", "Дом на Трубной", "The House on Trubnaya", 1928, "фильм", ["tempo", "dark"], ["The House on Trubnaya", "Дом на Трубной"], "Дом на Трубной"), { wikiEn: "The House on Trubnaya", wikiRu: "Дом на Трубной" }),
+    Object.assign(f("wdq4167643", "Драма в кабаре футуристов № 13", "Drama in the Futurists' Cabaret No. 13", 1914, "фильм", ["crime", "slick-urban"], ["Drama in the Futurists' Cabaret No. 13", "Драма в кабаре футуристов № 13"], "Драма в кабаре футуристов № 13"), { wikiEn: "Drama in the Futurists' Cabaret No. 13", wikiRu: "Драма в кабаре футуристов № 13" }),
+    Object.assign(f("wdq12507703", "Кащей Бессмертный", "Kashchey the Deathless", 1945, "фильм", ["war", "dark"], ["Kashchey the Deathless", "Кащей Бессмертный"], "Кащей Бессмертный"), { wikiEn: "Kashchey the Immortal (film)", wikiRu: "Кащей Бессмертный (фильм)" }),
+    Object.assign(f("wdq25394233", "Сумерки женской души", "Twilight of a Woman's Soul", 1913, "фильм", ["family", "slow"], ["Twilight of a Woman's Soul", "Сумерки женской души"], "Сумерки женской души"), { wikiEn: "Twilight of a Woman's Soul", wikiRu: "Сумерки женской души (фильм)" }),
+    Object.assign(f("wdq4449955", "Тайна перевала Дятлова", "Devil's Pass", 2013, "фильм", ["crime", "slick-urban"], ["Devil's Pass", "Тайна перевала Дятлова"], "Тайна перевала Дятлова"), { wikiEn: "Devil's Pass", wikiRu: "Тайна перевала Дятлова" }),
+    Object.assign(f("wdq28435094", "Движение вверх", "Going Vertical", 2018, "фильм", ["space", "slow"], ["Going Vertical", "Движение вверх"], "Движение вверх"), { wikiEn: "Going Vertical", wikiRu: "Движение вверх" }),
+    Object.assign(f("wdq54893954", "Мастер и Маргарита", "The Master and Margarita", 2024, "фильм", ["comedy", "irony"], ["The Master and Margarita", "Мастер и Маргарита"], "Мастер и Маргарита"), { wikiEn: "The Master and Margarita (2024 film)", wikiRu: "Мастер и Маргарита (фильм, 2024)" }),
+    Object.assign(f("wdq4329347", "Обломок империи", "Fragment of an Empire", 1929, "фильм", ["crime", "slick-urban"], ["Fragment of an Empire", "Обломок империи"], "Обломок империи"), { wikiEn: "Fragment of an Empire", wikiRu: "Обломок империи" }),
+    Object.assign(f("wdq96680099", "Подольские курсанты", "The Last Frontier", 2020, "фильм", ["crime", "slick-urban"], ["The Last Frontier", "Подольские курсанты"], "Подольские курсанты"), { wikiEn: "The Last Frontier (2020 film)", wikiRu: "Подольские курсанты (фильм)" }),
+    Object.assign(f("wdq171305", "За спичками", "Borrowing Matchsticks", 1980, "фильм", ["family", "slow"], ["Borrowing Matchsticks", "За спичками"], "За спичками"), { wikiEn: "Borrowing Matchsticks", wikiRu: "За спичками (фильм)" }),
+    Object.assign(f("wdq734048", "Тема", "The Theme", 1979, "фильм", ["tempo", "dark"], ["The Theme", "Тема"], "Тема"), { wikiEn: "The Theme", wikiRu: "Тема (фильм)" }),
+    Object.assign(f("wdq1215401", "Стрелы Робин Гуда", "The Arrows of Robin Hood", 1975, "фильм", ["family", "slow"], ["The Arrows of Robin Hood", "Стрелы Робин Гуда"], "Стрелы Робин Гуда"), { wikiEn: "The Arrows of Robin Hood", wikiRu: "Стрелы Робин Гуда" }),
+    Object.assign(f("wdq1219413", "Василиса Прекрасная", "Vasilisa the Beautiful", 1940, "фильм", ["horror", "dark"], ["Vasilisa the Beautiful", "Василиса Прекрасная"], "Василиса Прекрасная"), { wikiEn: "Vasilisa the Beautiful (1940 film)", wikiRu: "Василиса Прекрасная (фильм, 1939)" }),
+    Object.assign(f("wdq1219544", "Каменный цветок", "The Stone Flower", 1946, "фильм", ["tempo", "dark"], ["The Stone Flower", "Каменный цветок"], "Каменный цветок"), { wikiEn: "The Stone Flower (1946 film)", wikiRu: "Каменный цветок (фильм)" }),
+    Object.assign(f("wdq125672", "Солярис", "Solaris", 1968, "фильм", ["tempo", "dark"], ["Solaris", "Солярис"], "Солярис"), { wikiEn: "Solaris (1968 film)", wikiRu: "Солярис (фильм, 1968)" }),
+    Object.assign(f("wdq1219788", "Марья-искусница", "The Magic Weaver", 1960, "фильм", ["fantasy", "family"], ["The Magic Weaver", "Марья-искусница"], "Марья-искусница"), { wikiEn: "The Magic Weaver", wikiRu: "Марья-искусница" }),
+    Object.assign(f("wdq261240", "Земля Санникова", "The Sannikov Land", 1975, "фильм", ["tempo", "dark"], ["The Sannikov Land", "Земля Санникова"], "Земля Санникова"), { wikiEn: "The Land of Sannikov", wikiRu: "Земля Санникова (фильм)" }),
+    Object.assign(f("wdq1970834", "Сказание о земле Сибирской", "Ballad of Siberia", 1948, "фильм", ["comedy", "irony"], ["Ballad of Siberia", "Сказание о земле Сибирской"], "Сказание о земле Сибирской"), { wikiEn: "Ballad of Siberia", wikiRu: "Сказание о земле Сибирской" }),
+    Object.assign(f("wdq1971187", "Туманность Андромеды", "The Andromeda Nebula", 1967, "фильм", ["crime", "slick-urban"], ["The Andromeda Nebula", "Туманность Андромеды"], "Туманность Андромеды"), { wikiEn: "The Andromeda Nebula", wikiRu: "Туманность Андромеды (фильм)" }),
+    Object.assign(f("wdq221760", "Застава Ильича", "I Am Twenty", 1965, "фильм", ["tempo", "dark"], ["I Am Twenty", "Застава Ильича"], "Застава Ильича"), { wikiEn: "I Am Twenty", wikiRu: "Застава Ильича" }),
+    Object.assign(f("wdq1964231", "Несколько дней из жизни И. И. Обломова", "A Few Days from the Life of I.I. Oblomov", 1980, "фильм", ["war", "dark"], ["A Few Days from the Life of I.I. Oblomov", "Несколько дней из жизни И. И. Обломова"], "Несколько дней из жизни И. И. Обломова"), { wikiEn: "A Few Days from the Life of I. I. Oblomov", wikiRu: "Несколько дней из жизни И. И. Обломова" }),
+    Object.assign(f("wdq2369836", "Бой с тенью", "Shadowboxing", 2005, "фильм", ["fantasy", "family"], ["Shadowboxing", "Бой с тенью"], "Бой с тенью"), { wikiEn: "Shadowboxing (2005 film)", wikiRu: "Бой с тенью (фильм, 2005)" }),
+    Object.assign(f("wdq937998", "Бессмертный гарнизон", "The Immortal Garrison", 1956, "фильм", ["space", "slow"], ["The Immortal Garrison", "Бессмертный гарнизон"], "Бессмертный гарнизон"), { wikiEn: "The Immortal Garrison", wikiRu: "Бессмертный гарнизон" }),
+    Object.assign(f("wdq949217", "Подруги", "Girl Friends", 1936, "фильм", ["family", "slow"], ["Girl Friends", "Подруги"], "Подруги"), { wikiEn: "Girl Friends (1936 film)", wikiRu: "Подруги (фильм, 1935)" }),
+    Object.assign(f("wdq1976506", "Пираты XX века", "Pirates of the 20th Century", 1980, "фильм", ["comedy", "irony"], ["Pirates of the 20th Century", "Пираты XX века"], "Пираты XX века"), { wikiEn: "Pirates of the 20th Century", wikiRu: "Пираты XX века" }),
+    Object.assign(f("wdq1082153", "Обыкновенное чудо", "An Ordinary Miracle", 1979, "фильм", ["family", "slow"], ["An Ordinary Miracle", "Обыкновенное чудо"], "Обыкновенное чудо"), { wikiEn: "An Ordinary Miracle (1978 film)", wikiRu: "Обыкновенное чудо (фильм, 1978)" }),
+    Object.assign(f("wdq1579305", "Весна", "Spring", 1969, "фильм", ["family", "slow"], ["Spring", "Весна"], "Весна"), { wikiEn: "Spring (1969 film)", wikiRu: "Весна (фильм, 1969)" }),
+    Object.assign(f("wdq2071987", "Человек № 217", "Girl No. 217", 1945, "фильм", ["crime", "slick-urban"], ["Girl No. 217", "Человек № 217"], "Человек № 217"), { wikiEn: "Girl No. 217", wikiRu: "Человек № 217" }),
+  ]);
 })();
