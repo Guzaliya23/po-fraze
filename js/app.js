@@ -199,8 +199,12 @@
       "</span>" +
       vibeBadges(film) +
       "</div>" +
-      '<p class="quote">' +
-      (row.viaTitle ? "Совпало с названием, не с фразой: " : "Нашли по фразе: ") +
+      '<p class="quote' +
+      (row.viaTitle ? " quote-title" : "") +
+      '">' +
+      "<span>" +
+      (row.viaTitle ? "Совпало с названием, не с фразой" : "Нашли по фразе") +
+      "</span> " +
       highlight(row.quote, query) +
       "</p>" +
       watchRow(film) +
@@ -250,16 +254,17 @@
         return b.year - a.year;
       }).slice(0, 16);
       view.innerHTML =
-        '<section class="empty"><h2>Что делать</h2><ol>' +
-        "<li>Напиши кусок фразы, как слышал в фильме.</li>" +
-        "<li>Мы покажем название и насколько это совпало.</li>" +
-        "<li>Дальше — где смотреть легально и похожие по настроению.</li>" +
+        '<section class="steps"><h2 class="page-title">Что делать</h2>' +
+        '<ol class="step-list">' +
+        "<li><b>01</b><p>Напиши кусок фразы, как слышал в фильме.</p></li>" +
+        "<li><b>02</b><p>Мы покажем название и насколько это совпало.</p></li>" +
+        "<li><b>03</b><p>Дальше — где смотреть легально и похожие по настроению.</p></li>" +
         "</ol></section>" +
-        '<h2 class="page-title">Недавнее в базе</h2>' +
+        '<section class="home-recent"><h2 class="page-title">Недавнее в базе</h2>' +
         '<p class="orig">Это не новинки проката, а последние годы из нашего списка. <a href="#/catalog">Весь каталог →</a></p>' +
         '<div class="similar-grid">' +
         popular.map(filmTile).join("") +
-        "</div>";
+        "</div></section>";
       return;
     }
 
@@ -537,6 +542,20 @@
         route.name === "catalog" ||
         route.name === "about" ||
         legal
+    );
+    document.body.classList.toggle(
+      "has-query",
+      route.name === "home" && String(route.q || "").trim().length >= 3
+    );
+    Array.prototype.forEach.call(
+      document.querySelectorAll(".nav a[data-nav]"),
+      function (link) {
+        link.classList.toggle(
+          "is-active",
+          link.getAttribute("data-nav") ===
+            (route.name === "home" ? "home" : route.name)
+        );
+      }
     );
     if (route.name === "title") titleView(route.id);
     else if (route.name === "saved") savedView();

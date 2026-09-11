@@ -17,7 +17,7 @@
       content="Поиск кино по обрывку диалога. Легально куда смотреть и похожие по атмосфере."
     />
     <meta property="og:url" content="https://guzaliya23.github.io/po-fraze/" />
-    <meta name="theme-color" content="#0c0b0a" />
+    <meta name="theme-color" content="#0b0a09" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,20 +25,25 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Unbounded:wght@500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css?v=ui2" />
   </head>
   <body>
     <div class="grain" aria-hidden="true"></div>
     <div class="glow" aria-hidden="true"></div>
 
     <header class="top">
-      <a class="logo" href="#/">По фразе</a>
-      <nav class="nav">
-        <a href="#/">Поиск</a>
-        <a href="#/catalog">Каталог</a>
-        <a href="#/saved">Сохранённое</a>
-        <a href="#/about">О проекте</a>
-      </nav>
+      <div class="top-inner">
+        <a class="logo" href="#/">
+          <span class="logo-mark" aria-hidden="true">П</span>
+          По фразе
+        </a>
+        <nav class="nav">
+          <a href="#/" data-nav="home">Поиск</a>
+          <a href="#/catalog" data-nav="catalog">Каталог</a>
+          <a href="#/saved" data-nav="saved">Сохранённое</a>
+          <a href="#/about" data-nav="about">О проекте</a>
+        </nav>
+      </div>
     </header>
 
     <main>
@@ -71,13 +76,13 @@
       <section id="view"></section>
     </main>
 
-    <footer>
+    <footer class="site-foot">
       <p id="foot">По фразе · поиск по реплике, не по названию</p>
-      <p>
-        <a href="#/catalog">Каталог</a> ·
-        <a href="#/about">О проекте</a> ·
-        <a href="#/legal">Соглашение</a> ·
-        <a href="#/privacy">Данные</a> ·
+      <p class="foot-links">
+        <a href="#/catalog">Каталог</a>
+        <a href="#/about">О проекте</a>
+        <a href="#/legal">Соглашение</a>
+        <a href="#/privacy">Данные</a>
         <a href="#/partners">Партнёры</a>
       </p>
     </footer>
