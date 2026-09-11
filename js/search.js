@@ -140,16 +140,17 @@
 
   function bestQuote(film, query) {
     var quotes = linesOf(film);
-    var best = { text: quotes[0], score: 0, viaTitle: false };
+    var best = { text: String(quotes[0] || "").trim(), score: 0, viaTitle: false };
     variants(query).forEach(function (q) {
       quotes.forEach(function (quote) {
         var score = quoteScore(q, quote);
-        if (score > best.score) best = { text: quote, score: score, viaTitle: false };
+        if (score > best.score)
+          best = { text: String(quote || "").trim(), score: score, viaTitle: false };
       });
       var titleScore = quoteScore(q, film.title + " " + (film.originalTitle || ""));
       if (titleScore > best.score) {
         best = {
-          text: quotes[0],
+          text: String(quotes[0] || film.title || "").trim(),
           score: Math.min(titleScore, 74),
           viaTitle: true,
         };

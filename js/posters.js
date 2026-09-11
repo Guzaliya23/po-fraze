@@ -70,13 +70,14 @@
     var list = [];
     if (lang === "en" && film.wikiEn) list.push(film.wikiEn);
     if (lang === "ru" && film.wikiRu) list.push(film.wikiRu);
+    var year = Number(film.year) >= 1900 ? String(film.year) : "";
     if (film.originalTitle) {
-      list.push(film.originalTitle + " " + film.year + " " + kind);
-      list.push(film.originalTitle + " " + film.year);
+      if (year) list.push(film.originalTitle + " " + year + " " + kind);
+      if (year) list.push(film.originalTitle + " " + year);
       list.push(film.originalTitle + " " + kind);
     }
-    list.push(name + " " + film.year + " " + kind);
-    list.push(film.title + " " + film.year);
+    if (year) list.push(name + " " + year + " " + kind);
+    if (year) list.push(film.title + " " + year);
     list.push(name);
     return list.filter(function (q, i, arr) {
       return q && arr.indexOf(q) === i;

@@ -11,7 +11,9 @@
   }
 
   function write(key, value) {
-    localStorage.setItem(key, JSON.stringify(value));
+    try {
+      localStorage.setItem(key, JSON.stringify(value));
+    } catch (err) {}
   }
 
   function addHistory(query) {

@@ -10,6 +10,55 @@
   var films = window.POFRAZE_FILMS;
   var catalogState = { type: "all", vibe: "all", q: "" };
 
+  function ruPlural(n, one, few, many) {
+    var mod10 = n % 10;
+    var mod100 = n % 100;
+    if (mod100 >= 11 && mod100 <= 14) return many;
+    if (mod10 === 1) return one;
+    if (mod10 >= 2 && mod10 <= 4) return few;
+    return many;
+  }
+
+  function filmYear(film) {
+    var y = Number(film && film.year);
+    return y >= 1900 && y <= 2035 ? y : 0;
+  }
+
+  function safeColor(value) {
+    var c = String(value || "").trim();
+    if (/^#([0-9a-f]{3}|[0-9a-f]{6}|[0-9a-f]{8})$/i.test(c)) return c;
+    return "#3a322a";
+  }
+
+  function chipHtml() {
+    var history = window.PoFrazeStore.history();
+    var seenChip = {};
+    var chipButtons = (window.POFRAZE_CHIPS || []).concat(history.slice(0, 5))
+      .map(function (text) {
+        return window.PoFrazeSearch.workingQuery(text, films);
+      })
+      .filter(function (text) {
+        if (!text) return false;
+        var key = text.toLowerCase().replace(/ё/g, "е").replace(/\s+/g, " ");
+        if (seenChip[key]) return false;
+        seenChip[key] = 1;
+        return true;
+      })
+      .map(function (text) {
+        return (
+          '<button class="chip" type="button" data-q="' +
+          escapeHtml(text) +
+          '">' +
+          escapeHtml(text) +
+          "</button>"
+        );
+      })
+      .join("");
+    return !chipButtons
+      ? ""
+      : '<p class="chips-hint">Нажми фразу — сразу поиск</p>' + chipButtons;
+  }
+
   function filmTile(film) {
     return (
       '<button type="button" class="mini catalog-tile" data-open="' +
@@ -33,7 +82,7 @@
   }
 
   function highlight(quote, query) {
-    var safe = escapeHtml(quote);
+    var safe = escapeHtml(String(quote || "").trim());
     var source = window.PoFrazeSearch.layoutFix(query);
     var words = source
       .split(/\s+/)
@@ -53,11 +102,11 @@
       '<div class="poster ' +
       (extraClass || "") +
       '" style="background:' +
-      film.color +
+      safeColor(film.color) +
       '" data-poster-id="' +
       escapeHtml(film.id) +
       '"><span class="poster-ini">' +
-      escapeHtml(film.initials) +
+      escapeHtml(film.initials || String(film.title || "?").slice(0, 2)) +
       '</span><img class="poster-img" alt="' +
       escapeHtml(film.title) +
       '"></div>'
@@ -168,10 +217,10 @@
   }
 
   function metaLine(film) {
+    var year = filmYear(film);
     return (
-      escapeHtml(film.type) +
-      " · " +
-      film.year +
+      escapeHtml(film.type || "") +
+      (year ? " · " + year : "") +
       (film.originalTitle ? " · " + escapeHtml(film.originalTitle) : "")
     );
   }
@@ -194,8 +243,6 @@
       row.confidence.key +
       '">' +
       row.confidence.label +
-      " · " +
-      row.score +
       "</span>" +
       vibeBadges(film) +
       "</div>" +
@@ -204,7 +251,7 @@
       '">' +
       "<span>" +
       (row.viaTitle ? "Совпало с названием, не с фразой" : "Нашли по фразе") +
-      "</span> " +
+      "</span>" +
       highlight(row.quote, query) +
       "</p>" +
       watchRow(film) +
@@ -215,43 +262,19 @@
   function homeView(route) {
     hero.hidden = false;
     document.getElementById("eyebrow").textContent =
-      films.length + " тайтлов · без регистрации";
+      films.length +
+      " " +
+      ruPlural(films.length, "тайтл", "тайтла", "тайтлов") +
+      " · без регистрации";
     var query = route.q || "";
     var type = route.type || "all";
     typeFilter.value = ["фильм", "сериал"].indexOf(type) !== -1 ? type : "all";
     input.value = query;
 
-    var history = window.PoFrazeStore.history();
-    var seenChip = {};
-    var chipButtons = (query ? [] : window.POFRAZE_CHIPS)
-      .concat(query ? [] : history.slice(0, 5))
-      .map(function (text) {
-        return window.PoFrazeSearch.workingQuery(text, films);
-      })
-      .filter(function (text) {
-        if (!text) return false;
-        var key = text.toLowerCase().replace(/ё/g, "е").replace(/\s+/g, " ");
-        if (seenChip[key]) return false;
-        seenChip[key] = 1;
-        return true;
-      })
-      .map(function (text) {
-        return (
-          '<button class="chip" type="button" data-q="' +
-          escapeHtml(text) +
-          '">' +
-          escapeHtml(text) +
-          "</button>"
-        );
-      })
-      .join("");
-    chips.innerHTML = !chipButtons
-      ? ""
-      : '<p class="chips-hint">Нажми фразу — сразу поиск</p>' + chipButtons;
-
     if (query.trim().length < 3) {
+      chips.innerHTML = chipHtml();
       var popular = films.slice().sort(function (a, b) {
-        return b.year - a.year;
+        return (b.year || 0) - (a.year || 0);
       }).slice(0, 16);
       view.innerHTML =
         '<section class="steps"><h2 class="page-title">Что делать</h2>' +
@@ -276,14 +299,18 @@
     if (window.PoFrazeTrack) window.PoFrazeTrack.search(query);
 
     if (!found.length) {
+      chips.innerHTML = chipHtml();
       view.innerHTML =
         "<section class='empty'><h2>Так не нашли</h2><p>Попробуй короче, без фамилии актёра. Или нажми пример под строкой поиска.</p></section>";
       return;
     }
 
+    chips.innerHTML = "";
     view.innerHTML =
       '<p class="results-meta">Нашли ' +
       found.length +
+      " " +
+      ruPlural(found.length, "совпадение", "совпадения", "совпадений") +
       " по запросу «" +
       escapeHtml(query.trim()) +
       "»</p>" +
@@ -304,6 +331,19 @@
     }
     var saved = window.PoFrazeStore.isSaved(film.id);
     var similar = window.PoFrazeSearch.similarWithWhy(film, films, 6);
+    var quoteItems = (film.shownQuotes || film.quotes || [])
+      .map(function (q) {
+        return String(q || "").trim();
+      })
+      .filter(function (t, i, arr) {
+        if (t.length < 3) return false;
+        return arr.indexOf(t) === i;
+      })
+      .slice(0, 14)
+      .map(function (q) {
+        return "<li>«" + escapeHtml(q) + "»</li>";
+      })
+      .join("");
     view.innerHTML =
       '<article class="title-page">' +
       '<p class="crumb"><a href="#/">← к поиску</a></p>' +
@@ -326,19 +366,11 @@
       "</button>" +
       "</div></div>" +
       watchRow(film) +
-      "<h3>Фразы, по которым его ищут</h3><ul class='quotes-list'>" +
-      (film.shownQuotes || film.quotes || [])
-        .filter(function (q, i, arr) {
-          var t = String(q || "").trim();
-          if (t.length < 3) return false;
-          return arr.indexOf(q) === i;
-        })
-        .slice(0, 14)
-        .map(function (q) {
-          return "<li>«" + escapeHtml(q) + "»</li>";
-        })
-        .join("") +
-      "</ul>" +
+      (quoteItems
+        ? "<h3>Фразы, по которым его ищут</h3><ul class='quotes-list'>" +
+          quoteItems +
+          "</ul>"
+        : "") +
       "<h3>Похожие по настроению</h3>" +
       (similar.length
         ? '<div class="similar-grid">' +
@@ -411,9 +443,11 @@
     view.innerHTML =
       '<h2 class="page-title">Каталог</h2>' +
       '<p class="orig">' +
-      "Здесь " +
+      "В каталоге " +
       films.length +
-      " фильмов и сериалов с нашего сайта. Чтобы угадать название по фразе — открой «Поиск». Строка ниже ищет уже по названию." +
+      " " +
+      ruPlural(films.length, "название", "названия", "названий") +
+      ". Чтобы угадать фильм по фразе — открой «Поиск». Строка ниже ищет уже по имени." +
       moreNote +
       "</p>" +
       '<div class="catalog-bar">' +
@@ -453,7 +487,9 @@
       "<p>Похожие подбираем по настроению, не по жанру из справочника.</p>" +
       "<p>В базе " +
       films.length +
-      " названий. Это не весь киномир. Постеры — с Википедии.</p>" +
+      " " +
+      ruPlural(films.length, "название", "названия", "названий") +
+      ". Это не весь киномир. Постеры — с Википедии.</p>" +
       "<p>Сайт бесплатный. Если появятся деньги — с переходов «смотреть», не с платы за поиск.</p>" +
       '<h3>Спасибо</h3>' +
       "<p>Тем, кто ищет фильм по обрывку, а не по названию. Из-за вас это имеет смысл.</p>" +
@@ -538,7 +574,8 @@
     document.body.appendChild(bar);
   }
 
-  function render() {
+  function render(opts) {
+    opts = opts || {};
     suggest.hidden = true;
     var route = parseRoute();
     var legal =
@@ -565,6 +602,11 @@
           link.getAttribute("data-nav") ===
             (route.name === "home" ? "home" : route.name)
         );
+        if (link.classList.contains("is-active")) {
+          link.setAttribute("aria-current", "page");
+        } else {
+          link.removeAttribute("aria-current");
+        }
       }
     );
     if (route.name === "title") titleView(route.id);
@@ -595,12 +637,23 @@
       setPageMeta("Партнёрские ссылки — По фразе");
     } else if (route.name === "about") {
       setPageMeta("О проекте — По фразе");
+    } else if (route.name === "catalog") {
+      setPageMeta("Каталог — По фразе");
+    } else if (route.name === "saved") {
+      setPageMeta("Сохранённое — По фразе");
     }
 
     foot.textContent =
-      "По фразе · " + films.length + " тайтлов · поиск по реплике";
+      "По фразе · " +
+      films.length +
+      " " +
+      ruPlural(films.length, "тайтл", "тайтла", "тайтлов") +
+      " · поиск по реплике";
     if (window.PoFrazePosters) window.PoFrazePosters.hydrate(view);
     cookieBar();
+    if (!opts.keepScroll) {
+      window.scrollTo(0, 0);
+    }
   }
 
   function showSuggest() {
@@ -685,7 +738,7 @@
     var save = event.target.closest("[data-save]");
     if (save) {
       window.PoFrazeStore.toggleSaved(save.getAttribute("data-save"));
-      render();
+      render({ keepScroll: true });
     }
   });
 
