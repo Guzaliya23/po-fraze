@@ -725,6 +725,7 @@
     add.forEach(function (q) {
       var t = String(q || "").trim();
       if (t.length < 3) return;
+      if (!film.quotes) film.quotes = [];
       if (film.quotes.indexOf(t) === -1) film.quotes.push(t);
     });
   });

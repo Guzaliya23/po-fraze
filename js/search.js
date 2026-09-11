@@ -133,17 +133,22 @@
     return Math.round(overlap * 70 + consecutive * 8);
   }
 
+  function linesOf(film) {
+    return film.quotes && film.quotes.length ? film.quotes : [film.title || ""];
+  }
+
   function bestQuote(film, query) {
-    var best = { text: film.quotes[0], score: 0, viaTitle: false };
+    var quotes = linesOf(film);
+    var best = { text: quotes[0], score: 0, viaTitle: false };
     variants(query).forEach(function (q) {
-      film.quotes.forEach(function (quote) {
+      quotes.forEach(function (quote) {
         var score = quoteScore(q, quote);
         if (score > best.score) best = { text: quote, score: score, viaTitle: false };
       });
       var titleScore = quoteScore(q, film.title + " " + (film.originalTitle || ""));
       if (titleScore > best.score) {
         best = {
-          text: film.quotes[0],
+          text: quotes[0],
           score: Math.min(titleScore, 74),
           viaTitle: true,
         };
@@ -168,8 +173,8 @@
         return other.id !== film.id;
       })
       .map(function (other) {
-        var shared = other.vibes.filter(function (v) {
-          return film.vibes.indexOf(v) !== -1;
+        var shared = (other.vibes || []).filter(function (v) {
+          return (film.vibes || []).indexOf(v) !== -1;
         });
         return { film: other, overlap: shared.length, why: shared.map(vibeLabel) };
       })
@@ -242,7 +247,7 @@
   }
 
   function watchLinks(film) {
-    var q = encodeURIComponent(film.watchQuery);
+    var q = encodeURIComponent(film.watchQuery || film.title || "");
     var raw = [
       {
         id: "kinopoisk",

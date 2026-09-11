@@ -1,4 +1,8 @@
 (function () {
+  window.POFRAZE_FILMS = (window.POFRAZE_FILMS || []).filter(function (film) {
+    return film.watchQuery !== "skip" && film.watchQuery !== "skip-dup";
+  });
+
   var extra = {
     limitless: [
       "nzt",
@@ -56,7 +60,6 @@
       "наш человек в гаване",
       "чёрный кот",
       "сеня",
-      "лучше гор могут быть только горы",
     ],
     "ivan-vasilievich": [
       "я требую продолжения банкета",
@@ -299,6 +302,7 @@
   };
 
   (window.POFRAZE_FILMS || []).forEach(function (film) {
+    if (!film.quotes) film.quotes = [];
     var add = extra[film.id];
     if (add) {
       add.forEach(function (q) {

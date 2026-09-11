@@ -101,7 +101,7 @@
   }
 
   function vibeBadges(film) {
-    return film.vibes
+    return (film.vibes || [])
       .map(function (v) {
         return (
           '<span class="badge">' +
@@ -143,6 +143,16 @@
     if (t && t !== "all") url.searchParams.set("type", t);
     else url.searchParams.delete("type");
     url.searchParams.delete("t");
+    url.hash = "#/";
+    history.pushState(null, "", url);
+    render();
+  }
+
+  function goHome() {
+    var url = new URL(location.href);
+    url.searchParams.delete("t");
+    url.searchParams.delete("q");
+    url.searchParams.delete("type");
     url.hash = "#/";
     history.pushState(null, "", url);
     render();
@@ -250,11 +260,11 @@
       return;
     }
 
-    window.PoFrazeStore.addHistory(query);
     var found = window.PoFrazeSearch.search(query, films, {
       type: typeFilter.value,
       limit: 10,
     });
+    if (found.length) window.PoFrazeStore.addHistory(query);
     if (window.PoFrazeTrack) window.PoFrazeTrack.search(query);
 
     if (!found.length) {
@@ -309,7 +319,13 @@
       "</div></div>" +
       watchRow(film) +
       "<h3>Реплики в базе</h3><ul class='quotes-list'>" +
-      film.quotes
+      (film.shownQuotes || film.quotes || [])
+        .filter(function (q, i, arr) {
+          var t = String(q || "").trim();
+          if (t.length < 3) return false;
+          return arr.indexOf(q) === i;
+        })
+        .slice(0, 14)
         .map(function (q) {
           return "<li>«" + escapeHtml(q) + "»</li>";
         })
@@ -347,13 +363,18 @@
       }
       if (
         catalogState.vibe !== "all" &&
-        film.vibes.indexOf(catalogState.vibe) === -1
+        (film.vibes || []).indexOf(catalogState.vibe) === -1
       ) {
         return false;
       }
       if (!q) return true;
-      var hay = (film.title + " " + film.originalTitle + " " + film.quotes.join(" ")).toLowerCase();
-      return hay.indexOf(q) !== -1;
+      var hay =
+        film.title +
+        " " +
+        (film.originalTitle || "") +
+        " " +
+        (film.quotes || []).join(" ");
+      return hay.toLowerCase().indexOf(q) !== -1;
     });
     list.sort(function (a, b) {
       return a.title.localeCompare(b.title, "ru");
@@ -595,6 +616,12 @@
   });
 
   document.addEventListener("click", function (event) {
+    var homeLink = event.target.closest('a[href="#/"]');
+    if (homeLink) {
+      event.preventDefault();
+      goHome();
+      return;
+    }
     var consent = event.target.closest("[data-consent]");
     if (consent && window.PoFrazeTrack) {
       if (consent.getAttribute("data-consent") === "1") window.PoFrazeTrack.accept();

@@ -21,14 +21,21 @@
   };
 
   var extraQuotes = {
-    wdq42051: ["да пребудет с тобой сила", "исполни приказ"],
-    wdq3604746: ["эйва", "это наш дом"],
-    wdq13417189: ["не уходи смиренно в эту добрую ночь"],
+    wdq42051: ["исполни приказ", "приказ 66"],
+    wdq3604746: ["это наш дом"],
+  };
+
+  var vibes = {
+    wdq13417189: ["space", "family", "slow"],
+    wdq42051: ["fantasy", "war", "space"],
+    wdq3604746: ["fantasy", "family", "space"],
+    wdq188384: ["slow", "romance", "mind-power"],
   };
 
   (window.POFRAZE_FILMS || []).forEach(function (film) {
     var y = years[key(film.originalTitle)] || years[key(film.title)];
     if (y && (film.year > y + 2 || film.year < 1888)) film.year = y;
+    if (vibes[film.id]) film.vibes = vibes[film.id];
 
     var titleK = key(film.title);
     var origK = key(film.originalTitle);

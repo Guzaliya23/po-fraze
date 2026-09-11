@@ -88,5 +88,8 @@
     extra.forEach(function (c) {
       film.quotes.push(c);
     });
+    if (!film.shownQuotes) {
+      film.shownQuotes = film.quotes.slice(0, Math.max(0, film.quotes.length - extra.length));
+    }
   });
 })();
