@@ -97,7 +97,8 @@
     var hay = normalize(quote);
     if (!q || !hay) return 0;
     if (hay === q) return 100;
-    if (hay.indexOf(q) !== -1) return 92;
+    if ((" " + hay + " ").indexOf(" " + q + " ") !== -1) return 92;
+    if (hay.indexOf(q) !== -1) return q.length >= 6 ? 88 : 30;
     if (q.indexOf(hay) !== -1 && hay.length >= 8) return 80;
 
     var qt = tokens(q);
@@ -158,9 +159,9 @@
   }
 
   function confidence(score) {
-    if (score >= 80) return { key: "sure", label: "точно" };
+    if (score >= 80) return { key: "sure", label: "совпало" };
     if (score >= 58) return { key: "mid", label: "похоже" };
-    return { key: "low", label: "возможно" };
+    return { key: "low", label: "может быть" };
   }
 
   function vibeLabel(key) {

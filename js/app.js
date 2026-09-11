@@ -66,7 +66,7 @@
 
   function watchRow(film) {
     return (
-      '<p class="watch-label">Где смотреть</p><div class="watch">' +
+      '<p class="watch-label">Где смотреть легально</p><div class="watch">' +
       window.PoFrazeSearch.watchLinks(film)
         .map(function (link) {
           var rel = link.sponsored
@@ -95,7 +95,7 @@
       window.POFRAZE_CONFIG.partners &&
       window.POFRAZE_CONFIG.partners.admitadWrap
         ? "Реклама. Партнёрская ссылка: комиссия сайту, цена для вас та же."
-        : "Пока обычный поиск по названию. Партнёрские ссылки подключим, когда появятся договоры.") +
+        : "Кнопки открывают поиск на Кинопоиске, IVI, Okko и Premier.") +
       "</p>"
     );
   }
@@ -200,7 +200,7 @@
       vibeBadges(film) +
       "</div>" +
       '<p class="quote">' +
-      (row.viaTitle ? "Совпало с названием. Реплика: " : "Похожая реплика: ") +
+      (row.viaTitle ? "Совпало с названием, не с фразой: " : "Нашли по фразе: ") +
       highlight(row.quote, query) +
       "</p>" +
       watchRow(film) +
@@ -219,7 +219,7 @@
 
     var history = window.PoFrazeStore.history();
     var seenChip = {};
-    chips.innerHTML = (query ? [] : window.POFRAZE_CHIPS)
+    var chipButtons = (query ? [] : window.POFRAZE_CHIPS)
       .concat(query ? [] : history.slice(0, 5))
       .map(function (text) {
         return window.PoFrazeSearch.workingQuery(text, films);
@@ -241,19 +241,22 @@
         );
       })
       .join("");
+    chips.innerHTML = !chipButtons
+      ? ""
+      : '<p class="chips-hint">Нажми фразу — сразу поиск</p>' + chipButtons;
 
     if (query.trim().length < 3) {
       var popular = films.slice().sort(function (a, b) {
         return b.year - a.year;
       }).slice(0, 16);
       view.innerHTML =
-        '<section class="empty"><h2>Как это работает</h2><ol>' +
-        "<li>Вставляешь обрывок диалога — даже с английской раскладкой.</li>" +
-        "<li>Получаешь несколько тайтлов с уверенностью и цитатой.</li>" +
-        "<li>Открываешь карточку: где смотреть и похожие по вайбу.</li>" +
+        '<section class="empty"><h2>Что делать</h2><ol>' +
+        "<li>Напиши кусок фразы, как слышал в фильме.</li>" +
+        "<li>Мы покажем название и насколько это совпало.</li>" +
+        "<li>Дальше — где смотреть легально и похожие по настроению.</li>" +
         "</ol></section>" +
-        '<h2 class="page-title">Свежее в каталоге</h2>' +
-        '<p class="orig"><a href="#/catalog">Весь каталог →</a></p>' +
+        '<h2 class="page-title">Недавнее в базе</h2>' +
+        '<p class="orig">Это не новинки проката, а последние годы из нашего списка. <a href="#/catalog">Весь каталог →</a></p>' +
         '<div class="similar-grid">' +
         popular.map(filmTile).join("") +
         "</div>";
@@ -269,7 +272,7 @@
 
     if (!found.length) {
       view.innerHTML =
-        "<section class='empty'><h2>Пока не нашли</h2><p>Попробуй короче, без имени актёра, или выбери пример. База растёт, но это ещё не все фильмы мира.</p></section>";
+        "<section class='empty'><h2>Так не нашли</h2><p>Попробуй короче, без фамилии актёра. Или нажми пример под строкой поиска.</p></section>";
       return;
     }
 
@@ -318,7 +321,7 @@
       "</button>" +
       "</div></div>" +
       watchRow(film) +
-      "<h3>Реплики в базе</h3><ul class='quotes-list'>" +
+      "<h3>Фразы, по которым его ищут</h3><ul class='quotes-list'>" +
       (film.shownQuotes || film.quotes || [])
         .filter(function (q, i, arr) {
           var t = String(q || "").trim();
@@ -331,7 +334,7 @@
         })
         .join("") +
       "</ul>" +
-      "<h3>Похожие по атмосфере</h3>" +
+      "<h3>Похожие по настроению</h3>" +
       (similar.length
         ? '<div class="similar-grid">' +
           similar
@@ -350,7 +353,7 @@
             })
             .join("") +
           "</div>"
-        : "<p class='orig'>Пока не к чему привязать.</p>") +
+        : "<p class='orig'>Пока нет соседних по настроению.</p>") +
       "</article>";
   }
 
@@ -384,7 +387,7 @@
     if (!q && list.length > 180) {
       shown = list.slice(0, 180);
       moreNote =
-        " Сейчас на экране 180, остальные ищи строкой выше — так постеры не душат браузер.";
+        " Сначала 180 штук. Остальные — через поле «название или реплика».";
     }
     var vibeOptions = Object.keys(window.POFRAZE_VIBES)
       .map(function (key) {
@@ -403,8 +406,9 @@
     view.innerHTML =
       '<h2 class="page-title">Каталог</h2>' +
       '<p class="orig">' +
+      "Здесь " +
       films.length +
-      " тайтлов в базе. Фильтр не ищет по всему киномиру — только по тому, что уже занесли." +
+      " фильмов и сериалов с нашего сайта. Чтобы угадать название по фразе — открой «Поиск». Строка ниже ищет уже по названию." +
       moreNote +
       "</p>" +
       '<div class="catalog-bar">' +
@@ -440,12 +444,12 @@
     hero.hidden = true;
     view.innerHTML =
       '<article class="title-page"><h1>О проекте</h1>' +
-      "<p>По фразе — поиск кино и сериалов по обрывку диалога. Не каталог как Кинопоиск: сначала реплика, потом название, потом куда смотреть легально.</p>" +
-      "<p>Похожие подбираются по атмосфере (вайбу), а не по жанру из справочника.</p>" +
-      "<p>Сейчас в базе " +
+      "<p>По фразе угадывает фильм или сериал по куску диалога. Сначала фраза, потом название, потом куда смотреть легально.</p>" +
+      "<p>Похожие подбираем по настроению, не по жанру из справочника.</p>" +
+      "<p>В базе " +
       films.length +
-      " тайтлов. Постеры — с Википедии, названия — из Викиданных, часть цитат — из открытого списка AFI. Это не весь киномир, но база уже широкая.</p>" +
-      "<p>Сайт бесплатный. Если появится касса — это партнёрские переходы «смотреть», не подписка за угадайку.</p>" +
+      " названий. Это не весь киномир. Постеры — с Википедии.</p>" +
+      "<p>Сайт бесплатный. Если появятся деньги — с переходов «смотреть», не с платы за поиск.</p>" +
       "<p><a href='#/legal'>Соглашение</a> · <a href='#/privacy'>Персональные данные</a> · <a href='#/partners'>Партнёрские ссылки</a></p>" +
       '<p><a href="#/">К поиску</a> · <a href="#/catalog">В каталог</a></p></article>';
   }
@@ -471,7 +475,7 @@
       .filter(Boolean);
     if (!list.length) {
       view.innerHTML =
-        "<section class='empty'><h2>Пока пусто</h2><p>Сохраняй тайтлы с карточки — список останется в этом браузере.</p><p><a href='#/'>К поиску</a></p></section>";
+        "<section class='empty'><h2>Пока пусто</h2><p>На карточке фильма нажми «Сохранить». Список останется в этом браузере, без регистрации.</p><p><a href='#/'>К поиску</a></p></section>";
       return;
     }
     view.innerHTML =
