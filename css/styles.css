@@ -201,6 +201,28 @@ body.has-query .hero .eyebrow { display: none; }
   margin: 32px 0 12px;
 }
 
+.dedication {
+  margin: 28px 0 8px;
+  padding: 18px 20px 20px;
+  border: 1px solid rgba(232, 195, 122, 0.28);
+  border-radius: 18px;
+  background: rgba(232, 195, 122, 0.06);
+}
+
+.dedication h3 {
+  margin-top: 0;
+  color: var(--gold);
+}
+
+.dedication p {
+  margin: 0 0 10px;
+  max-width: 38rem;
+}
+
+.dedication p:last-child {
+  margin-bottom: 0;
+}
+
 .save-btn {
   margin-top: 14px;
   border: 1px solid var(--line);
