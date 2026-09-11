@@ -291,7 +291,10 @@
   function workingQuery(text, films) {
     var q = String(text || "").trim();
     if (q.length < 3) return "";
-    if (search(q, films, { limit: 1 }).length) return q;
+    if (search(q, films, { limit: 1 }).length) {
+      var shown = layoutFix(q);
+      return /[а-яё]/i.test(shown) ? shown : q;
+    }
     var best = { score: 0, quote: "" };
     var i;
     var j;

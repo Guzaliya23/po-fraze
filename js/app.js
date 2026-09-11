@@ -7,7 +7,7 @@
   var view = document.getElementById("view");
   var hero = document.getElementById("hero");
   var foot = document.getElementById("foot");
-  var films = window.POFRAZE_FILMS;
+  var films = window.POFRAZE_FILMS || [];
   var catalogState = { type: "all", vibe: "all", q: "" };
 
   function ruPlural(n, one, few, many) {
@@ -39,6 +39,7 @@
       })
       .filter(function (text) {
         if (!text) return false;
+        if (/[a-z]/i.test(text) && !/[а-яё]/i.test(text)) return false;
         var key = text.toLowerCase().replace(/ё/g, "е").replace(/\s+/g, " ");
         if (seenChip[key]) return false;
         seenChip[key] = 1;
@@ -82,7 +83,7 @@
   }
 
   function highlight(quote, query) {
-    var safe = escapeHtml(String(quote || "").trim());
+    var safe = escapeHtml(String(quote || "").replace(/\s+/g, " ").trim());
     var source = window.PoFrazeSearch.layoutFix(query);
     var words = source
       .split(/\s+/)
@@ -125,7 +126,7 @@
             '<a class="' +
             (link.primary ? "" : "ghost") +
             '" href="' +
-            link.href +
+            escapeHtml(link.href) +
             '" target="_blank" rel="' +
             rel +
             '" data-watch="' +
@@ -495,7 +496,7 @@
       "<p>Тем, кто ищет фильм по обрывку, а не по названию. Из-за вас это имеет смысл.</p>" +
       "<p>Дубляжу: мы ищем так, как фразу слышали, даже криво, а не как написали в оригинале.</p>" +
       "<p>Википедии — за постеры. Авторам фильмов и сериалов — за реплики; мы только помогаем вспомнить, откуда это.</p>" +
-      "<p>Если фраза нашлась — спасибо, что зашли. Если нет, и это важный тайтл — напишите, какую реплику искали.</p>" +
+      "<p>Если фраза нашлась — спасибо, что зашли. Если нет — попробуй другими словами или открой каталог.</p>" +
       '<aside class="dedication">' +
       "<h3>Гузалии Гапуровой</h3>" +
       "<p>За помощь, её желание помочь мне в этом начинании. За её доброе сердце и открытую душу. За любовь, которая горячее любого чебурека из «Пятёрочки». И за понимание: она мой мотиватор и свет, который освещает мой путь.</p>" +
@@ -616,6 +617,8 @@
     else if (legal) legalView(route.name);
     else homeView(route);
 
+    if (route.name !== "home") chips.innerHTML = "";
+
     if (route.name === "home") {
       setPageMeta(
         "По фразе — найти фильм по реплике",
@@ -679,7 +682,7 @@
           '"><strong>' +
           escapeHtml(row.film.title) +
           "</strong><span>" +
-          escapeHtml(row.quote) +
+          escapeHtml(String(row.quote || "").trim()) +
           "</span></button>"
         );
       })
@@ -749,7 +752,9 @@
       var el = document.getElementById("catalog-q");
       if (el) {
         el.focus();
-        el.setSelectionRange(el.value.length, el.value.length);
+        try {
+          el.setSelectionRange(el.value.length, el.value.length);
+        } catch (err) {}
       }
     }
   });

@@ -543,6 +543,8 @@ h1 {
 
 .empty { padding: 8px 0 40px; color: var(--muted); }
 .empty h2 { font-family: Unbounded, sans-serif; color: var(--ink); font-size: 1.1rem; font-weight: 500; }
+.empty a, .legal-page a { color: var(--gold); text-decoration: none; }
+.empty a:hover, .legal-page a:hover { text-decoration: underline; }
 .empty ol { padding-left: 18px; }
 .empty li + li { margin-top: 8px; }
 
