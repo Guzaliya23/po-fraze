@@ -9,7 +9,8 @@
   }
 
   function addAll(film, list) {
-    if (!list || !film || !film.quotes) return;
+    if (!list || !film) return;
+    if (!film.quotes) film.quotes = [];
     list.forEach(function (q) {
       var t = String(q || "").trim();
       if (t.length < 3) return;

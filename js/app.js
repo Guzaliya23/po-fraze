@@ -280,7 +280,7 @@
       view.innerHTML =
         '<section class="steps"><h2 class="page-title">Что делать</h2>' +
         '<ol class="step-list">' +
-        "<li><b>01</b><p>Напиши кусок фразы, как слышал в фильме.</p></li>" +
+        "<li><b>01</b><p>Напиши кусок фразы или название, как помнишь.</p></li>" +
         "<li><b>02</b><p>Мы покажем название и насколько это совпало.</p></li>" +
         "<li><b>03</b><p>Дальше — где смотреть легально и похожие по настроению.</p></li>" +
         "</ol></section>" +
@@ -294,7 +294,7 @@
 
     var found = window.PoFrazeSearch.search(query, films, {
       type: typeFilter.value,
-      limit: 10,
+      limit: 16,
     });
     if (found.length) window.PoFrazeStore.addHistory(query);
     if (window.PoFrazeTrack) window.PoFrazeTrack.search(query);
@@ -302,7 +302,7 @@
     if (!found.length) {
       chips.innerHTML = chipHtml();
       view.innerHTML =
-        "<section class='empty'><h2>Так не нашли</h2><p>Попробуй короче, без фамилии актёра. Или нажми пример под строкой поиска.</p></section>";
+        "<section class='empty'><h2>Так не нашли</h2><p>Попробуй короче, без фамилии актёра — или напиши название фильма. Ещё можно открыть <a href=\"#/catalog\">каталог</a>.</p></section>";
       return;
     }
 
@@ -409,13 +409,23 @@
         return false;
       }
       if (!q) return true;
-      var hay =
+      var needle = q.replace(/ё/g, "е");
+      var hay = (
         film.title +
         " " +
         (film.originalTitle || "") +
         " " +
-        (film.quotes || []).join(" ");
-      return hay.toLowerCase().indexOf(q) !== -1;
+        (film.watchQuery || "") +
+        " " +
+        (film.wikiEn || "") +
+        " " +
+        (film.wikiRu || "") +
+        " " +
+        (film.quotes || []).join(" ")
+      )
+        .toLowerCase()
+        .replace(/ё/g, "е");
+      return hay.indexOf(needle) !== -1;
     });
     list.sort(function (a, b) {
       return a.title.localeCompare(b.title, "ru");

@@ -112,8 +112,8 @@
         return;
       }
       var fuzzy = ht.some(function (h) {
-        if (Math.abs(h.length - t.length) > 2) return false;
-        return levenshtein(t, h) <= (t.length <= 4 ? 1 : 2);
+        if (Math.abs(h.length - t.length) > 1) return false;
+        return levenshtein(t, h) <= 1;
       });
       if (fuzzy) hit += 0.7;
     });
@@ -138,20 +138,79 @@
     return film.quotes && film.quotes.length ? film.quotes : [film.title || ""];
   }
 
+  function titleFields(film) {
+    return [
+      film.title,
+      film.originalTitle,
+      film.watchQuery,
+      film.wikiEn,
+      film.wikiRu,
+    ].filter(function (s) {
+      return String(s || "").trim().length >= 2;
+    });
+  }
+
+  function titleFieldScore(query, field) {
+    var q = normalize(query);
+    var hay = normalize(field);
+    if (!q || !hay) return 0;
+    if (hay === q) return 100;
+    if ((" " + hay + " ").indexOf(" " + q + " ") !== -1) return 92;
+    if (hay.indexOf(q) !== -1) return q.length >= 4 ? 88 : 30;
+    if (q.indexOf(hay) !== -1 && hay.length >= 8) return 80;
+    var qt = tokens(q);
+    var ht = tokens(hay);
+    if (!qt.length || qt.length < 2) return 0;
+    var hit = 0;
+    qt.forEach(function (t) {
+      if (ht.indexOf(t) !== -1) hit += 1;
+    });
+    if (!hit) return 0;
+    var overlap = hit / qt.length;
+    var consecutive = 0;
+    var joined = ht.join(" ");
+    for (var n = Math.min(qt.length, 4); n >= 2; n -= 1) {
+      for (var i = 0; i <= qt.length - n; i += 1) {
+        if (joined.indexOf(qt.slice(i, i + n).join(" ")) !== -1) {
+          consecutive = n;
+          n = 0;
+          break;
+        }
+      }
+    }
+    return Math.round(overlap * 70 + consecutive * 8);
+  }
+
+  function titleScoreFor(q, film) {
+    var best = 0;
+    titleFields(film).forEach(function (field) {
+      var s = titleFieldScore(q, field);
+      if (s > best) best = s;
+    });
+    var qt = tokens(q);
+    if (qt.length >= 2) {
+      var combined = titleFieldScore(q, titleFields(film).join(" "));
+      if (combined > best) best = combined;
+    }
+    if (best >= 88) return Math.min(best, 90);
+    if (best >= 70) return Math.min(best, 84);
+    return Math.min(best, 80);
+  }
+
   function bestQuote(film, query) {
     var quotes = linesOf(film);
-    var best = { text: String(quotes[0] || "").trim(), score: 0, viaTitle: false };
+    var best = { text: String(quotes[0] || film.title || "").trim(), score: 0, viaTitle: false };
     variants(query).forEach(function (q) {
       quotes.forEach(function (quote) {
         var score = quoteScore(q, quote);
         if (score > best.score)
           best = { text: String(quote || "").trim(), score: score, viaTitle: false };
       });
-      var titleScore = quoteScore(q, film.title + " " + (film.originalTitle || ""));
+      var titleScore = titleScoreFor(q, film);
       if (titleScore > best.score) {
         best = {
-          text: String(quotes[0] || film.title || "").trim(),
-          score: Math.min(titleScore, 74),
+          text: String(film.title || "").trim(),
+          score: titleScore,
           viaTitle: true,
         };
       }
@@ -216,7 +275,7 @@
       .sort(function (a, b) {
         return b.score - a.score;
       })
-      .slice(0, options.limit || 5);
+      .slice(0, options.limit || 12);
   }
 
   function getById(id, films) {
