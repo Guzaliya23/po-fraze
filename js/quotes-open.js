@@ -3926,16 +3926,18 @@
     ]
   };
   function addAll(film, list) {
-    if (!list || !film || !film.quotes) return;
+    if (!list || !film) return;
+    if (!film.quotes) film.quotes = [];
     list.forEach(function (q) {
-      var t = String(q || '').trim();
-      if (t.length < 3) return;
+      var t = String(q || "").trim();
+      if (t.length < 4 || t.length > 60) return;
+      if (/^wikitext$/i.test(t)) return;
+      if (!/[а-яё]/i.test(t)) return;
       if (film.quotes.indexOf(t) === -1) film.quotes.push(t);
     });
   }
   (window.POFRAZE_FILMS || []).forEach(function (film) {
-    var keys = [norm(film.originalTitle), norm(film.wikiEn), norm(film.title)];
-    keys.forEach(function (k) {
+    [norm(film.originalTitle), norm(film.wikiEn), norm(film.title), norm(film.watchQuery)].forEach(function (k) {
       if (!k || k.length < 4) return;
       addAll(film, map[k]);
     });

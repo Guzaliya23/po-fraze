@@ -1057,18 +1057,26 @@
       "this is the zodiac speaking"
     ]
   };
+  function junk(t) {
+    if (t.length < 4) return true;
+    if (/wikitext|<ref|\{\{|}}/i.test(t)) return true;
+    if (/Рї|Рґ|Сѓ |С‚С|СЏ |СЊ|Ð|Ñ/.test(t)) return true;
+    return false;
+  }
+
   function addAll(film, list) {
-    if (!list) return;
+    if (!list || !film) return;
+    if (!film.quotes) film.quotes = [];
     list.forEach(function (q) {
       var t = String(q || "").trim();
-      if (t.length < 3) return;
+      if (junk(t)) return;
       if (film.quotes.indexOf(t) === -1) film.quotes.push(t);
     });
   }
+
   (window.POFRAZE_FILMS || []).forEach(function (film) {
-    var keys = [norm(film.originalTitle), norm(film.wikiEn), norm(film.title)];
-    keys.forEach(function (k) {
-      if (!k) return;
+    [norm(film.originalTitle), norm(film.wikiEn), norm(film.title), norm(film.watchQuery)].forEach(function (k) {
+      if (!k || k.length < 3) return;
       addAll(film, afi[k]);
       addAll(film, extraByNorm[k]);
     });
