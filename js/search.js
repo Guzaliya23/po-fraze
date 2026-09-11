@@ -281,8 +281,32 @@
     });
   }
 
+  function workingQuery(text, films) {
+    var q = String(text || "").trim();
+    if (q.length < 3) return "";
+    if (search(q, films, { limit: 1 }).length) return q;
+    var best = { score: 0, quote: "" };
+    var i;
+    var j;
+    var quotes;
+    var s;
+    for (i = 0; i < films.length; i += 1) {
+      quotes = films[i].quotes || [];
+      for (j = 0; j < quotes.length; j += 1) {
+        s = quoteScore(layoutFix(q), quotes[j]);
+        if (s > best.score) {
+          best = { score: s, quote: String(quotes[j] || "").trim() };
+          if (s >= 92) return best.quote;
+        }
+      }
+    }
+    if (best.score >= 42 && best.quote.length >= 3) return best.quote;
+    return "";
+  }
+
   root.PoFrazeSearch = {
     search: search,
+    workingQuery: workingQuery,
     getById: getById,
     similarWithWhy: similarWithWhy,
     watchLinks: watchLinks,

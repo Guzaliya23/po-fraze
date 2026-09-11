@@ -905,8 +905,6 @@
   });
 
   if (window.POFRAZE_CHIPS) {
-    window.POFRAZE_CHIPS = uniq(window.POFRAZE_CHIPS.map(translate)).filter(function (q) {
-      return !isEnglish(q);
-    });
+    window.POFRAZE_CHIPS = uniq(window.POFRAZE_CHIPS.map(translate));
   }
 })();

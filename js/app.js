@@ -208,10 +208,18 @@
     input.value = query;
 
     var history = window.PoFrazeStore.history();
+    var seenChip = {};
     chips.innerHTML = (query ? [] : window.POFRAZE_CHIPS)
-      .concat(query ? [] : history.slice(0, 3))
-      .filter(function (item, i, arr) {
-        return arr.indexOf(item) === i;
+      .concat(query ? [] : history.slice(0, 5))
+      .map(function (text) {
+        return window.PoFrazeSearch.workingQuery(text, films);
+      })
+      .filter(function (text) {
+        if (!text) return false;
+        var key = text.toLowerCase().replace(/ё/g, "е").replace(/\s+/g, " ");
+        if (seenChip[key]) return false;
+        seenChip[key] = 1;
+        return true;
       })
       .map(function (text) {
         return (
