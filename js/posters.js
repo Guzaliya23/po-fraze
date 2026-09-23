@@ -1,5 +1,6 @@
 (function (root) {
-  var CACHE_KEY = "pofraze-posters-v2";
+  var CACHE_KEY = "pofraze-posters-v5";
+  var MISS_MS = 3 * 24 * 60 * 60 * 1000;
   var cache = {};
   try {
     cache = JSON.parse(localStorage.getItem(CACHE_KEY) || "{}");
@@ -16,6 +17,21 @@
     } catch (err) {}
   }
 
+  function cacheGet(id) {
+    var row = cache[id];
+    if (row == null) return undefined;
+    if (typeof row === "string") return row || undefined;
+    if (row.url) return row.url;
+    if (Date.now() - Number(row.t || 0) < MISS_MS) return "";
+    return undefined;
+  }
+
+  function cacheSet(id, url) {
+    if (url) cache[id] = { url: url, t: Date.now() };
+    else cache[id] = { url: "", t: Date.now() };
+    save();
+  }
+
   function filmById(id) {
     var list = root.POFRAZE_FILMS || [];
     for (var i = 0; i < list.length; i += 1) {
@@ -28,16 +44,20 @@
     return "https://" + lang + ".wikipedia.org/w/api.php";
   }
 
-  function summaryUrl(lang, title) {
+  function wikiDataId(film) {
+    var m = String(film.id || "").match(/^wdq(\d+)$/i);
+    return m ? "Q" + m[1] : "";
+  }
+
+  function commonsThumb(file) {
     return (
-      "https://" +
-      lang +
-      ".wikipedia.org/api/rest_v1/page/summary/" +
-      encodeURIComponent(title)
+      "https://commons.wikimedia.org/wiki/Special:FilePath/" +
+      encodeURIComponent(String(file || "").replace(/ /g, "_")) +
+      "?width=480"
     );
   }
 
-  function thumbFromPage(page) {
+  function thumbFromSummary(page) {
     if (!page) return "";
     if (page.thumbnail && page.thumbnail.source) return page.thumbnail.source;
     if (page.originalimage && page.originalimage.source) return page.originalimage.source;
@@ -46,11 +66,69 @@
 
   function fetchSummary(lang, title) {
     if (!title) return Promise.resolve("");
-    return fetch(summaryUrl(lang, title))
+    return fetch(
+      "https://" +
+        lang +
+        ".wikipedia.org/api/rest_v1/page/summary/" +
+        encodeURIComponent(title)
+    )
       .then(function (res) {
         return res.json();
       })
-      .then(thumbFromPage)
+      .then(thumbFromSummary)
+      .catch(function () {
+        return "";
+      });
+  }
+
+  function fetchPageImage(lang, title) {
+    if (!title) return Promise.resolve("");
+    var url =
+      wikiHost(lang) +
+      "?action=query&format=json&origin=*&prop=pageimages&pithumbsize=480&redirects=1&titles=" +
+      encodeURIComponent(title);
+    return fetch(url)
+      .then(function (res) {
+        return res.json();
+      })
+      .then(function (data) {
+        var pages = data && data.query && data.query.pages;
+        if (!pages) return "";
+        var id;
+        for (id in pages) {
+          if (Object.prototype.hasOwnProperty.call(pages, id)) {
+            var th = pages[id].thumbnail;
+            if (th && th.source) return th.source;
+          }
+        }
+        return "";
+      })
+      .catch(function () {
+        return "";
+      });
+  }
+
+  function fetchWikidataImage(qid) {
+    if (!qid) return Promise.resolve("");
+    var url =
+      "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&origin=*&props=claims&ids=" +
+      encodeURIComponent(qid);
+    return fetch(url)
+      .then(function (res) {
+        return res.json();
+      })
+      .then(function (data) {
+        var ent = data && data.entities && data.entities[qid];
+        var claim =
+          ent &&
+          ent.claims &&
+          ent.claims.P18 &&
+          ent.claims.P18[0] &&
+          ent.claims.P18[0].mainsnak &&
+          ent.claims.P18[0].mainsnak.datavalue &&
+          ent.claims.P18[0].mainsnak.datavalue.value;
+        return claim ? commonsThumb(claim) : "";
+      })
       .catch(function () {
         return "";
       });
@@ -79,6 +157,7 @@
     if (year) list.push(name + " " + year + " " + kind);
     if (year) list.push(film.title + " " + year);
     list.push(name);
+    list.push(film.title);
     return list.filter(function (q, i, arr) {
       return q && arr.indexOf(q) === i;
     });
@@ -100,7 +179,12 @@
           data.query.search &&
           data.query.search[0];
         if (!hit || !hit.title) return "";
-        return fetchSummary(lang, hit.title);
+        return fetchPageImage(lang, hit.title).then(function (url) {
+          return url || fetchSummary(lang, hit.title);
+        });
+      })
+      .catch(function () {
+        return "";
       });
   }
 
@@ -114,18 +198,29 @@
   }
 
   function fetchUrl(film) {
-    if (cache[film.id] !== undefined) {
-      return Promise.resolve(cache[film.id]);
-    }
+    var hit = cacheGet(film.id);
+    if (hit !== undefined) return Promise.resolve(hit);
     var tasks = [];
+    var qid = wikiDataId(film);
     if (film.wikiEn) {
+      tasks.push(function () {
+        return fetchPageImage("en", film.wikiEn);
+      });
       tasks.push(function () {
         return fetchSummary("en", film.wikiEn);
       });
     }
     if (film.wikiRu) {
       tasks.push(function () {
+        return fetchPageImage("ru", film.wikiRu);
+      });
+      tasks.push(function () {
         return fetchSummary("ru", film.wikiRu);
+      });
+    }
+    if (qid) {
+      tasks.push(function () {
+        return fetchWikidataImage(qid);
       });
     }
     var first = film.originalTitle || film.wikiEn ? "en" : "ru";
@@ -149,9 +244,8 @@
         return "";
       })
       .then(function (url) {
-        cache[film.id] = url || "";
-        save();
-        return cache[film.id];
+        cacheSet(film.id, url || "");
+        return url || "";
       });
   }
 
@@ -193,10 +287,12 @@
           var id = entry.target.getAttribute("data-poster-id");
           var film = filmById(id);
           if (!film) return;
-          if (cache[id]) {
-            apply(entry.target, cache[id]);
+          var ready = cacheGet(id);
+          if (ready) {
+            apply(entry.target, ready);
             return;
           }
+          if (ready === "") return;
           queue.push({
             film: film,
             onUrl: function (url) {

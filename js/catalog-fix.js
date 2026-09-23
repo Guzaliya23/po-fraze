@@ -9,6 +9,24 @@
       .trim();
   }
 
+  function yearFromWiki(film) {
+    var texts = [film.wikiEn, film.wikiRu, film.originalTitle, film.title];
+    var i;
+    var m;
+    for (i = 0; i < texts.length; i += 1) {
+      m = String(texts[i] || "").match(/\((\d{4})\s+film\)/i);
+      if (m) return Number(m[1]);
+      m = String(texts[i] || "").match(/фильм,\s*(\d{4})/i);
+      if (m) return Number(m[1]);
+      m = String(texts[i] || "").match(/\((\d{4})\)/);
+      if (m) {
+        var y = Number(m[1]);
+        if (y >= 1888 && y <= 2030) return y;
+      }
+    }
+    return 0;
+  }
+
   var years = {
     interstellar: 2014,
     "star wars episode iii revenge of the sith": 2005,
@@ -16,8 +34,18 @@
     orlando: 1992,
     "city of god": 2002,
     "terminator 2 judgment day": 1991,
-    "the matrix": 1999,
     matrix: 1999,
+    cars: 2006,
+    avatar: 2009,
+    gladiator: 2000,
+    "dark knight": 2008,
+    "dark knight rises": 2012,
+    "harry potter and the goblet of fire": 2005,
+    "harry potter and the prisoner of azkaban": 2004,
+    "apocalypse now": 1979,
+    "great dictator": 1940,
+    "american beauty": 1999,
+    "life is beautiful": 1997,
   };
 
   var extraQuotes = {
@@ -33,8 +61,14 @@
   };
 
   (window.POFRAZE_FILMS || []).forEach(function (film) {
-    var y = years[key(film.originalTitle)] || years[key(film.title)];
-    if (y && (film.year > y + 2 || film.year < 1888)) film.year = y;
+    var extracted = yearFromWiki(film);
+    var y = years[key(film.originalTitle)] || years[key(film.title)] || extracted;
+    var nowY = 2026;
+    if (y) {
+      if (!film.year || film.year < 1888 || film.year > nowY + 1 || Math.abs(film.year - y) >= 3) {
+        film.year = y;
+      }
+    }
     if (vibes[film.id]) film.vibes = vibes[film.id];
 
     var titleK = key(film.title);
