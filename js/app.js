@@ -9,6 +9,7 @@
   var foot = document.getElementById("foot");
   var films = window.POFRAZE_FILMS || [];
   var catalogState = { type: "all", vibe: "all", q: "" };
+  var chipsOpen = false;
 
   function ruPlural(n, one, few, many) {
     var mod10 = n % 10;
@@ -30,10 +31,12 @@
     return "#3a322a";
   }
 
-  function chipHtml() {
+  function chipTexts() {
     var history = window.PoFrazeStore.history();
     var seenChip = {};
-    var chipButtons = (window.POFRAZE_CHIPS || []).concat(history.slice(0, 5))
+    return history
+      .slice(0, 4)
+      .concat(window.POFRAZE_CHIPS || [])
       .map(function (text) {
         return window.PoFrazeSearch.workingQuery(text, films);
       })
@@ -44,7 +47,13 @@
         if (seenChip[key]) return false;
         seenChip[key] = 1;
         return true;
-      })
+      });
+  }
+
+  function chipHtml() {
+    var all = chipTexts();
+    var shown = chipsOpen ? all : all.slice(0, 8);
+    var chipButtons = shown
       .map(function (text) {
         return (
           '<button class="chip" type="button" data-q="' +
@@ -55,22 +64,33 @@
         );
       })
       .join("");
-    return !chipButtons
+    if (all.length > 8) {
+      chipButtons +=
+        '<button class="chip chip-more" type="button" data-chips="' +
+        (chipsOpen ? "less" : "more") +
+        '">' +
+        (chipsOpen ? "свернуть" : "ещё фразы") +
+        "</button>";
+    }
+    return !shown.length
       ? ""
-      : '<p class="chips-hint">Нажми фразу — сразу поиск</p>' + chipButtons;
+      : '<p class="chips-hint">Попробуй фразу</p>' + chipButtons;
   }
 
-  function filmTile(film) {
+  function coverCard(film, sub) {
+    var year = filmYear(film);
+    var meta = sub || (year ? String(year) : film.type || "");
     return (
-      '<button type="button" class="mini catalog-tile" data-open="' +
+      '<button type="button" class="cover" data-open="' +
       escapeHtml(film.id) +
       '">' +
-      poster(film, "poster-sm") +
-      "<span><strong>" +
+      poster(film, "poster-cover") +
+      '<span class="cover-name">' +
       escapeHtml(film.title) +
-      "</strong><em>" +
-      metaLine(film) +
-      "</em></span></button>"
+      "</span>" +
+      '<span class="cover-meta">' +
+      escapeHtml(meta) +
+      "</span></button>"
     );
   }
 
@@ -199,6 +219,7 @@
   }
 
   function goHome() {
+    chipsOpen = false;
     var url = new URL(location.href);
     url.searchParams.delete("t");
     url.searchParams.delete("q");
@@ -229,7 +250,7 @@
   function resultCard(row, query) {
     var film = row.film;
     return (
-      '<article class="card clickable" data-open="' +
+      '<article class="card clickable result-card" data-open="' +
       escapeHtml(film.id) +
       '">' +
       poster(film) +
@@ -244,18 +265,15 @@
       row.confidence.key +
       '">' +
       row.confidence.label +
-      "</span>" +
-      vibeBadges(film) +
-      "</div>" +
+      "</span></div>" +
       '<p class="quote' +
       (row.viaTitle ? " quote-title" : "") +
       '">' +
       "<span>" +
-      (row.viaTitle ? "Совпало с названием, не с фразой" : "Нашли по фразе") +
+      (row.viaTitle ? "Совпало с названием" : "По фразе") +
       "</span>" +
       highlight(row.quote, query) +
       "</p>" +
-      watchRow(film) +
       "</div></article>"
     );
   }
@@ -276,18 +294,15 @@
       chips.innerHTML = chipHtml();
       var popular = films.slice().sort(function (a, b) {
         return (b.year || 0) - (a.year || 0);
-      }).slice(0, 16);
+      }).slice(0, 14);
       view.innerHTML =
-        '<section class="steps"><h2 class="page-title">Что делать</h2>' +
-        '<ol class="step-list">' +
-        "<li><b>01</b><p>Напиши кусок фразы или название, как помнишь.</p></li>" +
-        "<li><b>02</b><p>Мы покажем название и насколько это совпало.</p></li>" +
-        "<li><b>03</b><p>Дальше — где смотреть легально и похожие по настроению.</p></li>" +
-        "</ol></section>" +
-        '<section class="home-recent"><h2 class="page-title">Недавнее в базе</h2>' +
-        '<p class="orig">Это не новинки проката, а последние годы из нашего списка. <a href="#/catalog">Весь каталог →</a></p>' +
-        '<div class="similar-grid">' +
-        popular.map(filmTile).join("") +
+        '<section class="home-recent">' +
+        '<div class="shelf-head"><h2 class="page-title">Недавнее в базе</h2>' +
+        '<a class="shelf-more" href="#/catalog">Весь каталог →</a></div>' +
+        '<div class="shelf">' +
+        popular.map(function (film) {
+          return coverCard(film);
+        }).join("") +
         "</div></section>";
       return;
     }
@@ -383,20 +398,10 @@
         : "") +
       "<h3>Похожие по настроению</h3>" +
       (similar.length
-        ? '<div class="similar-grid">' +
+        ? '<div class="shelf">' +
           similar
             .map(function (row) {
-              return (
-                '<button type="button" class="mini" data-open="' +
-                escapeHtml(row.film.id) +
-                '">' +
-                poster(row.film, "poster-sm") +
-                "<span><strong>" +
-                escapeHtml(row.film.title) +
-                "</strong><em>" +
-                escapeHtml(row.why.slice(0, 3).join(" · ")) +
-                "</em></span></button>"
-              );
+              return coverCard(row.film, row.why.slice(0, 2).join(" · "));
             })
             .join("") +
           "</div>"
@@ -437,14 +442,19 @@
       return hay.indexOf(needle) !== -1;
     });
     list.sort(function (a, b) {
+      function rank(title) {
+        return /^\d/.test(String(title || "").trim()) ? 1 : 0;
+      }
+      var ra = rank(a.title);
+      var rb = rank(b.title);
+      if (ra !== rb) return ra - rb;
       return a.title.localeCompare(b.title, "ru");
     });
     var shown = list;
     var moreNote = "";
-    if (!q && list.length > 180) {
-      shown = list.slice(0, 180);
-      moreNote =
-        " Сначала 180 штук. Остальные — через поле «название или реплика».";
+    if (!q && list.length > 72) {
+      shown = list.slice(0, 72);
+      moreNote = " На экране 72 обложки, остальные — через поиск по имени.";
     }
     var vibeOptions = Object.keys(window.POFRAZE_VIBES)
       .map(function (key) {
@@ -463,11 +473,10 @@
     view.innerHTML =
       '<h2 class="page-title">Каталог</h2>' +
       '<p class="orig">' +
-      "В каталоге " +
       films.length +
       " " +
       ruPlural(films.length, "название", "названия", "названий") +
-      ". Чтобы угадать фильм по фразе — открой «Поиск». Строка ниже ищет уже по имени." +
+      " — листай обложки или ищи по имени и реплике." +
       moreNote +
       "</p>" +
       '<div class="catalog-bar">' +
@@ -492,11 +501,14 @@
       shown.length +
       (shown.length !== list.length ? " из " + list.length : "") +
       "</p>" +
-      '<div class="similar-grid">' +
+      '<div class="cover-grid">' +
       (shown.length
-        ? shown.map(filmTile).join("")
+        ? shown.map(function (film) {
+            return coverCard(film);
+          }).join("")
         : "<p class='orig'>Ничего не попало в фильтр.</p>") +
       "</div>";
+    if (window.PoFrazePosters) window.PoFrazePosters.hydrate(view);
   }
 
   function aboutView() {
@@ -550,20 +562,10 @@
       return;
     }
     view.innerHTML =
-      "<h2 class='page-title'>Сохранённое</h2><div class='similar-grid'>" +
+      "<h2 class='page-title'>Сохранённое</h2><div class='cover-grid'>" +
       list
         .map(function (film) {
-          return (
-            '<button type="button" class="mini" data-open="' +
-            escapeHtml(film.id) +
-            '">' +
-            poster(film, "poster-sm") +
-            "<span><strong>" +
-            escapeHtml(film.title) +
-            "</strong><em>" +
-            metaLine(film) +
-            "</em></span></button>"
-          );
+          return coverCard(film);
         })
         .join("") +
       "</div>";
@@ -743,6 +745,12 @@
         watch.getAttribute("data-film"),
         watch.getAttribute("data-watch")
       );
+    }
+    var moreChips = event.target.closest("[data-chips]");
+    if (moreChips) {
+      chipsOpen = moreChips.getAttribute("data-chips") === "more";
+      chips.innerHTML = chipHtml();
+      return;
     }
     var open = event.target.closest("[data-open]");
     if (open) {
