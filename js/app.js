@@ -325,6 +325,9 @@
         "gladiator",
         "home-alone",
         "hp1",
+        "last-bogatyr",
+        "karlson",
+        "sherlock-holmes-ru",
       ].forEach(function (id) {
         var film = window.PoFrazeSearch.getById(id, films);
         if (!film || seenShelf[film.id]) return;

@@ -6,6 +6,7 @@
   }
 
   (window.POFRAZE_FILMS || []).forEach(function (film) {
+    if (!film.quotes) film.quotes = [];
     var keep = film.quotes.length;
     var seen = {};
     film.quotes.slice().forEach(function (quote) {
