@@ -31,23 +31,38 @@
     return "#3a322a";
   }
 
+  function chipKey(text) {
+    return String(text || "")
+      .toLowerCase()
+      .replace(/ё/g, "е")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
   function chipTexts() {
-    var history = window.PoFrazeStore.history();
     var seenChip = {};
-    return history
-      .slice(0, 4)
-      .concat(window.POFRAZE_CHIPS || [])
-      .map(function (text) {
-        return window.PoFrazeSearch.workingQuery(text, films);
-      })
-      .filter(function (text) {
-        if (!text) return false;
-        if (/[a-z]/i.test(text) && !/[а-яё]/i.test(text)) return false;
-        var key = text.toLowerCase().replace(/ё/g, "е").replace(/\s+/g, " ");
-        if (seenChip[key]) return false;
-        seenChip[key] = 1;
-        return true;
-      });
+    function take(list) {
+      return (list || [])
+        .map(function (text) {
+          return window.PoFrazeSearch.workingQuery(text, films);
+        })
+        .filter(function (text) {
+          if (!text) return false;
+          if (/[a-z]/i.test(text) && !/[а-яё]/i.test(text)) return false;
+          var key = chipKey(text);
+          if (!key || seenChip[key]) return false;
+          var older = Object.keys(seenChip);
+          var i;
+          for (i = 0; i < older.length; i += 1) {
+            if (key.indexOf(older[i]) !== -1 || older[i].indexOf(key) !== -1) {
+              if (key.length <= older[i].length) return false;
+            }
+          }
+          seenChip[key] = 1;
+          return true;
+        });
+    }
+    return take(window.POFRAZE_CHIPS).concat(take(window.PoFrazeStore.history()));
   }
 
   function chipHtml() {
@@ -292,12 +307,45 @@
 
     if (query.trim().length < 3) {
       chips.innerHTML = chipHtml();
-      var popular = films.slice().sort(function (a, b) {
-        return (b.year || 0) - (a.year || 0);
-      }).slice(0, 14);
+      var seenShelf = {};
+      var popular = [];
+      [
+        "brother",
+        "matrix",
+        "fight-club",
+        "ivan-vasilievich",
+        "irony-fate",
+        "diamond-arm",
+        "inception",
+        "dark-knight",
+        "breaking-bad",
+        "got",
+        "pulp",
+        "interstellar",
+        "gladiator",
+        "home-alone",
+        "hp1",
+      ].forEach(function (id) {
+        var film = window.PoFrazeSearch.getById(id, films);
+        if (!film || seenShelf[film.id]) return;
+        seenShelf[film.id] = 1;
+        popular.push(film);
+      });
+      films
+        .slice()
+        .sort(function (a, b) {
+          return (b.year || 0) - (a.year || 0);
+        })
+        .some(function (film) {
+          if (popular.length >= 14) return true;
+          if (seenShelf[film.id]) return false;
+          seenShelf[film.id] = 1;
+          popular.push(film);
+          return false;
+        });
       view.innerHTML =
         '<section class="home-recent">' +
-        '<div class="shelf-head"><h2 class="page-title">Недавнее в базе</h2>' +
+        '<div class="shelf-head"><h2 class="page-title">Из каталога</h2>' +
         '<a class="shelf-more" href="#/catalog">Весь каталог →</a></div>' +
         '<div class="shelf">' +
         popular.map(function (film) {
@@ -352,7 +400,7 @@
         return String(q || "").trim();
       })
       .filter(function (t, i, arr) {
-        if (t.length < 4) return false;
+        if (t.length < 4 || t.length > 90) return false;
         var k = t.toLowerCase().replace(/ё/g, "е");
         var titleK = String(film.title || "")
           .toLowerCase()
@@ -361,10 +409,19 @@
           .toLowerCase()
           .replace(/ё/g, "е");
         if (k === titleK || k === origK) return false;
-        if (t.split(/\s+/).length < 2 && t.length < 12) return false;
+        if (film.wikiEn && k === String(film.wikiEn).toLowerCase()) return false;
+        if (film.wikiRu && k === String(film.wikiRu).toLowerCase().replace(/ё/g, "е")) {
+          return false;
+        }
+        var words = t.split(/\s+/);
+        if (words.length < 2 && t.length < 12) return false;
+        var caps = words.filter(function (w) {
+          return /^[A-ZА-ЯЁ]/.test(w);
+        }).length;
+        if (words.length <= 5 && caps >= Math.ceil(words.length * 0.75)) return false;
         return arr.indexOf(t) === i;
       })
-      .slice(0, 14)
+      .slice(0, 8)
       .map(function (q) {
         return "<li>«" + escapeHtml(q) + "»</li>";
       })
