@@ -337,7 +337,16 @@
         return String(q || "").trim();
       })
       .filter(function (t, i, arr) {
-        if (t.length < 3) return false;
+        if (t.length < 4) return false;
+        var k = t.toLowerCase().replace(/ё/g, "е");
+        var titleK = String(film.title || "")
+          .toLowerCase()
+          .replace(/ё/g, "е");
+        var origK = String(film.originalTitle || "")
+          .toLowerCase()
+          .replace(/ё/g, "е");
+        if (k === titleK || k === origK) return false;
+        if (t.split(/\s+/).length < 2 && t.length < 12) return false;
         return arr.indexOf(t) === i;
       })
       .slice(0, 14)
@@ -661,7 +670,7 @@
       films.length +
       " " +
       ruPlural(films.length, "тайтл", "тайтла", "тайтлов") +
-      " · поиск по реплике";
+      " · поиск по реплике и названию";
     if (window.PoFrazePosters) window.PoFrazePosters.hydrate(view);
     cookieBar();
     if (!opts.keepScroll) {

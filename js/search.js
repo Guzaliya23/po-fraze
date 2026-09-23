@@ -92,10 +92,39 @@
     return prev[b.length];
   }
 
+  var WEAK = {
+    семья: 1,
+    сила: 1,
+    дом: 1,
+    мир: 1,
+    любовь: 1,
+    жизнь: 1,
+    война: 1,
+    люди: 1,
+    день: 1,
+    ночь: 1,
+    город: 1,
+    мама: 1,
+    папа: 1,
+    дети: 1,
+    друг: 1,
+    время: 1,
+    игра: 1,
+    путь: 1,
+    свет: 1,
+    тьма: 1,
+    кровь: 1,
+    огонь: 1,
+    дрифт: 1,
+    хан: 1,
+    билл: 1,
+  };
+
   function quoteScore(query, quote) {
     var q = normalize(query);
     var hay = normalize(quote);
     if (!q || !hay) return 0;
+    if (WEAK[hay]) return 0;
     if (hay === q) return 100;
     if ((" " + hay + " ").indexOf(" " + q + " ") !== -1) return 92;
     if (hay.indexOf(q) !== -1) return q.length >= 6 ? 88 : 30;
@@ -135,7 +164,18 @@
   }
 
   function linesOf(film) {
-    return film.quotes && film.quotes.length ? film.quotes : [film.title || ""];
+    var all = film.quotes && film.quotes.length ? film.quotes : [film.title || ""];
+    if (all.length <= 48) return all;
+    var out = [];
+    var seen = {};
+    (film.shownQuotes || []).concat(all).forEach(function (line) {
+      if (out.length >= 48) return;
+      var k = String(line || "").toLowerCase();
+      if (!k || seen[k]) return;
+      seen[k] = 1;
+      out.push(line);
+    });
+    return out.length ? out : [film.title || ""];
   }
 
   function titleFields(film) {
@@ -266,7 +306,6 @@
           score: match.score,
           viaTitle: !!match.viaTitle,
           confidence: confidence(match.score),
-          similar: similarWithWhy(film, films, 5),
         };
       })
       .filter(function (row) {
