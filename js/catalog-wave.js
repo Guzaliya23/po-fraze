@@ -69,7 +69,7 @@
     f("mi-rogue", "Миссия невыполнима: Племя изгоев", "Mission: Impossible – Rogue Nation", 2015, "фильм", ["tempo", "heist", "slick-urban"], ["племя изгоев", "синдикат", "ильза"], "Миссия невыполнима Племя изгоев"),
     f("bourne-supremacy", "Превосходство Борна", "The Bourne Supremacy", 2004, "фильм", ["tempo", "slick-urban", "crime"], ["превосходство борна", "ясон борн"], "Превосходство Борна"),
     f("bourne-ultimatum", "Ультиматум Борна", "The Bourne Ultimatum", 2007, "фильм", ["tempo", "mind-power", "slick-urban"], ["ультиматум борна", "тредустоун"], "Ультиматум Борна"),
-    f("kingsman", "Kingsman: Секретная служба", "Kingsman: The Secret Service", 2014, "фильм", ["tempo", "comedy", "slick-urban"], ["кингсмен", "манеры делают человека"], "Kingsman Секретная служба"),
+    f("kingsman", "Kingsman: Секретная служба", "Kingsman: The Secret Service", 2014, "фильм", ["tempo", "comedy", "slick-urban"], ["кингсмен", "манеры — лицо мужчины"], "Kingsman Секретная служба"),
     f("casino-royale", "Казино «Рояль»", "Casino Royale", 2006, "фильм", ["tempo", "slick-urban", "romance"], ["казино рояль", "бонд джеймс бонд", "веспер"], "Казино Рояль"),
     f("no-time-die", "Не время умирать", "No Time to Die", 2021, "фильм", ["tempo", "dark", "family"], ["не время умирать", "бонд"], "Не время умирать"),
     f("star-trek-09", "Звёздный путь", "Star Trek", 2009, "фильм", ["space", "tempo", "family"], ["звёздный путь", "жить долго и процветать"], "Звёздный путь 2009"),
